@@ -1,102 +1,399 @@
+
 [
   {
-    "kisi": "Sigmund Freud",
-    "kategori": "Psikanaliz"
-  },
-  {
-    "kisi": "Carl Jung",
-    "kategori": "Analitik Psikoloji"
-  },
-  {
-    "kisi": "Carl Rogers",
-    "kategori": "Hümanist Psikoloji"
-  },
-  {
     "kisi": "B.F. Skinner",
-    "kategori": "Davranışçılık"
-  },
-  {
-    "kisi": "Albert Bandura",
-    "kategori": "Sosyal Öğrenme"
+    "kategori": "Edimsel Koşullanma ve Davranışçılık"
   },
   {
     "kisi": "Jean Piaget",
-    "kategori": "Gelişim Psikolojisi"
+    "kategori": "Bilişsel Gelişim Kuramı"
   },
   {
-    "kisi": "Erik Erikson",
-    "kategori": "Gelişim Psikolojisi"
+    "kisi": "Sigmund Freud",
+    "kategori": "Psikanaliz Kurucusu"
   },
   {
-    "kisi": "Abraham Maslow",
-    "kategori": "Hümanist Psikoloji"
+    "kisi": "Albert Bandura",
+    "kategori": "Sosyal Öğrenme Kuramı"
   },
   {
-    "kisi": "Ivan Pavlov",
+    "kisi": "Leon Festinger",
+    "kategori": "Bilişsel Çelişki Kuramı"
+  },
+  {
+    "kisi": "Carl R. Rogers",
+    "kategori": "Birey Merkezli Terapi ve Hümanistik Psikoloji"
+  },
+  {
+    "kisi": "Stanley Schachter",
+    "kategori": "İki Faktörlü Duygu Kuramı"
+  },
+  {
+    "kisi": "Neal E. Miller",
+    "kategori": "Biyogeribildirim (Biofeedback) ve Dürtü Kuramı"
+  },
+  {
+    "kisi": "Edward Thorndike",
+    "kategori": "Etki Yasası ve Bağlantıcılık"
+  },
+  {
+    "kisi": "Abraham H. Maslow",
+    "kategori": "İhtiyaçlar Hiyerarşisi"
+  },
+  {
+    "kisi": "Gordon W. Allport",
+    "kategori": "Kişilik Özellikleri (Trait) Kuramı"
+  },
+  {
+    "kisi": "Erik H. Erikson",
+    "kategori": "Psikososyal Gelişim Evreleri"
+  },
+  {
+    "kisi": "Hans J. Eysenck",
+    "kategori": "Kişilik Boyutları Kuramı"
+  },
+  {
+    "kisi": "William James",
+    "kategori": "İşlevselcilik ve Amerikan Psikolojisinin Babası"
+  },
+  {
+    "kisi": "David C. McClelland",
+    "kategori": "Başarı, Bağlanma ve Güç Güdüleri"
+  },
+  {
+    "kisi": "Raymond B. Cattell",
+    "kategori": "16 Kişilik Faktörü (16PF)"
+  },
+  {
+    "kisi": "John B. Watson",
+    "kategori": "Davranışçılık Akımının Kurucusu"
+  },
+  {
+    "kisi": "Kurt Lewin",
+    "kategori": "Modern Sosyal Psikolojinin Kurucusu, Alan Kuramı"
+  },
+  {
+    "kisi": "Donald O. Hebb",
+    "kategori": "Nöropsikoloji ve 'Hebb Kuralı'"
+  },
+  {
+    "kisi": "George A. Miller",
+    "kategori": "Bilişsel Psikoloji, 'Sihirli Sayı Yedi'"
+  },
+  {
+    "kisi": "Clark L. Hull",
+    "kategori": "Dürtü Azalması Kuramı"
+  },
+  {
+    "kisi": "Jerome Kagan",
+    "kategori": "Gelişim Psikolojisi ve Mizaç"
+  },
+  {
+    "kisi": "Carl G. Jung",
+    "kategori": "Analitik Psikoloji ve Kolektif Bilinçdışı"
+  },
+  {
+    "kisi": "Ivan P. Pavlov",
     "kategori": "Klasik Koşullanma"
   },
   {
-    "kisi": "John Watson",
-    "kategori": "Davranışçılık"
+    "kisi": "Walter Mischel",
+    "kategori": "Haz Erteleme ve 'Marshmallow Deneyi'"
   },
   {
-    "kisi": "Little Albert",
-    "kategori": "Ünlü Vakalar"
+    "kisi": "Harry F. Harlow",
+    "kategori": "Bağlanma ve Anne Yoksunluğu (Maymun Deneyleri)"
   },
   {
-    "kisi": "Phineas Gage",
-    "kategori": "Ünlü Vakalar"
+    "kisi": "J. P. Guilford",
+    "kategori": "Zeka Yapısı Modeli"
   },
   {
-    "kisi": "Anna O.",
-    "kategori": "Ünlü Vakalar"
+    "kisi": "Jerome S. Bruner",
+    "kategori": "Bilişsel ve Eğitim Psikolojisi, Keşfederek Öğrenme"
   },
   {
-    "kisi": "Oedipus Kompleksi",
-    "kategori": "Psikanalitik Kavramlar"
+    "kisi": "Ernest R. Hilgard",
+    "kategori": "Hipnoz ve Ağrı Kontrolü"
   },
   {
-    "kisi": "Elektra Kompleksi",
-    "kategori": "Psikanalitik Kavramlar"
+    "kisi": "Lawrence Kohlberg",
+    "kategori": "Ahlaki Gelişim Evreleri"
   },
   {
-    "kisi": "Kolektif Bilinçdışı",
-    "kategori": "Analitik Psikoloji"
+    "kisi": "Martin E.P. Seligman",
+    "kategori": "Pozitif Psikoloji ve Öğrenilmiş Çaresizlik"
   },
   {
-    "kisi": "Arketipler",
-    "kategori": "Analitik Psikoloji"
+    "kisi": "Ulric Neisser",
+    "kategori": "Bilişsel Psikolojinin Babası"
   },
   {
-    "kisi": "Koşulsuz Pozitif Kabul",
-    "kategori": "Hümanist Psikoloji"
+    "kisi": "Donald T. Campbell",
+    "kategori": "Evrimsel Epistemoloji ve Araştırma Metodolojisi"
   },
   {
-    "kisi": "İhtiyaçlar Hiyerarşisi",
-    "kategori": "Hümanist Psikoloji"
+    "kisi": "Roger Brown",
+    "kategori": "Psikodilbilim ve 'Flashbulb' (Flaş) Bellek"
   },
   {
-    "kisi": "Operant Koşullanma",
-    "kategori": "Davranışçılık"
+    "kisi": "R.B. Zajonc",
+    "kategori": "Sosyal Kolaylaştırma ve Sadece Maruz Kalma Etkisi"
   },
   {
-    "kisi": "Sosyal Öğrenme Kuramı",
-    "kategori": "Sosyal Öğrenme"
+    "kisi": "Endel Tulving",
+    "kategori": "Epizodik ve Semantik Bellek Ayrımı"
   },
   {
-    "kisi": "Bobo Bebek Deneyi",
-    "kategori": "Sosyal Öğrenme"
+    "kisi": "Herbert A. Simon",
+    "kategori": "Bilişsel Bilim ve Yapay Zeka (Nobel Ödüllü)"
   },
   {
-    "kisi": "Stanford Hapishane Deneyi",
-    "kategori": "Sosyal Psikoloji"
+    "kisi": "Noam Chomsky",
+    "kategori": "Modern Dilbilim ve Doğuştanlık Kuramı"
   },
   {
-    "kisi": "Milgram İtaat Deneyi",
-    "kategori": "Sosyal Psikoloji"
+    "kisi": "Edward E. Jones",
+    "kategori": "Temel Atıf Hatası ve Sosyal Algı"
   },
   {
-    "kisi": "Asch Uyum Deneyi",
-    "kategori": "Sosyal Psikoloji"
+    "kisi": "Charles E. Osgood",
+    "kategori": "Anlamsal Farklılıklar Ölçeği"
+  },
+  {
+    "kisi": "Solomon E. Asch",
+    "kategori": "Sosyal Uyma Deneyleri"
+  },
+  {
+    "kisi": "Gordon H. Bower",
+    "kategori": "İnsan Hafızası ve Duruma Bağlı Öğrenme"
+  },
+  {
+    "kisi": "Harold H. Kelley",
+    "kategori": "Atıf Kuramı (Kelley's Covariation Model)"
+  },
+  {
+    "kisi": "Roger W. Sperry",
+    "kategori": "Bölünmüş Beyin (Split-Brain) Araştırmaları"
+  },
+  {
+    "kisi": "Edward C. Tolman",
+    "kategori": "Gizil Öğrenme ve Bilişsel Haritalar"
+  },
+  {
+    "kisi": "Stanley Milgram",
+    "kategori": "Otoriteye İtaat Deneyi"
+  },
+  {
+    "kisi": "Arthur R. Jensen",
+    "kategori": "Zeka ve Genetik Farklılıklar"
+  },
+  {
+    "kisi": "Lee J. Cronbach",
+    "kategori": "Psikolojik Testler ve Cronbach Alfa Güvenilirlik Katsayısı"
+  },
+  {
+    "kisi": "John Bowlby",
+    "kategori": "Bağlanma Kuramı"
+  },
+  {
+    "kisi": "Wolfgang Köhler",
+    "kategori": "Gestalt Psikolojisi ve İçgörüsel Öğrenme"
+  },
+  {
+    "kisi": "David Wechsler",
+    "kategori": "Wechsler Zeka Ölçekleri (WAIS, WISC)"
+  },
+  {
+    "kisi": "S. S. Stevens",
+    "kategori": "Psikofizik ve Ölçüm Seviyeleri Kuramı"
+  },
+  {
+    "kisi": "Joseph Wolpe",
+    "kategori": "Sistematik Duyarsızlaştırma"
+  },
+  {
+    "kisi": "Donald E. Broadbent",
+    "kategori": "Seçici Dikkat ve Filtre Modeli"
+  },
+  {
+    "kisi": "Roger N. Shepard",
+    "kategori": "Zihinsel Rotasyon ve Çok Boyutlu Ölçekleme"
+  },
+  {
+    "kisi": "Michael I. Posner",
+    "kategori": "Bilişsel Nörobilim ve Dikkat Ağları"
+  },
+  {
+    "kisi": "Theodore M. Newcomb",
+    "kategori": "Sosyal Psikoloji ve Tutum Değişimi"
+  },
+  {
+    "kisi": "Elizabeth F. Loftus",
+    "kategori": "Yanlış Hafıza ve Anıların Yeniden Yapılandırılması"
+  },
+  {
+    "kisi": "Paul Ekman",
+    "kategori": "Evrensel Yüz İfadeleri ve Duygular"
+  },
+  {
+    "kisi": "Robert J. Sternberg",
+    "kategori": "Üçlü Zeka Kuramı ve Aşk Üçgeni Kuramı"
+  },
+  {
+    "kisi": "Karl S. Lashley",
+    "kategori": "Hafızanın Biyolojik Temelleri"
+  },
+  {
+    "kisi": "Kenneth Spence",
+    "kategori": "Öğrenme ve Güdülenme Kuramı"
+  },
+  {
+    "kisi": "Morton Deutsch",
+    "kategori": "İşbirliği ve Rekabet, Çatışma Çözümü"
+  },
+  {
+    "kisi": "Julian B. Rotter",
+    "kategori": "Sosyal Öğrenme Kuramı ve Kontrol Odağı"
+  },
+  {
+    "kisi": "Konrad Lorenz",
+    "kategori": "Etoloji ve Baskılama (Imprinting)"
+  },
+  {
+    "kisi": "Benton Underwood",
+    "kategori": "Sözel Öğrenme ve Unutma"
+  },
+  {
+    "kisi": "Alfred Adler",
+    "kategori": "Bireysel Psikoloji ve Aşağılık Kompleksi"
+  },
+  {
+    "kisi": "Michael Rutter",
+    "kategori": "Çocuk Psikiyatrisi ve Gelişimsel Psikopatoloji"
+  },
+  {
+    "kisi": "Alexander R. Luria",
+    "kategori": "Nöropsikolojinin Babası"
+  },
+  {
+    "kisi": "Eleanor E. Maccoby",
+    "kategori": "Cinsiyet Gelişimi ve Ebeveyn-Çocuk Etkileşimi"
+  },
+  {
+    "kisi": "Robert Plomin",
+    "kategori": "Davranış Genetiği"
+  },
+  {
+    "kisi": "G. Stanley Hall",
+    "kategori": "APA Kurucusu ve Gelişim Psikolojisi Öncüsü"
+  },
+  {
+    "kisi": "Lewis M. Terman",
+    "kategori": "Zeka Testleri (Stanford-Binet) ve Üstün Zekalılar Çalışmaları"
+  },
+  {
+    "kisi": "Eleanor J. Gibson",
+    "kategori": "Algısal Öğrenme ve 'Görsel Uçurum' Deneyi"
+  },
+  {
+    "kisi": "Paul E. Meehl",
+    "kategori": "Klinik ve İstatistiksel Tahmin"
+  },
+  {
+    "kisi": "Leonard Berkowitz",
+    "kategori": "Saldırganlık ve Hüsran-Saldırganlık Hipotezi"
+  },
+  {
+    "kisi": "William K. Estes",
+    "kategori": "Matematiksel Psikoloji"
+  },
+  {
+    "kisi": "Eliot Aronson",
+    "kategori": "Sosyal Psikoloji ve 'Jigsaw' Tekniği"
+  },
+  {
+    "kisi": "Irving L. Janis",
+    "kategori": "Grup Düşüncesi (Groupthink)"
+  },
+  {
+    "kisi": "Richard S. Lazarus",
+    "kategori": "Stres, Değerlendirme ve Başa Çıkma Kuramı"
+  },
+  {
+    "kisi": "Walter B. Cannon",
+    "kategori": "Fizyolojik Psikoloji ve 'Savaş ya da Kaç' Tepkisi"
+  },
+  {
+    "kisi": "Allen L. Edwards",
+    "kategori": "Psikolojik Ölçme ve Edwards Kişisel Tercih Envanteri"
+  },
+  {
+    "kisi": "Lev S. Vygotsky",
+    "kategori": "Sosyokültürel Gelişim Kuramı"
+  },
+  {
+    "kisi": "Robert Rosenthal",
+    "kategori": "Beklenti Etkisi ve Pygmalion Etkisi"
+  },
+  {
+    "kisi": "Milton Rokeach",
+    "kategori": "Değerler ve İnanç Sistemleri"
+  },
+  {
+    "kisi": "John Garcia",
+    "kategori": "Koşullu Tat Tiksintisi (Garcia Etkisi)"
+  },
+  {
+    "kisi": "James J. Gibson",
+    "kategori": "Ekolojik Algı Yaklaşımı"
+  },
+  {
+    "kisi": "David Rumelhart",
+    "kategori": "Bağlantıcılık (Connectionism) ve Şema Teorisi"
+  },
+  {
+    "kisi": "L. L. Thurstone",
+    "kategori": "Faktör Analizi ve Temel Zihinsel Yetenekler"
+  },
+  {
+    "kisi": "Margaret Washburn",
+    "kategori": "Psikolojide Doktora Alan İlk Kadın, Karşılaştırmalı Psikoloji"
+  },
+  {
+    "kisi": "Robert Woodworth",
+    "kategori": "Dinamik Psikoloji ve Motivasyon"
+  },
+  {
+    "kisi": "Edwin G. Boring",
+    "kategori": "Psikoloji Tarihçisi"
+  },
+  {
+    "kisi": "John Dewey",
+    "kategori": "Pragmatizm, İşlevselcilik ve Eğitim Felsefesi"
+  },
+  {
+    "kisi": "Amos Tversky",
+    "kategori": "Bilişsel Yanılgılar ve Beklenti Teorisi"
+  },
+  {
+    "kisi": "Wilhelm Wundt",
+    "kategori": "İlk Psikoloji Laboratuvarı ve Yapısalcılık"
+  },
+  {
+    "kisi": "Herman A. Witkin",
+    "kategori": "Alan Bağımlılığı-Bağımsızlığı Bilişsel Stili"
+  },
+  {
+    "kisi": "Mary D. Ainsworth",
+    "kategori": "Bağlanma Stilleri ve 'Yabancı Ortam' Deneyi"
+  },
+  {
+    "kisi": "Orval Hobart Mowrer",
+    "kategori": "İki Faktörlü Öğrenme Kuramı"
+  },
+  {
+    "kisi": "Anna Freud",
+    "kategori": "Çocuk Psikanalizi ve Savunma Mekanizmaları"
   }
 ]
