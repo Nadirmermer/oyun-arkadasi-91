@@ -1,4 +1,4 @@
-import { ReactNode, ButtonHTMLAttributes } from 'react';
+import { ReactNode, ButtonHTMLAttributes, forwardRef } from 'react';
 import { cn } from '@/lib/utils';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -12,17 +12,17 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
  * PsikoOyun için tasarlanmış buton bileşeni
  * Tasarım referanslarındaki mor, yeşil ve kırmızı butonları destekler
  */
-export const Button = ({ 
-  children, 
-  variant = 'primary', 
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
+  children,
+  variant = 'primary',
   size = 'md',
   fullWidth = false,
   className,
   disabled,
-  ...props 
-}: ButtonProps) => {
+  ...props
+}, ref) => {
   const baseClasses = 'font-semibold rounded-xl transition-smooth focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden text-ellipsis whitespace-nowrap inline-flex items-center justify-center gap-2 active:scale-95 hover:scale-[1.02] transform';
-  
+
   const variantClasses = {
     primary: 'bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary/50',
     secondary: 'bg-secondary text-secondary-foreground hover:bg-secondary/80 focus:ring-secondary/50',
@@ -39,6 +39,7 @@ export const Button = ({
 
   return (
     <button
+      ref={ref}
       className={cn(
         baseClasses,
         variantClasses[variant],
@@ -52,4 +53,6 @@ export const Button = ({
       {children}
     </button>
   );
-};
+});
+
+Button.displayName = 'Button';
