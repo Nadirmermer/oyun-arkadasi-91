@@ -219,7 +219,7 @@ export const HomePage = () => {
         <div className="w-20 h-20 mx-auto mb-6">
           <img src={logoImage} alt="PsikOyun Logo" className="w-full h-full rounded-3xl shadow-elevated object-cover" />
         </div>
-        <h1 className="mb-3 text-white text-5xl font-extrabold ">PsikOyun</h1>
+        <h1 className="text-4xl font-bold text-primary mb-3">PsikOyun</h1>
         <p className="text-base text-muted-foreground px-6 max-w-sm mx-auto">
           Psikoloji oyunları ile eğlenceli vakit geçir!
         </p>
