@@ -1,0 +1,102 @@
+[
+  {
+    "kisi": "Sigmund Freud",
+    "kategori": "Psikanaliz"
+  },
+  {
+    "kisi": "Carl Jung",
+    "kategori": "Analitik Psikoloji"
+  },
+  {
+    "kisi": "Carl Rogers",
+    "kategori": "Hümanist Psikoloji"
+  },
+  {
+    "kisi": "B.F. Skinner",
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kisi": "Albert Bandura",
+    "kategori": "Sosyal Öğrenme"
+  },
+  {
+    "kisi": "Jean Piaget",
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kisi": "Erik Erikson",
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kisi": "Abraham Maslow",
+    "kategori": "Hümanist Psikoloji"
+  },
+  {
+    "kisi": "Ivan Pavlov",
+    "kategori": "Klasik Koşullanma"
+  },
+  {
+    "kisi": "John Watson",
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kisi": "Little Albert",
+    "kategori": "Ünlü Vakalar"
+  },
+  {
+    "kisi": "Phineas Gage",
+    "kategori": "Ünlü Vakalar"
+  },
+  {
+    "kisi": "Anna O.",
+    "kategori": "Ünlü Vakalar"
+  },
+  {
+    "kisi": "Oedipus Kompleksi",
+    "kategori": "Psikanalitik Kavramlar"
+  },
+  {
+    "kisi": "Elektra Kompleksi",
+    "kategori": "Psikanalitik Kavramlar"
+  },
+  {
+    "kisi": "Kolektif Bilinçdışı",
+    "kategori": "Analitik Psikoloji"
+  },
+  {
+    "kisi": "Arketipler",
+    "kategori": "Analitik Psikoloji"
+  },
+  {
+    "kisi": "Koşulsuz Pozitif Kabul",
+    "kategori": "Hümanist Psikoloji"
+  },
+  {
+    "kisi": "İhtiyaçlar Hiyerarşisi",
+    "kategori": "Hümanist Psikoloji"
+  },
+  {
+    "kisi": "Operant Koşullanma",
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kisi": "Sosyal Öğrenme Kuramı",
+    "kategori": "Sosyal Öğrenme"
+  },
+  {
+    "kisi": "Bobo Bebek Deneyi",
+    "kategori": "Sosyal Öğrenme"
+  },
+  {
+    "kisi": "Stanford Hapishane Deneyi",
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kisi": "Milgram İtaat Deneyi",
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kisi": "Asch Uyum Deneyi",
+    "kategori": "Sosyal Psikoloji"
+  }
+]

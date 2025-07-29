@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "kategori": "Ekoller",
+    "soru": "Hangi psikolog, 'kolektif bilinçdışı' kavramıyla tanınır?",
+    "secenekler": [
+      { "metin": "Sigmund Freud", "dogruMu": false },
+      { "metin": "B.F. Skinner", "dogruMu": false },
+      { "metin": "Carl Jung", "dogruMu": true },
+      { "metin": "Jean Piaget", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q2",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Stanford Hapishane Deneyi'ni yürüten sosyal psikolog kimdir?",
+    "secenekler": [
+      { "metin": "Stanley Milgram", "dogruMu": false },
+      { "metin": "Philip Zimbardo", "dogruMu": true },
+      { "metin": "Solomon Asch", "dogruMu": false },
+      { "metin": "Leon Festinger", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q3",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Jean Piaget'nin bilişsel gelişim teorisine göre, 'sembolik düşünce' hangi dönemde başlar?",
+    "secenekler": [
+      { "metin": "Duyusal-Motor Dönem", "dogruMu": false },
+      { "metin": "İşlem Öncesi Dönem", "dogruMu": true },
+      { "metin": "Somut İşlemler Dönemi", "dogruMu": false },
+      { "metin": "Soyut İşlemler Dönemi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q4",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Klasik koşullanmayı keşfeden bilim insanı kimdir?",
+    "secenekler": [
+      { "metin": "Ivan Pavlov", "dogruMu": true },
+      { "metin": "B.F. Skinner", "dogruMu": false },
+      { "metin": "John Watson", "dogruMu": false },
+      { "metin": "Edward Thorndike", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q5",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Maslow'un ihtiyaçlar hiyerarşisinin en üst basamağı nedir?",
+    "secenekler": [
+      { "metin": "Güvenlik İhtiyaçları", "dogruMu": false },
+      { "metin": "Sevgi ve Ait Olma", "dogruMu": false },
+      { "metin": "Saygı İhtiyaçları", "dogruMu": false },
+      { "metin": "Kendini Gerçekleştirme", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q6",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Asch uyma deneyleri hangi konuyu araştırmıştır?",
+    "secenekler": [
+      { "metin": "Grup baskısı ve uyma", "dogruMu": true },
+      { "metin": "Otoriteye itaat", "dogruMu": false },
+      { "metin": "Rol davranışları", "dogruMu": false },
+      { "metin": "Liderlik stilleri", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q7",
+    "kategori": "Anormal Psikoloji",
+    "soru": "DSM-5 hangi amaçla kullanılır?",
+    "secenekler": [
+      { "metin": "Zeka testi yapmak", "dogruMu": false },
+      { "metin": "Kişilik analizi", "dogruMu": false },
+      { "metin": "Ruhsal bozuklukları tanılamak", "dogruMu": true },
+      { "metin": "Öğrenme güçlüklerini değerlendirmek", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q8",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Kısa süreli belleğin kapasitesi yaklaşık olarak kaç öğedir?",
+    "secenekler": [
+      { "metin": "5±2 öğe", "dogruMu": false },
+      { "metin": "7±2 öğe", "dogruMu": true },
+      { "metin": "9±2 öğe", "dogruMu": false },
+      { "metin": "11±2 öğe", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q9",
+    "kategori": "Nörobilim",
+    "soru": "Broca alanı hangi fonksiyonla ilişkilidir?",
+    "secenekler": [
+      { "metin": "Görsel algı", "dogruMu": false },
+      { "metin": "Konuşma üretimi", "dogruMu": true },
+      { "metin": "İşitsel algı", "dogruMu": false },
+      { "metin": "Motor koordinasyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q10",
+    "kategori": "Ekoller",
+    "soru": "Gestalt psikolojinin temel prensibi nedir?",
+    "secenekler": [
+      { "metin": "Bütün, parçaların toplamından farklıdır", "dogruMu": true },
+      { "metin": "Davranış çevresel faktörlerle belirlenir", "dogruMu": false },
+      { "metin": "Bilinçdışı güdüler davranışı yönlendirir", "dogruMu": false },
+      { "metin": "Öğrenme deneyimle şekillenir", "dogruMu": false }
+    ]
+  }
+]

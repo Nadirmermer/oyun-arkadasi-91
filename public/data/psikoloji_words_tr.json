@@ -1,0 +1,102 @@
+[
+  {
+    "kelime": "Depresyon",
+    "yasaklar": ["Üzüntü", "Mutsuzluk", "Çökkünlük", "Melankolik", "Keder"],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Anksiyete",
+    "yasaklar": ["Kaygı", "Endişe", "Korku", "Tedirginlik", "Panik"],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Klasik Koşullanma",
+    "yasaklar": ["Pavlov", "Zil", "Salya", "Köpek", "Uyaran"],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Operant Koşullanma",
+    "yasaklar": ["Skinner", "Pekiştirme", "Ceza", "Kutu", "Ödül"],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Psikanaliz",
+    "yasaklar": ["Freud", "Bilinçdışı", "Rüya", "Libido", "İd"],
+    "kategori": "Psikanalitik"
+  },
+  {
+    "kelime": "Ödipal Kompleks",
+    "yasaklar": ["Baba", "Anne", "Çocuk", "Freud", "Cinsellik"],
+    "kategori": "Psikanalitik"
+  },
+  {
+    "kelime": "Bilişsel Çelişki",
+    "yasaklar": ["Festinger", "Uyumsuzluk", "Tutum", "İnanç", "Çelişki"],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Şizofren",
+    "yasaklar": ["Çifte", "Kişilik", "Halüsinasyon", "Psikoz", "Varsanı"],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Gestalt",
+    "yasaklar": ["Bütün", "Parça", "Algı", "Şekil", "Zemin"],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Obsesif Kompulsif Bozukluk",
+    "yasaklar": ["OKB", "Takıntı", "Zorlantı", "Tekrarlama", "Ritüel"],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Empatik",
+    "yasaklar": ["Anlayış", "Duygu", "Paylaşma", "Hissetme", "Acı"],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Nöron",
+    "yasaklar": ["Sinir", "Hücre", "Beyin", "Akson", "Dendrit"],
+    "kategori": "Nörobilim"
+  },
+  {
+    "kelime": "Dopamin",
+    "yasaklar": ["Nörotransmitter", "Mutluluk", "Ödül", "Parkinson", "Kimyasal"],
+    "kategori": "Nörobilim"
+  },
+  {
+    "kelime": "Kohlberg",
+    "yasaklar": ["Ahlak", "Gelişim", "Seviye", "Dilema", "Heinz"],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Piaget",
+    "yasaklar": ["Bilişsel", "Gelişim", "Şema", "Asimilasyon", "Akomodasyon"],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Travma",
+    "yasaklar": ["Şok", "Acı", "Yara", "Ruh", "Sarsıntı"],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Hipnoz",
+    "yasaklar": ["Uyku", "Telkin", "Bilinçsiz", "Sarkaç", "Kontrol"],
+    "kategori": "Terapi"
+  },
+  {
+    "kelime": "Kişilik",
+    "yasaklar": ["Karakter", "Mizaç", "Özellik", "Davranış", "Kimlik"],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Stres",
+    "yasaklar": ["Gerginlik", "Baskı", "Yük", "Zorlanma", "Gerilim"],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Subliminal",
+    "yasaklar": ["Bilinçaltı", "Gizli", "Mesaj", "Fark", "Etmeme"],
+    "kategori": "Algı Psikolojisi"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "konu": "Sigmund Freud Hakkında",
+    "kategori": "Psikanaliz",
+    "ifadeler": [
+      { "metin": "Psikanaliz ekolünün kurucusudur.", "dogruMu": true },
+      { "metin": "Kolektif Bilinçdışı kavramını geliştirmiştir.", "dogruMu": false },
+      { "metin": "Hastalarının tedavisinde hipnozu denemiştir.", "dogruMu": true }
+    ]
+  },
+  {
+    "konu": "Milgram Deneyi Hakkında",
+    "kategori": "Sosyal Psikoloji",
+    "ifadeler": [
+      { "metin": "Deney, otoriteye itaati ölçmek için tasarlanmıştır.", "dogruMu": true },
+      { "metin": "Katılımcılar, öğrencilere gerçek elektrik şoku vermişlerdir.", "dogruMu": false },
+      { "metin": "Yale Üniversitesi'nde gerçekleştirilmiştir.", "dogruMu": true }
+    ]
+  },
+  {
+    "konu": "Carl Jung Hakkında",
+    "kategori": "Analitik Psikoloji",
+    "ifadeler": [
+      { "metin": "Kolektif Bilinçdışı kavramını geliştirmiştir.", "dogruMu": true },
+      { "metin": "Freud'un öğrencisi olup onunla yollarını ayırmıştır.", "dogruMu": true },
+      { "metin": "Operant koşullanma teorisini geliştirmiştir.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Pavlov'un Deneyi Hakkında",
+    "kategori": "Davranışçı Psikoloji",
+    "ifadeler": [
+      { "metin": "Köpeklerle klasik koşullanma deneyini yapmıştır.", "dogruMu": true },
+      { "metin": "Tavuk kafesiyle sosyal öğrenme teorisini geliştirmiştir.", "dogruMu": false },
+      { "metin": "Koşulsuz uyaran ve koşullu uyaran kavramlarını ortaya koymuştur.", "dogruMu": true }
+    ]
+  },
+  {
+    "konu": "Maslow'un İhtiyaçlar Hiyerarşisi",
+    "kategori": "Hümanistik Psikoloji",
+    "ifadeler": [
+      { "metin": "Fizyolojik ihtiyaçlar en altta yer alır.", "dogruMu": true },
+      { "metin": "Kendini gerçekleştirme en üst basamakta yer alır.", "dogruMu": true },
+      { "metin": "Toplam 7 basamaktan oluşmaktadır.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Skinner Kutusu Deneyi",
+    "kategori": "Davranışçı Psikoloji",
+    "ifadeler": [
+      { "metin": "B.F. Skinner tarafından geliştirilmiştir.", "dogruMu": true },
+      { "metin": "Operant koşullanmayı göstermek için kullanılmıştır.", "dogruMu": true },
+      { "metin": "İlk olarak insanlar üzerinde denenmiştir.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Erik Erikson'un Gelişim Teorisi",
+    "kategori": "Gelişim Psikolojisi",
+    "ifadeler": [
+      { "metin": "8 psikososyal gelişim evresinden oluşur.", "dogruMu": true },
+      { "metin": "Sadece çocukluk dönemini ele almaktadır.", "dogruMu": false },
+      { "metin": "Her evrede farklı bir kriz yaşanır.", "dogruMu": true }
+    ]
+  },
+  {
+    "konu": "Stanford Hapishane Deneyi",
+    "kategori": "Sosyal Psikoloji",
+    "ifadeler": [
+      { "metin": "Philip Zimbardo tarafından yürütülmüştür.", "dogruMu": true },
+      { "metin": "2 hafta sürmesi planlanmış ancak 6 gün sonra durdurulmuştur.", "dogruMu": true },
+      { "metin": "Harvard Üniversitesi'nde gerçekleştirilmiştir.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Jean Piaget'nin Bilişsel Gelişim Teorisi",
+    "kategori": "Gelişim Psikolojisi",
+    "ifadeler": [
+      { "metin": "4 temel gelişim evresinden oluşur.", "dogruMu": true },
+      { "metin": "Somut işlemler evresi 7-11 yaş arasını kapsar.", "dogruMu": true },
+      { "metin": "İlk evre 'Dil öncesi dönem' olarak adlandırılır.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Gestalt Psikolojisi",
+    "kategori": "Algı Psikolojisi",
+    "ifadeler": [
+      { "metin": "Almanya'da ortaya çıkmıştır.", "dogruMu": true },
+      { "metin": "Bütünün parçalardan büyük olduğunu savunur.", "dogruMu": true },
+      { "metin": "Sigmund Freud tarafından kurulmuştur.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Albert Bandura'nın Sosyal Öğrenme Teorisi",
+    "kategori": "Sosyal Psikoloji",
+    "ifadeler": [
+      { "metin": "Bebek Bobo deneyi ile ünlüdür.", "dogruMu": true },
+      { "metin": "Gözlemleyerek öğrenmenin önemini vurgulamıştır.", "dogruMu": true },
+      { "metin": "Operant koşullanma teorisini geliştirmiştir.", "dogruMu": false }
+    ]
+  },
+  {
+    "konu": "Asch Uygunluk Deneyleri",
+    "kategori": "Sosyal Psikoloji",
+    "ifadeler": [
+      { "metin": "Grup baskısının bireysel yargıları nasıl etkilediğini göstermiştir.", "dogruMu": true },
+      { "metin": "Çizgi uzunluğu karşılaştırması yapılmıştır.", "dogruMu": true },
+      { "metin": "Stanley Milgram tarafından yürütülmüştür.", "dogruMu": false }
+    ]
+  }
+]
