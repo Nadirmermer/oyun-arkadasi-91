@@ -1,9 +1,597 @@
 [
   {
+    "id": "1-12",
+    "baslik": "Sömürücü davranan psikolog",
+    "senaryo": "Öğretim görevlisi olan psikolog doktor, ders verdiği sınıf için özel bir oturma planı yapmış ve öğrencilerin hep aynı sıralarda oturmalarını istemişti. En ön sıraya da maksatlı olarak bir kız öğrenciyi yerleştirmişti. Bir yakın arkadaşına da bu yaptığını açıklarken, söz konusu kızın sürekli kısa etek giyindiğini ve dikkatsizce hareket ettiğini itiraf etmişti. Arkadaşı onun bu davranışının soru işareti doğurabileceğini belirttiğinde de, öğretim görevlisi, arkadaşına “sen açıkça yaşlanmışsın arkadaş” demişti. Bu psikoloğun davranışı hangi etik ilkelere aykırıdır?",
+    "tartisma": "Psikoloğun bu davranışı sömürücü davranan psikologlara tipik bir örnektir. Otoritesinin avantajını kötüye kullanmaktadır. Kendisinin zararsız bir doyum olayı şeklinde açıklayarak hiçbir içgörüde bulunmadığını göstermektedir. Bunun sınıftaki öğretim, dikkat ve ciddiyeti nasıl etkileyebileceğini değerlendirememektedir. Eğitme mesleki sorumluluğu altına verilmiş bir öğrenciden kendi yararına avantaj elde etmek için özel bir ayarlama yapmakla, bizlere sömürücü davranışın ne denli dolaylı ve kolayca gözlenemez bir durum olabileceğinin bir örneğini vermektedir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
     "id": "1-21",
-    "baslik": "Çoklu İlişkiler",
-    "senaryo": "Bir psikolog, akıl hastanesinden yeni taburcu olmuş ve iş bulamayan bir danışanını, ona yardım etmek amacıyla bahçıvan olarak işe alır. Ancak bir süre sonra danışanı, aldığı ücretin düşüklüğünden şikayetçi olur ve psikoloğu Etik Kurul'a şikayet etmekle tehdit eder. Bu durumu mesleki etik açısından nasıl yorumlamak gerekir?",
-    "tartisma": "Burada 'danışanla çoklu ilişkilere girmeme' etik kuralı ihlal edilmiştir. Psikoloğun niyetinin iyi olması veya bunu bir yardımseverlik olarak rasyonalize etmesi, temel etik ihlalini ortadan kaldırmaz.",
+    "baslik": "Çoklu ilişkiler",
+    "senaryo": "Bir psikolog doktor, bir danışanının Etik Kurula başvurma tehdidinde bulunmasıyla çok şaşırmıştı. Psikolog bu danışanını bir süre önce bahçıvan olarak işe almıştı. Çünkü danışanı akıl hastanesinden yeni taburcu olmuştu, iş deneyimi yoktu, başka bir iş bulamamıştı ve zor durumdaydı. Psikolog danışanına büyük bir yardımda bulunduğunu düşünerek onu işe almıştı. Ancak, bir süre sonra danışanı bahçıvanların kendi aldığı gibi asgari ücretten daha fazla gelir elde etmeleri gerektiğini belirterek işvereninden şikayetçi olmuştu. Bu durumunu mesleki etik açısından nasıl yorumlamak gerekir?",
+    "tartisma": "Burada 'danışanla çoklu ilişkilere girmeme' etik kuralı ihlal edilmiştir. Rasyonalizasyonlar muhtelif olabilir veya iyilikseverlik olarak yorumlanabilir ama bunlar ihlali ihlal olmaktan çıkarmaz.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "1-24",
+    "baslik": "Kriz durumları",
+    "senaryo": "Önemli miktarda intihar düşünceleri dile getiren ve intihara dönük davranışlar içinde bulunmuş bir danışan, bir terapi seansı sırasında alışık olmadık biçimde donuk görünüyordu ve terapiyi bıraktığını söyledi. Psikolog danışanının hayatındaki stres kaynaklarının farkındaydı ve onun apatik (duygusuz) durumundan endişeleniyordu. Şimdiki görünümündeki sakinliğin bir düzelme işareti olmaktan ziyade, kendini öldürme kararlılığının bir göstergesi olabileceğinden endişeleniyordu. Psikolog adamı planları hakkında sorguladı ama cevaplar da belirsizdi. Kendine zarar vereceğine dair endişeleri inkar ediyordu. Danışan seans bitmeden 15 dakika önce yerinden sakince kalkıp affını istedi. Burada psikolog ne yapmalıdır? Bir taraftan parasını almakta olduğu danışana “terapiyi bırakmamalısın” mı demelidir? Danışanın refahı ve iyiliğini nasıl gözetmelidir?",
+    "tartisma": "Bu durumlar için hazır bir reçete yoktur. Eğer bu şüphe ciddi boyutta hissedilmişse, aile ya da ilgililerin mutlaka uyarılması, bilgilendirilmesi gerekir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "1-31",
+    "baslik": "Psikoloğun müdahale etme zorunluluğu",
+    "senaryo": "Gözü yaşlı danışan, psikolog doktora önceki terapisti ile dehşet verici bir yaşantısının olduğunu anlatır. İddiasına göre önceki psikolog terapisti seans boyunca çoğunlukla hiçbir şey demeden oturup, danışan konuşurken dergilere göz gezdirirmiş. Konuştuğunda da sert emirler verirmiş: “Bırak o ilişkiyi!”, “Madem o kadar değersiz hissediyorsun, neden kendini öldürmüyorsun?” Psikolog bu eski terapisti zaten çok garip biri olarak biliyormuş. Bu yaptıklarının yanlışlığını, eski terapist ile konuşmak için girişimde bulunmayı danışana teklif ettiğinde, danışan histerikleşerek, tespit edilmeyi kabul etmeyeceğini kararlı bir şekilde belirtmiş ve bunu istemediğini söylemiştir. Bu eski terapistin tutumunu meslek etiği açısından nasıl değerlendirirsiniz?",
+    "tartisma": "Kuşkusuz eski terapist yetkin davranmamış ve etik ihlalde bulunmuştur. Meslektaş kontrolü (peer monitoring) gereği bu konuşmayı yapmak ve müdahale etmek gerekir ama buna danışan izin vermiyor. Danışanın kimliğini açık etmeden bu olaya müdahale edilebilir mi? Bunun yolları araştırılmalıdır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-7",
+    "baslik": "Yönetmeliğin yasaklamadığı durumlar",
+    "senaryo": "Bir kadın gazetede okuduğu kedi beyinlerinde uyarılmış potansiyeller üzerinde araştırma yapan bir psikoloğu bir şikayet mektubu ile Etik Kurula ihbar ediyor. Bu psikoloğun kedilere yaptığının insanca olmayan, ahlaki olmayan ve etiğe aykırı bir davranış olduğunu iddia ederek cezalandırılmasını talep ediyor. Bu durumda Etik Kurul ne yapmalıdır?",
+    "tartisma": "Eğer bu deneyler sırasında uygun anestezi vermeden kedilerin beynine elektrot yerleştirme ve hayvanın acı çekmesini önleyici tedbirler almama gibi durumların kanıtları olsa, Etik Kurul yönetmelikte bunlar açıkça belirtildiği için bir yaptırım öngörecektir. Ama ortada böyle bir kanıt yokken, sırf kediler üzerinde beyin araştırması yaptı diye psikoloğa karışamaz. Duygusal olarak yapılmış ama yersiz bir şikayettir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-8",
+    "baslik": "Psikolog rolünde işlenmemiş hatalar vs.",
+    "senaryo": "Yakın zamanda boşanmış bir erkek, iş yerinin bulunduğu binada ofisi bulunan kadın psikoloğu Etik Kurula şikayet etmiştir. O'nu halen devam eden yüksek kaygılı durumundan sorumlu tutmuştur. Bu ikili bir süre önce çıkmaya başlamışlar ve birkaç kez de geceyi birlikte geçirmişlerdir. Sonra psikolog kadın ilişkiyi aniden bitirmiş ve adama yeterli bir açıklama da yapmamıştır. Adam da bunun üzerine Etik Kurula söz konusu başvuruyu yapmıştır. Bu durumda Etik Kurul ne yapmalıdır?",
+    "tartisma": "Bu vakada -kadın psikoloğun bu şikayetçi adamı bir hasta, danışan ya da süpervizyon alan kişi olarak hiçbir zaman görmediği açıklığa kavuşturulduktan sonra- mesleki etik adına yapacak bir şey yoktur. Şikayet edene, “psikoloğun vatandaş rolü üzerinde bir yaptırım haklarının bulunmadığı ve bu tür ilişki başarısızlıklarına karışma yetkilerinin bulunmadığı” uygun bir dille anlatılmıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-17",
+    "baslik": "Üye olmayan kişilerin şikayet edilmesi",
+    "senaryo": "Bir kadın, kendisini doktoralı psikolog olarak tanıtan birine psikoterapi için gitmeye başladıktan bir süre sonra Etik Kurula avukatı ile birlikte başvuruyor. Bu kişinin kendisinden yüklü miktarda para talep ettiğini, eğer bu konuda bir şikayette bulunursa, terapide elde ettiği gizli bilgiler doğrultusunda, zengin ve etkili kocasına kendisinin evlilik dışı ilişkilerini ve yaptığı çılgınlıkları ihbar etmekle tehdit ettiğini, buna ilişkin kanıtları bulunduğunu bildiriyor. Etik Kurul da yaptığı incelemede bu kişinin lisanslı olmadığını ve ofisinde asılı olan doktora diplomasının telefonla sipariş edilen geçersiz ve süs olarak kullanılması gereken bir belge olduğunu ortaya çıkarıyor. Bu durumda Etik Kurul ne yapmalıdır?",
+    "tartisma": "Kuşkusuz buradaki kişinin davranışı her şeyden önce yasadışıdır; bir çeşit dolandırıcılıktır. Hukuk yolları işletilmelidir. Etik Kurulu ilgilendiren bir durum değildir. Elbette meslek örgütü üyeliği bir kişiye yeterliği getirmez, üye olmamak da yetersiz olunduğu anlamına gelmez. Ancak üyelik, etiğe uygun çalışmayı gerektirmesi bakımından müşteri için ek bir güvencedir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-19",
+    "baslik": "Şikayetin süre gibi kısıtlamalara uymadığı durumlar",
+    "senaryo": "Bir adam korkuları nedeniyle gittiği psikoloğun kendisine “pantolonunu ve iç çamaşırını indirip arkasını dönmesini” söylediğini, bunu yaptığında da, hiç uyarmadan başparmağını anüsüne soktuğunu ve 'artık bir daha hiç korkmayacağını' söylediğini, 'kendisini korkularından kurtardığını' ifade ettiğini, bu olaydan kimselere bahsedemediğini, ta ki 8 yıl sonra gittiği bir başka psikoloğa bu olaydan bahsedebildiğini ve böyle bir tekniğin korkuyu nasıl tedavi ettiğini sorduğu zaman böyle bir teknik bulunmadığını öğrendiğini belirterek Etik Kurula şikayette bulunmuştur. Bu durumda Etik Kurul ne yapmalıdır?",
+    "tartisma": "Etik Süreç Yönetmeliği şikayetlerin 5 yıl geçmeden yapılmasını öngörmektedir. Ama açıktır ki bu adam söz konusu 'terapi(!)'den travmatize olmuş ve bir daha da terapiye devam edememiştir. Bu utancı da 8 yıl kimselere açamamıştır. İtiraf etmesi de zaten beklenmez. Bu nedenle Etik Kurul bu davada 5 yıl kısıtlamasını uygulamama kararı alarak davayı açmıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-25",
+    "baslik": "Şikayet edilen biri olmanın tehlikeleri",
+    "senaryo": "Etik Kuruldan bir soruşturmaya davet mektubu alan doktoralı psikolog şu cevabı yazıp göndermiştir: “O kadın delinin tekidir. Söylediği hiçbir şeye inanmamalısınız.” Bu durumda Etik Kurul ne yapmalıdır?",
+    "tartisma": "Etik Kurul şikayet edilenlerden şikayet edenin saygın/sözüne güvenilir (credible) olmadığına dair bu tür basit karşı çıkışları kabul etmez. Hatta bu psikolog bir danışan için böyle bir nitelemede bulunmakla Kurul üyelerinde kötü bir izlenim de bırakmıştır. Dolayısıyla Etik Kurul davayı sürdürmelidir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-28",
+    "baslik": "İhlal olmaması",
+    "senaryo": "Bir kişi kendisinin pahalı bir psikoterapi alması için aldatıldığını ve tuzağa düşürüldüğünü iddia ederek şikayetçi olmuştur. Kadının iddiası, çalıştığı şirket tarafından ödenen bir terapi alırken, 10. seansta terapistin gelecek seanstan itibaren seans başına 40 dolar talep edeceğini söylediğini; bu psikoloğun bir taraftan şirketten parasını alırken, bir taraftan da kendisinden alacağını düşünmüş ve şikayetçi olmuştur. Ancak, psikolog sorulduğunda durumu şöyle açıklamıştır: Şirketle anlaşma yapmıştır. Elemanlar kendisinden terapi alırlarsa, ilk 10 seansı Şirket ödeyecektir. Sonraki seanslar için de kişinin maaşı dikkate alınarak psikolog tarafından ücretlendirilecektir. Bu bilgi de, şirket broşüründe çalışanlara sağlanan olanaklar arasında açıkça yazılmıştır. Ayrıca psikolog bu durumu ilk seansta danışana açıkladığını da ifade etmiştir. Şikayetçi de sorulduğunda 'evet ilk seansımızda bana bu 10 seansla ilgili bir şeylerden bahsetmişti ama sonra ben bu konuyu hiç düşünmedim' demiştir. Bu durumda Etik Kurul ne yapmalıdır?",
+    "tartisma": "Etik Kurul bu durumda herhangi bir etik ihlal saptamamıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "2-33",
+    "baslik": "İçgörü ve pişmanlık gösterme",
+    "senaryo": "Bir psikolog doktor Etik Kurula başvurarak bir danışanıyla cinsel yakınlaşması olduğunu itiraf etmiştir. Büyük bir vicdan azabı yaşamaktadır. Evliliğinde bir karmaşa döneminde olduğunu ve danışanın sevgiyle yaklaşımının kendisini bu ilişkinin içine sürüklediğini ifade etmiştir. 2 kez cinsel yakınlaşmaları olduğunu, hemen sonrasında yaptığının yanlışlığının farkına vararak danışanla terapiyi sonlandırdığını ve ona birkaç yeni terapist önerdiğini belirtmiştir. Ayrıca hatasını danışanına da itiraf etmiş ve kendisinin artık onun için uygun bir terapist olamayacağı bilgisini de vermiş olduğunu eklemiştir. Sonrada kendisi terapi almaya başladığını, terapistine bunun kendisi için vicdani bir konu olduğunu söylemiş olduğunu belirtmiştir. Terapisti de psikoloğun bir daha böyle bir davranışa yönelmeyeceği konusunda çok yüksek bir motivasyonu olduğunu rapor etmiştir. Sonuçta Etik Kurul bu başvuru üzerine ne yapmalıdır?",
+    "tartisma": "Bu örnekte mutlak bir etik ihlal bulunmasına ve bu da meslekten ihracı ya da koşullu istifayı gerektirmesine rağmen, Etik Kurul psikoloğun olaya yaklaşımına bakarak sonuçta kınama ile yetinmiş ve üyeliğin devamına izin vermiştir. Bu arada 1 yıl boyunca terapistinden psikoloğun ilerlemesine kanıt olan 4 er aylık raporlar yazması istenmiştir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-4",
+    "baslik": "Yeterlik",
+    "senaryo": "Psikolog doktor bir klinik psikoloji programından mezundur. Tüm uygulamaları, alan çalışmaları ve intörnlük dönemi yetişkin hastaların bulunduğu ortamlarda olmuştur. Çocuk gelişimi ve psikopatolojisine ilişkin dersler almamasına rağmen şimdi çocuklarla da çalışma yapmak istemektedir. Gelişim psikolojisi ve çocukların psikoterapisi konularında 5-6 tane temel kitap okuduktan sonra çocuk danışanlar da kabul etmeye başlamıştır. Bu durumunu mesleki etik açısından nasıl yorumlamak gerekir?",
+    "tartisma": "Bu psikoloğun iyi eğitilmiş bir yetişkin klinik psikoloğu olmasına rağmen, formel eğitim almadan, sadece kitaplardan öğrendikleriyle çocuklarla psikoterapi uygulamaya kalkışmış olması, eğitimiyle bağlantılı yeterliğinin ötesine geçmiş olduğu anlamına gelmektedir. Üstelik kendisi bu yeterlik aşımının farkında değilmiş gibi görünmektedir. Bu vakada elbette teknik olarak profesyonel standartlara uymama bulunmakla birlikte, olayın tamamen etik dışı görülmesi de bir zorunluluk değildir; çünkü bir taraftan da kişi sonuçta klinik psikolojisi uzmanıdır ve şu ya da bu şekilde çocuk psikoterapisi konusunda kendini geliştirme çabası da göstermiştir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-7",
+    "baslik": "Yeterlik: Öğrenci değerlendirmeleri",
+    "senaryo": "ABD'nin Batısından orta-kırsal bir bölgeye gelerek buradaki bir üniversitede lisansüstü eğitime (master-doktora birleşik programı) başlayan bir öğrenci, danışma psikolojisi doktora programından 3. sömestrinin sonunda “kişisel olarak programa uygun olmadığı” belirtilerek çıkartılmıştır. Bunun üzerine öğrenci bu uygulamayı Etik Kurula şikayet etmiş ve notları çok iyi olduğu halde ve önceden herhangi bir uyarı yapılmaksızın programdan çıkarıldığını belirterek programın yöneticisini şikayet etmiştir. Etik Kurul ne gibi bir karar verebilir?",
+    "tartisma": "Etik Kurul, öğrencinin atılmadan önce davranışlarını düzeltmesi için önceden hiç uyarılmamasını veya buna bağlı olarak özel bir süpervizyona yöneltilmemesini dikkate alarak, sonuçta araya girip, bu programdan bir master derecesi almasını sağlamıştır. Kendisine ayrıca bir başka üniversiteye transfer olma hakkı da tanınması sağlanmıştır. Etik Kurul bu vakada taraflar arasında bir iletişim problemi olduğuna ve buna bağlı olarak da öğrencinin mağdur edildiğine hükmetmiş ve bu müdahaleleri yapmıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-11",
+    "baslik": "Yeterlik: Öğrenci değerlendirmeleri",
+    "senaryo": "Profesyonel (Uygulamalı mesleki) psikoloji programında lisansüstü öğrenim görmekte olan bir öğrencinin notları mükemmel değil ama iyiydi. Uygulama süpervizörlerinden bazıları, bu kız öğrencinin, profesyonel bazı gereklilikleri oldukça iyi yapıyor olsa da, dürtüsel davrandığını ve duygusal yönden olgunlaşmamış olduğunu belirtiyorlardı. İstatistik dersinden aldığı bir C- notu üzerine bu öğrenci bir broşür hazırlayarak, dersin hocasını “ahmak ve cinsiyet ayrımcısı” olarak niteliyor, ayrıca “anal kişiliğe sahip olduğunu, entelektüel biri olmadığını ve benzeri nitelemeleri sıralıyor. Sonra da bu broşürü Bölümün duyuru panolarına asıyor ve posta kutularına bırakıyor. Bu öğrencinin söz konusu davranışı Etik Kurul tarafından nasıl değerlendirilebilir?",
+    "tartisma": "Burada bir tür psikopatolojik bir davranış sözkonusu ama bu psikopatolojinin türü ve düzeyi programdan atılmayı gerektirecek kadar ağır mı yoksa tedavi ve rehabilitasyonla düzelecek kadar hafif mi belli değildir. Dolayısıyla öncelikle bunun incelenmesi gerekir kararı çıkmıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-15",
+    "baslik": "Yeterlik: Devamlılığını sağlama",
+    "senaryo": "Bir psikolog doktor “ikincil reaktif enüresis” (yani belli bir yaştan sonra gece yatağını ıslatmaya başlama) sorunu olan çocuk danışanlarına, bu sorun için belli davranışsal tedavilerin görece kısa zamanda çok etkili olduğuna dair literatürde önemli kanıtlar olmasına rağmen, uzun süreli bireysel psikoterapi öneriyordu. Bu durum meslektaşları tarafından kendisinin dikkatine getirildiğinde ise itiraz etmemiş ama oldukça şaşırmış görünerek, bilgilenmek üzere tam bu noktada mesleki literatüre başvurmuştur. Bu psikoloğun durumunu mesleki etik açısından değerlendiriniz.",
+    "tartisma": "Bu psikolog kişisel yeterliğini devam ettirme sorumluluğunu zamanında yerine getirmemiş görünmektedir. Danışanlarına etkili alternatif tedavileri önermek bir profesyonelin sorumlulukları arasındadır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-16",
+    "baslik": "Yeterlik aşımı",
+    "senaryo": "Bir psikolog doktor kısa süreli psikoterapiler konusunda eğitim almıştı. Bir gün ailesiyle birlikte bir dağ kasabasına taşındı, çünkü kendi yaşam tarzlarına burayı uygun bulmuşlardı. Ancak burada bazı danışanlarının karşısına getirdiği sorunlara müdahaleye hazır değildi. Bunlardan bazıları da açıkça uzun süreli psikoterapilerden yararlanacak vakalardı ama bu tür müdahaleleri yetkin olarak yapabilecek uzmanlar en yakın 350 Km uzaklıktaki bir şehirde bulunuyordu. Burada meslek etiği ilkeleri dikkate alındığında, o uzak şehre sürekli tedavi almaya gitme olanağı bulunmayan bu hastalara bu terapist müdahale etmeli mi yoksa etmemeli midir?",
+    "tartisma": "Belli becerileri ve eğitimi eksik olan bir psikoterapistten terapi almak hiç terapi almamaktan daha iyi bir seçenek değil midir? Aslında bu sorunun kolay bir yanıtı yoktur. Elbette öncelikle hastaları uygun yeterlikteki uzmanlara gönderme olanakları araştırılmalıdır. Ancak, bu kesinlikle mümkün olamıyorsa, kaynaklar sınırlıysa, danışan hiç müdahalesiz kalmasın denecekse, mutlaka bu konuda yeterli bir uzmandan -mesela telefonla- süpervizyon (danışmanlık) almak şartıyla müdahale edilmelidir. Bununla birlikte danışanın ihtiyacı olan ile terapistin yeterliği arasında bu yolla bile telafi edilemeyecek büyüklükte bir uçurum varsa (ki bunu da terapistin kendisi değerlendirecektir!), uygulanacak bir tedavinin bir yarardan çok zarar getirme olasılığı nedeniyle, tedaviye hiç kalkışılmamalıdır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-20",
+    "baslik": "Sorunlu psikolog",
+    "senaryo": "Bir erkek psikolog doktor, bir kadın danışanı tarafından kendisiyle cinsel ilişkiye girmesi sonucu duygusal yönden yaralandığı şikayeti üzerine Mahkemece zina ile suçlanmıştır. Psikolog, Etik kurul duruşmasında da kendisinin son birkaç yılda yaklaşık bir düzine kadın hastasıyla cinsel ilişkiye girdiğini kabul etmiştir. Ayrıca evliliğindeki aşırı baskının önemli oranda kaygı, özsaygı kaybı ve cinsel yetersizlik duygusuna neden olduğunu da itiraf etmiştir. Etik Kurula, bu kadın danışanlarıyla girdiği cinsel ilişkiler için, 'onlara da bana da çok iyi geldi, üstelik ben seanslarımın o kısımlarından para da almadım' demiştir. Ayrıca, “bence bunu önceden dikkatlice düşündüyseniz ve danışanınızla da konuştuysanız, söz konusu etik kuralı ihmal etmekte bir sakınca yok” demiştir. Bu vakayı nasıl değerlendirirsiniz?",
+    "tartisma": "Bu psikoloğun oldukça 'eşsiz' bir bakış açısı olduğu anlaşılmaktadır! Söz konusu etik dışı davranışlarına yol açan veya gerekçe oluşturan kendi sorunlarına ilişkin çok az bir içgörüsü olduğu anlaşılmaktadır. Üstelik buna ilişkin bir pişmanlığı da yoktur ya da çok az var görünmektedir. Oysa belli ki bir çeşit ruhsal bir sorun nedeniyle etik ihlalde bulunmaktadır ve bu durum bir süreklilik göstermektedir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "3-25",
+    "baslik": "İyileşmeyen danışan",
+    "senaryo": "Bir kadın danışan bir erkek psikolog doktordan tam 6 yıldır her hafta psikoterapi almaktadır. Bu danışan terapiye ilk başladığında getirdiği yakınmalarıyla artık çok uzun bir süredir başarılı bir biçimde baş edebilmektedir ama bu psikologla terapi seansları yapmaya da çok bağımlı hale gelmiştir. En azından son 4 yıldır danışanın duygusal durumunda, terapiye artan bağımlılığı haricinde, gerçek bir değişim olmamıştır. Psikolog da terapiyi sonlandırma konusunda en ufak bir çaba göstermemiştir. Bunun felsefesini de 'eğer danışan beni görmeye ihtiyacı olduğunu söylüyorsa, görebilir' şeklinde izah etmektedir. Bu psikoloğun durumunu mesleki etik açısından nasıl değerlendirmek gerekir?",
+    "tartisma": "Bu psikolog 'sonsuz psikoterapi' gibi acayip bir kavramsallaştırmaya inanmaktadır. Terapiyi bir noktadan sonra bu şekilde uzatmak, ancak terapistin danışan bağımlılığını bir şekilde pekiştirmesiyle mümkün olabilir. Normalde beklenen, tedavide bir süre ilerleme sağlanamıyorsa ve ilave tedavi ille de gerekiyorsa, terapist kendi başarısını objektif bir biçimde değerlendirmeli ve gerekiyorsa başka bir uzmana havale etmelidir, danışanı elinde böyle süründürmemelidir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "4-5",
+    "baslik": "Psikoterapide çelişen değerler",
+    "senaryo": "14 yaşında bir genç erkek, artan biçimde depresifleştiği ve sosyal yönden içe kapandığı endişeleriyle bir psikolog doktora gönderilmişti. Psikolog, gencin yakınları ve ailesinin kısıtlamalarıyla karşılaştığını, geliştirmekte olduğu ergen bağımsızlığı hissinin bu durumdan sekteye uğradığını tespit etmişti. Gençle birkaç ay çalıştıktan ve kendisinde ilerlemeler gözlemeye başladıktan sonra psikoloğa gencin ana babasından telefonlar gelmeye başlamıştı. Gencin çok girişken davranmaya ve aile dışındaki kişilerle fazlaca ilgilenmeye başlamasından yakınıyorlardı. Terapinin oğullarını kendilerinden uzaklaştırdığını iddia ediyorlar, terapisti bu konuda suçluyorlardı. Bu durumu mesleki etik yönünden değerlendiriniz.",
+    "tartisma": "Psikoterapilerde danışan yakını ile bu tür çelişkiler ve buna bağlı yakınmalar ortaya çıkabilmektedir. Çünkü ailede kurulmuş bulunan ama sağlıksız olup, danışanın sorunlarını ortaya çıkaran o denge sarsılmaya başlar. Burada psikoloğun aileyi danışanla birlikte ortak bir seansa davet edip, sağlıklı ve doğru olanın ne olduğu konusunda bilgilendirme yapması gerekir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "4-14",
+    "baslik": "Tedavi için terapistin reddetme hakkı",
+    "senaryo": "13 yaşında bir erkek çocuk şehrin Ruh Sağlığı Merkezine gelmiş ve 'burada konuşacak biri var mı?' diye sormuştur. Bunun üzerine orada görevli psikolog doktor tarafından bir ilk görüşmeye alınmıştır. Çocuk birçok kişisel ve ailevi sorununu anlatmış, evde aşırı fiziksel istismara uğradığından yakınmıştır. Ancak, psikologtan bu durumunu kimseyle, özellikle de ailesiyle tartışmamasını istemiştir. Psikolog görüşlerini çocukla paylaşmış ve 18 yaş altında kimseye velayet sahibinin izni olmadan müdahale edemeyeceğini bildirmiş, ayrıca bu tür şüpheleri çocuk istismarı olaylarını yasalar gereği devletin ilgili bürosuna bildirmek zorunda olduğunu ifade etmiştir. Çocuk bu açıklamalar karşısında kendisini ihanete uğramış gibi hissettiğini söylemiştir. Bu durumu psikoloğun meslek etiği açısından nasıl değerlendirirsiniz?",
+    "tartisma": "Bu vakada psikoloğun herhangi bir mesleki etik ihlali söz konusu değildir, aksine tam da yapması ve açıklaması gerekenleri yapmış ve açıklamıştır. Çocuğa bunları açıklamakla onun haklarına saygısını da göstermiştir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "4-22",
+    "baslik": "Danışanın psikologtan tehdit olması/kızması",
+    "senaryo": "Kadın danışan terapistiyle randevula-rından birkaçına gelmemiş ve önceden arayıp randevusunu iptal de etmemiştir. Psikolog doktor olan terapist birkaç defasında uyardıktan sonra danışana şu bilgiyi vermiştir: Eğer gelemeyeceği bir randevusunu uygun biçimde iptal etmeden randevusuna bir daha gelmemezlik yaparsa, gelmediği o seans için de bir ücret ödemesi gerekecektir. Danışan bu bilgiyi aldıktan sonra da aynı şekilde randevusuna iptal etmeksizin gelmemiştir. Sonradan da bu gelemeyişini, terapistin önerdiği bir sigara bırakma grubuna katılmasına bağlamıştır. Psikolog, bunun randevuyu uygun biçimde iptal etmek için geçerli bir mazeret olmadığını belirtmiştir. Danışan da kızmış ve kaçırdığı seansın ücretinin kaç para olduğunu sormuş, sonra da bir çek yazıp masaya atarak öfkeyle çıkıp gitmiştir. Psikolog 2 saat sonra ofisinden çıkıp otoparka arabasının yanına geldiğinde arabasında yüzlerce çekiç darbesiyle karşılaşmıştır. Ortada bunun kimin yaptığına dair bir kanıt bulunmamakla birlikte psikolog bu öfkeli danışandan şüphelenmiştir. Bu vakada terapistin davranışlarında bir etik sorun var mıdır?",
+    "tartisma": "Hayır, yapılan bu yaptırım uygulamasında açık bir etik ihlal yoktur ama psikologun sorunu ele alışı açısından bir yanlışı vardır. Olayın bu şekilde tırmanmasına izin vermeyerek, danışanın öfkeli duygularını terapi seansında ifade etmesine izin vermeliydi ve bu duygular üzerinde çalışmalıydı. Bu yolla örneğin danışanın beklediği tedaviyi almadığı yönündeki muhtemel düşüncelerini açığa çıkarabilir ve arabasını da bu şekilde kurtarabilirdi! Terapist bunun böyle olması gerektiğine rağmen yeterliği gereği bilmesine rağmen, sorunu bu defasında yanlış bir biçimde ele almıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "5-12",
+    "baslik": "Tedavi teknikleri seçimi",
+    "senaryo": "Psikolog doktor bir devlet hastanesinde duygusal problemleri olan çocuklarla çalışmaktadır. Sürekli olarak kafasını duvara vuran bir çocuk için bu kendisi yaralayıcı davranışı değiştirmeye yönelik olarak bir davranış değiştirme programı uygular. Çocuk bundan dolayı bir gözünü yitirmiştir ve diğerini de yitirme tehlikesi vardır. Programa göre çocuk her ka-fa vurma davranışı yaptığında kendisine bir çubuk dokundurularak kısa süreli bir elektrik şoku uygulanmaktadır. Önceden daha 'hafif' davranış değiştirme teknikleri de denenmiş ama başarılı olmamıştır. Ebeveyn izni de alınarak bu program uygulanır. Daha sonra bu klinikteki bir hemşire kızgın bir zamanında bir yerel gazeteye verdiği mülakatta psikoloğu “çocuklara elektrikle işkence yapmakla” suçlamıştır. Psikoloğun durumunu burada verilen bilgiler ışığında etik açısından değerlendiriniz.",
+    "tartisma": "Bu vakada Etik Kurul ihbar üzerine soruşturma yapmış, sonuçta psikoloğun bilginin gereğini yerine getirdiğine ve uygulamalarında bir etik ihlal olmadığına karar vermiştir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "6-10",
+    "baslik": "Acil tehlike durumu ve gizlilik",
+    "senaryo": "Bir eğitim psikoloğu hafta sonu tatiline başlamak üzere ofisinden çıkmaya hazırlanırken bir danışanından telefon gelir. Kız, kendini öldürmek için bir miktar ilaç yuttuğunu söylemiştir. Psikolog, danışanına doktoru ile temasa geçmesini ve pazartesi sabah da kendisini görmeye gelmesini söyler. Başka da bir müdahale girişiminde bulunmaz. Ancak danışanı o akşam doktorunu veya başkasını aramaz ve ilaç zehirlenmesi sonucu ölür. Burada psikoloğun davranışını etik yönünden değerlendiriniz.",
+    "tartisma": "Psikolog açıkça etik dışı davranmıştır. Böyle acil bir tehlike durumunda gerekirse danışanın kimliğinin ortaya çıkmasını önleyen gizlilik kuralını da ihlal ederek yardım ekiplerini harekete geçirmeli ve danışanına müdahale edilmesini sağlamaya çalışmalıydı.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "6-17",
+    "baslik": "Ailenin kayıtlara ulaşımı",
+    "senaryo": "Onbeş yaşında bir kız olan danışan psikoterapiye devam ediyordu. Kendisini ana babasından yabancılaşmış hissediyordu. Cinsel açıdan aktif bir yaşamı vardı. Ana babası kızlarının bulaşıcı bir cinsel hastalığa yakalandığını keşfetmiş ve kızlarıyla bu konuyu tartışırlarken, kızları, onları bu konuda doktoru kadar anlayışlı olmamakla suçlamıştı. Ana baba kızlarının cinsel ilişkilerini bildiği halde psikoloğun bunu kendilerinden saklamış olması karşısında kızmışlar ve sonradan psikologdan bu konuda tam bir açıklama yapmasını talep etmişlerdi. Eğer tam bir açıklama yapılmazsa da kızlarını terapiden alacakları ve Etik Kurula başvuracakları yolunda tehdit savurmuşlardı. Psikoloğun bu olaydaki tutumunu meslek etiği yönünden değerlendiriniz.",
+    "tartisma": "Psikoloğun bu olaydaki davranışı danışanının güvenini sarsmamak için normaldir ve etik dışı değildir. Aslında en doğrusu psikoterapiye başlamadan önce ana babaya terapinin sınırlarının ne olduğu konusunda bir bilgilendirme toplantısı yapıp, tüm bu gibi konuları açıklamaktır. Bu vakada bunun yapılıp yapılmadığı açık değildir ama bu aşamada en doğru olan da kızın da bulunduğu bir ortak aile görüşmesinde danışana destekleyici olmaktır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "6-28",
+    "baslik": "Ders malzemelerinin gizliliği",
+    "senaryo": "Psikolog doktor öğretim üyesi engelli bir çocuğun zihinsel değerlendirmesinden arşivlediği test malzemelerini yüksek lisans sınıfında kullanmıştır. Çizim kopyaları, test protokolleri üstünde açık isim ve adres olmasına rağmen yüksek lisans öğrencileri tarafından incelenmiştir. Çocuğun ailesini tanıyan bir öğrencinin bu durumu aileye haber vermesi üzerine aile, çocuklarının gizlilik hakkını ihlal ettiği suçlamasıyla psikolog öğretim üyesi hakkında etik şikayet başvurusunda bulunmuştur. Öğretim üyesi ise kendisini savunurken 'sınıftaki öğrencilerinin yüksek lisans grubu olmasından dolayı kimliği gizlemeye gerek görmediğini' açıklamıştır.",
+    "tartisma": "Bu vakada öğretim üyesi psikoloğun yaptığı savunma etik yönünden kabul edilebilir değildir. Bu tür malzemelerin derste kullanımından önce, mümkünse farklı bir meslektaş gözü tarafından dikkatlice gözden geçirilmesi ve kimliği tahmin etmeye yarayabilecek tüm ayrıntıların test malzemeleri üzerinden çıkarılması gerekir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "7-2",
+    "baslik": "Değerlendirme",
+    "senaryo": "Bir psikolog doktor danışanı olan zihinsel engelli bir çocuğun zekasını WISC III ile yeniden ölçmüştü. Çocuğun zekası birkaç yıl önce de aynı testle bir başka testör tarafından ölçülmüştü. Bu ikinci ölçümde çocuğun zekasının 3-5 puan fazla çıkması üzerine, psikolog çocuğun ana babasına bu ZB yükselmesinin gerçek bir zihinsel ilerlemenin işareti olabileceğini söylemiştir. Psikoloğun bu tutumunu meslek etiği yönünden nasıl değerlendirirsiniz?",
+    "tartisma": "Burada psikolog ailede boş yere umut yaratmak gibi büyük bir hata yapmaktadır. Puanlardaki değişim, testin el kitabında belirtilen standart ölçme hatası limitleri içerisindedir. Yani bu puan değişimi şansa ya da bilinmeyen faktörlere bağlı bir yükselmedir. Belki de ikinci kez uygulama nedeniyle öğrenme etkisidir. Yetkin bir test kullanıcısının bunu çok iyi bilmesi gerekir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "7-6",
+    "baslik": "Test geliştirme",
+    "senaryo": "Bir psikolog doktor yıllardır kullanılmakta olan kişilik testinin ilk yazarıydı ve testin el kitabını gözden geçirip yeniden yayınlarken, önceki baskıda bulunan birkaç referansı çıkarmıştı. Bu referanslar ise bu test hakkında bazı hakemli dergilerde çıkmış eleştirel çalışmalardı. Testin kullanımına ve geçerliğine ilişkin bir takım eleştiriler getiriyorlardı. Yazara sorulduğunda, 'dünya kadar verinin' testin kullanışlılığını belgelediğini, eleştiri adı altında polemik yapan birkaç çalışmadan söz etmeye değmeyeceğini ifade etmişti. Bu davranışı meslek etiği açısından nasıl değerlendirirsiniz?",
+    "tartisma": "Burada test geliştiricisi psikoloğun yaptığı şey bir kandırma ve yanlış tanıtmadır. Normalde böyle bir durumda varsa eleştiriler de konmalıdır. Destekleyen kanıtlar getiren çalışmalarla birlikte kullanıcı bunları kendisi tartıp değeri konusunda kendisi özgür karar verebilir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "7-8",
+    "baslik": "Test etme",
+    "senaryo": "Sağır ve dilsiz olan bir kişi bir suç şüphesiyle tutuklanmıştır. Bu arada kendisinin zihinsel engelli ya da psikotik olabileceğine dair bazı kuşkular duyulmuştur. Bunu açıklığa kavuşturmak için psikolojik testler yapılması istenmiştir. Psikolog doktor, ilkokul düzeyinde okuma yazması olduğunu keşfettiği kişiye bazı kişilik ve zeka testlerinden oluşan bir test bataryası uygular. Ancak kullandığı bu testlerin tamamı normalde işiten ve konuşan kişiler için hazırlanmış testlerdir. Psikolog testlerin yönergelerini ve maddelerini kartlara yazarak uygulama yapmıştır. Psikoloğun tutumunu meslek etiği yönünden değerlendiriniz.",
+    "tartisma": "Bu psikolog oldukça yaratıcı bir yol denemiştir ama bunu yapmakla test etme etiğine uymamıştır. Testin standart veriliş prosedürünü değiştirmekle meslek etiğine uymamıştır. Ayrıca işitme engelliler için geliştirilmiş alternatif birkaç testin varlığının bilinmesine rağmen, bunlar yerine kişinin engeline uymayan testleri kullanması da etiğe uygun değildir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "8-10",
+    "baslik": "Çoklu rol ilişkileri ve çıkar çatışmaları",
+    "senaryo": "Üniversite kampüsünde bir evde yaşayan psikolog öğretim üyesi, evinin onarım işleri için kendi bölümündeki bazı öğrencileri ücreti karşılığında çalıştırmıştır. Bu durumu meslek etiği yönünden değerlendiriniz?",
+    "tartisma": "Burada potansiyel olarak etik sorun olasılığı vardır. Örneğin bu öğrencilerin sınav/ödev kağıtlarını değerlendirirken yanlı davranma riski ortaya çıkmıştır. Çoklu ilişkiye girilmemesi kuralı çiğnenmiştir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "8-12",
+    "baslik": "Çoklu ilişki - takas",
+    "senaryo": "Psikolog doktor hanımın danışanlarından biri mobilyacıydı. Kendisi evini yeniden dekore etmek istediğini bu danışanına söylemiş ve danışanı da bunu maliyetine kendisinin yapabileceğini ama bunun karşılığında da seans ücretlerinden indirim yapmasını, böylece her ikisinin de karlı çıkabileceklerini teklif etmişti. Psikolog teklifi kabul etmişti. Terapide psikolog danışana kendine zarar verici ve savunucu yönlerini yüzlemekteydi. Ancak, danışan bu tekniğe olumsuz tepki vermiş ve Etik Kurula başvurarak psikoloğun kendisini evinin dekorasyonu bitene kadar etkisiz bir tedaviye mahkum ettiğini iddia etmişti.",
+    "tartisma": "Bu vaka çoklu ilişkilerdeki takas olgusunun yıkıcı sonuçlarını çarpıcı bir biçimde göstermektedir. Psikolog girdiği takas ilişkisinden dolayı, normalde rahatlıkla kullandığı terapatik teknikleri kullanamaz hale gelebiliyor ya da burada olduğu gibi kullandığında başına iş gelebiliyor. Daha çok da bu gibi durumlarda psikolog sömürü yapar duruma düşme riskindedir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "8-22",
+    "baslik": "Yakınlara hizmet sunumu",
+    "senaryo": "Dokuz yaşındaki bir çocuğun zihinsel değerlendirilmesinin yapılması Okul Yönetimi tarafından tavsiye edilmişti. Çocuğun babası, bir psikolog doktor olan kendi kardeşinden bu değerlendirmeyi yapmasını istemişti. Amcası yeğeninin zekasını uygun bir testle ölçmüş ve ZB = 93 çıkmıştı. Çocuğun babası bu sonucu duyunca kardeşine kızmış ve 'yeğeninin okul yönetimine karşı daha iyi görünmesine yardım etmemesi' nedeniyle bozulmuştu. Bu durumu meslek etiği yönünden nasıl değerlendirirsiniz?",
+    "tartisma": "Burada amca psikolog yeğenine test yapmakla hataya düşmüş, 'yakınlara müdahale etmeme' yolundaki etik kuralı çiğnemiştir. Bu gibi durumlar potansiyel olarak var olan ilişkiler üzerinde ve beklentiler açısından umulmadık ters sonuçlara yol açabilir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "8-29",
+    "baslik": "Çıkar çatışmaları - danışanla arkadaşlık etme",
+    "senaryo": "Bir psikolog doktor 2 yıldır tedavi ettiği danışanıyla sosyal ilişkiler de kurmuştu. Şehirde iyi bir sosyal konuma sahip olan danışanla birbirlerinin evinde verilen partilere gidip geliyorlardı. Danışanın evindeki partilere şehrin ileri gelen şahsiyetleri de katılıyordu. Bir gün bir partide saçma bir mesele nedeniyle ikisi tartışmışlar ve danışan sonuçta terapiyi bırakmıştı. Bununla da kalmayarak Etik Kurula şikayette bulunup, 'psikoloğun kendisini bir danışan olarak tutmaya devam ettiğini ve bu yolla kendisinin sosyal statüsünden yararlandığını' iddia etmişti. Bu durumu meslek etiği yönünden nasıl değerlendirirsiniz?",
+    "tartisma": "Burada psikolog kasten olmasa da danışanın kafasını karıştırmıştır. Bu tür ilişkilerden kaçınması gerekirdi. Aktarım (transferans) gibi ters sonuçları olmayacaksa, danışanların çok özel gün davetlerine (evlenme, mezuniyet vb) katılınabilir. Kutlama için bir kart vermek uygundur; çok gerekliyse maddi değeri çok düşük ama terapatik amaçlara uygun bir hediye de bu gibi özel durumlarda verilebilir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "8-47",
+    "baslik": "Çıkar çatışması / danışanlara hediye verme",
+    "senaryo": "Psikolog doktor, danışanlarının çoğuna küçük boncuklar ve hoşlanabilecekleri şeyler armağan ediyormuş. Hediyeler gümüş kaşıklardan 'fitness' aletlerine kadar çok çeşitli imiş. Danışanlarını karşılamalar ve göndermeler sırasında kucaklarmış, tatillerde kart gönderir, bazılarıyla spor salonunda bazılarıyla da öğle yemeklerinde buluşurmuş. Nihayet birkaç danışanı çoğunlukla terapiyi bırakmayla ilgili olmak üzere çeşitli nedenlerle şikayet etmişler. Psikoloğun durumunu etik açıdan analiz ediniz.",
+    "tartisma": "Bu vakada psikolog onca nazik ve verici olmasına rağmen danışanlarınca şikayet edilmesine anlam verememişti. Bu yaptıklarının danışanlarında asla tümüyle karşılayamayacağı büyük bir bağımlılık yarattığını fark edemiyordu.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "10-7",
+    "baslik": "Para meseleleri",
+    "senaryo": "Psikolog doktor kendine yardım türü kitaplarıyla ve çıktığı TV programlarıyla çok meşhur biridir. Onu bu şekilde tanıyan birçok insan 'kendilerini ona gönderiyorlardı' (self-referrals)! Özel kliniğine gelen danışanlar, orada 'master' derecesine sahip psikologlarca takip ediliyorlardı ve bu psikologların bu işi meşhur psikologdan süpervizyon alarak yaptıkları açıklanıyordu. Seans ücretleri de 90 dolardı. Oysa, çalışan psikologlara seans başına 25 dolar veriliyordu ve süpervizyon da almıyorlardı. Bu vakada meslek etiği yönünden ne gibi sorunlar vardır?",
+    "tartisma": "Bu vakada, danışanları verilen hizmet konusunda 'doğru bilgilendirmeme' ve 'yanında çalıştırdığı psikologları sömürme' gibi etik kural ihlalleri saptanmıştır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "11-3",
+    "baslik": "Pazarlıkla - korkutmayla iş almak",
+    "senaryo": "Psikolog doktor davetsiz olarak gittiği evde, bir cinayetin görgü tanığı olan bir çocuğun ana babasıyla konuşup, 'kaçınılmaz olarak ortaya çıkacak TSSB sendromunu önlemek için' çocuğu kendisinin yürüttüğü bir terapi grubuna kaydettirmişti. Oysa henüz çocukta herhangi bir belirti yoktu. Çocuğun alacağı terapi hizmeti ise ücretliydi. Psikoloğun bu tutumunu değerlendiriniz?",
+    "tartisma": "Bu vakada psikolog 'zorla' ve 'korkutma' yöntemini kullanarak kendine müşteri bulmuştur ve etiği açıkça çiğnemiştir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "12-14",
+    "baslik": "Mesleğin kamuya sunumu",
+    "senaryo": "Psikolog doktor popüler bir dergiyle yaptığı söyleşide öyle bazı genellemelerde bulunmuştu ki, bunlar psikologların büyük çoğunluğunun hiç onaylamayacakları cinstendi; çünkü araştırma verileriyle desteklenmiyordu. Örneğin, 'Psikologlar nihayet anlamışlardır ki, kadınlar yapılandırılmışlık gerektiren işler için daha uygundur ama belirsizliğe tahammül gerektiren karmaşık işler için uygun değildirler.' Veya 'Psikologlar artık biliyorlar ki, sigara içme gibi kötü bir alışkanlığı kendi başınıza yenmenize hemen hemen olanak yoktur' gibi. Bu psikoloğun söz konusu tutumu hakkında meslek etiği yönünden nasıl bir değerlendirme yapılabilir?",
+    "tartisma": "Bu vakadaki psikolog bu desteksiz genellemeleri tüm psikologlara atfederek mesleği kamuoyuna yanlış tanıtmış ve hatta zedelemiştir; çünkü bunların doğru olmadığını halk bir şekilde anladığında mesleğin itibarı sarsılacaktır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "12-16",
+    "baslik": "Mesleğin kamuya sunumu",
+    "senaryo": "Yerel bir radyoda düzenlenen bir programa sürekli konuk olan psikolog, sunucuyla psikoloji üzerine sohbetler yapmaktadır. Etkili sözcükleri kolayca seçerek konuşması ve ses tonundaki otoriterlik dinleyenlerde söylediklerinin tam bilimsel olduğu yolunda bir algı yaratmaktadır ama gerçekte durum çoğunlukla bunun tersidir. Bir konuşmasında 'tecavüze uğrayan kadınların bunu bilinçaltında istediklerini; araştırmaların, bu kişilerin çocukluklarındaki fantezilerinden dolayı bunu istediklerini; fantezilerinde aynı zamanda iyi kız ve kötü kız olmaya bağlı olarak baba tarafından hem sevilme hem de cezalandırılma deneyimlendiğini' iddia etmiştir. Bu psikoloğun söz konusu tutumu hakkında meslek etiği yönünden nasıl bir değerlendirme yapılabilir?",
+    "tartisma": "Belki bir psikanaliz sürecinde buna hazır olan bir hastaya yapılabilecek bu tür bir yorumun (bilimsel olmayan spekülasyonun veya iddianın) bir radyo yayınında halka bu şekilde açıklanması, bu konuda hassasiyeti olan birçok kişi üzerinde son derece zedeleyici bir etki yapabilecektir. Kendisinde veya yakınlarında tecavüz yaşantısı olan insanlar, 'demek bilim böyle diyor' diye düşünerek suçluluk duyabileceklerdir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "12-25",
+    "baslik": "Mesleğin kamuya sunumu",
+    "senaryo": "Psikolog doktor, bir grup tarafından gazeteye verilmiş bir yahudilik karşıtı açık mektuba adını (imzasını) titrini de belirterek ('Klinik Psikolog Dr.' diye) koymuştur. Bu psikoloğun söz konusu tutumu hakkında meslek etiği yönünden nasıl bir değerlendirme yapılabilir?",
+    "tartisma": "Psikoloğun, meslekle ilgili olmayan herhangi (burada siyasi) bir metne mesleğini belirten bir imza koyması, bu meslekten olanların tamamının böyle düşündüğü izlenimi vermeyi amaçlayan veya amaçlamasa bile bu izlenimi verebilen bir yaklaşımdır ve meslek etiği yönünden kabul edilebilir bir tutum değildir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "13-19",
+    "baslik": "Meslektaşlarla ilişkiler",
+    "senaryo": "İki 'olgun' psikolog doktor meslektaş birbirlerini hem meslektaş olarak hem de kişisel olarak yıllardır tanıyorlardı ama son bir tartışma ilişkilerini bitirmişti. Sonra da biri Etik Kurula başvurarak diğerinin 'kendisinin nazi sempatizanı olduğu söylentisini yaydığı' ve aynı zamanda yarı yaşında bir kadınla da ilişkisi olduğu yönünde bir şikayette bulunmuştur. Burada şikayetçi olan psikolog için meslek etiği açısından nasıl bir yorum yapılabilir?",
+    "tartisma": "Bu şikayetçi psikoloğun bizzat kendisi, yaptığı bu şikayetle meslek etiği ilkelerinden 'meslektaşlarla iyi ilişkiler' ilkesini çiğnemiştir. Bu tür bir kişisel anlaşmazlığın mümkünse yaşanmaması ama olduysa da Etik Kurula getirilmemesi gerekir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-3",
+    "baslik": "Kamu otoritesine hizmet eden psikolog",
+    "senaryo": "Bir belediye yönetimi kendi bünyelerinde işe alım sürecinde bazı görevlilerde ırkçı bir tutum bulunup bulunmadığını araştırması için eğitimde derecesi olan bir psikolog doktoru ücreti karşılığında tutmuştur. Psikoloğun çalışmalarının sonuçları, orada aktif bir şekilde ırk ayrımı yapıldığını ortaya koymuştur. Ancak, bu bulguyu öğrenen yönetim psikologdan bu bulguyu gizli tutmasını istemiş ve sonrasında da aylar geçmesine rağmen bu yasa dışı personel alım uygulamaları konusunda hiçbir şey yapmamıştır. Psikolog etiğe uygun davranmak adına bu durumda ne yapmalıdır?",
+    "tartisma": "Burada işveren ya da müşteri bir konuda veri toplatmış ve bu verinin sahipleri olarak da gizli kalmasını istemiştir. Psikoloğun yapması gereken de bu gizliliği sağlamaktır. Varsayalım ki bu işe başlarken psikoloğa 'sen bu araştırmayı yap ve sonuçlarını bize getir, biz o sonuçları kendi bildiğimiz gibi kullanacağız, orası seni ilgilendirmeyecek' denmiş olsun. Psikolog da eğitimine uygun biçimde araştırmayı yapmış ve sonucunu müşteriye teslim etmiştir. Müşteriye ait bir bilgi de gizlidir. Gerisine karışma hakkı ve ödevi yoktur. Elbette tüm psikologların yaptıkları işlerde kendilerince istendik sonuçlara ulaşmama durumlarında karşılaştıkları can sıkıcı bir duygusal yük bulunabilir. Buradaki de böyle bir yüktür.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-4",
+    "baslik": "Kamu otoritesine hizmet eden psikolog",
+    "senaryo": "Bir subay görevli olduğu askeri üsteki hastanede çalışan psikoloğu Etik Kurula şikayet etmiş ve kendisine ait özel bilgileri komutanlarına iletmekle suçlamıştır. Kendisindeki aşırı depresyonun yukarıya bildirilmesine bağlı olarak ciddi kariyer kısıtlamalarıyla karşılaşmış olduğunu iddia etmiştir. Oysa psikoloğun ilk görüşmelerinde, tedavi ortamında elde edilecek bilgilerin gizli tutulacağını söylediğini de eklemiştir. Ancak, ABD'de kanunlar, Savunma Bakanlığına bağlı personelin özel bilgilerinin gerektiğinde temin edilmesine izin vermektedir. Burada psikoloğun davranışının etik açıdan değerlendirmesi nasıl yapılabilir.",
+    "tartisma": "Burada psikoloğun ilk görüşmede bilgilerin gizli kalacağını açıklarken, gizliliğin sınırlarını, askeri üste çalıştığını bildiği danışanına tam olarak açıklamadığı anlaşılmaktadır. Dolayısıyla, yeterliğine yönelik bir etik sorun bulunmaktadır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-9",
+    "baslik": "Kamu otoritesine hizmet eden psikolog",
+    "senaryo": "Psikolog doktor devlete ait bir gizli serviste görevlidir. İşi, dünya liderlerinin kamuya açık davranış ve el yazılarını incelemek ve bunlara bağlı karekter tahlilleri yaparak, bu kişilerin belli durumlarda ne gibi tepkiler verebileceği konusunda tahminlerde bulunmaktır. Bu bilgiler, devlet yetkililerinin söz konusu liderlerle temasları öncesinde kendilerine ulaştırılmakta ve bu yetkililer o liderin olası davranışları konusunda önceden bilgilendirilmektedir. Psikoloğun bu görevi etiğe uygun mudur?",
+    "tartisma": "Evet uygundur. İşvereni (müşterisi) için kendi bilimsel bilgi birikimi ve tecrübesini kullanarak, bunların geçerliğini de sorgulayıp rapor ederek yararlı olabilecek ürünler üretmektedir. Bunda etiğe uymayan bir durum söz konusu değildir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-11",
+    "baslik": "Kamu otoritesine hizmet eden psikolog",
+    "senaryo": "Okul psikoloğu kamuya ait bir okuldaki öğretmenlere bir hizmet içi eğitim vermektedir. Kısa süreli olarak faaliyetin yasaklanmasına dayalı bir ceza verme tekniği olan mola (time-out) tekniğinin yararlarından bahsetmiştir. Birkaç hafta sonra duymuştur ki, o konuşmasını dinleyen bir okul müdürü, bu bilginin kendisine bu hakkı verdiğini iddia ederek yaramazlık yapan bir öğrenciyi bir saat kadar karanlık bir odaya kilitlemiştir. Bu vakada psikoloğun yaklaşımını etik yönden değerlendiriniz.",
+    "tartisma": "Psikolog söz konusu eğitimi verirken bu bilginin bu kadar çabuk biçimde yanlış yorumlanıp kötüye kullanılabileceğini hayal edememiştir. İlk başta bu tekniğin nasıl uygulanabileceği konusunda uyarılarını yaparak yanlış anlaşılmaktan kaçınmaya çalışması gerekirdi. Tekniğin sınırlılıklarını da ayrıca bildirmek sorumluluğu vardı. Dahası tekniğin bilime ve etiğe uygun biçimde kullanılabileceği sabit bir sistemi de geliştirip, denetim mekanizmalarıyla birlikte kullanıma açabilirdi.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-15",
+    "baslik": "Cezaevi psikoloğu",
+    "senaryo": "Bir hapishanede davranış düzeltme (correction) konusunda görevli psikolog yeni bir mahkumun bireysel seansında verdiği bir sırla karşılaşmıştır. Buna göre yakında bir firar girişimi olacaktır ve rehineler alınması da planlanmıştır. Bunu söyledikten sonra mahkum bu bilgiyi kimseye vermemesini rica etmiş ve 'eğer diğerleri bu bilginin benden çıktığını duyarlarsa ve işleri bozulursa beni yaşatmazlar' demiştir. Bu durumda psikolog ne yapmalıdır?",
+    "tartisma": "Bir kere bu psikolog işe ilk başladığında yetkililerle yasal ve mesleki zorunlulukları konusunda ayrıntılı olarak konuşmalı ve olası durumlarda ne gibi bir tutum sergileyeceğini açık hale getirmeliydi. Eğer kendisine duyacağı tüm kural ihlallerini bildirmesi gerektiği söylendiyse ve bu durum kendisini ürküttüyse o zaman o işte çalışıp çalışmama konusundaki istekliliğini sorgulamalıydı. Ayrıca mahkumlarla uygulama yaparken de başta kendi rolünün sınırlarını ve ilişkinin doğasını açıkça anlatmalıydı. Örneğin her gizli bilgiye saygı duyup duyamayacağını en baştan ifade etmeliydi. Psikolog mesleki sorumluluk ile iş ortamının talepleri arasında kendini kuşatılmış durumda bulmamalı ve bunun için önceden gerekli tedbirleri almalıdır. Bir profesyonel ilişkinin parametrelerini ve sınırlılıklarını işin başında her iki taraf da (psikolog ve işveren) kabul ederek işe başlamalıdır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-21",
+    "baslik": "Mesleğin kötüye kullanımı: İş dünyasında hokkabazlık",
+    "senaryo": "Bir ilaç fabrikası deniz ürünleri ekstresinden elde ettiği doğal bir diyet maddesi geliştirmişti. Ardından da bir tüketici psikoloğuna başvurulmuş ve kendisinden bu ürün için bir pazarlama araştırması yapması ve reklam planlaması hazırlaması istenmişti. Sabit ücretine ek, satışların nasıl gideceğine bağlı olarak psikolog prim de alacaktı. Psikolog bu projede kullanacağı ürüne ilişkin verileri incelediğinde görmüştü ki, ürünün diyet yapmaya yararlı olduğuna dair herhangi bir kanıt yoktu. Zararlı da değildi ama yararına ilişkin hiçbir belge yoktu. Psikolog 'bundan kimse bir yara almayacak ki, hatta belki maddenin 'placebo' etkisi bazılarına yararlı bile olacak' diye düşünmüş ve bu ürünün pazarlamasına istenen katkıyı yapmıştır. Bu tutumunu etik yönden tartışınız.",
+    "tartisma": "Etkili olmayan bir ürünün promosyonuna yardımcı olmak için bu son ifade bir gerekçe olabilir mi? Elbette olamaz. Bu tür bir ürünün satışına mesleki destek sağlamak (yani meslek bilgilerini bu yönde kullanmak) 'mesleki bilgileri kötüye kullanmak' anlamına gelmektedir. Elbette bu gibi konularda bir etik şikayet olması ne yazık ki pek sözkonusu olamamaktadır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "14-22",
+    "baslik": "Endüstri psikoloğu",
+    "senaryo": "Bir motor fabrikasında işe alınan endüstri psikoloğundan, montaj hattında çalışan işçilerin yaşam kalitesini ve buradan da iş kalitesini yükseltecek bir iş zenginleştirme programı üzerinde çalışması istenmiştir. Kapsamlı bir çalışma yapan psikolog sonunda potansiyel olarak çok yararlı bazı önerilerin de sıralandığı bir rapor hazırlamış ve işverene sunmuştur. Ancak yönetim kendisine teşekkür etmiş ve o günkü koşullar altında uygulanamaz derecede 'ileri' bularak raporu rafa kaldırmıştır. Psikolog bu durumdan hayal kırıklığına uğramış ve aklına bu raporu ilk toplu sözleşme öncesi işçilerin sendikasına sızdırma fikri gelmiştir. Psikoloğun bu olası davranışını etik açıdan nasıl yorumlarsınız?",
+    "tartisma": "Bu vaka da karmaşık çatışan gereksinimlerle ilgilidir. Fabrika yönetiminin ücreti karşılığında temin ettiği uzman bilgisi ve fikri olmuştur ama buna uygun davranması bir zorunluluk değildir. Psikolog ücretini almıştır, Yönetim de istediği hizmeti almıştır. Ancak psikolog ürününün çöpe gitmiş olmasına kızgındır. Peki, müşterisine ait gizli bilgiyi sendikaya sızdırma hakkına sahip midir? Hayır değildir. Psikolog burada belki 'toplum yararı bunu gerektiriyor' diye düşünmüştür ama etik çizgide kalabilmek için müşterisinin gizlilik hakkına saygı göstermek zorundadır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "15-8",
+    "baslik": "Literatür bilgilerinin yasal sistemde kullanımı",
+    "senaryo": "Psikolog doktor görgü tanıklığı araştırmalarıyla çok iyi bilinen bir isimdi. Araştırmaları görgü tanıklarının yaptıkları teşhislere sıklıkla güvenilemeyeceğini kanıtlıyordu. Kendisi bir tecavüz davasında davalı (tecavüzle suçlanan taraf) tarafından bilirkişi olarak tutulmuştu. Psikolog tecavüze uğrayan kadına karşı sempati duymuştu ama tecavüzle suçlanan adamı (yani danışanını) görgü tanıklığı yoluyla suçlamanın da zor olduğunu biliyordu. Eğer yardımcı olursa davalının alacağı cezayı hafifletebilirdi. Danışanın da beklediği buydu. Psikolog burada müşterisinin (davalı) isteği doğrultusunda hareket etmek ve etmemek arasında nasıl bir tercihte bulunursa etik açıdan en doğru kararı vermiş olur?",
+    "tartisma": "Hiçbir psikolog kendisinden öyle istendi diye zorunlu olarak tek yanlı tanıklık yapmaz. Bu etik bir yaklaşım olmaz. Bilirkişilik yapacak bir psikoloğun var olan literatürdeki bilgiler ışığında tüm gerçekliği yansıtması gerekir. Bunu yaparken de ne zorlamayla ne de çıkar beklentisiyle hareket eder. Bu vakada psikolog, danışanın beklentisinden ve mağdura duyduğu sempatiden bağımsız olarak görgü tanıklığı bilgilerine sıklıkla güvenilemeyeceğini bildirmek zorundadır.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "15-10",
+    "baslik": "Yasal sistemde psikologlar",
+    "senaryo": "Eğitim alanında doktora derecesi olan psikolog bir çifte cinayeti soruşturan polise danışman olarak çağrılmıştı. Cinayetin görgü tanığı olduğu iddia edilen bir kadını psikolog hipnotize ederek sorgulamıştır ama kadın çok az şey hatırlamıştır. Kadın, kurbanları ateş edip vuran iki adamın kendisini zorladığını seans sırasında duygusal anlar da yaşayarak hatırlamıştır. Kadının görgü tanıklığı bu iki adamın ka'til suçuyla suçlanmasıyla sonuçlanmıştır. Ancak daha sonra bu iki adamın masum olduğu bir şekilde ortaya çıkmıştır. Görgü tanığı olan kadın ise bu iki adamın -bu sefer kendisi için- cezalandırılmasını halen istemektedir. Bu vakada psikoloğun olaya yaklaşımı için ne söylenebilir?",
+    "tartisma": "Psikoloğun hipnotize etmesini istedikleri kadının artalanını ve güdülerini yeterince iyi araştırmadığı anlaşılmaktadır. Dava sırasında psikoloğun kadına belli yönde konuşması için telkinde bulunmuş olabileceği iddiaları da dile getirilmiştir. Seansların bant kayıtları da bir şekilde silinmiştir. Bu tür hipnoz altında anıların kuvvetlendirilmesi için bireylerin potansiyel olarak uydurmalar da yapabileceği bilgisinin Jüriye verilmediği de anlaşılmıştır. Oysa psikologlar hipnozda bu tür sorunların ortaya çıkabildiğini bilmektedirler ve bu kısıtlılığını dile getirmekle yükümlüdürler. Bu vakadaki psikolog bunu es geçmiş ve etiğe uygun davranmamıştır. ABD'de bu gibi vakalar sonrasında artık kimse hipnoz altında alınmış ifadelere dayandırılarak mahkum edilmemektedir.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "16-18",
+    "baslik": "Öğretim elemanı olarak psikologlar",
+    "senaryo": "Psikolog doktor öğretim elemanı bazı öğrencilerin şikayeti üzerine üniversite yönetimi tarafından cezalandırılmıştı. 'Çağdaş Yaşam Tarzları' adlı dersini alan öğrencileri dönem ödevleri için alışılmadık yerlere gözlem yapmaya göndermişti: bekar klüpleri, 'gay' barları, çıplaklar kampı, masaj salonları, sex-shop'lar, militan politik grup mitingleri, tarikat merkezleri gibi. Psikolog öğretim elemanının durumunu mesleki etik açısından değerlendiriniz?",
+    "tartisma": "Bu öğretim elemanı psikolog, dersini almak isteyen ama bu tür yerlere gitmek istemeyen öğrencileri için başka seçenekler de sunmalıydı. Ancak, bu alternatifleri sunmuş olsaydı bile, öğrencilerini kampüs dışında bu tür riskli yerlere göndermekle, onların duygusal ve fiziksel zarar görme olasılıklarını ortaya çıkarmıştır. Bu tutumuyla öğrencileri yaşantısal olarak ve bağlı olduğu üniversiteyi de yasal yükümlülükler yönünden tehlikeye sokmuş, riske atmıştır. Bu da 'emrindekileri (danışanları, süpervizyon alanları, öğrencileri ve çalışanları) riske atmama' ilkesine aykırı bir tutum olmuştur.",
+    "kaynak": {
+      "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
+      "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",
+      "uyarlayan": "Prof. Dr. İhsan Dağ",
+      "bulten": "Türk Psikoloji Bülteni, Aralık 2007, Yıl: 13, Sayı: 41"
+    }
+  },
+  {
+    "id": "17-19",
+    "baslik": "Araştırma etiği: Katılımcı hakları",
+    "senaryo": "Psikolog doktor öğretim elemanı, öğrencilerinden dersten sonra biraz daha sınıfta kalarak kendi araştırma ölçeğini yanıtlamalarını istemiş ve bunun gönüllü bir görev olduğunu da vurgulamayı ihmal etmemiştir. Ancak, bu açıklama üzerine dışarı çıkmak üzere olan bir öğrenci yerinden kalktığı sırada, 'geri kalanların bana yardım edecek olmalarından çok memnun oldum' demiştir. Bunun üzerine, çıkmaya hazırlanan öğrenci çok utanmış, hocaya karşı gelmiş durumuna düşmekten aşağılandığını hissetmiştir. Psikolog öğretim elemanının durumunu etik açıdan değerlendiriniz.",
+    "tartisma": "Burada psikolog öğretim elemanının başta gönüllü dediği bir görev için sonradan bir öğrenciyi aşağılamaya çalışması, yani gücünü kullanarak öğrencilerin itaat etmelerini sağlamaya çalışması yüzünden gönüllülüğün şartları gerçek olarak sağlanmamıştır. Manevi zorlama vardır. Bu da 'araştırma katılımcısının haklarını' etik açıdan ihlal anlamına gelmektedir.",
     "kaynak": {
       "kitap": "Ethics in psychology: Professional standards and cases (2. baskı)",
       "yazarlar": "Koocher, G. P. ve Keith-Spiegel, P. (1998)",

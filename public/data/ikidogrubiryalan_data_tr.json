@@ -1,110 +1,300 @@
 [
   {
-    "konu": "Sigmund Freud Hakkında",
-    "kategori": "Psikanaliz",
-    "ifadeler": [
-      { "metin": "Psikanaliz ekolünün kurucusudur.", "dogruMu": true },
-      { "metin": "Kolektif Bilinçdışı kavramını geliştirmiştir.", "dogruMu": false },
-      { "metin": "Hastalarının tedavisinde hipnozu denemiştir.", "dogruMu": true }
-    ]
+  "konu": "Sigmund Freud Hakkında",
+  "kategori": "Psikanaliz",
+  "ifadeler": [
+  { "metin": "Psikanaliz ekolünün kurucusudur.", "dogruMu": true },
+  { "metin": "Kolektif Bilinçdışı kavramını geliştirmiştir.", "dogruMu": false },
+  { "metin": "Hastalarının tedavisinde hipnozu denemiştir.", "dogruMu": true }
+  ]
   },
   {
-    "konu": "Milgram Deneyi Hakkında",
-    "kategori": "Sosyal Psikoloji",
-    "ifadeler": [
-      { "metin": "Deney, otoriteye itaati ölçmek için tasarlanmıştır.", "dogruMu": true },
-      { "metin": "Katılımcılar, öğrencilere gerçek elektrik şoku vermişlerdir.", "dogruMu": false },
-      { "metin": "Yale Üniversitesi'nde gerçekleştirilmiştir.", "dogruMu": true }
-    ]
+  "konu": "Milgram Deneyi Hakkında",
+  "kategori": "Sosyal Psikoloji",
+  "ifadeler": [
+  { "metin": "Deney, otoriteye itaati ölçmek için tasarlanmıştır.", "dogruMu": true },
+  { "metin": "Katılımcılar, öğrencilere gerçek elektrik şoku vermişlerdir.", "dogruMu": false },
+  { "metin": "Yale Üniversitesi'nde gerçekleştirilmiştir.", "dogruMu": true }
+  ]
   },
   {
-    "konu": "Carl Jung Hakkında",
-    "kategori": "Analitik Psikoloji",
-    "ifadeler": [
-      { "metin": "Kolektif Bilinçdışı kavramını geliştirmiştir.", "dogruMu": true },
-      { "metin": "Freud'un öğrencisi olup onunla yollarını ayırmıştır.", "dogruMu": true },
-      { "metin": "Operant koşullanma teorisini geliştirmiştir.", "dogruMu": false }
-    ]
+  "konu": "Carl Jung Hakkında",
+  "kategori": "Analitik Psikoloji",
+  "ifadeler": [
+  { "metin": "Kolektif Bilinçdışı kavramını geliştirmiştir.", "dogruMu": true },
+  { "metin": "Freud'un öğrencisi olup onunla yollarını ayırmıştır.", "dogruMu": true },
+  { "metin": "Operant koşullanma teorisini geliştirmiştir.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Pavlov'un Deneyi Hakkında",
-    "kategori": "Davranışçı Psikoloji",
-    "ifadeler": [
-      { "metin": "Köpeklerle klasik koşullanma deneyini yapmıştır.", "dogruMu": true },
-      { "metin": "Tavuk kafesiyle sosyal öğrenme teorisini geliştirmiştir.", "dogruMu": false },
-      { "metin": "Koşulsuz uyaran ve koşullu uyaran kavramlarını ortaya koymuştur.", "dogruMu": true }
-    ]
+  "konu": "Pavlov'un Deneyi Hakkında",
+  "kategori": "Davranışçı Psikoloji",
+  "ifadeler": [
+  { "metin": "Köpeklerle klasik koşullanma deneyini yapmıştır.", "dogruMu": true },
+  { "metin": "Tavuk kafesiyle sosyal öğrenme teorisini geliştirmiştir.", "dogruMu": false },
+  { "metin": "Koşulsuz uyaran ve koşullu uyaran kavramlarını ortaya koymuştur.", "dogruMu": true }
+  ]
   },
   {
-    "konu": "Maslow'un İhtiyaçlar Hiyerarşisi",
-    "kategori": "Hümanistik Psikoloji",
-    "ifadeler": [
-      { "metin": "Fizyolojik ihtiyaçlar en altta yer alır.", "dogruMu": true },
-      { "metin": "Kendini gerçekleştirme en üst basamakta yer alır.", "dogruMu": true },
-      { "metin": "Toplam 7 basamaktan oluşmaktadır.", "dogruMu": false }
-    ]
+  "konu": "Maslow'un İhtiyaçlar Hiyerarşisi",
+  "kategori": "Hümanistik Psikoloji",
+  "ifadeler": [
+  { "metin": "Fizyolojik ihtiyaçlar en altta yer alır.", "dogruMu": true },
+  { "metin": "Kendini gerçekleştirme en üst basamakta yer alır.", "dogruMu": true },
+  { "metin": "Toplam 7 basamaktan oluşmaktadır.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Skinner Kutusu Deneyi",
-    "kategori": "Davranışçı Psikoloji",
-    "ifadeler": [
-      { "metin": "B.F. Skinner tarafından geliştirilmiştir.", "dogruMu": true },
-      { "metin": "Operant koşullanmayı göstermek için kullanılmıştır.", "dogruMu": true },
-      { "metin": "İlk olarak insanlar üzerinde denenmiştir.", "dogruMu": false }
-    ]
+  "konu": "Skinner Kutusu Deneyi",
+  "kategori": "Davranışçı Psikoloji",
+  "ifadeler": [
+  { "metin": "B.F. Skinner tarafından geliştirilmiştir.", "dogruMu": true },
+  { "metin": "Operant koşullanmayı göstermek için kullanılmıştır.", "dogruMu": true },
+  { "metin": "İlk olarak insanlar üzerinde denenmiştir.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Erik Erikson'un Gelişim Teorisi",
-    "kategori": "Gelişim Psikolojisi",
-    "ifadeler": [
-      { "metin": "8 psikososyal gelişim evresinden oluşur.", "dogruMu": true },
-      { "metin": "Sadece çocukluk dönemini ele almaktadır.", "dogruMu": false },
-      { "metin": "Her evrede farklı bir kriz yaşanır.", "dogruMu": true }
-    ]
+  "konu": "Erik Erikson'un Gelişim Teorisi",
+  "kategori": "Gelişim Psikolojisi",
+  "ifadeler": [
+  { "metin": "8 psikososyal gelişim evresinden oluşur.", "dogruMu": true },
+  { "metin": "Sadece çocukluk dönemini ele almaktadır.", "dogruMu": false },
+  { "metin": "Her evrede farklı bir kriz yaşanır.", "dogruMu": true }
+  ]
   },
   {
-    "konu": "Stanford Hapishane Deneyi",
-    "kategori": "Sosyal Psikoloji",
-    "ifadeler": [
-      { "metin": "Philip Zimbardo tarafından yürütülmüştür.", "dogruMu": true },
-      { "metin": "2 hafta sürmesi planlanmış ancak 6 gün sonra durdurulmuştur.", "dogruMu": true },
-      { "metin": "Harvard Üniversitesi'nde gerçekleştirilmiştir.", "dogruMu": false }
-    ]
+  "konu": "Stanford Hapishane Deneyi",
+  "kategori": "Sosyal Psikoloji",
+  "ifadeler": [
+  { "metin": "Philip Zimbardo tarafından yürütülmüştür.", "dogruMu": true },
+  { "metin": "2 hafta sürmesi planlanmış ancak 6 gün sonra durdurulmuştur.", "dogruMu": true },
+  { "metin": "Harvard Üniversitesi'nde gerçekleştirilmiştir.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Jean Piaget'nin Bilişsel Gelişim Teorisi",
-    "kategori": "Gelişim Psikolojisi",
-    "ifadeler": [
-      { "metin": "4 temel gelişim evresinden oluşur.", "dogruMu": true },
-      { "metin": "Somut işlemler evresi 7-11 yaş arasını kapsar.", "dogruMu": true },
-      { "metin": "İlk evre 'Dil öncesi dönem' olarak adlandırılır.", "dogruMu": false }
-    ]
+  "konu": "Jean Piaget'nin Bilişsel Gelişim Teorisi",
+  "kategori": "Gelişim Psikolojisi",
+  "ifadeler": [
+  { "metin": "4 temel gelişim evresinden oluşur.", "dogruMu": true },
+  { "metin": "Somut işlemler evresi 7-11 yaş arasını kapsar.", "dogruMu": true },
+  { "metin": "İlk evre 'Dil öncesi dönem' olarak adlandırılır.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Gestalt Psikolojisi",
-    "kategori": "Algı Psikolojisi",
-    "ifadeler": [
-      { "metin": "Almanya'da ortaya çıkmıştır.", "dogruMu": true },
-      { "metin": "Bütünün parçalardan büyük olduğunu savunur.", "dogruMu": true },
-      { "metin": "Sigmund Freud tarafından kurulmuştur.", "dogruMu": false }
-    ]
+  "konu": "Gestalt Psikolojisi",
+  "kategori": "Algı Psikolojisi",
+  "ifadeler": [
+  { "metin": "Almanya'da ortaya çıkmıştır.", "dogruMu": true },
+  { "metin": "Bütünün parçalardan büyük olduğunu savunur.", "dogruMu": true },
+  { "metin": "Sigmund Freud tarafından kurulmuştur.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Albert Bandura'nın Sosyal Öğrenme Teorisi",
-    "kategori": "Sosyal Psikoloji",
-    "ifadeler": [
-      { "metin": "Bebek Bobo deneyi ile ünlüdür.", "dogruMu": true },
-      { "metin": "Gözlemleyerek öğrenmenin önemini vurgulamıştır.", "dogruMu": true },
-      { "metin": "Operant koşullanma teorisini geliştirmiştir.", "dogruMu": false }
-    ]
+  "konu": "Albert Bandura'nın Sosyal Öğrenme Teorisi",
+  "kategori": "Sosyal Psikoloji",
+  "ifadeler": [
+  { "metin": "Bobo Bebek deneyi ile ünlüdür.", "dogruMu": true },
+  { "metin": "Gözlemleyerek öğrenmenin önemini vurgulamıştır.", "dogruMu": true },
+  { "metin": "Operant koşullanma teorisini geliştirmiştir.", "dogruMu": false }
+  ]
   },
   {
-    "konu": "Asch Uygunluk Deneyleri",
-    "kategori": "Sosyal Psikoloji",
-    "ifadeler": [
-      { "metin": "Grup baskısının bireysel yargıları nasıl etkilediğini göstermiştir.", "dogruMu": true },
-      { "metin": "Çizgi uzunluğu karşılaştırması yapılmıştır.", "dogruMu": true },
-      { "metin": "Stanley Milgram tarafından yürütülmüştür.", "dogruMu": false }
-    ]
+  "konu": "Asch Uygunluk Deneyleri",
+  "kategori": "Sosyal Psikoloji",
+  "ifadeler": [
+  { "metin": "Grup baskısının bireysel yargıları nasıl etkilediğini göstermiştir.", "dogruMu": true },
+  { "metin": "Çizgi uzunluğu karşılaştırması yapılmıştır.", "dogruMu": true },
+  { "metin": "Stanley Milgram tarafından yürütülmüştür.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Bilişsel Çelişki Teorisi",
+  "kategori": "Sosyal Psikoloji",
+  "ifadeler": [
+  { "metin": "Leon Festinger tarafından geliştirilmiştir.", "dogruMu": true },
+  { "metin": "İnsanların tutumları ve davranışları arasında tutarlılık arayışında olduğunu savunur.", "dogruMu": true },
+  { "metin": "Sadece travmatik deneyimler sonucunda ortaya çıkar.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Öğrenilmiş Çaresizlik Deneyi",
+  "kategori": "Davranışçı Psikoloji",
+  "ifadeler": [
+  { "metin": "Martin Seligman tarafından köpeklerle yapılan deneylere dayanır.", "dogruMu": true },
+  { "metin": "Kişinin, sonuçları kontrol edemeyeceğine inandığı durumlarda motivasyonunun düşmesini açıklar.", "dogruMu": true },
+  { "metin": "Deney, katılımcıların problem çözme becerilerini artırmayı amaçlamıştır.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Bağlanma Teorisi",
+  "kategori": "Gelişim Psikolojisi",
+  "ifadeler": [
+  { "metin": "John Bowlby tarafından ortaya atılmıştır.", "dogruMu": true },
+  { "metin": "Bebekler ve birincil bakıcıları arasındaki güçlü duygusal bağı inceler.", "dogruMu": true },
+  { "metin": "Sadece insanlarda gözlemlenen bir durumdur.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "DSM (Ruhsal Bozuklukların Tanısal ve Sayımsal El Kitabı)",
+  "kategori": "Klinik Psikoloji",
+  "ifadeler": [
+  { "metin": "Amerikan Psikiyatri Birliği (APA) tarafından yayınlanmaktadır.", "dogruMu": true },
+  { "metin": "Ruhsal bozuklukların tanı ölçütlerini içerir.", "dogruMu": true },
+  { "metin": "Tedavi yöntemleri hakkında detaylı kılavuzlar sunar.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Savunma Mekanizmaları",
+  "kategori": "Psikanaliz",
+  "ifadeler": [
+  { "metin": "Kavram ilk olarak Sigmund Freud tarafından ortaya atılmıştır.", "dogruMu": true },
+  { "metin": "Ego'nun kaygıyla başa çıkmak için kullandığı bilinçdışı stratejilerdir.", "dogruMu": true },
+  { "metin": "Her zaman patolojik ve sağlıksız olarak kabul edilirler.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Bilişsel Davranışçı Terapi (BDT)",
+  "kategori": "Psikoterapi",
+  "ifadeler": [
+  { "metin": "Düşünce, duygu ve davranış arasındaki ilişkiye odaklanır.", "dogruMu": true },
+  { "metin": "Aaron Beck, bu yaklaşımın öncülerinden biridir.", "dogruMu": true },
+  { "metin": "Sadece geçmiş travmatik anıları çözümlemeye odaklanır.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Bellek Türleri",
+  "kategori": "Bilişsel Psikoloji",
+  "ifadeler": [
+  { "metin": "Kısa süreli bellek, sınırlı miktarda bilgiyi kısa bir süre için tutar.", "dogruMu": true },
+  { "metin": "Anısal bellek, kişisel yaşantılarımızı ve deneyimlerimizi içerir.", "dogruMu": true },
+  { "metin": "İşlemsel bellek, bilinçli olarak hatırlanan gerçekleri ve bilgileri depolar.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Çoklu Zeka Kuramı",
+  "kategori": "Eğitim Psikolojisi",
+  "ifadeler": [
+  { "metin": "Howard Gardner tarafından geliştirilmiştir.", "dogruMu": true },
+  { "metin": "Zekanın tek bir boyutta değil, birden çok farklı alanda var olduğunu öne sürer.", "dogruMu": true },
+  { "metin": "Toplamda üç ana zeka türü olduğunu belirtir.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Nörotransmitterler",
+  "kategori": "Biyopsikoloji",
+  "ifadeler": [
+  { "metin": "Sinir hücreleri arasında iletişimi sağlayan kimyasal habercilerdir.", "dogruMu": true },
+  { "metin": "Dopamin ve serotonin, ruh hali ve motivasyonla ilişkili nörotransmitterlerdendir.", "dogruMu": true },
+  { "metin": "Sadece beyinde bulunurlar.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Hümanistik Psikoloji",
+  "kategori": "Psikoloji Ekolleri",
+  "ifadeler": [
+  { "metin": "Carl Rogers ve Abraham Maslow bu ekolün önemli temsilcilerindendir.", "dogruMu": true },
+  { "metin": "Bireyin özgür iradesi, kişisel gelişimi ve kendini gerçekleştirme potansiyelini vurgular.", "dogruMu": true },
+  { "metin": "İnsan davranışlarını tamamen bilinçdışı süreçlerle açıklar.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Lev Vygotsky'nin Sosyokültürel Gelişim Kuramı",
+  "kategori": "Gelişim Psikolojisi",
+  "ifadeler": [
+  { "metin": "Yakınsal gelişim alanı (zone of proximal development) kavramını ortaya atmıştır.", "dogruMu": true },
+  { "metin": "Öğrenmenin, sosyal etkileşimler ve kültür aracılığıyla gerçekleştiğini savunur.", "dogruMu": true },
+  { "metin": "Gelişimin evrensel ve biyolojik temelli olduğunu vurgulamıştır.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Alfred Adler'in Bireysel Psikolojisi",
+  "kategori": "Psikanaliz Sonrası Kuramlar",
+  "ifadeler": [
+  { "metin": "Aşağılık kompleksi kavramını psikolojiye kazandırmıştır.", "dogruMu": true },
+  { "metin": "Doğum sırasının kişilik gelişiminde önemli olduğunu savunmuştur.", "dogruMu": true },
+  { "metin": "İnsan davranışlarının temel motivasyonunun cinsel dürtüler olduğunu öne sürmüştür.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Hafıza Çeşitleri",
+  "kategori": "Bilişsel Psikoloji",
+  "ifadeler": [
+  { "metin": "Anısal bellek (epizodik bellek), kişisel deneyimlerin depolandığı yerdir.", "dogruMu": true },
+  { "metin": "Anlamsal bellek (semantik bellek), genel dünya bilgisi ve kavramları içerir.", "dogruMu": true },
+  { "metin": "Tüm anılar uzun süreli bellekte kalıcı olarak saklanır ve asla unutulmaz.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Carl Rogers ve Danışan Odaklı Terapi",
+  "kategori": "Hümanistik Psikoloji",
+  "ifadeler": [
+  { "metin": "Koşulsuz olumlu kabul kavramını geliştirmiştir.", "dogruMu": true },
+  { "metin": "Terapistin görevinin, danışana yol göstermek ve tavsiye vermek olduğunu savunur.", "dogruMu": false },
+  { "metin": "Empatik anlayışın terapötik süreçte kritik olduğunu vurgulamıştır.", "dogruMu": true }
+  ]
+  },
+  {
+  "konu": "Küçük Albert Deneyi",
+  "kategori": "Davranışçı Psikoloji",
+  "ifadeler": [
+  { "metin": "John B. Watson ve Rosalie Rayner tarafından yürütülmüştür.", "dogruMu": true },
+  { "metin": "Klasik koşullanma yoluyla insanlarda korku tepkisinin nasıl oluşturulabileceğini göstermiştir.", "dogruMu": true },
+  { "metin": "Deney, katılımcının koşullanmış korkusunu ortadan kaldırmak için sistematik duyarsızlaştırma ile sonlandırılmıştır.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "İki Faktörlü Duygu Kuramı (Schachter-Singer)",
+  "kategori": "Bilişsel Psikoloji",
+  "ifadeler": [
+  { "metin": "Duygusal deneyimin iki faktörden oluştuğunu öne sürer: fizyolojik uyarılma ve bilişsel etiketleme.", "dogruMu": true },
+  { "metin": "Fizyolojik uyarılmanın tek başına duyguyu belirlediğini savunur.", "dogruMu": false },
+  { "metin": "Deneylerinde katılımcılara adrenalin enjekte edilmiştir.", "dogruMu": true }
+  ]
+  },
+  {
+  "konu": "Lawrence Kohlberg'in Ahlaki Gelişim Evreleri",
+  "kategori": "Gelişim Psikolojisi",
+  "ifadeler": [
+  { "metin": "Jean Piaget'nin çalışmalarından etkilenerek ahlaki gelişim teorisini geliştirmiştir.", "dogruMu": true },
+  { "metin": "Teorisi üç ana düzeyden (gelenek öncesi, geleneksel, gelenek sonrası) ve altı evreden oluşur.", "dogruMu": true },
+  { "metin": "Carol Gilligan, bu teorinin kadınların ahlaki gelişimini yeterince yansıtmadığını belirterek eleştirmiştir.", "dogruMu": true }
+  ]
+  },
+  {
+  "konu": "Nöropsikoloji",
+  "kategori": "Biyopsikoloji",
+  "ifadeler": [
+  { "metin": "Beyin ve davranış arasındaki ilişkileri inceler.", "dogruMu": true },
+  { "metin": "Klinik nöropsikoloji, beyin hasarının bilişsel ve davranışsal etkilerinin değerlendirilmesi ve rehabilitasyonu ile ilgilenir.", "dogruMu": true },
+  { "metin": "Frenoloji (kafatası bilimi), nöropsikolojinin temelini oluşturan geçerli bir bilim dalı olarak kabul edilir.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Öğrenilmiş Çaresizlik",
+  "kategori": "Pozitif Psikoloji / Davranışçılık",
+  "ifadeler": [
+  { "metin": "Martin Seligman tarafından yapılan deneylerle kavramsallaştırılmıştır.", "dogruMu": true },
+  { "metin": "Kişinin, olayların sonuçlarını kontrol edemeyeceğine inanması durumudur.", "dogruMu": true },
+  { "metin": "Sadece hayvanlarda gözlemlenen bir fenomendir.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "EMDR (Göz Hareketleriyle Duyarsızlaştırma ve Yeniden İşleme)",
+  "kategori": "Psikoterapi",
+  "ifadeler": [
+  { "metin": "Francine Shapiro tarafından geliştirilmiş bir terapi yöntemidir.", "dogruMu": true },
+  { "metin": "Özellikle travma sonrası stres bozukluğu (TSSB) tedavisinde etkili olduğu bilinmektedir.", "dogruMu": true },
+  { "metin": "Terapinin temel amacı, travmatik anıları unutturmaktır.", "dogruMu": false }
+  ]
+  },
+  {
+  "konu": "Id, Ego ve Süperego",
+  "kategori": "Psikanaliz",
+  "ifadeler": [
+  { "metin": "Sigmund Freud'un yapısal kişilik kuramının üç temel bileşenidir.", "dogruMu": true },
+  { "metin": "Id, haz ilkesine göre çalışır ve içgüdüsel dürtülerin kaynağıdır.", "dogruMu": true },
+  { "metin": "Süperego, kişiliğin gerçeklik ilkesiyle hareket eden ve mantıklı kararlar alan bölümüdür.", "dogruMu": false }
+  ]
   }
-]
+  ]
+  
