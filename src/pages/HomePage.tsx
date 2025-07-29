@@ -215,7 +215,7 @@ export const HomePage = () => {
   return <AppLayout showBottomNav={true}>
     <div className="min-h-screen bg-background page-fade-in flex flex-col justify-center mx-0 my-0 py-0 px-0">
       {/* Header - Ortalanmış */}
-      <div className="text-center mb-12 py-0 px-0 mx-0 my-0">
+      <div className="text-center mb-12 py-0 px-0 mx-0 my-[14px]">
         <div className="w-20 h-20 mx-auto mb-6">
           <img src={logoImage} alt="PsikOyun Logo" className="w-full h-full rounded-3xl shadow-elevated object-cover" />
         </div>
@@ -229,7 +229,7 @@ export const HomePage = () => {
       <div className="px-6 pb-8 my-[13px]">
         {/* Grup Oyunları */}
         <div className="mb-8">
-          <h2 className="text-lg font-bold text-foreground mb-4 text-center">Grup Oyunları</h2>
+          <h2 className="text-lg font-bold text-foreground mb-4 text-center mx-0 py-0 px-0 my-0">Grup Oyunları</h2>
           <div className="grid grid-cols-2 gap-3 max-w-lg mx-auto w-full">
           <Card className="p-0 overflow-hidden shadow-card">
             <button onClick={() => {
@@ -298,7 +298,7 @@ export const HomePage = () => {
 
         {/* Tek Kişi Oyunları */}
         <div>
-          <h2 className="text-lg font-bold text-foreground mb-4 text-center">Tek Kişi Oyunları</h2>
+          <h2 className="text-lg font-bold text-foreground mb-4 text-center mx-0 py-0">Tek Kişi Oyunları</h2>
           <div className="grid grid-cols-2 gap-3 max-w-lg mx-auto w-full">
             <Card className="p-0 overflow-hidden shadow-card">
               <button onClick={() => setCurrentPhase('iki-dogru-bir-yalan-setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
