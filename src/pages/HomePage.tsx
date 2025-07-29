@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { MessageCircle, Brain, Target, BookOpen, HelpCircle } from 'lucide-react';
-import logoImage from '@/assets/psikooyun-logo.png';
+import logoImage from '/lovable-uploads/9ddc97b4-8710-4ea6-9b87-b4d511fef382.png';
 import { Card } from '@/components/shared/Card';
 import { AppLayout } from '@/components/shared/AppLayout';
 import { TeamSetup } from './TeamSetup';
@@ -217,9 +217,9 @@ export const HomePage = () => {
       {/* Header - Ortalanmış */}
       <div className="text-center mb-12 py-0 px-0 mx-0">
         <div className="w-20 h-20 mx-auto mb-6">
-          <img src={logoImage} alt="PsikoOyun Logo" className="w-full h-full rounded-3xl shadow-elevated object-cover" />
+          <img src={logoImage} alt="PsikOyun Logo" className="w-full h-full rounded-3xl shadow-elevated object-cover" />
         </div>
-        <h1 className="text-4xl font-bold text-primary mb-3">PsikoOyun</h1>
+        <h1 className="text-4xl font-bold text-primary mb-3">PsikOyun</h1>
         <p className="text-base text-muted-foreground px-6 max-w-sm mx-auto">
           Psikoloji oyunları ile eğlenceli vakit geçir!
         </p>

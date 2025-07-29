@@ -10,7 +10,7 @@ export const useSystemTheme = () => {
     const settings = loadSettings();
     
     // Eğer kullanıcı daha önce bir tercih yapmamışsa sistem ayarını kullan
-    if (settings.darkMode === undefined) {
+    if (settings.darkMode === undefined || typeof settings.darkMode !== 'boolean') {
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       
       // Sistem ayarını kaydet ve uygula

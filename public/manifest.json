@@ -1,7 +1,7 @@
 {
-  "name": "PsikoOyun - Psikoloji Tabu Oyunu",
-  "short_name": "PsikoOyun",
-  "description": "Psikoloji terimleri ile tabu oyunu. Öğrenciler ve meraklılar için eğlenceli öğrenme deneyimi.",
+  "name": "PsikOyun v1.0.0 - Psikoloji Oyunları",
+  "short_name": "PsikOyun",
+  "description": "Psikoloji terimleri ile çeşitli oyunlar. Öğrenciler ve meraklılar için eğlenceli öğrenme deneyimi.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8FAFC",
@@ -10,13 +10,13 @@
   "scope": "/",
   "icons": [
     {
-      "src": "/lovable-uploads/2cc5d98d-b003-4b97-9481-090f5cff149c.png",
+      "src": "/lovable-uploads/9ddc97b4-8710-4ea6-9b87-b4d511fef382.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/lovable-uploads/2cc5d98d-b003-4b97-9481-090f5cff149c.png",
+      "src": "/lovable-uploads/9ddc97b4-8710-4ea6-9b87-b4d511fef382.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -32,13 +32,13 @@
   "prefer_related_applications": false,
   "shortcuts": [
     {
-      "name": "Psikoloji Tabu",
-      "short_name": "Tabu",
-      "description": "Psikoloji terimleri ile tabu oyunu",
+      "name": "PsikOyun Oyunları",
+      "short_name": "Oyunlar",
+      "description": "Psikoloji oyunlarına hızlı erişim",
       "url": "/",
       "icons": [
         {
-          "src": "/lovable-uploads/2cc5d98d-b003-4b97-9481-090f5cff149c.png",
+          "src": "/lovable-uploads/9ddc97b4-8710-4ea6-9b87-b4d511fef382.png",
           "sizes": "192x192",
           "type": "image/png"
         }

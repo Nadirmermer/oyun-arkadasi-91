@@ -35,17 +35,22 @@ export const AboutModal = ({
           {/* Content */}
           <div className="space-y-4">
             <div>
-              <h4 className="font-semibold text-foreground mb-2 mx-0 text-left">PsikoOyun</h4>
+              <h4 className="font-semibold text-foreground mb-2 mx-0 text-left">PsikOyun v1.0.0</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Psikoloji öğrencileri ve meraklıları için özel olarak tasarlanan eğlenceli oyun koleksiyonu. 
                 Psikoloji terimlerini öğrenirken eğlenin, arkadaşlarınızla yarışın!
               </p>
             </div>
             
-            
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">Oyunlar</h4>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Tabu, Ben Kimim, İki Doğru Bir Yalan, Bil Bakalım, Renk Dizisi ve Etik Problemler.
+              </p>
+            </div>
             
             <div>
-              <h4 className="font-semibold text-foreground mb-2">Yapan</h4>
+              <h4 className="font-semibold text-foreground mb-2">Geliştirici</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">Nadir Mermer tarafından geliştirilmiştir.</p>
             </div>
           </div>
