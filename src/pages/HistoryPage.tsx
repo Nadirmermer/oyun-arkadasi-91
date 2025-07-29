@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Trash2, Trophy, Brain, MessageCircle, Calendar, Crown, TrashIcon } from 'lucide-react';
+import { Trash2, Trophy, Brain, MessageCircle, Calendar, Crown, TrashIcon, Book, Lightbulb, Palette } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { GameRecord, loadGameRecords, deleteGameRecord, clearAllGameRecords } from '@/lib/storage';
@@ -41,6 +41,12 @@ export const HistoryPage = () => {
         return <Brain className="w-6 h-6" />;
       case 'IkiDogruBirYalan':
         return <Trophy className="w-6 h-6" />;
+      case 'BilBakalim':
+        return <Lightbulb className="w-6 h-6" />;
+      case 'RenkDizisi':
+        return <Palette className="w-6 h-6" />;
+      case 'EtikProblemler':
+        return <Book className="w-6 h-6" />;
       default:
         return <Trophy className="w-6 h-6" />;
     }
@@ -53,6 +59,12 @@ export const HistoryPage = () => {
         return 'Ben Kimim?';
       case 'IkiDogruBirYalan':
         return 'İki Doğru Bir Yalan';
+      case 'BilBakalim':
+        return 'Bil Bakalım';
+      case 'RenkDizisi':
+        return 'Renk Dizisi';
+      case 'EtikProblemler':
+        return 'Etik Problemler';
       default:
         return gameType;
     }

@@ -8,6 +8,7 @@ import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { EtikProblemlerEngine } from '@/games/etikproblemler/EtikProblemlerEngine';
 import { EtikProblemlerGameState } from '@/types/etikproblemler';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { saveGameRecord } from '@/lib/storage';
 export const EtikProblemlerScreen = () => {
   const [gameEngine] = useState(() => new EtikProblemlerEngine());
   const [gameState, setGameState] = useState<EtikProblemlerGameState | null>(null);
@@ -44,6 +45,18 @@ export const EtikProblemlerScreen = () => {
     setGameState(gameEngine.getGameState());
   };
   const handleGoHome = () => {
+    // Oyun kaydını kaydet - Etik Problemler sadece vaka sayısını takip eder
+    const gameResult = {
+      id: Date.now().toString(),
+      gameType: 'EtikProblemler' as const,
+      gameDate: new Date().toISOString(),
+      results: [{
+        name: 'İncelenen Vaka',
+        score: gameState?.currentVakaIndex ? gameState.currentVakaIndex + 1 : 1
+      }],
+      winner: 'Oyuncu'
+    };
+    saveGameRecord(gameResult);
     navigate('/');
   };
   if (!gameState || !gameState.currentVaka) {
