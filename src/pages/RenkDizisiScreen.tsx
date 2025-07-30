@@ -55,7 +55,7 @@ export const RenkDizisiScreen = () => {
 
   // Oyunu manuel başlatma için hazırla
   useEffect(() => {
-    // Oyun motorunu hazırla ama henüz başlatma
+    // Oyun motorunu hazırla ama henüz başlatma - küçük gecikme ekle
     gameEngine.resetGame();
   }, [gameEngine]);
 
@@ -75,8 +75,11 @@ export const RenkDizisiScreen = () => {
 
   // Yeni oyun
   const handleNewGame = useCallback(() => {
-    gameEngine.startGame();
-    setIsPaused(false);
+    // 1 saniye bekle sonra oyunu başlat
+    setTimeout(() => {
+      gameEngine.startGame();
+      setIsPaused(false);
+    }, 1000);
   }, [gameEngine]);
 
   // Duraklat/Devam
@@ -85,10 +88,10 @@ export const RenkDizisiScreen = () => {
       if (gameState.isUserTurn || isPaused) {
         setIsPaused(!isPaused);
         gameEngine.togglePause();
-        setShowPauseModal(!showPauseModal);
+        setShowPauseModal(!isPaused); // Pause modunu doğru şekilde göster
       }
     }
-  }, [gameEngine, gameState, isPaused, showPauseModal]);
+  }, [gameEngine, gameState, isPaused]);
 
   // Ana menüye dön - Eğer oyun başlamadıysa direkt git, başladıysa modal göster
   const handleGoHome = useCallback(() => {
@@ -115,16 +118,16 @@ export const RenkDizisiScreen = () => {
     
     const colorClasses = {
       blue: isActive 
-        ? 'bg-blue-500 border-blue-700 shadow-2xl shadow-blue-500/60 ring-8 ring-blue-300/70 animate-color-flash' 
+        ? 'bg-blue-500 border-blue-700 shadow-2xl shadow-blue-500/60 ring-4 ring-blue-300/70 animate-pulse' 
         : 'bg-blue-400 border-blue-600 hover:bg-blue-500 hover:shadow-xl hover:shadow-blue-400/40 hover:scale-105',
       green: isActive 
-        ? 'bg-green-500 border-green-700 shadow-2xl shadow-green-500/60 ring-8 ring-green-300/70 animate-color-flash' 
+        ? 'bg-green-500 border-green-700 shadow-2xl shadow-green-500/60 ring-4 ring-green-300/70 animate-pulse' 
         : 'bg-green-400 border-green-600 hover:bg-green-500 hover:shadow-xl hover:shadow-green-400/40 hover:scale-105',
       red: isActive 
-        ? 'bg-red-500 border-red-700 shadow-2xl shadow-red-500/60 ring-8 ring-red-300/70 animate-color-flash' 
+        ? 'bg-red-500 border-red-700 shadow-2xl shadow-red-500/60 ring-4 ring-red-300/70 animate-pulse' 
         : 'bg-red-400 border-red-600 hover:bg-red-500 hover:shadow-xl hover:shadow-red-400/40 hover:scale-105',
       yellow: isActive 
-        ? 'bg-yellow-500 border-yellow-700 shadow-2xl shadow-yellow-500/60 ring-8 ring-yellow-300/70 animate-color-flash' 
+        ? 'bg-yellow-500 border-yellow-700 shadow-2xl shadow-yellow-500/60 ring-4 ring-yellow-300/70 animate-pulse' 
         : 'bg-yellow-400 border-yellow-600 hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-400/40 hover:scale-105'
     };
 

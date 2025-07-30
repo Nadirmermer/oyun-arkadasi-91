@@ -9,16 +9,19 @@ export const useSystemTheme = () => {
   useEffect(() => {
     const settings = loadSettings();
     
-    // Eğer kullanıcı daha önce bir tercih yapmamışsa sistem ayarını kullan
-    if (settings.darkMode === undefined || typeof settings.darkMode !== 'boolean') {
+    // İlk yükleme kontrol et
+    const isFirstLoad = !localStorage.getItem('themeInitialized');
+    
+    if (isFirstLoad) {
+      // İlk kez açılıyor - sistem temasını kullan
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       
-      // Sistem ayarını kaydet ve uygula
       const newSettings = {
         ...settings,
         darkMode: prefersDark
       };
       saveSettings(newSettings);
+      localStorage.setItem('themeInitialized', 'true');
       
       // Temayı uygula
       if (prefersDark) {
@@ -27,11 +30,21 @@ export const useSystemTheme = () => {
         document.documentElement.classList.remove('dark');
       }
     } else {
-      // Kullanıcı tercihi varsa onu uygula
-      if (settings.darkMode) {
-        document.documentElement.classList.add('dark');
+      // Daha önce yüklenmiş - kullanıcı tercihini kullan
+      if (typeof settings.darkMode === 'boolean') {
+        if (settings.darkMode) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
       } else {
-        document.documentElement.classList.remove('dark');
+        // Fallback: sistem teması
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (prefersDark) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
       }
     }
     

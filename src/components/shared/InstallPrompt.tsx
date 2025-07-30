@@ -32,14 +32,19 @@ export const InstallPrompt = memo(() => {
       e.preventDefault();
       setDeferredPrompt(e as BeforeInstallPromptEvent);
       
-      // Kullanıcı en az bir oyun oynamışsa prompt'u göster
-      const gameRecords = localStorage.getItem('psikoOyunScores');
-      const hasPlayedGames = gameRecords && JSON.parse(gameRecords).length > 0;
-      
-      if (hasPlayedGames) {
-        // 2 saniye bekle sonra göster
-        setTimeout(() => setShowInstallPrompt(true), 2000);
-      }
+      // Kullanıcı sitede biraz vakit geçirdikten sonra göster
+      setTimeout(() => {
+        const gameRecords = localStorage.getItem('psikoOyunScores');
+        const hasPlayedGames = gameRecords && JSON.parse(gameRecords).length > 0;
+        
+        // Oyun oynamış ya da 30 saniye beklemişse göster
+        if (hasPlayedGames) {
+          setShowInstallPrompt(true);
+        } else {
+          // Hiç oyun oynamamışsa 30 saniye sonra göster
+          setTimeout(() => setShowInstallPrompt(true), 30000);
+        }
+      }, 3000);
     };
 
     // appinstalled event'ini dinle

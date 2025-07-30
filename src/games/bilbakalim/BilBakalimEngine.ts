@@ -27,6 +27,8 @@ export interface BilBakalimGameState {
   showResult: boolean;
   timeLeft: number;
   questionDuration: number;
+  pointPerCorrect: number;
+  timeBonus: boolean;
 }
 
 export class BilBakalimEngine {
@@ -45,7 +47,9 @@ export class BilBakalimEngine {
     selectedAnswer: null,
     showResult: false,
     timeLeft: 15, // 15 saniye per soru
-    questionDuration: 15
+    questionDuration: 15,
+    pointPerCorrect: 5,
+    timeBonus: true
   };
 
   /**
@@ -67,13 +71,21 @@ export class BilBakalimEngine {
   /**
    * Oyunu başlat
    */
-  startGame(): void {
+  startGame(customSettings?: { totalQuestions?: number; questionDuration?: number; pointPerCorrect?: number; timeBonus?: boolean }): void {
     if (this.questions.length === 0) {
       console.error('Sorular yüklenmedi!');
       return;
     }
 
-    // Soruları karıştır ve ilk 10'unu al
+    // Özel ayarları uygula
+    if (customSettings) {
+      if (customSettings.totalQuestions) this.gameState.totalQuestions = customSettings.totalQuestions;
+      if (customSettings.questionDuration) this.gameState.questionDuration = customSettings.questionDuration;
+      if (customSettings.pointPerCorrect) this.gameState.pointPerCorrect = customSettings.pointPerCorrect;
+      if (customSettings.timeBonus !== undefined) this.gameState.timeBonus = customSettings.timeBonus;
+    }
+
+    // Soruları karıştır ve belirlenen sayıda al
     const shuffledQuestions = [...this.questions].sort(() => Math.random() - 0.5);
     this.questions = shuffledQuestions.slice(0, this.gameState.totalQuestions);
 
@@ -90,7 +102,9 @@ export class BilBakalimEngine {
       selectedAnswer: null,
       showResult: false,
       timeLeft: this.gameState.questionDuration,
-      questionDuration: this.gameState.questionDuration
+      questionDuration: this.gameState.questionDuration,
+      pointPerCorrect: this.gameState.pointPerCorrect,
+      timeBonus: this.gameState.timeBonus
     };
 
     this.loadCurrentQuestion();
@@ -134,8 +148,12 @@ export class BilBakalimEngine {
 
     const selectedOption = this.gameState.shuffledOptions[optionIndex];
     if (selectedOption.dogruMu) {
-      // Doğru cevap 5 puan + kalan süre kadar bonus puan
-      this.gameState.score += 5 + this.gameState.timeLeft;
+      // Doğru cevap: temel puan + süre bonusu (eğer aktifse)
+      let points = this.gameState.pointPerCorrect;
+      if (this.gameState.timeBonus) {
+        points += this.gameState.timeLeft;
+      }
+      this.gameState.score += points;
       this.gameState.correctAnswers++;
     }
 
@@ -149,8 +167,16 @@ export class BilBakalimEngine {
    * Sonraki soruya geç
    */
   private nextQuestion(): void {
+    // Timer'ı durdur
+    this.stopTimer();
+    
     this.gameState.currentQuestionIndex++;
     this.loadCurrentQuestion();
+    
+    // Eğer oyun devam ediyorsa timer'ı yeniden başlat
+    if (!this.gameState.isFinished) {
+      this.startTimer();
+    }
   }
 
   /**
@@ -213,7 +239,9 @@ export class BilBakalimEngine {
       selectedAnswer: null,
       showResult: false,
       timeLeft: 15,
-      questionDuration: 15
+      questionDuration: 15,
+      pointPerCorrect: 5,
+      timeBonus: true
     };
   }
 

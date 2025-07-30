@@ -184,7 +184,7 @@ export const HomePage = () => {
     return <BenKimimSetup onStartGame={handleStartBenKimim} onGoBack={() => setCurrentPhase('home')} />;
   }
   if (currentPhase === 'benkimim-playing') {
-    return <BenKimimGame gameEngine={benKimimEngine} onGameEnd={handleBenKimimGameEnd} onGoHome={handleGoHome} />;
+    return <div>Ben Kimim oyunu navigate ile yönlendirilecek</div>;
   }
   if (currentPhase === 'benkimim-score') {
     return <BenKimimScore gameState={benKimimEngine.getGameState()} onNewGame={handleBenKimimNewGame} onGoHome={handleGoHome} />;
@@ -315,7 +315,7 @@ export const HomePage = () => {
             </Card>
 
             <Card className="p-0 overflow-hidden shadow-card">
-              <button onClick={() => navigate('/game/bilbakalim')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
+              <button onClick={() => navigate('/game/bilbakalim/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-info/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
                     <HelpCircle className="w-6 h-6 text-info" />

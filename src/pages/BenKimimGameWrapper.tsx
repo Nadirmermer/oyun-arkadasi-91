@@ -1,16 +1,12 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BenKimimEngine } from '@/games/benkimim/BenKimimEngine';
-import { BenKimimGame } from './BenKimimGame';
+import { BenKimimGame } from '../BenKimimGame';
 import { BenKimimLandscape } from './BenKimimLandscape';
 import { BenKimimScore } from './BenKimimScore';
 import { saveGameRecord } from '@/lib/storage';
 
-/**
- * Ben Kimim oyunu standalone sayfası
- * Setup'tan gelen ayarlara göre normal veya yatay mod oyunu başlatır
- */
-export const BenKimimStandalone = () => {
+export const BenKimimGameWrapper = () => {
   const navigate = useNavigate();
   const [gameEngine] = useState(() => new BenKimimEngine());
   const [isGameEnded, setIsGameEnded] = useState(false);
@@ -19,13 +15,11 @@ export const BenKimimStandalone = () => {
 
   useEffect(() => {
     const initGame = async () => {
-      // Kaydedilen ayarları yükle
       const savedSettings = localStorage.getItem('benKimimGameSettings');
       if (savedSettings) {
         const settings = JSON.parse(savedSettings);
         setIsLandscapeMode(settings.isLandscapeMode || false);
         
-        // Engine'i ayarla
         gameEngine.updateSettings({
           gameDuration: settings.gameDuration,
           targetScore: settings.targetScore,
@@ -33,10 +27,7 @@ export const BenKimimStandalone = () => {
         });
       }
 
-      // Kelimeleri yükle
       await gameEngine.loadWords();
-      
-      // Oyunu başlat
       gameEngine.startGame();
       setGameStarted(true);
     };
@@ -47,7 +38,6 @@ export const BenKimimStandalone = () => {
   const handleGameEnd = () => {
     const gameState = gameEngine.getGameState();
     
-    // Oyun sonuçlarını kaydet
     const gameResult = {
       id: Date.now().toString(),
       gameType: 'BenKimim' as const,
@@ -95,7 +85,6 @@ export const BenKimimStandalone = () => {
     );
   }
 
-  // Yatay mod veya normal mod bileşenini render et
   if (isLandscapeMode) {
     return (
       <BenKimimLandscape

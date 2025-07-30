@@ -8,7 +8,7 @@ import { BenKimimSettings } from '@/types/benkimim';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
 
 interface BenKimimSetupProps {
-  onStartGame: (settings: BenKimimSettings) => void;
+  onStartGame: (settings: BenKimimSettings & { isLandscapeMode: boolean }) => void;
   onGoBack: () => void;
 }
 
@@ -22,6 +22,8 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
     targetScore: 15,
     controlType: 'buttons'
   });
+  
+  const [isLandscapeMode, setIsLandscapeMode] = useState(false);
   
   const motionSensor = useMotionSensor();
 
@@ -42,7 +44,7 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
       }
     }
     
-    onStartGame(settings);
+    onStartGame({ ...settings, isLandscapeMode });
   };
 
   return (
@@ -186,7 +188,48 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
                 </p>
               </div>
             )}
-          </Card>
+        </Card>
+
+        {/* Yatay Mod Seçeneği */}
+        <Card>
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+              <Smartphone className="w-5 h-5 text-primary" />
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold text-foreground">Ekran Modu</h4>
+              <p className="text-sm text-muted-foreground">
+                Telefonu alnına tutmak için yatay mod kullan
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <label className="flex items-center gap-3 p-3 rounded-lg border border-border cursor-pointer hover:bg-muted/50 transition-colors">
+              <input
+                type="checkbox"
+                checked={isLandscapeMode}
+                onChange={(e) => setIsLandscapeMode(e.target.checked)}
+                className="w-4 h-4 text-primary bg-background border-border rounded focus:ring-primary"
+              />
+              <div className="flex-1">
+                <span className="text-sm font-medium text-foreground">Yatay Mod</span>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Telefonu yan çevir, büyük harflerle kelimeyi gör
+                </p>
+              </div>
+            </label>
+
+            {isLandscapeMode && (
+              <div className="mt-4 p-3 bg-muted/50 rounded-lg">
+                <p className="text-sm text-muted-foreground">
+                  📱 <strong>Yatay Mod:</strong> Telefonu alnına koy, kelime karşı tarafa gözüksün<br />
+                  🔄 <strong>Kontrol:</strong> Seçilen kontrol tipi yatay modda da çalışır
+                </p>
+              </div>
+            )}
+          </div>
+        </Card>
 
         </div>
 

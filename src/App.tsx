@@ -10,7 +10,10 @@ import { SettingsPage } from "./pages/SettingsPage";
 import { HistoryPage } from "./pages/HistoryPage";
 import { EtikProblemlerScreen } from "./pages/EtikProblemlerScreen";
 import { BilBakalimScreen } from "./pages/BilBakalimScreen";
+import { BilBakalimSetup } from "./pages/BilBakalimSetup";
 import { RenkDizisiScreen } from "./pages/RenkDizisiScreen";
+import { BenKimimSetup } from "./pages/BenKimimSetup";
+import { BenKimimGameWrapper } from "./pages/BenKimimGameWrapper";
 import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
 import { InstallPrompt } from "./components/shared/InstallPrompt";
@@ -47,8 +50,15 @@ const AppContent = () => {
           </AppLayout>
         } />
         <Route path="/game/etikproblemler" element={<EtikProblemlerScreen />} />
+        <Route path="/game/bilbakalim/setup" element={<BilBakalimSetup />} />
         <Route path="/game/bilbakalim" element={<BilBakalimScreen />} />
         <Route path="/game/renkdizisi" element={<RenkDizisiScreen />} />
+        <Route path="/game/benkimim/setup" element={<BenKimimSetup onStartGame={(settings) => {
+          // Ayarları kaydet ve oyun sayfasına yönlendir
+          localStorage.setItem('benKimimGameSettings', JSON.stringify(settings));
+          window.location.href = '/game/benkimim';
+        }} onGoBack={() => window.history.back()} />} />
+        <Route path="/game/benkimim" element={<BenKimimGameWrapper />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Routes>

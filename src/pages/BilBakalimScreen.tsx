@@ -19,7 +19,19 @@ export const BilBakalimScreen = () => {
     const initGame = async () => {
       await gameEngine.loadQuestions();
       if (gameEngine.isLoaded()) {
-        gameEngine.startGame();
+        // Kaydedilen ayarları kontrol et
+        const savedSettings = localStorage.getItem('bilBakalimSettings');
+        if (savedSettings) {
+          const settings = JSON.parse(savedSettings);
+          gameEngine.startGame({
+            totalQuestions: settings.totalQuestions,
+            questionDuration: settings.gameDuration,
+            pointPerCorrect: settings.pointPerCorrect,
+            timeBonus: settings.timeBonus
+          });
+        } else {
+          gameEngine.startGame();
+        }
         setGameState(gameEngine.getGameState());
       }
     };
