@@ -1,21 +1,17 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Trophy, Brain, Pause, Play } from 'lucide-react';
+import { Brain } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { CircularTimer } from '@/components/shared/CircularTimer';
-import { PauseModal } from '@/components/shared/PauseModal';
-import { ExitGameModal } from '@/components/shared/ExitGameModal';
+import { GameContainer } from '@/components/shared/GameContainer';
+import { GameLoadingScreen } from '@/components/shared/GameLoadingScreen';
+import { GameEndScreen } from '@/components/shared/GameEndScreen';
 import { BilBakalimEngine, BilBakalimGameState } from '@/games/bilbakalim/BilBakalimEngine';
-import { saveGameRecord } from '@/lib/storage';
-import { useNavigate } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { useSystemTheme } from '@/hooks/use-system-theme';
 export const BilBakalimScreen = () => {
   const [gameEngine] = useState(() => new BilBakalimEngine());
   const [gameState, setGameState] = useState<BilBakalimGameState>(gameEngine.getGameState());
-  const [showPauseModal, setShowPauseModal] = useState(false);
-  const [showExitModal, setShowExitModal] = useState(false);
-  const navigate = useNavigate();
 
   // Tema uyumluluğunu sağla
   useSystemTheme();
@@ -60,13 +56,7 @@ export const BilBakalimScreen = () => {
    * Oyunu duraklatır/devam ettirir
    */
   const handlePauseToggle = () => {
-    if (gameState.isPaused) {
-      gameEngine.togglePause();
-      setShowPauseModal(false);
-    } else {
-      gameEngine.togglePause();
-      setShowPauseModal(true);
-    }
+    gameEngine.togglePause();
   };
 
   /**

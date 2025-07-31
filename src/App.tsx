@@ -30,8 +30,7 @@ const AppContent = () => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
   
-  // Bottom navigation sadece ana sayfalarda gösterilsin
-  const showBottomNav = ['/', '/settings', '/history'].includes(location.pathname);
+
   
   return (
     <div className="min-h-screen bg-background">
