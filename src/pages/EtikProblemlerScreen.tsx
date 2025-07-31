@@ -9,12 +9,16 @@ import { EtikProblemlerEngine } from '@/games/etikproblemler/EtikProblemlerEngin
 import { EtikProblemlerGameState } from '@/types/etikproblemler';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { saveGameRecord } from '@/lib/storage';
+import { useSystemTheme } from '@/hooks/use-system-theme';
 export const EtikProblemlerScreen = () => {
   const [gameEngine] = useState(() => new EtikProblemlerEngine());
   const [gameState, setGameState] = useState<EtikProblemlerGameState | null>(null);
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
   const navigate = useNavigate();
+
+  // Tema uyumluluğunu sağla
+  useSystemTheme();
   useEffect(() => {
     // Oyun motoru dinleyicisini ekle
     const updateGameState = () => {

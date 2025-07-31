@@ -8,7 +8,7 @@ import { GameSettings } from './GameSettings';
 import { GameScreen } from './GameScreen';
 import { ScoreScreen } from './ScoreScreen';
 import { BenKimimSetup } from './BenKimimSetup';
-import { BenKimimGameWrapper } from './BenKimimGameWrapper';
+// Ben Kimim artık direkt route üzerinden çalışıyor
 import { BenKimimScore } from './BenKimimScore';
 import { IkiDogruBirYalanSetup } from './IkiDogruBirYalanSetup';
 import { IkiDogruBirYalanGame } from './IkiDogruBirYalanGame';
@@ -184,7 +184,9 @@ export const HomePage = () => {
     return <BenKimimSetup onStartGame={handleStartBenKimim} onGoBack={() => setCurrentPhase('home')} />;
   }
   if (currentPhase === 'benkimim-playing') {
-    return <BenKimimGameWrapper />;
+    // Ben Kimim artık direkt route üzerinden çalışıyor
+    navigate('/game/benkimim');
+    return null;
   }
   if (currentPhase === 'benkimim-score') {
     return <BenKimimScore gameEngine={benKimimEngine} onPlayAgain={handleBenKimimNewGame} onGoHome={handleGoHome} />;

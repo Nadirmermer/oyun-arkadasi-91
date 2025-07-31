@@ -9,12 +9,16 @@ import { BilBakalimEngine, BilBakalimGameState } from '@/games/bilbakalim/BilBak
 import { saveGameRecord } from '@/lib/storage';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '@/lib/utils';
+import { useSystemTheme } from '@/hooks/use-system-theme';
 export const BilBakalimScreen = () => {
   const [gameEngine] = useState(() => new BilBakalimEngine());
   const [gameState, setGameState] = useState<BilBakalimGameState>(gameEngine.getGameState());
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
   const navigate = useNavigate();
+
+  // Tema uyumluluğunu sağla
+  useSystemTheme();
   useEffect(() => {
     const initGame = async () => {
       await gameEngine.loadQuestions();
@@ -26,8 +30,8 @@ export const BilBakalimScreen = () => {
           gameEngine.startGame({
             totalQuestions: settings.totalQuestions,
             questionDuration: settings.gameDuration,
-            pointPerCorrect: settings.pointPerCorrect,
-            timeBonus: settings.timeBonus
+            pointPerCorrect: 10, // Sabit puan
+            timeBonus: true // Her zaman aktif
           });
         } else {
           gameEngine.startGame();

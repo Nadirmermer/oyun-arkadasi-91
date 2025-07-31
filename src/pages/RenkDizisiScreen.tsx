@@ -14,6 +14,7 @@ import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { saveGameRecord } from '@/lib/storage';
 import { toast } from '@/hooks/use-toast';
+import { useSystemTheme } from '@/hooks/use-system-theme';
 
 export const RenkDizisiScreen = () => {
   const navigate = useNavigate();
@@ -22,6 +23,9 @@ export const RenkDizisiScreen = () => {
   const [isPaused, setIsPaused] = useState(false);
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
+
+  // Tema uyumluluğunu sağla
+  useSystemTheme();
 
   // Oyun durumu değişikliklerini dinle
   useEffect(() => {
