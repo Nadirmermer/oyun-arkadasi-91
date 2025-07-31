@@ -1,5 +1,25 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Home, History, Settings } from 'lucide-react';
+import { useMemo } from 'react';
+
+// Navigation items'ı component dışında tanımla (performance optimization)
+const NAV_ITEMS = [
+  {
+    path: '/',
+    label: 'Oyunlar',
+    icon: Home,
+  },
+  {
+    path: '/history',
+    label: 'Geçmiş',
+    icon: History,
+  },
+  {
+    path: '/settings',
+    label: 'Ayarlar',
+    icon: Settings,
+  },
+] as const;
 
 /**
  * Alt navigasyon çubuğu bileşeni
@@ -9,35 +29,22 @@ export const BottomNavigation = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const navItems = [
-    {
-      path: '/',
-      label: 'Oyunlar',
-      icon: Home,
-    },
-    {
-      path: '/history',
-      label: 'Geçmiş',
-      icon: History,
-    },
-    {
-      path: '/settings',
-      label: 'Ayarlar',
-      icon: Settings,
-    },
-  ];
+  // Navigation handler'ı memoize et
+  const handleNavigation = useMemo(() => (path: string) => {
+    navigate(path);
+  }, [navigate]);
 
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-card/98 backdrop-blur-lg border-t border-border z-50 shadow-elevated">
       <div className="flex items-center justify-around py-2 px-4 max-w-md mx-auto">
-        {navItems.map((item) => {
+        {NAV_ITEMS.map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.path;
           
           return (
             <button
               key={item.path}
-              onClick={() => navigate(item.path)}
+              onClick={() => handleNavigation(item.path)}
               className={`relative flex flex-col items-center gap-1 p-2 px-3 rounded-xl transition-smooth ${
                 isActive 
                   ? 'text-primary bg-primary/10 scale-105' 

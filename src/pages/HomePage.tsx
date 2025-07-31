@@ -4,7 +4,7 @@ import logoImage from '/logo.png';
 import { Card } from '@/components/shared/Card';
 import { AppLayout } from '@/components/shared/AppLayout';
 import { TeamSetup } from './TeamSetup';
-import { GameSettings } from './GameSettings';
+import { GameSettings as GameSettingsComponent } from './GameSettings';
 import { GameScreen } from './GameScreen';
 import { ScoreScreen } from './ScoreScreen';
 import { BenKimimSetup } from './BenKimimSetup';
@@ -15,7 +15,7 @@ import { IkiDogruBirYalanGame } from './IkiDogruBirYalanGame';
 import { TabuEngine } from '@/games/tabu/TabuEngine';
 import { BenKimimEngine } from '@/games/benkimim/BenKimimEngine';
 import { IkiDogruBirYalanEngine } from '@/games/ikidogrubiryalan/IkiDogruBirYalanEngine';
-import { Team } from '@/types/game';
+import { Team, GameSettings } from '@/types/game';
 import { BenKimimSettings } from '@/types/benkimim';
 import { loadTeams, saveTeams, saveGameRecord } from '@/lib/storage';
 import { useNavigate } from 'react-router-dom';
@@ -86,7 +86,7 @@ export const HomePage = () => {
   /**
    * Oyunu başlat
    */
-  const handleStartGame = (settings: any) => {
+  const handleStartGame = (settings: GameSettings) => {
     gameEngine.updateSettings(settings);
     gameEngine.startGame();
     setCurrentPhase('playing');
@@ -171,7 +171,7 @@ export const HomePage = () => {
     return <TeamSetup initialTeams={teams} onTeamsReady={handleTeamsReady} onGoBack={() => setCurrentPhase('home')} />;
   }
   if (currentPhase === 'settings') {
-    return <GameSettings teams={teams} onStartGame={handleStartGame} onGoBack={() => setCurrentPhase('team-setup')} />;
+    return <GameSettingsComponent teams={teams} onStartGame={handleStartGame} onGoBack={() => setCurrentPhase('team-setup')} />;
   }
   if (currentPhase === 'playing') {
     return <GameScreen gameEngine={gameEngine} onGameEnd={handleGameEnd} onGoHome={handleGoHome} />;
@@ -217,7 +217,7 @@ export const HomePage = () => {
     <div className="min-h-screen bg-background page-fade-in flex flex-col justify-center mx-0 my-0 py-0 px-0">
       {/* Header - Ortalanmış */}
       <div className="text-center mb-12 py-0 px-0 mx-0 my-[14px]">
-        <div className="w-20 h-20 mx-auto mb-6">
+        <div className="w-40 h-40 mx-auto mb-10">
           <img src={logoImage} alt="PsikOyun Logo" className="w-full h-full rounded-3xl shadow-elevated object-cover" />
         </div>
         <h1 className="text-4xl font-bold text-primary mb-3">PsikOyun</h1>

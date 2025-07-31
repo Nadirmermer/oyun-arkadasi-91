@@ -7,6 +7,11 @@ interface MotionData {
   gamma: number;  // Y-axis rotation (left/right tilt)
 }
 
+// iOS DeviceOrientationEvent interface extension
+interface DeviceOrientationEventIOS extends DeviceOrientationEvent {
+  requestPermission?: () => Promise<'granted' | 'denied'>;
+}
+
 type MotionCallback = () => void;
 type MotionSensitivity = 'low' | 'medium' | 'high';
 
@@ -155,8 +160,9 @@ export const useMotionSensor = (): UseMotionSensorResult => {
 
     try {
       // iOS 13+ için özel izin isteği
-      if (typeof (DeviceOrientationEvent as any).requestPermission === 'function') {
-        const permission = await (DeviceOrientationEvent as any).requestPermission();
+      const deviceOrientationEvent = DeviceOrientationEvent as unknown as DeviceOrientationEventIOS;
+      if (typeof deviceOrientationEvent.requestPermission === 'function') {
+        const permission = await deviceOrientationEvent.requestPermission();
         if (permission === 'granted') {
           setHasPermission(true);
           window.addEventListener('deviceorientation', handleDeviceOrientation);

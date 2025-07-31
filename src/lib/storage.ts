@@ -31,7 +31,7 @@ const safeLocalStorageGet = (key: string): string | null => {
   try {
     return localStorage.getItem(key);
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       console.error(`LocalStorage okuma hatası (${key}):`, error);
     }
     return null;
@@ -43,7 +43,7 @@ const safeLocalStorageGet = (key: string): string | null => {
  */
 const safeLocalStorageSet = (key: string, value: string): boolean => {
   if (!isLocalStorageAvailable()) {
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       console.warn('LocalStorage kullanılamıyor');
     }
     showStorageError();
@@ -54,13 +54,13 @@ const safeLocalStorageSet = (key: string, value: string): boolean => {
     localStorage.setItem(key, value);
     return true;
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       console.error(`LocalStorage yazma hatası (${key}):`, error);
     }
     
     // Quota hatası kontrolü
     if (error instanceof DOMException && error.code === 22) {
-      if (process.env.NODE_ENV === 'development') {
+      if (import.meta.env.DEV) {
         console.warn('LocalStorage doldu, eski kayıtları temizleniyor...');
       }
       clearOldGameRecords();
@@ -84,13 +84,18 @@ const safeLocalStorageSet = (key: string, value: string): boolean => {
  * Kullanıcıya storage hatası göster
  */
 const showStorageError = () => {
-  // Production'da sadece geliştirici konsoluna yaz
-  if (process.env.NODE_ENV === 'development') {
+  // Development'da konsola uyarı yaz
+  if (import.meta.env.DEV) {
     console.warn('⚠️ Veri kaydedilemiyor: Tarayıcı depolama alanı dolu veya devre dışı');
   }
   
-  // TODO: Kullanıcıya toast bildirimi göster
-  // toast({ title: "Uyarı", description: "Veriler kaydedilemiyor. Tarayıcı ayarlarınızı kontrol edin." });
+  // Toast bildirimini göster (UI feedback)
+  if (typeof window !== 'undefined' && window.dispatchEvent) {
+    const event = new CustomEvent('storage-error', {
+      detail: { message: 'Veriler kaydedilemiyor. Tarayıcı ayarlarınızı kontrol edin.' }
+    });
+    window.dispatchEvent(event);
+  }
 };
 
 /**
@@ -103,7 +108,7 @@ const clearOldGameRecords = () => {
     const recentRecords = records.slice(0, 50);
     localStorage.setItem(STORAGE_KEYS.GAME_RECORDS, JSON.stringify(recentRecords));
     
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       console.log(`Eski kayıtlar temizlendi: ${records.length - recentRecords.length} kayıt silindi`);
     }
   } catch (error) {

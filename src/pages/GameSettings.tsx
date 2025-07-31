@@ -3,13 +3,13 @@ import { ArrowLeft, Clock, Target, SkipForward, Gamepad2, Smartphone } from 'luc
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
-import { Team } from '@/types/game';
+import { Team, GameSettings as GameSettingsType } from '@/types/game';
 import { loadSettings, saveSettings } from '@/lib/storage';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
 
 interface GameSettingsProps {
   teams: Team[];
-  onStartGame: (settings: any) => void;
+  onStartGame: (settings: GameSettingsType) => void;
   onGoBack?: () => void;
 }
 

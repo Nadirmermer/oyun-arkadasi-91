@@ -1,6 +1,8 @@
-# PsikOyun v1.0.0 🧠🎮
+# PsikOyun 🧠🎮
 
-**Psikoloji öğrencileri ve meraklıları için özel olarak tasarlanan eğlenceli oyun koleksiyonu.**
+**Psikoloji öğrencileri, psikologlar ve psikoloji ile ilgilenen herkes için özel olarak tasarlanan eğlenceli oyun koleksiyonu.**
+
+PsikOyun, psikoloji alanındaki bilgileri eğlenceli bir şekilde öğrenmenizi ve test etmenizi sağlayan kapsamlı bir oyun platformudur. Grup halinde veya bireysel olarak oynayabileceğiniz çeşitli oyun modları ile psikoloji terimlerini, kavramları ve vakaları keşfedin.
 
 ![PsikOyun Logo](./public/logo.png)
 
@@ -8,31 +10,41 @@
 
 ### 🎯 6 Farklı Oyun Modu
 - **🗣️ Psikoloji Tabu**: Psikoloji terimlerini anlatın, yasaklı kelimeler kullanmadan
-- **🤔 Ben Kimim?**: Ünlü psikologları ve kavramları tahmin edin
+- **🤔 Ben Kimim?**: Ünlü psikologları ve kavramları tahmin edin  
 - **🎲 İki Doğru Bir Yalan**: Gerçek psikoloji bilgilerini yalanlardan ayırın
 - **💡 Bil Bakalım**: Hızlı psikoloji soruları ile bilginizi test edin
-- **🎨 Renk Dizisi**: Bellek ve konsantrasyon oyunu
-- **📚 Etik Problemler**: Gerçek vaka analizleri ile etik düşünme
+- **🎨 Renk Dizisi**: Bellek ve konsantrasyon geliştirme oyunu
+- **📚 Etik Problemler**: Gerçek vaka analizleri ile etik düşünme becerileri
 
-### 📱 Modern PWA Deneyimi
-- **Offline Çalışma**: İnternet bağlantısı olmadan oyun oynayın
-- **Mobil Uyumlu**: Tüm cihazlarda mükemmel performans
-- **Ana Ekrana Ekleme**: Uygulama gibi kullanın
-- **Tema Desteği**: Açık/Koyu mod ile kişiselleştirme
-
-### 💾 Güçlü Veri Yönetimi
+###  Güçlü Veri Yönetimi
 - **LocalStorage**: Tüm veriler güvenli şekilde cihazınızda saklanır
 - **Oyun Geçmişi**: Skorlarınızı ve istatistiklerinizi takip edin
 - **Takım Kayıtları**: Favori takımlarınızı kaydedin
 - **Ayar Senkronizasyonu**: Tercihleriniz korunur
 
 ### 🎨 Tasarım ve UX
-- **Modern Arayüz**: Clean ve kullanıcı dostu tasarım
-- **Smooth Animasyonlar**: Akıcı geçişler ve etkileşimler
-- **Accessibility**: Herkes için erişilebilir
-- **Performance**: Optimize edilmiş ve hızlı
+- **Modern Arayüz**: Temiz ve kullanıcı dostu tasarım
+- **Akıcı Animasyonlar**: Smooth geçişler ve etkileşimler  
+- **Erişilebilirlik**: Herkes için kullanılabilir
+- **Performans**: Optimize edilmiş ve hızlı
 
-## 🚀 Kullanım
+## 🚀 Hedef Kitle ve Kullanım Alanları
+
+### 👥 Kimler Kullanabilir?
+- **Psikoloji Öğrencileri**: Ders çalışırken eğlenceli öğrenme deneyimi
+- **Psikologlar**: Mesleki bilgileri test etme ve tazeleme
+- **Akademisyenler**: Ders içi aktiviteler ve grup çalışmaları  
+- **Psikoloji Meraklıları**: Genel kültür ve bilgi edinme
+- **Öğretmenler**: Eğitici oyun etkinlikleri
+
+### 🎯 Kullanım Senaryoları
+- **Ders İçi Aktiviteler**: Sınıfta interaktif öğrenme
+- **Grup Çalışmaları**: Takım halinde bilgi yarışması
+- **Bireysel Pratik**: Kişisel gelişim ve öğrenme
+- **Sosyal Etkinlikler**: Arkadaşlarla eğlenceli vakit geçirme
+- **Sınav Hazırlığı**: Bilgileri pekiştirme ve test etme
+
+## 🎮 Oyun Kılavuzu
 
 ### Tabu Oyunu
 1. Takımları oluşturun (2-8 takım)
@@ -54,14 +66,13 @@ Her oyunun kendine özgü kuralları ve zorluk seviyeleri vardır. Oyun içi reh
 - **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS + Shadcn/ui
 - **Build Tool**: Vite
-- **PWA**: Service Worker + Manifest
+- **PWA**: Web teknolojileri ile geliştirilmiş
 - **State Management**: React Hooks
 - **Storage**: LocalStorage API
 
 ### 🎯 Performance
 - **Bundle Size**: Optimize edilmiş küçük boyut
 - **Loading**: Lazy loading ve code splitting
-- **Caching**: Service worker ile akıllı önbellekleme
 - **Memory**: Verimli bellek kullanımı
 
 ### 📱 Platform Desteği
@@ -149,32 +160,17 @@ saveSettings({
 - Kullanıcı tercihini kaydetme
 - Smooth geçişler
 
-### PWA Özellikleri
-- Offline first yaklaşım
-- Background sync
-- Push notifications (gelecek sürümde)
-- App-like experience
-
-### Accessibility
-- Keyboard navigation
-- Screen reader support
-- High contrast mode
-- Focus management
-
 ## 📝 Sürüm Notları
 
 ### v1.0.0 (Mevcut)
 - ✅ 6 farklı oyun modu
-- ✅ PWA desteği
+- ✅ Modern web uygulaması
 - ✅ Modern tema sistemi
-- ✅ Comprehensive storage
-- ✅ Mobile optimization
-- ✅ Performance improvements
 
-### Planlanan Özellikler
+### Gelecek Güncellemeler
 - 🔄 Daha fazla oyun modu
-- 🔄 Multiplayer online desteği
-- 🔄 Achievement sistemi
+- 🔄 Çevrimiçi çoklu oyuncu desteği
+- 🔄 Başarı sistemi
 - 🔄 İstatistik dashboard'u
 - 🔄 Sosyal medya entegrasyonu
 
@@ -196,8 +192,7 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ## 📞 İletişim
 
 **Geliştirici**: Nadir Mermer  
-**E-posta**: [email korunuyor]  
-**GitHub**: [repository bağlantısı]
+**GitHub**: [Proje Deposu](https://github.com/Nadirmermer/oyun-arkadasi-91)
 
 ---
 

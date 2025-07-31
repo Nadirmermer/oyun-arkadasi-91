@@ -14,7 +14,9 @@ export interface IkiDogruBirYalanSoru {
 }
 
 export interface IkiDogruBirYalanSettings {
-  // Gelecekte eklenecek ayarlar için hazırlık
+  // Oyun ayarları için rezerve edilmiş interface
+  gameDuration?: number; // Oyun süresi (saniye)
+  questionLimit?: number; // Maksimum soru sayısı
 }
 
 export interface IkiDogruBirYalanGameState {
