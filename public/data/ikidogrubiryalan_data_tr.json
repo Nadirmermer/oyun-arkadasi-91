@@ -294,7 +294,591 @@
   { "metin": "Sigmund Freud'un yapısal kişilik kuramının üç temel bileşenidir.", "dogruMu": true },
   { "metin": "Id, haz ilkesine göre çalışır ve içgüdüsel dürtülerin kaynağıdır.", "dogruMu": true },
   { "metin": "Süperego, kişiliğin gerçeklik ilkesiyle hareket eden ve mantıklı kararlar alan bölümüdür.", "dogruMu": false }
+]
+},
+{
+      "konu": "Hawthorne Etkisi",
+      "kategori": "Endüstriyel/Örgütsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Bireylerin, gözlemlendiklerini bildiklerinde davranışlarını değiştirme eğilimini ifade eder.", "dogruMu": true },
+        { "metin": "Etki, Western Electric şirketinin Hawthorne Fabrikaları'nda yapılan araştırmalarla ortaya çıkmıştır.", "dogruMu": true },
+        { "metin": "Bu etki, çalışanların motivasyonunun sadece ekonomik teşviklerle arttırılabileceğini kanıtlamıştır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Bystander Effect (Seyirci Etkisi)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Acil bir durumda, çevredeki insan sayısı arttıkça herhangi bir bireyin yardım etme olasılığının düşmesidir.", "dogruMu": true },
+        { "metin": "Bu olgu, 'sorumluluğun dağılması' kavramıyla yakından ilişkilidir.", "dogruMu": true },
+        { "metin": "İnsanların doğası gereği bencil olduğunu ve asla yardım etmek istemediğini gösterir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Beş Faktör Kişilik Modeli (Big Five)",
+      "kategori": "Kişilik Teorileri",
+      "ifadeler": [
+        { "metin": "Bu model, kişiliği beş ana boyutta inceler: Dışadönüklük, Uyumluluk, Sorumluluk, Nevrotiklik ve Deneyime Açıklık.", "dogruMu": true },
+        { "metin": "Model, Carl Jung'un analitik psikoloji teorisine dayanmaktadır.", "dogruMu": false },
+        { "metin": "Günümüzde en yaygın kabul gören ve kullanılan kişilik modellerinden biridir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Flynn Etkisi",
+      "kategori": "Zeka",
+      "ifadeler": [
+        { "metin": "Zeka testi puanlarının nesiller boyunca giderek yükselmesi olgusunu tanımlar.", "dogruMu": true },
+        { "metin": "Bu etki, insanların genetik olarak daha zeki hale geldiğinin kesin bir kanıtıdır.", "dogruMu": false },
+        { "metin": "James Flynn tarafından ortaya konulmuş ve belgelenmiştir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Broca ve Wernicke Alanları",
+      "kategori": "Nörobilim",
+      "ifadeler": [
+        { "metin": "Broca alanı genellikle konuşma üretimi (motor) ile ilişkilidir.", "dogruMu": true },
+        { "metin": "Wernicke alanı konuşulan dili anlama ile ilişkilidir.", "dogruMu": true },
+        { "metin": "Bu iki alan beynin sağ yarım küresinde bulunur.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Duygusal Zeka (EQ)",
+      "kategori": "Zeka",
+      "ifadeler": [
+        { "metin": "Kavramı popülerleştiren kişi Daniel Goleman'dır.", "dogruMu": true },
+        { "metin": "Kendi duygularını ve başkalarının duygularını anlama, yönetme ve kullanma yeteneğini ifade eder.", "dogruMu": true },
+        { "metin": "Duygusal zeka, IQ'dan (zeka katsayısı) daha az önemli ve yaşam başarısıyla ilişkisiz kabul edilir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Harry Harlow'un Maymun Deneyleri",
+      "kategori": "Gelişim Psikolojisi",
+      "ifadeler": [
+        { "metin": "Bu deneyler, bağlanmada 'temas rahatlığının' beslenmeden daha önemli olduğunu göstermiştir.", "dogruMu": true },
+        { "metin": "Deneylerde telden yapılmış ve kumaştan yapılmış iki tür 'sahte anne' kullanılmıştır.", "dogruMu": true },
+        { "metin": "Deneyler, yavru maymunların annelerine sadece yiyecek sağladıkları için bağlandığını kanıtlamıştır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Temel Atıf Hatası",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Başkalarının davranışlarını açıklarken durumsal faktörleri küçümseyip kişisel özelliklere aşırı vurgu yapma eğilimidir.", "dogruMu": true },
+        { "metin": "Bu hata, kendi davranışlarımızı yargılarken de aynı şekilde ortaya çıkar.", "dogruMu": false },
+        { "metin": "Örneğin, yolda tökezleyen birini 'sakar' olarak nitelendirmek (yerin kaygan olabileceğini düşünmeden) bu hataya bir örnektir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Rorschach Mürekkep Lekesi Testi",
+      "kategori": "Psikolojik Testler",
+      "ifadeler": [
+        { "metin": "Kişinin bilinçdışı düşüncelerini ve kişilik özelliklerini ortaya çıkarmayı amaçlayan projektif bir testtir.", "dogruMu": true },
+        { "metin": "Test sonuçları, kişinin zeka seviyesini (IQ) belirlemek için kullanılır.", "dogruMu": false },
+        { "metin": "Test, Hermann Rorschach tarafından geliştirilmiştir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Stroop Etkisi",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Beynin, bir kelimenin rengini isimlendirirken kelimenin kendisini (farklı bir rengi ifade ediyorsa) görmezden gelmede zorlanmasıdır.", "dogruMu": true },
+        { "metin": "Bu etki, dikkat ve otomatik bilişsel süreçler arasındaki çatışmayı gösterir.", "dogruMu": true },
+        { "metin": "Okuma yazma bilmeyen insanlarda da aynı derecede güçlü bir şekilde görülür.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Split-Brain (Bölünmüş Beyin) Araştırmaları",
+      "kategori": "Nörobilim",
+      "ifadeler": [
+        { "metin": "Roger Sperry ve Michael Gazzaniga bu alandaki öncü çalışmalarıyla tanınırlar.", "dogruMu": true },
+        { "metin": "Araştırmalar, beynin iki yarım küresini birbirine bağlayan korpus kallosum kesildiğinde ortaya çıkan etkileri inceler.", "dogruMu": true },
+        { "metin": "Bu araştırmalar, beynin sağ ve sol yarım kürelerinin tamamen aynı fonksiyonlara sahip olduğunu göstermiştir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Diana Baumrind'in Ebeveynlik Stilleri",
+      "kategori": "Gelişim Psikolojisi",
+      "ifadeler": [
+        { "metin": "Üç ana ebeveynlik stili tanımlamıştır: Otoriter, İzin Verici (Müsamahakar) ve Demokratik (Yetkin).", "dogruMu": true },
+        { "metin": "Demokratik ebeveynlik stilinin, çocuklarda genellikle en olumlu sonuçlarla ilişkili olduğu bulunmuştur.", "dogruMu": true },
+        { "metin": "Otoriter ebeveynlik, yüksek sıcaklık ve düşük kontrol ile karakterizedir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Grup Düşüncesi (Groupthink)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Kavram, Irving Janis tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Bir grubun, uyum sağlama baskısı nedeniyle mantıksız veya hatalı kararlar alma eğilimidir.", "dogruMu": true },
+        { "metin": "Grup düşüncesi, farklı görüşlerin teşvik edildiği ve liderin eleştiriye açık olduğu gruplarda daha sık görülür.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Kapı-Kontrol Ağrı Teorisi",
+      "kategori": "Duyum ve Algı",
+      "ifadeler": [
+        { "metin": "Ağrı sinyallerinin beyne ulaşmadan önce omurilikte bir 'kapıdan' geçtiğini öne sürer.", "dogruMu": true },
+        { "metin": "Bu teoriye göre, zihinsel ve duygusal faktörler (dikkat, rahatlama gibi) bu 'kapıyı' etkileyerek ağrı algısını değiştirebilir.", "dogruMu": true },
+        { "metin": "Teori, ağrının sadece fiziksel bir yaralanmanın doğrudan bir sonucu olduğunu belirtir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Sistematik Duyarsızlaştırma",
+      "kategori": "Psikoterapi",
+      "ifadeler": [
+        { "metin": "Özellikle fobi ve anksiyete bozukluklarının tedavisinde kullanılan bir davranışçı terapi tekniğidir.", "dogruMu": true },
+        { "metin": "Süreç, rahatlama tekniklerini öğrenme, bir korku hiyerarşisi oluşturma ve bu hiyerarşideki adımlarla kademeli olarak yüzleşmeyi içerir.", "dogruMu": true },
+        { "metin": "Bu teknik, hastayı en korktuğu durumla aniden ve hazırlıksız bir şekilde karşı karşıya bırakmaya dayanır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Flaş Bellek (Flashbulb Memory)",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Duygusal olarak çok yoğun ve şaşırtıcı bir olayın yaşandığı ana dair canlı, detaylı ve kalıcı anılardır.", "dogruMu": true },
+        { "metin": "Bu anılar, sıradan anılara göre her zaman %100 doğru ve hatasızdır.", "dogruMu": false },
+        { "metin": "Örneğin, bir kişinin 11 Eylül saldırılarını ilk duyduğu anda nerede olduğunu ve ne yaptığını hatırlaması bir flaş bellek örneğidir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Locus of Control (Kontrol Odağı)",
+      "kategori": "Kişilik Teorileri",
+      "ifadeler": [
+        { "metin": "Kavram, Julian Rotter tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "İç kontrol odağına sahip kişiler, olayların sonuçlarının kendi eylemlerine bağlı olduğuna inanır.", "dogruMu": true },
+        { "metin": "Dış kontrol odağına sahip kişiler, olayların şans, kader veya dış güçler tarafından kontrol edildiğine inanır.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Mary Ainsworth ve 'Yabancı Durum' Deneyi",
+      "kategori": "Gelişim Psikolojisi",
+      "ifadeler": [
+        { "metin": "Bu deney, bebekler ve bakıcıları arasındaki bağlanma stillerini ölçmek için tasarlanmıştır.", "dogruMu": true },
+        { "metin": "Deney sonucunda 'güvenli', 'kaygılı-kararsız' ve 'kaygılı-kaçınmacı' gibi bağlanma stilleri tanımlanmıştır.", "dogruMu": true },
+        { "metin": "Deney, sadece annelerin bebekleriyle olan ilişkisini incelemek için yapılmıştır, babalar dahil edilmemiştir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Bilişsel Haritalar",
+      "kategori": "Öğrenme Teorileri",
+      "ifadeler": [
+        { "metin": "Edward Tolman'ın labirentteki farelerle yaptığı deneyler sonucunda ortaya atılmıştır.", "dogruMu": true },
+        { "metin": "Bir ortamın veya mekanın zihinsel bir temsilidir.", "dogruMu": true },
+        { "metin": "Bu kavram, öğrenmenin sadece uyaran-tepki zincirinden ibaret olmadığını, zihinsel süreçleri de içerdiğini göstermiştir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "James-Lange Duygu Kuramı",
+      "kategori": "Motivasyon ve Duygu",
+      "ifadeler": [
+        { "metin": "Bu kurama göre, bir uyarana karşı önce bedensel tepkiler oluşur ve bu tepkilerin algılanmasıyla duygu deneyimlenir.", "dogruMu": true },
+        { "metin": "Kuramın ünlü örneği şudur: 'Ayı gördüğümüz için korkup kaçmayız, kaçtığımız için korkarız.'", "dogruMu": true },
+        { "metin": "Bu kurama göre, bedensel tepkiler olmadan da duygular hissedilebilir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Frenoloji",
+      "kategori": "Psikoloji Tarihi",
+      "ifadeler": [
+        { "metin": "Kafatası üzerindeki girinti ve çıkıntıların, bir kişinin kişilik özelliklerini ve zihinsel yeteneklerini belirlediğini öne süren bir teoridir.", "dogruMu": true },
+        { "metin": "Günümüzde geçerliliğini yitirmiş bir 'sözdebilim' olarak kabul edilmektedir.", "dogruMu": true },
+        { "metin": "Nörobilimin temelini oluşturan ve hala yaygın olarak kullanılan bir yöntemdir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Ayak-Kapıda Tekniği (Foot-in-the-Door)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir kişiyi, önce küçük bir ricayı kabul etmeye ikna edip ardından daha büyük bir ricada bulunma tekniğidir.", "dogruMu": true },
+        { "metin": "İnsanların tutarlı olma eğiliminden faydalanır.", "dogruMu": true },
+        { "metin": "Bu teknik, genellikle satış ve pazarlama alanında etkili değildir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Seri Pozisyon Etkisi",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir listedeki maddeleri hatırlamaya çalışırken, listenin başındaki (öncelik etkisi) ve sonundaki (sonralık etkisi) maddelerin daha iyi hatırlanmasıdır.", "dogruMu": true },
+        { "metin": "Listenin ortasındaki maddeler genellikle en iyi hatırlananlardır.", "dogruMu": false },
+        { "metin": "Bu etki, kısa ve uzun süreli belleğin işleyişi hakkında ipuçları verir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Pozitif Psikoloji",
+      "kategori": "Psikoloji Ekolleri",
+      "ifadeler": [
+        { "metin": "Martin Seligman, bu alanın öncü isimlerinden biridir.", "dogruMu": true },
+        { "metin": "İnsanların zayıf yönleri ve ruhsal hastalıkları yerine, güçlü yönlerine ve olumlu deneyimlerine (mutluluk, iyimserlik vb.) odaklanır.", "dogruMu": true },
+        { "metin": "Bu akım, psikolojinin olumsuz konuları tamamen reddetmesi gerektiğini savunur.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Şema Terapi",
+      "kategori": "Psikoterapi",
+      "ifadeler": [
+        { "metin": "Jeffrey Young tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Özellikle kronik ve derinlere kök salmış kişilik sorunlarının tedavisinde kullanılır.", "dogruMu": true },
+        { "metin": "'Uyumsuz şemalar' olarak adlandırılan, çocuklukta oluşan olumsuz kalıpları değiştirmeyi hedefler.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Yüceltme (Sublimation) Savunma Mekanizması",
+      "kategori": "Psikanaliz",
+      "ifadeler": [
+        { "metin": "Kabul edilemez içgüdüsel dürtülerin, toplum tarafından kabul edilebilir ve yapıcı faaliyetlere yönlendirilmesidir.", "dogruMu": true },
+        { "metin": "Freud'a göre, medeniyetin ve sanatın temelinde bu mekanizma yatar.", "dogruMu": true },
+        { "metin": "Saldırganlık dürtüsü olan birinin boksör olması, bu mekanizmaya bir örnek değildir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Unutma Eğrisi",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Hermann Ebbinghaus tarafından yapılan deneylerle ortaya konmuştur.", "dogruMu": true },
+        { "metin": "Öğrenilen bilginin, zaman içinde hangi hızla unutulduğunu gösteren bir grafiktir.", "dogruMu": true },
+        { "metin": "Bu eğriye göre, unutmanın büyük bir kısmı öğrenmeden haftalar sonra gerçekleşir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Cannon-Bard Duygu Kuramı",
+      "kategori": "Motivasyon ve Duygu",
+      "ifadeler": [
+        { "metin": "Duygusal bir uyarana karşı, fizyolojik tepki ile duygusal deneyimin aynı anda ve birbirinden bağımsız olarak ortaya çıktığını savunur.", "dogruMu": true },
+        { "metin": "Bu kuram, James-Lange kuramına bir eleştiri olarak geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Talamusun, duyusal bilgiyi hem kortekse (duygu) hem de hipotalamusa (fizyolojik tepki) aynı anda gönderdiğini öne sürer.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Robbers Cave Deneyi",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Muzafer Sherif tarafından yürütülmüştür.", "dogruMu": true },
+        { "metin": "Deney, gruplar arası çatışmanın ve önyargının nasıl oluştuğunu ve nasıl azaltılabileceğini incelemiştir.", "dogruMu": true },
+        { "metin": "Deneyin sonunda, gruplar arasındaki çatışmanın en iyi yolunun onları birbirinden tamamen izole etmek olduğu bulunmuştur.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Bipolar Bozukluk",
+      "kategori": "Klinik Psikoloji",
+      "ifadeler": [
+        { "metin": "Kişinin, manik (aşırı coşkun) ve depresif (çökkün) dönemler arasında gidip geldiği bir duygudurum bozukluğudur.", "dogruMu": true },
+        { "metin": "Eskiden 'manik-depresif hastalık' olarak adlandırılırdı.", "dogruMu": true },
+        { "metin": "Bu bozukluk, genellikle sadece psikoterapi ile tamamen tedavi edilebilir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Doğrulama Yanlılığı (Confirmation Bias)",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Mevcut inançlarımızı doğrulayan bilgileri arama, yorumlama ve hatırlama eğilimidir.", "dogruMu": true },
+        { "metin": "Aynı zamanda, inançlarımıza ters düşen bilgileri göz ardı etme veya reddetme eğilimini de içerir.", "dogruMu": true },
+        { "metin": "Bilimsel düşüncenin temelini oluşturan objektif bir yaklaşımdır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Karen Horney'nin Psikodinamik Kuramı",
+      "kategori": "Psikanaliz Sonrası Kuramlar",
+      "ifadeler": [
+        { "metin": "Freud'un 'penis kıskançlığı' kavramını eleştirmiş ve 'rahim kıskançlığı' kavramını ortaya atmıştır.", "dogruMu": true },
+        { "metin": "Temel kaygının, çocuklukta yaşanan güvensizlik ve yalıtılmışlık hissinden kaynaklandığını savunmuştur.", "dogruMu": true },
+        { "metin": "Kişilik gelişiminde sosyal ve kültürel faktörlerin rolünü tamamen reddetmiştir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Şizofreni",
+      "kategori": "Klinik Psikoloji",
+      "ifadeler": [
+        { "metin": "Pozitif belirtiler arasında halüsinasyonlar (varsanılar) ve sanrılar (hezeyanlar) bulunur.", "dogruMu": true },
+        { "metin": "Negatif belirtiler arasında duygusal küntlük, motivasyon eksikliği ve sosyal geri çekilme yer alır.", "dogruMu": true },
+        { "metin": "Şizofreni, 'çoklu kişilik bozukluğu' ile aynı şeydir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Weber Yasası",
+      "kategori": "Duyum ve Algı",
+      "ifadeler": [
+        { "metin": "İki uyarıcı arasındaki farkın algılanabilmesi için, farkın sabit bir oranda olması gerektiğini belirtir.", "dogruMu": true },
+        { "metin": "Bu, 'farkedilebilir en küçük fark' kavramıyla ilgilidir.", "dogruMu": true },
+        { "metin": "Yasaya göre, elinizde ağır bir nesne varken eklenen küçük bir ağırlığı fark etmek, hafif bir nesne varken fark etmekten daha kolaydır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Myers-Briggs Tip Göstergesi (MBTI)",
+      "kategori": "Kişilik Teorileri",
+      "ifadeler": [
+        { "metin": "Carl Jung'un psikolojik tipler teorisine dayanarak geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Kişiliği 16 farklı tipten birine ayırır.", "dogruMu": true },
+        { "metin": "Akademik psikoloji topluluğunda yüksek güvenirlik ve geçerliğe sahip olduğu kabul edilir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Korunum (Conservation) Kavramı",
+      "kategori": "Gelişim Psikolojisi",
+      "ifadeler": [
+        { "metin": "Jean Piaget'nin bilişsel gelişim teorisinin bir parçasıdır.", "dogruMu": true },
+        { "metin": "Bir nesnenin veya maddenin görünümü değişse bile, miktarının veya hacminin aynı kaldığını anlama yeteneğidir.", "dogruMu": true },
+        { "metin": "Bu yetenek, genellikle işlem öncesi dönemde (2-7 yaş) kazanılır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Gestalt Terapi",
+      "kategori": "Psikoterapi",
+      "ifadeler": [
+        { "metin": "Fritz Perls tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "'Şimdi ve burada' ilkesine odaklanarak bireyin farkındalığını artırmayı hedefler.", "dogruMu": true },
+        { "metin": "Terapide sıklıkla 'boş sandalye' tekniği gibi canlandırma yöntemleri kullanılır.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Özgecilik (Altruism)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Karşılığında hiçbir şey beklemeden başkalarına yardım etme davranışıdır.", "dogruMu": true },
+        { "metin": "Evrimsel psikologlar, akrabaları korumaya yönelik (akraba seçilimi) özgeciliği açıklayabilirler.", "dogruMu": true },
+        { "metin": "Tüm yardım etme davranışlarının temelinde bencil bir motivasyon olduğu kanıtlanmıştır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Logoterapi",
+      "kategori": "Psikoterapi",
+      "ifadeler": [
+        { "metin": "Viktor Frankl tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Temel felsefesi, insanın hayattaki birincil güdüsünün 'anlam arayışı' olduğudur.", "dogruMu": true },
+        { "metin": "Frankl, bu teoriyi II. Dünya Savaşı sırasında toplama kamplarındaki deneyimlerine dayanarak geliştirmiştir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "İleriye ve Geriye Ket Vurma",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "İleriye ket vurma, eski bilgilerin yeni bilgileri öğrenmeyi zorlaştırmasıdır.", "dogruMu": true },
+        { "metin": "Geriye ket vurma, yeni bilgilerin eski bilgileri hatırlamayı zorlaştırmasıdır.", "dogruMu": true },
+        { "metin": "Ket vurma, bilginin bellekten tamamen silindiği anlamına gelir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Kalıpyargı Tehdidi (Stereotype Threat)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Claude Steele tarafından kavramsallaştırılmıştır.", "dogruMu": true },
+        { "metin": "Bir kişinin, ait olduğu grupla ilgili olumsuz bir kalıpyargıyı doğrulama korkusuyla performansının düşmesidir.", "dogruMu": true },
+        { "metin": "Bu etki, sadece azınlık grupları üyelerini etkiler.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Wilhelm Wundt",
+      "kategori": "Psikoloji Tarihi",
+      "ifadeler": [
+        { "metin": "1879'da Almanya'nın Leipzig şehrinde ilk psikoloji laboratuvarını kurarak modern psikolojinin başlangıcını yapmıştır.", "dogruMu": true },
+        { "metin": "Psikolojinin, gözlemlenebilir davranışlara odaklanması gerektiğini savunan davranışçılık ekolünün kurucusudur.", "dogruMu": false },
+        { "metin": "Zihnin yapısını analiz etmek için 'içebakış' yöntemini kullanmıştır.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Hipotalamus",
+      "kategori": "Nörobilim",
+      "ifadeler": [
+        { "metin": "Beynin küçük bir bölgesidir ancak temel yaşamsal güdüleri (açlık, susuzluk, cinsellik) düzenler.", "dogruMu": true },
+        { "metin": "Vücut ısısını ve sirkadiyen ritimleri (uyku-uyanıklık döngüsü) kontrol eder.", "dogruMu": true },
+        { "metin": "Görsel bilgiyi işlemekten sorumlu birincil merkezdir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Dürtü Azaltma Kuramı",
+      "kategori": "Motivasyon ve Duygu",
+      "ifadeler": [
+        { "metin": "Clark Hull tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Biyolojik bir ihtiyaç (örn: açlık), bir dürtü (içsel gerilim) yaratır ve organizma bu dürtüyü azaltmak için davranışta bulunur.", "dogruMu": true },
+        { "metin": "Bu kuram, merak veya keşfetme gibi uyarılma artırıcı davranışları iyi bir şekilde açıklar.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Sadece Maruz Kalma Etkisi (Mere-Exposure Effect)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir uyarıcıya (kişi, şarkı, nesne) ne kadar çok maruz kalırsak, ona karşı o kadar olumlu bir tutum geliştirme eğilimimizdir.", "dogruMu": true },
+        { "metin": "Robert Zajonc bu olguyu kapsamlı bir şekilde incelemiştir.", "dogruMu": true },
+        { "metin": "Etki, sadece uyarıcıyı bilinçli olarak fark ettiğimizde ortaya çıkar.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Psikopati",
+      "kategori": "Klinik Psikoloji",
+      "ifadeler": [
+        { "metin": "Empati yoksunluğu, yüzeysel duygular, aldatıcılık ve pişmanlık duymama gibi özelliklerle karakterizedir.", "dogruMu": true },
+        { "metin": "DSM-5'te 'Antisosyal Kişilik Bozukluğu' ile ilişkilidir ancak tam olarak aynı şey değildir.", "dogruMu": true },
+        { "metin": "Tüm psikopatlar şiddet suçlusu seri katillerdir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "İçsel ve Dışsal Motivasyon",
+      "kategori": "Motivasyon ve Duygu",
+      "ifadeler": [
+        { "metin": "İçsel motivasyon, bir aktiviteyi kendi doğasından gelen tatmin için yapmaktır.", "dogruMu": true },
+        { "metin": "Dışsal motivasyon, bir aktiviteyi para, not veya övgü gibi dışsal bir ödül için yapmaktır.", "dogruMu": true },
+        { "metin": "İçsel olarak motive edici bir aktivite için dışsal bir ödül vermek (aşırı gerekçelendirme etkisi) motivasyonu her zaman artırır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Tükenmişlik Sendromu (Burnout)",
+      "kategori": "Sağlık Psikolojisi",
+      "ifadeler": [
+        { "metin": "Kronik iş stresi sonucunda ortaya çıkan duygusal tükenme, duyarsızlaşma ve düşük kişisel başarı hissi durumudur.", "dogruMu": true },
+        { "metin": "Sadece sağlık sektörü çalışanlarını etkileyen bir durumdur.", "dogruMu": false },
+        { "metin": "Christina Maslach, bu sendromun araştırılmasında öncü bir isimdir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Albert Ellis ve Akılcı Duygucu Davranışçı Terapi (ADDT)",
+      "kategori": "Psikoterapi",
+      "ifadeler": [
+        { "metin": "İnsanların yaşadığı duygusal sorunların temelinde, olaylar hakkındaki akıl dışı inançlarının yattığını savunur.", "dogruMu": true },
+        { "metin": "Terapinin amacı, danışanın bu akıl dışı inançlarını sorgulayıp değiştirmesine yardımcı olmaktır.", "dogruMu": true },
+        { "metin": "Ellis'in ABC Modeli, Harekete Geçiren Olay (A), İnanç (B) ve Sonuç (C) arasındaki ilişkiyi açıklar.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Amigdala",
+      "kategori": "Nörobilim",
+      "ifadeler": [
+        { "metin": "Beynin temporal lobunda bulunan badem şeklinde bir yapıdır.", "dogruMu": true },
+        { "metin": "Özellikle korku ve öfke gibi duygusal tepkilerin işlenmesinde ve hafızaya alınmasında kritik bir rol oynar.", "dogruMu": true },
+        { "metin": "Amigdalası hasar gören bir kişi, problem çözme yeteneğini tamamen kaybeder.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Hipokampüs",
+      "kategori": "Nörobilim",
+      "ifadeler": [
+        { "metin": "Yeni anıların (özellikle anısal ve mekansal bellek) oluşturulmasında ve uzun süreli belleğe aktarılmasında temel bir rol oynar.", "dogruMu": true },
+        { "metin": "Ünlü hasta H.M.'nin hipokampüsünün cerrahi olarak çıkarılması, bu yapının hafıza için önemini göstermiştir.", "dogruMu": true },
+        { "metin": "Hipokampüs, temel içgüdüsel davranışların (açlık, susuzluk) kontrol merkezidir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "William James",
+      "kategori": "Psikoloji Tarihi",
+      "ifadeler": [
+        { "metin": "Amerikan psikolojisinin babası olarak kabul edilir.", "dogruMu": true },
+        { "metin": "Zihnin yapısından çok, işlevlerine ve organizmanın çevreye nasıl uyum sağladığına odaklanan 'işlevselcilik' ekolünün öncüsüdür.", "dogruMu": true },
+        { "metin": "Ünlü 'Bilinç Akışı' (stream of consciousness) metaforunu psikolojiye kazandırmıştır.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Geriye Dönük Bakış Yanlılığı (Hindsight Bias)",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir olayın sonucu belli olduktan sonra, başından beri o sonucu tahmin ettiğimize veya bildiğimize inanma eğilimidir.", "dogruMu": true },
+        { "metin": "'Ben zaten böyle olacağını biliyordum' fenomeni olarak da bilinir.", "dogruMu": true },
+        { "metin": "Bu yanlılık, gelecekteki olayları tahmin etme yeteneğimizi geliştirir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Yüz Geri Bildirim Hipotezi",
+      "kategori": "Motivasyon ve Duygu",
+      "ifadeler": [
+        { "metin": "Yüz ifadelerimizin, duygusal deneyimimizi etkileyebileceğini veya güçlendirebileceğini öne sürer.", "dogruMu": true },
+        { "metin": "Bu hipoteze göre, zorla gülümsemek bile bir kişinin ruh halini bir miktar iyileştirebilir.", "dogruMu": true },
+        { "metin": "Bu hipotez, duyguların tamamen bilişsel süreçler tarafından belirlendiğini kanıtlamıştır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Panik Atak",
+      "kategori": "Klinik Psikoloji",
+      "ifadeler": [
+        { "metin": "Belirgin bir neden olmaksızın aniden başlayan ve hızla zirveye ulaşan yoğun bir korku veya rahatsızlık nöbetidir.", "dogruMu": true },
+        { "metin": "Çarpıntı, terleme, nefes darlığı ve ölüm korkusu gibi fiziksel ve bilişsel belirtiler içerir.", "dogruMu": true },
+        { "metin": "Panik atak geçiren bir kişi her zaman kalp krizi geçirmektedir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "İşlevsel Sabitlenme (Functional Fixedness)",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir nesneyi sadece en yaygın veya alışılmış işleviyle görme ve onu yaratıcı veya alternatif şekillerde kullanmayı düşünememe eğilimidir.", "dogruMu": true },
+        { "metin": "Bu durum, problem çözme sürecinde bir engel teşkil edebilir.", "dogruMu": true },
+        { "metin": "Duncker'ın mum problemi, işlevsel sabitlenmeyi gösteren klasik bir deneydir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Transaksiyonel Analiz (TA)",
+      "kategori": "Psikoterapi",
+      "ifadeler": [
+        { "metin": "Eric Berne tarafından geliştirilmiştir.", "dogruMu": true },
+        { "metin": "Kişiliği üç ego durumu (Ebeveyn, Yetişkin, Çocuk) açısından inceler.", "dogruMu": true },
+        { "metin": "İnsanlar arasındaki sosyal etkileşimleri ('transaksiyonlar') ve 'yaşam senaryolarını' analiz eder.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "Kriptomnezi (Cryptomnesia)",
+      "kategori": "Bilişsel Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir kişinin, daha önce duyduğu veya okuduğu bir fikri, kendi orijinal fikriymiş gibi yanlışlıkla hatırlamasıdır.", "dogruMu": true },
+        { "metin": "Bu durum, farkında olmadan yapılan intihallere (plagiarism) yol açabilir.", "dogruMu": true },
+        { "metin": "Kriptomnezi, kişinin bilinçli olarak başkalarının fikirlerini çalmasıdır.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Dissosiyatif Kimlik Bozukluğu (Çoklu Kişilik)",
+      "kategori": "Klinik Psikoloji",
+      "ifadeler": [
+        { "metin": "Kişinin, iki veya daha fazla farklı ve belirgin kimlik veya kişilik durumuna sahip olmasıyla karakterizedir.", "dogruMu": true },
+        { "metin": "Bu bozukluk, genellikle şiddetli çocukluk çağı travmalarıyla ilişkilidir.", "dogruMu": true },
+        { "metin": "Film ve kitaplarda sıkça abartılı ve yanlış bir şekilde tasvir edilir.", "dogruMu": true }
+      ]
+    },
+    {
+      "konu": "REM Uykusu",
+      "kategori": "Nörobilim",
+      "ifadeler": [
+        { "metin": "REM, 'Hızlı Göz Hareketi' (Rapid Eye Movement) anlamına gelir.", "dogruMu": true },
+        { "metin": "Canlı ve hikayemsi rüyaların en çok görüldüğü uyku evresidir.", "dogruMu": true },
+        { "metin": "Bu evre sırasında, beyin aktivitesi yavaşlar ve kaslar oldukça hareketlidir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Duyarsızlaşma (Desensitization)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir uyarıcıya (özellikle şiddet gibi) tekrar tekrar maruz kalmanın, o uyarıcıya karşı duygusal tepkileri azaltmasıdır.", "dogruMu": true },
+        { "metin": "Medyadaki şiddetin, gerçek hayattaki şiddete karşı insanları daha az duyarlı hale getirebileceği endişesi bu kavrama dayanır.", "dogruMu": true },
+        { "metin": "Duyarsızlaşma, her zaman olumsuz bir durumdur ve hiçbir faydası yoktur.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Anna Freud",
+      "kategori": "Psikanaliz",
+      "ifadeler": [
+        { "metin": "Sigmund Freud'un kızıdır ve psikanaliz alanında önemli bir figürdür.", "dogruMu": true },
+        { "metin": "Özellikle çocuk psikanalizi ve ego psikolojisi alanlarına önemli katkılarda bulunmuştur.", "dogruMu": true },
+        { "metin": "Babasının teorilerini tamamen reddetmiş ve kendi ekolünü kurmuştur.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Sirkadiyen Ritim",
+      "kategori": "Biyopsikoloji",
+      "ifadeler": [
+        { "metin": "Yaklaşık 24 saatlik bir döngüyü takip eden biyolojik, zihinsel ve davranışsal değişikliklerdir.", "dogruMu": true },
+        { "metin": "Uyku-uyanıklık döngüsü, en bilinen sirkadiyen ritimdir.", "dogruMu": true },
+        { "metin": "Bu ritimler tamamen dışsal ipuçlarına (ışık, sıcaklık) bağlıdır ve içsel bir 'biyolojik saat' tarafından kontrol edilmezler.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Ayrımcılık",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir kişiye veya gruba, sadece o gruba üye oldukları için yöneltilen olumsuz veya haksız davranıştır.", "dogruMu": true },
+        { "metin": "Ayrımcılık, önyargının (tutum) davranışsal bileşenidir.", "dogruMu": true },
+        { "metin": "Önyargılı bir insan olmak, her zaman ayrımcı davranışlarda bulunmak anlamına gelir.", "dogruMu": false }
+      ]
+    },
+    {
+      "konu": "Kalıpyargı (Stereotype)",
+      "kategori": "Sosyal Psikoloji",
+      "ifadeler": [
+        { "metin": "Bir grup insan hakkındaki genelleştirilmiş bir inanç veya beklentidir.", "dogruMu": true },
+        { "metin": "Kalıpyargılar hem olumlu hem de olumsuz olabilir.", "dogruMu": true },
+        { "metin": "Kalıpyargılar, her zaman bireysel deneyimlere dayanan doğru ve güvenilir bilgilerdir.", "dogruMu": false }
+      ]
+    }
   ]
-  }
-  ]
-  

@@ -1,5 +1,8 @@
 import { BenKimimWord, BenKimimSettings, BenKimimGameState, BenKimimAction } from '@/types/benkimim';
 
+// Global cache for words to avoid reloading
+let globalWordsCache: BenKimimWord[] | null = null;
+
 /**
  * Ben Kimim oyunu için oyun motoru
  * Kelime yönetimi, oyun akışı ve skor hesaplama işlemlerini yönetir
@@ -31,14 +34,32 @@ export class BenKimimEngine {
    */
   async loadWords(): Promise<void> {
     try {
+      // Eğer kelimeler zaten yüklenmişse tekrar yükleme
+      if (this.words.length > 0) {
+        return;
+      }
+
+      // Global cache'den kontrol et
+      if (globalWordsCache && globalWordsCache.length > 0) {
+        this.words = globalWordsCache;
+        return;
+      }
+
       const response = await fetch('/data/benkimim_words_tr.json');
       if (!response.ok) {
         throw new Error('Kelime dosyası yüklenemedi');
       }
-      this.words = await response.json();
+      const words = await response.json();
+      
+      // Cache'e kaydet
+      globalWordsCache = words;
+      this.words = words;
+      
       // Kelimeler başarıyla yüklendi
     } catch (error) {
       console.error('Kelimeler yüklenirken hata:', error);
+      // Hata durumunda boş array kullan
+      this.words = [];
     }
   }
 
@@ -55,8 +76,10 @@ export class BenKimimEngine {
    * Oyunu başlat
    */
   startGame(): void {
+    // Kelimeler yüklenmemişse bekle
     if (this.words.length === 0) {
-      throw new Error('Kelimeler henüz yüklenmedi');
+      console.warn('Kelimeler henüz yüklenmedi, oyun başlatılamıyor');
+      return;
     }
 
     this.resetGame();

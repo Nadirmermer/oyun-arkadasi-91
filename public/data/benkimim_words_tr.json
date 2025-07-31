@@ -1,4 +1,3 @@
-
 [
   {
     "kisi": "B.F. Skinner",
@@ -157,6 +156,10 @@
     "kategori": "Modern Dilbilim ve Doğuştanlık Kuramı"
   },
   {
+    "kisi": "Doğan CücelOğlu",
+    "kategori": "Türk Psikolog"
+  },
+  {
     "kisi": "Edward E. Jones",
     "kategori": "Temel Atıf Hatası ve Sosyal Algı"
   },
@@ -165,8 +168,16 @@
     "kategori": "Anlamsal Farklılıklar Ölçeği"
   },
   {
+    "kisi": "Üstün Dökmen",
+    "kategori": "Türk Psikolog"
+  },
+  {
     "kisi": "Solomon E. Asch",
     "kategori": "Sosyal Uyma Deneyleri"
+  },
+  {
+    "kisi": "Irvin D. Yalom",
+    "kategori": "Amerikalı psikanalist, psikiyatrist, psikoterapist"
   },
   {
     "kisi": "Gordon H. Bower",
@@ -281,6 +292,10 @@
     "kategori": "Nöropsikolojinin Babası"
   },
   {
+    "kisi": "Tarkan",
+    "kategori": "Kuzu Kuzu"
+  },
+  {
     "kisi": "Eleanor E. Maccoby",
     "kategori": "Cinsiyet Gelişimi ve Ebeveyn-Çocuk Etkileşimi"
   },
@@ -291,6 +306,18 @@
   {
     "kisi": "G. Stanley Hall",
     "kategori": "APA Kurucusu ve Gelişim Psikolojisi Öncüsü"
+  },
+  {
+    "kisi": "Nail Şahin",
+    "kategori": "Bilişsel Gelişim Kuramı"
+  },
+  {
+    "kisi": "Öget Öktem Tanör",
+    "kategori": "Nöropsikolog"
+  },
+  {
+    "kisi": "Muzaffer Şerif",
+    "kategori": "Türk sosyal psikolog"
   },
   {
     "kisi": "Lewis M. Terman",
@@ -343,6 +370,10 @@
   {
     "kisi": "Milton Rokeach",
     "kategori": "Değerler ve İnanç Sistemleri"
+  },
+  {
+    "kisi": "Arif",
+    "kategori": "AROG-GORA"
   },
   {
     "kisi": "John Garcia",

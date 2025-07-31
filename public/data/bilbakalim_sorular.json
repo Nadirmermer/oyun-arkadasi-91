@@ -108,5 +108,2095 @@
       { "metin": "Bilinçdışı güdüler davranışı yönlendirir", "dogruMu": false },
       { "metin": "Öğrenme deneyimle şekillenir", "dogruMu": false }
     ]
+  },
+  {
+    "id": "q11",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "B.F. Skinner'in geliştirdiği öğrenme türü hangisidir?",
+    "secenekler": [
+      { "metin": "Klasik Koşullanma", "dogruMu": false },
+      { "metin": "Sosyal Öğrenme", "dogruMu": false },
+      { "metin": "Edimsel (Operant) Koşullanma", "dogruMu": true },
+      { "metin": "Gizil Öğrenme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q12",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Erik Erikson'un psikososyal gelişim teorisinde ergenlik dönemine karşılık gelen kriz hangisidir?",
+    "secenekler": [
+      { "metin": "Temel Güvene Karşı Güvensizlik", "dogruMu": false },
+      { "metin": "Kimliğe Karşı Rol Karmaşası", "dogruMu": true },
+      { "metin": "Yakınlığa Karşı Yalıtılmışlık", "dogruMu": false },
+      { "metin": "Üretkenliğe Karşı Durgunluk", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q13",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'a göre, ahlaki prensipleri ve idealleri temsil eden kişilik yapısı hangisidir?",
+    "secenekler": [
+      { "metin": "İd", "dogruMu": false },
+      { "metin": "Ego", "dogruMu": false },
+      { "metin": "Süperego", "dogruMu": true },
+      { "metin": "Libido", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q14",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "'Yanlış bilgi etkisi' (misinformation effect) hangi bilişsel süreçle ilgilidir?",
+    "secenekler": [
+      { "metin": "Dikkat", "dogruMu": false },
+      { "metin": "Problem Çözme", "dogruMu": false },
+      { "metin": "Dil", "dogruMu": false },
+      { "metin": "Hafıza", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q15",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "İnsanların bir grubun içinde bireysel sorumluluk hissetmeyerek daha az çaba gösterme eğilimine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Sosyal Kaytarma", "dogruMu": true },
+      { "metin": "Grup Düşüncesi", "dogruMu": false },
+      { "metin": "Seyirci Etkisi", "dogruMu": false },
+      { "metin": "Uyma Davranışı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q16",
+    "kategori": "Nörobilim",
+    "soru": "Beynin konuşmayı anlamadan sorumlu bölgesi hangisidir?",
+    "secenekler": [
+      { "metin": "Broca Alanı", "dogruMu": false },
+      { "metin": "Wernicke Alanı", "dogruMu": true },
+      { "metin": "Motor Korteks", "dogruMu": false },
+      { "metin": "Hipokampüs", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q17",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Panik ataklar, agorafobi ve yoğun endişe hangi bozukluk kategorisinde yer alır?",
+    "secenekler": [
+      { "metin": "Duygudurum Bozuklukları", "dogruMu": false },
+      { "metin": "Psikotik Bozukluklar", "dogruMu": false },
+      { "metin": "Anksiyete Bozuklukları", "dogruMu": true },
+      { "metin": "Somatoform Bozukluklar", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q18",
+    "kategori": "Ekoller",
+    "soru": "Hümanistik psikolojinin öncüleri arasında kim yer alır?",
+    "secenekler": [
+      { "metin": "John B. Watson", "dogruMu": false },
+      { "metin": "Carl Rogers", "dogruMu": true },
+      { "metin": "Alfred Adler", "dogruMu": false },
+      { "metin": "Lev Vygotsky", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q19",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Albert Bandura'nın Bobo Doll deneyi hangi öğrenme türünü göstermektedir?",
+    "secenekler": [
+      { "metin": "Klasik Koşullanma", "dogruMu": false },
+      { "metin": "Edimsel Koşullanma", "dogruMu": false },
+      { "metin": "Gözlem Yoluyla Öğrenme (Model Alma)", "dogruMu": true },
+      { "metin": "İçgörüsel Öğrenme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q20",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Beş Faktör Kişilik Modeli'ne (Big Five) göre, hangisi bir kişilik boyutu değildir?",
+    "secenekler": [
+      { "metin": "Dışadönüklük", "dogruMu": false },
+      { "metin": "Nevrotiklik", "dogruMu": false },
+      { "metin": "Dürüstlük", "dogruMu": true },
+      { "metin": "Deneyime Açıklık", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q21",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Lev Vygotsky'nin teorisinde, bir çocuğun tek başına yapamadığı ancak bir yetişkin yardımıyla yapabildiği görevleri içeren alan nedir?",
+    "secenekler": [
+      { "metin": "Duyusal-Motor Alan", "dogruMu": false },
+      { "metin": "Yakınsak Gelişim Alanı (ZPD)", "dogruMu": true },
+      { "metin": "Benmerkezcilik Alanı", "dogruMu": false },
+      { "metin": "Şema Alanı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q22",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Leon Festinger tarafından ortaya atılan ve tutarsız inançların yarattığı rahatsızlığı açıklayan teori hangisidir?",
+    "secenekler": [
+      { "metin": "Bilişsel Çelişki Teorisi", "dogruMu": true },
+      { "metin": "Sosyal Kimlik Teorisi", "dogruMu": false },
+      { "metin": "Atfetme Teorisi", "dogruMu": false },
+      { "metin": "Sosyal Değişim Teorisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q23",
+    "kategori": "Nörobilim",
+    "soru": "Hafıza ve öğrenme süreçlerinde kritik bir rol oynayan, beynin temporal lobunda yer alan yapı hangisidir?",
+    "secenekler": [
+      { "metin": "Amigdala", "dogruMu": false },
+      { "metin": "Serebellum", "dogruMu": false },
+      { "metin": "Hipokampüs", "dogruMu": true },
+      { "metin": "Talamus", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q24",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bir problemi çözmek için kullanılan, denenmiş ve test edilmiş zihinsel kısayollara veya genel kurallara ne ad verilir?",
+    "secenekler": [
+      { "metin": "Algoritmalar", "dogruMu": false },
+      { "metin": "Sezgisel (Heuristics)", "dogruMu": true },
+      { "metin": "İçgörü", "dogruMu": false },
+      { "metin": "Sabitlenme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q25",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Gerçeklikle bağın koptuğu, sanrılar ve halüsinasyonlar gibi belirtilerle karakterize olan bozukluk hangisidir?",
+    "secenekler": [
+      { "metin": "Bipolar Bozukluk", "dogruMu": false },
+      { "metin": "Obsesif Kompulsif Bozukluk", "dogruMu": false },
+      { "metin": "Şizofreni", "dogruMu": true },
+      { "metin": "Yaygın Anksiyete Bozukluğu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q26",
+    "kategori": "Ekoller",
+    "soru": "'İçebakış' yöntemini kullanarak zihnin yapısını analiz etmeye çalışan ilk psikoloji ekolü hangisidir?",
+    "secenekler": [
+      { "metin": "Davranışçılık", "dogruMu": false },
+      { "metin": "Yapısalcılık", "dogruMu": true },
+      { "metin": "İşlevselcilik", "dogruMu": false },
+      { "metin": "Psikanaliz", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q27",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Edward Thorndike'ın 'Etki Yasası' neyi ifade eder?",
+    "secenekler": [
+      { "metin": "Olumlu sonuçlanan davranışların tekrarlanma olasılığı artar", "dogruMu": true },
+      { "metin": "Öğrenme sadece gözlem yoluyla gerçekleşir", "dogruMu": false },
+      { "metin": "Cezalandırılan davranış her zaman ortadan kalkar", "dogruMu": false },
+      { "metin": "Tüm öğrenmeler bilinçdışıdır", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q28",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Alfred Adler'in kişilik teorisinin merkezinde yer alan temel kavram hangisidir?",
+    "secenekler": [
+      { "metin": "Kolektif Bilinçdışı", "dogruMu": false },
+      { "metin": "Aşağılık Kompleksi", "dogruMu": true },
+      { "metin": "Oedipus Kompleksi", "dogruMu": false },
+      { "metin": "Benlik Saygısı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q29",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "John Bowlby'nin Bağlanma Teorisine göre, bebeklerin birincil bakıcılarına gösterdiği güçlü duygusal bağın temel amacı nedir?",
+    "secenekler": [
+      { "metin": "Beslenme ihtiyacını karşılamak", "dogruMu": false },
+      { "metin": "Sosyal beceriler öğrenmek", "dogruMu": false },
+      { "metin": "Güvenlik ve hayatta kalma", "dogruMu": true },
+      { "metin": "Dil gelişimini hızlandırmak", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q30",
+    "kategori": "Nörobilim",
+    "soru": "Duygusal tepkilerin (özellikle korku) işlenmesinde merkezi bir rol oynayan badem şeklindeki beyin yapısı hangisidir?",
+    "secenekler": [
+      { "metin": "Hipotalamus", "dogruMu": false },
+      { "metin": "Talamus", "dogruMu": false },
+      { "metin": "Amigdala", "dogruMu": true },
+      { "metin": "Serebellum", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q31",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Acil bir durumda, etrafta başka insanlar varken bireylerin yardım etme olasılığının düşmesine ne denir?",
+    "secenekler": [
+      { "metin": "Seyirci Etkisi (Bystander Effect)", "dogruMu": true },
+      { "metin": "Sosyal Kolaylaştırma", "dogruMu": false },
+      { "metin": "Temel Atıf Hatası", "dogruMu": false },
+      { "metin": "Grup Kutuplaşması", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q32",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bir nesneyi sadece en yaygın kullanımıyla düşünme ve farklı şekillerde kullanmayı akıl edememe eğilimine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Doğrulama Yanlılığı", "dogruMu": false },
+      { "metin": "İşlevsel Sabitlenme (Functional Fixedness)", "dogruMu": true },
+      { "metin": "Temsil Edicilik Sezgiseli", "dogruMu": false },
+      { "metin": "Çıpalama Etkisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q33",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Tekrarlayan, istenmeyen düşünceler (obsesyonlar) ve bu düşünceleri bastırmak için yapılan tekrarlayıcı davranışlar (kompulsiyonlar) ile karakterize bozukluk hangisidir?",
+    "secenekler": [
+      { "metin": "Travma Sonrası Stres Bozukluğu", "dogruMu": false },
+      { "metin": "Genel Anksiyete Bozukluğu", "dogruMu": false },
+      { "metin": "Obsesif Kompulsif Bozukluk (OKB)", "dogruMu": true },
+      { "metin": "Panik Bozukluk", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q34",
+    "kategori": "Ekoller",
+    "soru": "Psikolojinin zihinsel süreçler yerine sadece gözlemlenebilir davranışlara odaklanması gerektiğini savunan ekol hangisidir?",
+    "secenekler": [
+      { "metin": "Gestalt", "dogruMu": false },
+      { "metin": "Psikanaliz", "dogruMu": false },
+      { "metin": "Hümanizm", "dogruMu": false },
+      { "metin": "Davranışçılık", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q35",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Carl Rogers'a göre, bir bireyin potansiyeline ulaşması için çevresinden görmesi gereken koşulsuz olumlu kabul, empati ve içtenlik hangi kavramla ifade edilir?",
+    "secenekler": [
+      { "metin": "Savunma Mekanizmaları", "dogruMu": false },
+      { "metin": "Terapötik İttifak", "dogruMu": true },
+      { "metin": "Arketipler", "dogruMu": false },
+      { "metin": "Pekiştirme Tarifeleri", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q36",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Lawrence Kohlberg'in ahlaki gelişim teorisinin en üst seviyesi hangisidir?",
+    "secenekler": [
+      { "metin": "Gelenek Öncesi Ahlak", "dogruMu": false },
+      { "metin": "Geleneksel Ahlak", "dogruMu": false },
+      { "metin": "Gelenek Sonrası Ahlak", "dogruMu": true },
+      { "metin": "İtaat ve Ceza Eğilimi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q37",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Bir davranışın ortadan kaldırılması amacıyla, davranıştan sonra hoşa gitmeyen bir uyarıcının ortama eklenmesine ne denir?",
+    "secenekler": [
+      { "metin": "Olumlu Pekiştirme", "dogruMu": false },
+      { "metin": "Olumsuz Pekiştirme", "dogruMu": false },
+      { "metin": "Birinci Tip Ceza (Pozitif Ceza)", "dogruMu": true },
+      { "metin": "Sönme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q38",
+    "kategori": "Nörobilim",
+    "soru": "Rüya görmenin en yoğun olduğu ve kasların geçici olarak felç olduğu uyku evresi hangisidir?",
+    "secenekler": [
+      { "metin": "NREM 1", "dogruMu": false },
+      { "metin": "NREM 2", "dogruMu": false },
+      { "metin": "NREM 3 (Derin Uyku)", "dogruMu": false },
+      { "metin": "REM (Hızlı Göz Hareketi)", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q39",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Başkalarının davranışlarını açıklarken durumsal faktörleri göz ardı edip kişisel özelliklere aşırı vurgu yapma eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Kendine Hizmet Eden Yanlılık", "dogruMu": false },
+      { "metin": "Temel Atıf Hatası", "dogruMu": true },
+      { "metin": "Hale Etkisi", "dogruMu": false },
+      { "metin": "Adil Dünya İnancı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q40",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bilgilerin ve olayların bilinçli olarak hatırlandığı, 'bildiğimizi bildiğimiz' bellek türü hangisidir?",
+    "secenekler": [
+      { "metin": "Örtük (Implicit) Bellek", "dogruMu": false },
+      { "metin": "Açık (Explicit) Bellek", "dogruMu": true },
+      { "metin": "İşlemsel Bellek", "dogruMu": false },
+      { "metin": "Duyusal Kayıt", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q41",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Hem manik (taşkınlık) hem de depresif (çökkünlük) dönemlerin yaşandığı duygudurum bozukluğu hangisidir?",
+    "secenekler": [
+      { "metin": "Majör Depresif Bozukluk", "dogruMu": false },
+      { "metin": "Bipolar Bozukluk", "dogruMu": true },
+      { "metin": "Distimik Bozukluk", "dogruMu": false },
+      { "metin": "Siklotimik Bozukluk", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q42",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Piaget'nin teorisine göre, nesnelerin gözden kaybolsalar bile var olmaya devam ettiklerini anlama yetisine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Korunum", "dogruMu": false },
+      { "metin": "Benmerkezcilik", "dogruMu": false },
+      { "metin": "Nesne Sürekliliği", "dogruMu": true },
+      { "metin": "Tersine Çevirebilirlik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q43",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'un psikoseksüel gelişim teorisinde, çocuğun cinsel kimliğini kazandığı ve karşı cinsten ebeveyne ilgi duyduğu dönem hangisidir?",
+    "secenekler": [
+      { "metin": "Oral Dönem", "dogruMu": false },
+      { "metin": "Anal Dönem", "dogruMu": false },
+      { "metin": "Fallik Dönem", "dogruMu": true },
+      { "metin": "Gizil (Latent) Dönem", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q44",
+    "kategori": "Nörobilim",
+    "soru": "Sinir hücreleri (nöronlar) arasındaki iletişimi sağlayan kimyasal maddelere ne ad verilir?",
+    "secenekler": [
+      { "metin": "Hormonlar", "dogruMu": false },
+      { "metin": "Nörotransmitterler", "dogruMu": true },
+      { "metin": "Enzimler", "dogruMu": false },
+      { "metin": "Antikorlar", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q45",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir grup içinde, uyumu sürdürmek adına aykırı görüşlerin bastırılması ve mantıksız kararlar alınması eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Grup Kutuplaşması", "dogruMu": false },
+      { "metin": "Sosyal Kaytarma", "dogruMu": false },
+      { "metin": "Grup Düşüncesi (Groupthink)", "dogruMu": true },
+      { "metin": "Bilgilendirici Sosyal Etki", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q46",
+    "kategori": "Ekoller",
+    "soru": "Zihnin işlevlerine ve organizmanın çevresine nasıl uyum sağladığına odaklanan, William James ile ilişkilendirilen ekol hangisidir?",
+    "secenekler": [
+      { "metin": "Yapısalcılık", "dogruMu": false },
+      { "metin": "İşlevselcilik", "dogruMu": true },
+      { "metin": "Bilişselcilik", "dogruMu": false },
+      { "metin": "Gestalt", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q47",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Noam Chomsky'nin dilbilim teorisine göre, insanların dil öğrenme yeteneği ile doğuştan geldiğini öne süren mekanizmanın adı nedir?",
+    "secenekler": [
+      { "metin": "Dil Edinim Cihazı (LAD)", "dogruMu": true },
+      { "metin": "Evrensel Dilbilgisi", "dogruMu": false },
+      { "metin": "Dilsel Görelilik Hipotezi", "dogruMu": false },
+      { "metin": "Sosyal Etkileşim Modeli", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q48",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Pekiştirmenin belirli bir davranıştan sonra değil de, değişken zaman aralıklarıyla verildiği pekiştirme tarifesi hangisidir?",
+    "secenekler": [
+      { "metin": "Sabit Oranlı", "dogruMu": false },
+      { "metin": "Değişken Oranlı", "dogruMu": false },
+      { "metin": "Sabit Aralıklı", "dogruMu": false },
+      { "metin": "Değişken Aralıklı", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q49",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Travmatik bir olayın ardından yaşanan, olayı tekrar tekrar yaşama, kaçınma ve aşırı uyarılmışlık belirtileri gösteren bozukluk hangisidir?",
+    "secenekler": [
+      { "metin": "Akut Stres Bozukluğu", "dogruMu": false },
+      { "metin": "Travma Sonrası Stres Bozukluğu (TSSB)", "dogruMu": true },
+      { "metin": "Yaygın Anksiyete Bozukluğu", "dogruMu": false },
+      { "metin": "Ayrışma (Dissosiyatif) Bozukluğu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q50",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Kişilik testlerinden hangisi, bireyin bilinçdışı düşüncelerini ve duygularını ortaya çıkarmak için belirsiz resimler (mürekkep lekeleri) kullanır?",
+    "secenekler": [
+      { "metin": "MMPI", "dogruMu": false },
+      { "metin": "Rorschach Testi", "dogruMu": true },
+      { "metin": "Tematik Algı Testi (TAT)", "dogruMu": false },
+      { "metin": "NEO Kişilik Envanteri", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q51",
+    "kategori": "Nörobilim",
+    "soru": "Beynin planlama, karar verme ve problem çözme gibi üst düzey bilişsel işlevlerden sorumlu olan lobu hangisidir?",
+    "secenekler": [
+      { "metin": "Parietal Lob", "dogruMu": false },
+      { "metin": "Temporal Lob", "dogruMu": false },
+      { "metin": "Oksipital Lob", "dogruMu": false },
+      { "metin": "Frontal Lob", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q52",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Diana Baumrind'in ebeveynlik stillerine göre, yüksek beklentileri olan ama aynı zamanda sıcak ve duyarlı olan ebeveynlik stili hangisidir?",
+    "secenekler": [
+      { "metin": "Otoriter", "dogruMu": false },
+      { "metin": "Demokratik (Yetkin)", "dogruMu": true },
+      { "metin": "İzin Verici (Müsamahakar)", "dogruMu": false },
+      { "metin": "İlgisiz", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q53",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bireyin kendi başarılarını içsel nedenlere, başarısızlıklarını ise dışsal nedenlere atfetme eğilimi nedir?",
+    "secenekler": [
+      { "metin": "Temel Atıf Hatası", "dogruMu": false },
+      { "metin": "Aktör-Gözlemci Yanlılığı", "dogruMu": false },
+      { "metin": "Kendine Hizmet Eden Yanlılık (Self-Serving Bias)", "dogruMu": true },
+      { "metin": "Adil Dünya İnancı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q54",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bilgiyi çok kısa bir süre (milisaniyelerle) tutan ve görsel veya işitsel bilgiyi işleyen ilk bellek aşaması hangisidir?",
+    "secenekler": [
+      { "metin": "Kısa Süreli Bellek", "dogruMu": false },
+      { "metin": "Uzun Süreli Bellek", "dogruMu": false },
+      { "metin": "Duyusal Kayıt", "dogruMu": true },
+      { "metin": "İşleyen Bellek", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q55",
+    "kategori": "Ekoller",
+    "soru": "Ego'nun kaygıyla başa çıkmak için kullandığı bilinçdışı stratejilere (örneğin, bastırma, yansıtma) ne ad verilir?",
+    "secenekler": [
+      { "metin": "Savunma Mekanizmaları", "dogruMu": true },
+      { "metin": "Bilişsel Şemalar", "dogruMu": false },
+      { "metin": "Öz-yeterlik İnançları", "dogruMu": false },
+      { "metin": "Arketipler", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q56",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Kişinin kimliği, hafızası ve bilincinde bozulmaların yaşandığı, örneğin çoklu kişilik olarak da bilinen durumları içeren bozukluk grubu hangisidir?",
+    "secenekler": [
+      { "metin": "Somatoform Bozukluklar", "dogruMu": false },
+      { "metin": "Duygudurum Bozuklukları", "dogruMu": false },
+      { "metin": "Dissosiyatif (Ayrışma) Bozukluklar", "dogruMu": true },
+      { "metin": "Yeme Bozuklukları", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q57",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Klasik koşullanmada, koşulsuz uyarıcı (örn: yiyecek) ortadan kaldırıldığında koşullu uyarıcının (örn: zil sesi) tek başına tepki (örn: salya) üretme gücünün azalmasına ne denir?",
+    "secenekler": [
+      { "metin": "Genelleme", "dogruMu": false },
+      { "metin": "Ayırt Etme", "dogruMu": false },
+      { "metin": "Sönme", "dogruMu": true },
+      { "metin": "Kendiliğinden Geri Gelme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q58",
+    "kategori": "Nörobilim",
+    "soru": "Dopamin nörotransmitterinin eksikliği hangi nörolojik hastalıkla güçlü bir şekilde ilişkilidir?",
+    "secenekler": [
+      { "metin": "Alzheimer Hastalığı", "dogruMu": false },
+      { "metin": "Parkinson Hastalığı", "dogruMu": true },
+      { "metin": "Epilepsi", "dogruMu": false },
+      { "metin": "Multipl Skleroz (MS)", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q59",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Raymond Cattell, kişiliğin temel yapı taşları olarak gördüğü özellikleri tanımlamak için hangi istatistiksel tekniği kullanmıştır?",
+    "secenekler": [
+      { "metin": "Korelasyon Analizi", "dogruMu": false },
+      { "metin": "Regresyon Analizi", "dogruMu": false },
+      { "metin": "Faktör Analizi", "dogruMu": true },
+      { "metin": "Varyans Analizi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q60",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Daha önce sunulan bir bilginin, sonraki kararları veya yargıları etkilemesi eğilimine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Çıpalama (Anchoring) Yanlılığı", "dogruMu": true },
+      { "metin": "Doğrulama Yanlılığı", "dogruMu": false },
+      { "metin": "Kullanılabilirlik Sezgiseli", "dogruMu": false },
+      { "metin": "Geriye Dönük Bakış Yanlılığı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q61",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir gruba ait olma isteğiyle veya grubun onayını kazanmak için grup normlarına uyma davranışı hangisidir?",
+    "secenekler": [
+      { "metin": "Bilgilendirici Sosyal Etki", "dogruMu": false },
+      { "metin": "Normatif Sosyal Etki", "dogruMu": true },
+      { "metin": "İtaat", "dogruMu": false },
+      { "metin": "İkna", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q62",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Harry Harlow'un maymunlarla yaptığı deneyler, bağlanma için hangi faktörün beslenmeden daha önemli olduğunu göstermiştir?",
+    "secenekler": [
+      { "metin": "Oyun", "dogruMu": false },
+      { "metin": "Temas Rahatlığı", "dogruMu": true },
+      { "metin": "Isı", "dogruMu": false },
+      { "metin": "Aynı Türden Olma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q63",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Tıbbi bir nedeni olmamasına rağmen, kişinin ciddi fiziksel semptomlar (örneğin ağrı, felç) göstermesi durumuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "Hipokondriyazis", "dogruMu": false },
+      { "metin": "Konversiyon Bozukluğu", "dogruMu": true },
+      { "metin": "Vücut Dismorfik Bozukluğu", "dogruMu": false },
+      { "metin": "Psikosomatik Bozukluk", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q64",
+    "kategori": "Ekoller",
+    "soru": "Wilhelm Wundt tarafından 1879'da ilk psikoloji laboratuvarı hangi şehirde kurulmuştur?",
+    "secenekler": [
+      { "metin": "Viyana", "dogruMu": false },
+      { "metin": "Berlin", "dogruMu": false },
+      { "metin": "Leipzig", "dogruMu": true },
+      { "metin": "Paris", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q65",
+    "kategori": "Nörobilim",
+    "soru": "Beynin sağ ve sol yarım kürelerini birbirine bağlayan ve aralarındaki iletişimi sağlayan ana sinir lifi demeti hangisidir?",
+    "secenekler": [
+      { "metin": "Beyin Sapı", "dogruMu": false },
+      { "metin": "Korpus Kallosum", "dogruMu": true },
+      { "metin": "Serebellum", "dogruMu": false },
+      { "metin": "Limbik Sistem", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q66",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Karen Horney'in kişilik teorisinde, çocuklukta yaşanan temel güvensizlik hissine karşı geliştirilen üç temel başa çıkma stratejisi (insanlara yönelme, insanlara karşı olma, insanlardan uzaklaşma) hangi kavramla ifade edilir?",
+    "secenekler": [
+      { "metin": "Nörotik İhtiyaçlar", "dogruMu": true },
+      { "metin": "Psikoseksüel Evreler", "dogruMu": false },
+      { "metin": "Kardinal Özellikler", "dogruMu": false },
+      { "metin": "Savunma Mekanizmaları", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q67",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Pekiştirme veya ceza olmadan da öğrenmenin gerçekleşebileceğini, ancak davranışa dönüşmek için bir güdüleyiciye ihtiyaç duyduğunu gösteren öğrenme türü hangisidir?",
+    "secenekler": [
+      { "metin": "İçgörüsel Öğrenme", "dogruMu": false },
+      { "metin": "Gizil (Latent) Öğrenme", "dogruMu": true },
+      { "metin": "Model Alma", "dogruMu": false },
+      { "metin": "Kavram Öğrenme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q68",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Anılar, kişisel deneyimler ve belirli olaylardan oluşan uzun süreli bellek türü hangisidir?",
+    "secenekler": [
+      { "metin": "Semantik Bellek", "dogruMu": false },
+      { "metin": "İşlemsel Bellek", "dogruMu": false },
+      { "metin": "Epizodik (Anısal) Bellek", "dogruMu": true },
+      { "metin": "Örtük Bellek", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q69",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir kişiye veya gruba karşı, genellikle yetersiz veya yanlış bilgiye dayanan olumsuz tutuma ne denir?",
+    "secenekler": [
+      { "metin": "Kalıpyargı (Stereotip)", "dogruMu": false },
+      { "metin": "Ayrımcılık", "dogruMu": false },
+      { "metin": "Önyargı", "dogruMu": true },
+      { "metin": "Atıf", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q70",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Piaget'nin bilişsel gelişim teorisine göre, bir çocuğun miktarın, şekli veya görünümü değişse bile aynı kaldığını anlama yetisi nedir?",
+    "secenekler": [
+      { "metin": "Nesne Sürekliliği", "dogruMu": false },
+      { "metin": "Tersine Çevirebilirlik", "dogruMu": false },
+      { "metin": "Korunum", "dogruMu": true },
+      { "metin": "Benmerkezcilik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q71",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Aşağıdakilerden hangisi bir yeme bozukluğu değildir?",
+    "secenekler": [
+      { "metin": "Anoreksiya Nervoza", "dogruMu": false },
+      { "metin": "Bulimiya Nervoza", "dogruMu": false },
+      { "metin": "Tıkınırcasına Yeme Bozukluğu", "dogruMu": false },
+      { "metin": "Pika", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q72",
+    "kategori": "Nörobilim",
+    "soru": "Vücudun 'savaş ya da kaç' tepkisini kontrol eden ve otonom sinir sisteminin bir parçası olan sistem hangisidir?",
+    "secenekler": [
+      { "metin": "Parasempatik Sinir Sistemi", "dogruMu": false },
+      { "metin": "Sempatik Sinir Sistemi", "dogruMu": true },
+      { "metin": "Somatik Sinir Sistemi", "dogruMu": false },
+      { "metin": "Merkezi Sinir Sistemi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q73",
+    "kategori": "Ekoller",
+    "soru": "Bireyin özgür iradesine, kişisel gelişimine ve kendini gerçekleştirme potansiyeline vurgu yapan psikoloji ekolü hangisidir?",
+    "secenekler": [
+      { "metin": "Bilişsel Psikoloji", "dogruMu": false },
+      { "metin": "Davranışçılık", "dogruMu": false },
+      { "metin": "Hümanistik Psikoloji", "dogruMu": true },
+      { "metin": "Biyolojik Psikoloji", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q74",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Genel bilgi, kavramlar ve gerçeklerden oluşan (örneğin 'Paris Fransa'nın başkentidir' bilgisi) uzun süreli bellek türü hangisidir?",
+    "secenekler": [
+      { "metin": "Epizodik Bellek", "dogruMu": false },
+      { "metin": "Semantik Bellek", "dogruMu": true },
+      { "metin": "İşlemsel Bellek", "dogruMu": false },
+      { "metin": "Otobiyografik Bellek", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q75",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Albert Bandura'nın teorisinde, bir bireyin belirli bir görevi başarıyla tamamlama yeteneğine olan inancına ne denir?",
+    "secenekler": [
+      { "metin": "Öz saygı", "dogruMu": false },
+      { "metin": "Öz denetim", "dogruMu": false },
+      { "metin": "Öz yeterlik", "dogruMu": true },
+      { "metin": "Öz farkındalık", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q76",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Stanley Milgram'ın itaat deneyleri, insanların hangi duruma karşı şaşırtıcı derecede duyarlı olduğunu göstermiştir?",
+    "secenekler": [
+      { "metin": "Grup baskısı", "dogruMu": false },
+      { "metin": "Otorite figürlerinin emirleri", "dogruMu": true },
+      { "metin": "Rol beklentileri", "dogruMu": false },
+      { "metin": "Bilişsel çelişki", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q77",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Doğumdan yaklaşık 2 yaşına kadar süren, çocuğun dünyayı duyuları ve motor eylemleriyle keşfettiği Piaget dönemi hangisidir?",
+    "secenekler": [
+      { "metin": "İşlem Öncesi Dönem", "dogruMu": false },
+      { "metin": "Somut İşlemler Dönemi", "dogruMu": false },
+      { "metin": "Duyusal-Motor Dönem", "dogruMu": true },
+      { "metin": "Soyut İşlemler Dönemi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q78",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Bir davranışın ardından hoşa giden bir uyarıcının ortamdan çıkarılması yoluyla davranışın sıklığını azaltma işlemine ne denir?",
+    "secenekler": [
+      { "metin": "Olumsuz Pekiştirme", "dogruMu": false },
+      { "metin": "Birinci Tip Ceza", "dogruMu": false },
+      { "metin": "İkinci Tip Ceza (Mahrum Bırakma)", "dogruMu": true },
+      { "metin": "Sönme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q79",
+    "kategori": "Nörobilim",
+    "soru": "Beynin görsel bilgiyi işlemekten sorumlu olan birincil lobu hangisidir?",
+    "secenekler": [
+      { "metin": "Frontal Lob", "dogruMu": false },
+      { "metin": "Parietal Lob", "dogruMu": false },
+      { "metin": "Temporal Lob", "dogruMu": false },
+      { "metin": "Oksipital Lob", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q80",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Aşağıdakilerden hangisi bir kişilik bozukluğudur?",
+    "secenekler": [
+      { "metin": "Majör Depresyon", "dogruMu": false },
+      { "metin": "Şizofreni", "dogruMu": false },
+      { "metin": "Narsisistik Kişilik Bozukluğu", "dogruMu": true },
+      { "metin": "Panik Bozukluk", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q81",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Hans Eysenck'in kişilik modelinde yer alan üç ana boyut hangileridir?",
+    "secenekler": [
+      { "metin": "Açıklık, Sorumluluk, Uyumluluk", "dogruMu": false },
+      { "metin": "Dışadönüklük, Nevrotiklik, Psikotisizm", "dogruMu": true },
+      { "metin": "İd, Ego, Süperego", "dogruMu": false },
+      { "metin": "Narsisizm, Makyavelizm, Psikopati", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q82",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Zihinsel bir kurulum (mental set) nedir?",
+    "secenekler": [
+      { "metin": "Yeni fikirlere açık olma durumu", "dogruMu": false },
+      { "metin": "Bir problemi daha önce işe yaramış bir yöntemle çözmeye çalışma eğilimi", "dogruMu": true },
+      { "metin": "Problem çözmede aniden gelen 'Aha!' anı", "dogruMu": false },
+      { "metin": "Mantıksal adımlarla bir sonuca varma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q83",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir gruba veya fikre yönelik tutumun, grup içi tartışmalar sonucunda daha aşırı hale gelmesi eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Grup Düşüncesi", "dogruMu": false },
+      { "metin": "Grup Kutuplaşması", "dogruMu": true },
+      { "metin": "Sosyal Kolaylaştırma", "dogruMu": false },
+      { "metin": "Sosyal Kaytarma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q84",
+    "kategori": "Ekoller",
+    "soru": "Psikanalitik teoride, Oedipus kompleksinin çözüldüğü ve cinsel dürtülerin bastırıldığı psikoseksüel gelişim dönemi hangisidir?",
+    "secenekler": [
+      { "metin": "Anal Dönem", "dogruMu": false },
+      { "metin": "Fallik Dönem", "dogruMu": false },
+      { "metin": "Gizil (Latent) Dönem", "dogruMu": true },
+      { "metin": "Genital Dönem", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q85",
+    "kategori": "Nörobilim",
+    "soru": "Vücudun dinlenme, sindirim ve enerji depolama gibi 'dinlen ve sindir' fonksiyonlarını yöneten sinir sistemi hangisidir?",
+    "secenekler": [
+      { "metin": "Sempatik Sinir Sistemi", "dogruMu": false },
+      { "metin": "Parasempatik Sinir Sistemi", "dogruMu": true },
+      { "metin": "Somatik Sinir Sistemi", "dogruMu": false },
+      { "metin": "Endokrin Sistem", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q86",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Piaget'e göre, mevcut şemaların yeni bilgilere uyacak şekilde değiştirilmesi veya yeni şemalar oluşturulması sürecine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Özümleme (Assimilation)", "dogruMu": false },
+      { "metin": "Dengeleme (Equilibration)", "dogruMu": false },
+      { "metin": "Uyma (Accommodation)", "dogruMu": true },
+      { "metin": "Organizasyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q87",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Sürekli olarak bir veya daha fazla ciddi hastalığa sahip olma korkusu ve endişesi ile karakterize bozukluk hangisidir?",
+    "secenekler": [
+      { "metin": "Konversiyon Bozukluğu", "dogruMu": false },
+      { "metin": "Hastalık Anksiyetesi Bozukluğu (Hipokondriyazis)", "dogruMu": true },
+      { "metin": "Vücut Dismorfik Bozukluğu", "dogruMu": false },
+      { "metin": "Ağrı Bozukluğu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q88",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Klasik koşullanmada, koşullu tepkinin, orijinal koşullu uyarıcıya benzeyen diğer uyarıcılara da gösterilmesine ne denir?",
+    "secenekler": [
+      { "metin": "Ayırt Etme", "dogruMu": false },
+      { "metin": "Sönme", "dogruMu": false },
+      { "metin": "Genelleme", "dogruMu": true },
+      { "metin": "Üst Düzey Koşullanma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q89",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Gordon Allport'un teorisinde, bir bireyin hayatını neredeyse tamamen şekillendiren, baskın ve nadir görülen özellik tipi hangisidir?",
+    "secenekler": [
+      { "metin": "Merkezi Özellikler", "dogruMu": false },
+      { "metin": "İkincil Özellikler", "dogruMu": false },
+      { "metin": "Kardinal Özellikler", "dogruMu": true },
+      { "metin": "Kaynak Özellikler", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q90",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bisiklete binmek veya araba kullanmak gibi becerilerin ve alışkanlıkların depolandığı, bilinçli çaba gerektirmeyen bellek türü hangisidir?",
+    "secenekler": [
+      { "metin": "Semantik Bellek", "dogruMu": false },
+      { "metin": "Epizodik Bellek", "dogruMu": false },
+      { "metin": "İşlemsel Bellek (Procedural Memory)", "dogruMu": true },
+      { "metin": "Açık Bellek", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q91",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir kişiye karşı olumsuz davranışlarda bulunmaya ne denir?",
+    "secenekler": [
+      { "metin": "Önyargı", "dogruMu": false },
+      { "metin": "Kalıpyargı", "dogruMu": false },
+      { "metin": "Ayrımcılık", "dogruMu": true },
+      { "metin": "Atıf", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q92",
+    "kategori": "Nörobilim",
+    "soru": "Uyku-uyanıklık döngüleri gibi biyolojik ritimleri düzenleyen ve 'biyolojik saat' olarak bilinen beyin bölgesi hangisidir?",
+    "secenekler": [
+      { "metin": "Hipokampüs", "dogruMu": false },
+      { "metin": "Suprakiazmatik Çekirdek (SCN)", "dogruMu": true },
+      { "metin": "Amigdala", "dogruMu": false },
+      { "metin": "Pons", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q93",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Mary Ainsworth'un 'Yabancı Durum' deneyi neyi ölçmek için tasarlanmıştır?",
+    "secenekler": [
+      { "metin": "Zeka seviyesini", "dogruMu": false },
+      { "metin": "Ahlaki gelişimi", "dogruMu": false },
+      { "metin": "Çocuk ve bakıcısı arasındaki bağlanma stilini", "dogruMu": true },
+      { "metin": "Dil becerilerini", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q94",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Gerçekte var olmayan duyusal deneyimler (örneğin, sesler duyma, bir şeyler görme) yaşama durumuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "Sanrı (Hezeyan)", "dogruMu": false },
+      { "metin": "İllüzyon", "dogruMu": false },
+      { "metin": "Halüsinasyon (Varsanı)", "dogruMu": true },
+      { "metin": "Obsesyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q95",
+    "kategori": "Ekoller",
+    "soru": "'Küçük Albert' deneyi, hangi psikoloji ekolünün temel prensiplerini göstermek için yapılmıştır?",
+    "secenekler": [
+      { "metin": "Psikanaliz", "dogruMu": false },
+      { "metin": "Davranışçılık", "dogruMu": true },
+      { "metin": "Hümanizm", "dogruMu": false },
+      { "metin": "Gestalt", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q96",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bir olayın sonucunu öğrendikten sonra, başından beri bunu bildiğimizi veya tahmin ettiğimizi düşünme eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Doğrulama Yanlılığı", "dogruMu": false },
+      { "metin": "Geriye Dönük Bakış Yanlılığı (Hindsight Bias)", "dogruMu": true },
+      { "metin": "Çıpalama Etkisi", "dogruMu": false },
+      { "metin": "İşlevsel Sabitlenme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q97",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'a göre, 'haz ilkesi'ne göre çalışan ve anında tatmin arayan ilkel kişilik yapısı hangisidir?",
+    "secenekler": [
+      { "metin": "Ego", "dogruMu": false },
+      { "metin": "Süperego", "dogruMu": false },
+      { "metin": "İd", "dogruMu": true },
+      { "metin": "Bilinç", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q98",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Wolfgang Köhler'in şempanzelerle yaptığı deneyler, problem çözmede aniden gelen kavrayışı gösteren hangi öğrenme türünü ortaya koymuştur?",
+    "secenekler": [
+      { "metin": "Gizil Öğrenme", "dogruMu": false },
+      { "metin": "İçgörüsel Öğrenme (Insight Learning)", "dogruMu": true },
+      { "metin": "Klasik Koşullanma", "dogruMu": false },
+      { "metin": "Edimsel Koşullanma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q99",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "İnsanların, başkaları tarafından izlenirken basit veya iyi öğrenilmiş görevlerde daha iyi performans göstermesi olgusuna ne denir?",
+    "secenekler": [
+      { "metin": "Sosyal Kaytarma", "dogruMu": false },
+      { "metin": "Seyirci Etkisi", "dogruMu": false },
+      { "metin": "Sosyal Kolaylaştırma", "dogruMu": true },
+      { "metin": "Grup Kutuplaşması", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q100",
+    "kategori": "Nörobilim",
+    "soru": "Duygudurum, iştah ve uyku düzenlemesinde önemli rol oynayan ve eksikliğinin depresyonla ilişkilendirildiği nörotransmitter hangisidir?",
+    "secenekler": [
+      { "metin": "Asetilkolin", "dogruMu": false },
+      { "metin": "Dopamin", "dogruMu": false },
+      { "metin": "GABA", "dogruMu": false },
+      { "metin": "Serotonin", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q101",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Danışanın mantıksız düşüncelerini ve inançlarını sorgulayarak onları daha gerçekçi olanlarla değiştirmeyi hedefleyen terapi yaklaşımı hangisidir?",
+    "secenekler": [
+      { "metin": "Psikanalitik Terapi", "dogruMu": false },
+      { "metin": "Bilişsel Davranışçı Terapi (BDT)", "dogruMu": true },
+      { "metin": "Hümanistik Terapi", "dogruMu": false },
+      { "metin": "Gestalt Terapisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q102",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Schachter-Singer (İki Faktörlü) Duygu Kuramı'na göre bir duygunun oluşması için hangi iki faktör gereklidir?",
+    "secenekler": [
+      { "metin": "Fizyolojik Uyarılma ve Bilişsel Yorumlama", "dogruMu": true },
+      { "metin": "İçgüdüsel Tepki ve Öğrenilmiş Davranış", "dogruMu": false },
+      { "metin": "Bilinçdışı Arzu ve Sosyal Baskı", "dogruMu": false },
+      { "metin": "Hormonal Değişim ve Çevresel Tetikleyici", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q103",
+    "kategori": "Zeka",
+    "soru": "Howard Gardner'ın Çoklu Zeka Kuramı'na göre, bir dansçının veya sporcunun sahip olduğu belirgin zeka türü hangisidir?",
+    "secenekler": [
+      { "metin": "Müziksel-Ritmik Zeka", "dogruMu": false },
+      { "metin": "Sözel-Dilsel Zeka", "dogruMu": false },
+      { "metin": "Bedensel-Kinestetik Zeka", "dogruMu": true },
+      { "metin": "Mantıksal-Matematiksel Zeka", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q104",
+    "kategori": "Duyum ve Algı",
+    "soru": "İki gözümüzün birbirinden biraz farklı açılardan görmesiyle oluşan derinlik algısı ipucuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "Doğrusal Perspektif", "dogruMu": false },
+      { "metin": "Binoküler Ayrıklık (Retinal Disparity)", "dogruMu": true },
+      { "metin": "Hareket Paralaksı", "dogruMu": false },
+      { "metin": "Göreceli Büyüklük", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q105",
+    "kategori": "Endüstriyel/Örgütsel Psikoloji",
+    "soru": "Çalışanların, sadece gözlemlendiklerini bildikleri için bile performanslarını artırma eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Pygmalion Etkisi", "dogruMu": false },
+      { "metin": "Hawthorne Etkisi", "dogruMu": true },
+      { "metin": "Halo Etkisi", "dogruMu": false },
+      { "metin": "Tükenmişlik Sendromu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q106",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Gerçek dışı, değiştirilmesi güç, sarsılmaz inançlara ne ad verilir?",
+    "secenekler": [
+      { "metin": "Halüsinasyon (Varsanı)", "dogruMu": false },
+      { "metin": "İllüzyon (Yanılsama)", "dogruMu": false },
+      { "metin": "Sanrı (Hezeyan)", "dogruMu": true },
+      { "metin": "Obsesyon (Takıntı)", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q107",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Erikson'a göre, orta yetişkinlik dönemindeki bireylerin temel psikososyal çatışması nedir?",
+    "secenekler": [
+      { "metin": "Yakınlığa Karşı Yalıtılmışlık", "dogruMu": false },
+      { "metin": "Kimliğe Karşı Rol Karmaşası", "dogruMu": false },
+      { "metin": "Üretkenliğe Karşı Durgunluk", "dogruMu": true },
+      { "metin": "Benlik Bütünlüğüne Karşı Umutsuzluk", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q108",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Dilin, düşünceyi ve dünyayı algılama biçimimizi etkilediğini veya belirlediğini öne süren hipotez hangisidir?",
+    "secenekler": [
+      { "metin": "Chomsky'nin Evrensel Dilbilgisi", "dogruMu": false },
+      { "metin": "Sapir-Whorf Hipotezi (Dilsel Görelilik)", "dogruMu": true },
+      { "metin": "İki Faktörlü Dil Teorisi", "dogruMu": false },
+      { "metin": "Bağlantıcılık Modeli", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q109",
+    "kategori": "Sağlık Psikolojisi",
+    "soru": "Hans Selye'nin Genel Uyum Sendromu'na göre, vücudun strese karşı tepkisinin aşamaları hangi sırayla gerçekleşir?",
+    "secenekler": [
+      { "metin": "Direnç, Alarm, Tükenme", "dogruMu": false },
+      { "metin": "Alarm, Direnç, Tükenme", "dogruMu": true },
+      { "metin": "Tükenme, Alarm, Direnç", "dogruMu": false },
+      { "metin": "Alarm, Tükenme, Direnç", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q110",
+    "kategori": "Psikolojik Testler",
+    "soru": "Tematik Algı Testi (TAT) hangi tür bir testtir ve neyi ölçmeyi amaçlar?",
+    "secenekler": [
+      { "metin": "Zeka Testi; Bilişsel Yetenekler", "dogruMu": false },
+      { "metin": "Projektif Kişilik Testi; Bilinçdışı Güdüler ve İhtiyaçlar", "dogruMu": true },
+      { "metin": "Objektif Kişilik Testi; Belirgin Kişilik Özellikleri", "dogruMu": false },
+      { "metin": "Nöropsikolojik Test; Beyin Hasarı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q111",
+    "kategori": "Duyum ve Algı",
+    "soru": "Dış dünyadan gelen fiziksel enerjinin (ışık, ses dalgaları gibi) duyu organları tarafından sinirsel sinyallere dönüştürülmesine ne denir?",
+    "secenekler": [
+      { "metin": "Algı", "dogruMu": false },
+      { "metin": "Duyum", "dogruMu": true },
+      { "metin": "Adaptasyon", "dogruMu": false },
+      { "metin": "Eşik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q112",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Bir davranışı dışsal bir ödül (para, not vb.) için değil, sadece o davranışı yapmaktan keyif alındığı için gerçekleştirmeye ne denir?",
+    "secenekler": [
+      { "metin": "Dışsal Motivasyon", "dogruMu": false },
+      { "metin": "İçsel Motivasyon", "dogruMu": true },
+      { "metin": "Başarı Güdüsü", "dogruMu": false },
+      { "metin": "Homeostaz", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q113",
+    "kategori": "Zeka",
+    "soru": "Robert Sternberg'in Üçlü Zeka Kuramı'nın bileşenleri hangileridir?",
+    "secenekler": [
+      { "metin": "Sözel, Sayısal, Mekansal", "dogruMu": false },
+      { "metin": "Analitik, Yaratıcı, Pratik", "dogruMu": true },
+      { "metin": "Doğacı, Müziksel, Kinestetik", "dogruMu": false },
+      { "metin": "Akıcı, Kristalize, Duygusal", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q114",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Fobilerin tedavisinde, kişinin korktuğu uyaranla kademeli olarak ve güvenli bir ortamda yüzleştirildiği tekniğe ne ad verilir?",
+    "secenekler": [
+      { "metin": "Serbest Çağrışım", "dogruMu": false },
+      { "metin": "Sistematik Duyarsızlaştırma", "dogruMu": true },
+      { "metin": "Danışan Odaklı Terapi", "dogruMu": false },
+      { "metin": "Rüya Analizi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q115",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir kişinin bir özelliği (örneğin, fiziksel çekiciliği) hakkındaki olumlu izlenimin, o kişinin diğer özelliklerini (örneğin, zekasını) da olumlu değerlendirmemize yol açmasına ne denir?",
+    "secenekler": [
+      { "metin": "Temel Atıf Hatası", "dogruMu": false },
+      { "metin": "Hale Etkisi (Halo Effect)", "dogruMu": true },
+      { "metin": "Sadece Maruz Kalma Etkisi", "dogruMu": false },
+      { "metin": "Benzerlik Çekimi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q116",
+    "kategori": "Nörobilim",
+    "soru": "Vücuttaki temel metabolik fonksiyonları (kalp atışı, nefes alma, kan basıncı) düzenleyen beyin sapı bölümü hangisidir?",
+    "secenekler": [
+      { "metin": "Pons", "dogruMu": false },
+      { "metin": "Serebellum", "dogruMu": false },
+      { "metin": "Medulla Oblongata", "dogruMu": true },
+      { "metin": "Retiküler Formasyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q117",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Hoşa gitmeyen bir durumdan kurtularak bir davranışın pekiştirilmesine ne ad verilir? (Örn: Baş ağrısından kurtulmak için ilaç almak)",
+    "secenekler": [
+      { "metin": "Olumlu Pekiştirme", "dogruMu": false },
+      { "metin": "Ceza", "dogruMu": false },
+      { "metin": "Olumsuz Pekiştirme", "dogruMu": true },
+      { "metin": "Sönme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q118",
+    "kategori": "Kişilik Teorileri",
+    "soru": "'Karanlık Üçlü' (Dark Triad) olarak adlandırılan kişilik özellikleri hangileridir?",
+    "secenekler": [
+      { "metin": "Nevrotiklik, Psikotisizm, Dışadönüklük", "dogruMu": false },
+      { "metin": "Narsisizm, Makyavelizm, Psikopati", "dogruMu": true },
+      { "metin": "Saplantı, Zorlantı, Kaygı", "dogruMu": false },
+      { "metin": "Otoriterlik, Dogmatizm, Paranoya", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q119",
+    "kategori": "Adli Psikoloji",
+    "soru": "Bir tanığın, bir olaydan sonra maruz kaldığı yanıltıcı bilgileri (örneğin, yönlendirici sorular) kendi anısına dahil etmesi olgusuna ne denir?",
+    "secenekler": [
+      { "metin": "Kaynak Amnezisi", "dogruMu": false },
+      { "metin": "Silah Odaklanması Etkisi", "dogruMu": false },
+      { "metin": "Olay Sonrası Bilgi Etkisi (Misinformation Effect)", "dogruMu": true },
+      { "metin": "Kriptomnezi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q120",
+    "kategori": "Duyum ve Algı",
+    "soru": "Bir uyarıcıya sürekli maruz kalma sonucunda o uyarıcıya karşı duyarlılığın azalmasına ne denir? (Örn: Odaya sıkılan parfüm kokusunu bir süre sonra almamak)",
+    "secenekler": [
+      { "metin": "Duyusal Eşik", "dogruMu": false },
+      { "metin": "Fark Eşiği", "dogruMu": false },
+      { "metin": "Duyusal Adaptasyon", "dogruMu": true },
+      { "metin": "Weber Yasası", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q121",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Yerkes-Dodson Yasası'na göre, performans ile uyarılmışlık düzeyi arasındaki ilişki nasıldır?",
+    "secenekler": [
+      { "metin": "Doğrusal bir artış gösterir.", "dogruMu": false },
+      { "metin": "Ters-U şeklinde bir eğri oluşturur; orta düzeyde uyarılmışlık en iyi performansı sağlar.", "dogruMu": true },
+      { "metin": "Doğrusal bir azalış gösterir.", "dogruMu": false },
+      { "metin": "Uyarılmışlık seviyesinin performans üzerinde bir etkisi yoktur.", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q122",
+    "kategori": "Zeka",
+    "soru": "Yeni ve soyut problemleri çözme, mantık yürütme ve desenleri tanıma yeteneğini ifade eden zeka türü hangisidir?",
+    "secenekler": [
+      { "metin": "Kristalize Zeka", "dogruMu": false },
+      { "metin": "Akıcı Zeka", "dogruMu": true },
+      { "metin": "Pratik Zeka", "dogruMu": false },
+      { "metin": "Duygusal Zeka", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q123",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "'Şimdi ve burada' deneyimine odaklanan, danışanın farkındalığını artırmayı ve tamamlanmamış işlerini bitirmesini hedefleyen terapi ekolü hangisidir?",
+    "secenekler": [
+      { "metin": "Varoluşçu Terapi", "dogruMu": false },
+      { "metin": "Bilişsel Davranışçı Terapi", "dogruMu": false },
+      { "metin": "Gestalt Terapisi", "dogruMu": true },
+      { "metin": "Adlerian Terapi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q124",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Antisosyal Kişilik Bozukluğu olan bireyler için en belirgin özellik aşağıdakilerden hangisidir?",
+    "secenekler": [
+      { "metin": "Yoğun terk edilme korkusu", "dogruMu": false },
+      { "metin": "Başkalarının haklarını hiçe sayma ve empati yoksunluğu", "dogruMu": true },
+      { "metin": "Aşırı mükemmeliyetçilik ve kontrol ihtiyacı", "dogruMu": false },
+      { "metin": "Sosyal ortamlarda aşırı çekingenlik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q125",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bir olayın ne sıklıkla olduğunu veya ne kadar olası olduğunu, o olayın zihnimizde ne kadar kolay canlandığına göre yargılama eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Temsil Edicilik Sezgiseli", "dogruMu": false },
+      { "metin": "Çıpalama Yanlılığı", "dogruMu": false },
+      { "metin": "Kullanılabilirlik Sezgiseli (Availability Heuristic)", "dogruMu": true },
+      { "metin": "Doğrulama Yanlılığı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q126",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Kohlberg'in ahlaki gelişim teorisinde, bireyin eylemlerini toplumsal düzeni ve yasaları koruma temelinde değerlendirdiği aşama hangisidir?",
+    "secenekler": [
+      { "metin": "İtaat ve Ceza Eğilimi", "dogruMu": false },
+      { "metin": "İyi Çocuk Eğilimi", "dogruMu": false },
+      { "metin": "Kanun ve Düzen Eğilimi", "dogruMu": true },
+      { "metin": "Evrensel Ahlak İlkeleri Eğilimi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q127",
+    "kategori": "Sağlık Psikolojisi",
+    "soru": "Bir bireyin, stresli bir durumla başa çıkma yeteneğine olan inancına ve bu inancın sağlık üzerindeki etkisine ne ad verilir?",
+    "secenekler": [
+      { "metin": "İyimserlik", "dogruMu": false },
+      { "metin": "Kontrol Odağı", "dogruMu": false },
+      { "metin": "Başa Çıkma Öz-Yeterliği", "dogruMu": true },
+      { "metin": "Psikolojik Dayanıklılık (Resilience)", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q128",
+    "kategori": "Duyum ve Algı",
+    "soru": "Gestalt psikolojisine göre, birbirine yakın olan nesneleri bir bütün olarak algılama eğilimimiz hangi ilkeye dayanır?",
+    "secenekler": [
+      { "metin": "Benzerlik", "dogruMu": false },
+      { "metin": "Yakınlık", "dogruMu": true },
+      { "metin": "Süreklilik", "dogruMu": false },
+      { "metin": "Tamamlama", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q129",
+    "kategori": "Nörobilim",
+    "soru": "Beynin dikkat, uyanıklık ve bilinç düzeyini düzenleyen, beyin sapından talamusa uzanan sinir ağı hangisidir?",
+    "secenekler": [
+      { "metin": "Limbik Sistem", "dogruMu": false },
+      { "metin": "Bazal Gangliyonlar", "dogruMu": false },
+      { "metin": "Retiküler Aktive Edici Sistem (RAS)", "dogruMu": true },
+      { "metin": "Korpus Kallosum", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q130",
+    "kategori": "Psikolojik Testler",
+    "soru": "Bir testin, ölçmeyi amaçladığı şeyi tutarlı bir şekilde ölçme derecesine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Geçerlik", "dogruMu": false },
+      { "metin": "Güvenirlik", "dogruMu": true },
+      { "metin": "Standardizasyon", "dogruMu": false },
+      { "metin": "Normalizasyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q131",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Paul Ekman'ın araştırmalarına göre, kültürden bağımsız olarak evrensel olduğu kabul edilen temel duygular arasında hangisi yer almaz?",
+    "secenekler": [
+      { "metin": "Mutluluk", "dogruMu": false },
+      { "metin": "Kıskançlık", "dogruMu": true },
+      { "metin": "Şaşkınlık", "dogruMu": false },
+      { "metin": "Korku", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q132",
+    "kategori": "Endüstriyel/Örgütsel Psikoloji",
+    "soru": "Bir yöneticinin, bir çalışanın belirli bir alandaki beklentilerini yüksek tutmasının, o çalışanın performansını gerçekten artırması olgusuna ne denir?",
+    "secenekler": [
+      { "metin": "Hawthorne Etkisi", "dogruMu": false },
+      { "metin": "Pygmalion Etkisi (Kendini Gerçekleştiren Kehanet)", "dogruMu": true },
+      { "metin": "Peter Prensibi", "dogruMu": false },
+      { "metin": "Lider-Üye Etkileşim Teorisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q133",
+    "kategori": "Zeka",
+    "soru": "Yıllar boyunca biriken bilgi, beceri ve deneyimleri kullanma yeteneğini ifade eden zeka türü hangisidir?",
+    "secenekler": [
+      { "metin": "Akıcı Zeka", "dogruMu": false },
+      { "metin": "Pratik Zeka", "dogruMu": false },
+      { "metin": "Kristalize Zeka", "dogruMu": true },
+      { "metin": "Mekansal Zeka", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q134",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Irvin Yalom hangi terapi yaklaşımının önde gelen temsilcilerindendir ve 'ölüm, özgürlük, yalıtılmışlık, anlamsızlık' gibi temel konulara odaklanır?",
+    "secenekler": [
+      { "metin": "Psikanaliz", "dogruMu": false },
+      { "metin": "Davranışçılık", "dogruMu": false },
+      { "metin": "Varoluşçu Psikoterapi", "dogruMu": true },
+      { "metin": "Gerçeklik Terapisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q135",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Borderline Kişilik Bozukluğu'nun temel özellikleri arasında aşağıdakilerden hangisi en belirgin olanıdır?",
+    "secenekler": [
+      { "metin": "İlgi odağı olma arzusu ve dramatik davranışlar", "dogruMu": false },
+      { "metin": "Duygularda, ilişkilerde ve benlik algısında kronik bir istikrarsızlık", "dogruMu": true },
+      { "metin": "Sosyal ilişkilerden kaçınma ve yalnız kalma isteği", "dogruMu": false },
+      { "metin": "Büyüklük sanrıları ve empati eksikliği", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q136",
+    "kategori": "Duyum ve Algı",
+    "soru": "Eksik veya tamamlanmamış şekilleri ve desenleri zihinsel olarak tam bir bütün halinde algılama eğilimimiz hangi Gestalt ilkesidir?",
+    "secenekler": [
+      { "metin": "Süreklilik", "dogruMu": false },
+      { "metin": "Yakınlık", "dogruMu": false },
+      { "metin": "Tamamlama", "dogruMu": true },
+      { "metin": "Basitlik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q137",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir şeye veya bir kişiye ne kadar çok maruz kalırsak, ona karşı o kadar olumlu duygular geliştirme eğilimimiz hangi kavramla açıklanır?",
+    "secenekler": [
+      { "metin": "Bilişsel Çelişki", "dogruMu": false },
+      { "metin": "Sosyal Kanıt", "dogruMu": false },
+      { "metin": "Sadece Maruz Kalma Etkisi (Mere-Exposure Effect)", "dogruMu": true },
+      { "metin": "Karşılıklılık Normu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q138",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Kendi düşünce süreçlerimizin farkında olma ve onları anlama, kontrol etme yeteneğine ne ad verilir?",
+    "secenekler": [
+      { "metin": "İçgörü", "dogruMu": false },
+      { "metin": "Üstbiliş (Metacognition)", "dogruMu": true },
+      { "metin": "Sezgi", "dogruMu": false },
+      { "metin": "Otomatiklik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q139",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Bir davranışın ortadan kalkması (sönme) sonrası, bir süre geçtikten sonra kendiliğinden tekrar ortaya çıkması olgusuna ne denir?",
+    "secenekler": [
+      { "metin": "Genelleme", "dogruMu": false },
+      { "metin": "Yeniden Koşullanma", "dogruMu": false },
+      { "metin": "Kendiliğinden Geri Gelme", "dogruMu": true },
+      { "metin": "İkinci Dereceden Koşullanma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q140",
+    "kategori": "Nörobilim",
+    "soru": "Ana inhibitör (engelleyici) nörotransmitter hangisidir ve anksiyete ilaçlarının çoğu bu sistem üzerinde etkilidir?",
+    "secenekler": [
+      { "metin": "Glutamat", "dogruMu": false },
+      { "metin": "GABA (Gama-aminobütirik asit)", "dogruMu": true },
+      { "metin": "Serotonin", "dogruMu": false },
+      { "metin": "Asetilkolin", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q141",
+    "kategori": "Psikolojik Testler",
+    "soru": "Bir testin, ölçmeyi amaçladığı yapıyı (örneğin depresyon, zeka) gerçekten ve doğru bir şekilde ölçme derecesine ne denir?",
+    "secenekler": [
+      { "metin": "Güvenirlik", "dogruMu": false },
+      { "metin": "Geçerlik", "dogruMu": true },
+      { "metin": "Kullanışlılık", "dogruMu": false },
+      { "metin": "Objektiflik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q142",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Erikson'un psikososyal gelişim teorisine göre, yaşlılık dönemindeki temel çatışma nedir?",
+    "secenekler": [
+      { "metin": "Üretkenliğe Karşı Durgunluk", "dogruMu": false },
+      { "metin": "Yakınlığa Karşı Yalıtılmışlık", "dogruMu": false },
+      { "metin": "Benlik Bütünlüğüne Karşı Umutsuzluk", "dogruMu": true },
+      { "metin": "Temel Güvene Karşı Güvensizlik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q143",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Julian Rotter'ın teorisinde, bir kişinin olayların sonuçlarının kendi kontrolünde mi yoksa dış güçlerin kontrolünde mi olduğuna dair genel inancına ne ad verilir?",
+    "secenekler": [
+      { "metin": "Öz-yeterlik", "dogruMu": false },
+      { "metin": "Kontrol Odağı (Locus of Control)", "dogruMu": true },
+      { "metin": "Savunma Mekanizması", "dogruMu": false },
+      { "metin": "Nörotisizm", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q144",
+    "kategori": "Duyum ve Algı",
+    "soru": "Gözdeki retinanın, renkleri algılamak için üç farklı türde koni hücresine (kırmızı, yeşil, mavi) sahip olduğunu öne süren teori hangisidir?",
+    "secenekler": [
+      { "metin": "Karşıt-Süreç Teorisi", "dogruMu": false },
+      { "metin": "Üç-renk (Trikromatik) Teorisi", "dogruMu": true },
+      { "metin": "Frekans Teorisi", "dogruMu": false },
+      { "metin": "Kapı-Kontrol Teorisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q145",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Cannon-Bard Duygu Kuramı'na göre, duygusal bir uyaranla karşılaşıldığında ne olur?",
+    "secenekler": [
+      { "metin": "Önce fizyolojik tepki oluşur, sonra bu tepki yorunlanarak duygu hissedilir.", "dogruMu": false },
+      { "metin": "Fizyolojik tepki ve duygusal deneyim aynı anda ve birbirinden bağımsız olarak ortaya çıkar.", "dogruMu": true },
+      { "metin": "Önce duygu hissedilir, sonra fizyolojik tepki oluşur.", "dogruMu": false },
+      { "metin": "Duygunun oluşması için hem fizyolojik tepki hem de sosyal bir ipucu gereklidir.", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q146",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Obsesif-Kompulsif Kişilik Bozukluğu'nun (OKKB) temel özelliği nedir? (OKB'den farklıdır)",
+    "secenekler": [
+      { "metin": "Tekrarlayan yıkama veya kontrol etme davranışları", "dogruMu": false },
+      { "metin": "Düzen, mükemmeliyetçilik ve kontrol üzerine aşırı kafa yorma", "dogruMu": true },
+      { "metin": "Gerçek dışı korkular ve panik ataklar", "dogruMu": false },
+      { "metin": "Sürekli ve yersiz şüphecilik", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q147",
+    "kategori": "Zeka",
+    "soru": "Bir popülasyonda zeka testi puanlarının nesilden nesile artma eğilimi göstermesine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Hawthorne Etkisi", "dogruMu": false },
+      { "metin": "Flynn Etkisi", "dogruMu": true },
+      { "metin": "Pygmalion Etkisi", "dogruMu": false },
+      { "metin": "Standart Sapma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q148",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Psikanalitik terapide, danışanın geçmişteki önemli kişilerle (örn: ebeveyn) olan ilişkilerini terapistine yansıtma eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Yorumlama", "dogruMu": false },
+      { "metin": "Direnç", "dogruMu": false },
+      { "metin": "Aktarım (Transferans)", "dogruMu": true },
+      { "metin": "Karşıt Aktarım", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q149",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "İnsanların, bir iyilik gördüklerinde karşılığında bir iyilik yapma zorunluluğu hissetmelerine neden olan sosyal norm nedir?",
+    "secenekler": [
+      { "metin": "Sosyal Sorumluluk Normu", "dogruMu": false },
+      { "metin": "Adalet Normu", "dogruMu": false },
+      { "metin": "Karşılıklılık Normu (Reciprocity Norm)", "dogruMu": true },
+      { "metin": "İtaat Normu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q150",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bir kelime listesini hatırlamaya çalışırken, listenin başındaki ve sonundaki kelimeleri ortadakilere göre daha iyi hatırlama eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "İpucuyla Hatırlama", "dogruMu": false },
+      { "metin": "Seri Pozisyon Etkisi", "dogruMu": true },
+      { "metin": "Anlık Bellek", "dogruMu": false },
+      { "metin": "Kodlama Özgüllüğü", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q151",
+    "kategori": "Duyum ve Algı",
+    "soru": "Ağrı sinyallerinin beyne ulaşmasını engelleyebilen veya kolaylaştırabilen, omurilikte bir 'kapı' mekanizması olduğunu öne süren teori hangisidir?",
+    "secenekler": [
+      { "metin": "Frekans Teorisi", "dogruMu": false },
+      { "metin": "Karşıt-Süreç Teorisi", "dogruMu": false },
+      { "metin": "Kapı-Kontrol Ağrı Teorisi", "dogruMu": true },
+      { "metin": "Sinyal Tespit Teorisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q152",
+    "kategori": "Nörobilim",
+    "soru": "Kas hareketlerinin koordinasyonu, denge ve duruştan sorumlu olan, beynin arka alt kısmında yer alan yapı hangisidir?",
+    "secenekler": [
+      { "metin": "Hipokampüs", "dogruMu": false },
+      { "metin": "Amigdala", "dogruMu": false },
+      { "metin": "Serebellum (Beyincik)", "dogruMu": true },
+      { "metin": "Talamus", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q153",
+    "kategori": "Endüstriyel/Örgütsel Psikoloji",
+    "soru": "İş yerinde uzun süreli ve yoğun stresin bir sonucu olarak ortaya çıkan fiziksel, duygusal ve zihinsel yorgunluk durumuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "İş Tatminsizliği", "dogruMu": false },
+      { "metin": "Rol Çatışması", "dogruMu": false },
+      { "metin": "Tükenmişlik Sendromu (Burnout)", "dogruMu": true },
+      { "metin": "Cam Tavan Sendromu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q154",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Koşullu bir uyarıcının (örneğin zil), yeni bir nötr uyarıcıyla (örneğin ışık) eşleştirilerek, bu yeni uyarıcının da koşullu tepkiyi (salya) tek başına ortaya çıkarması sürecine ne denir?",
+    "secenekler": [
+      { "metin": "Sönme", "dogruMu": false },
+      { "metin": "Genelleme", "dogruMu": false },
+      { "metin": "İkinci Dereceden (Üst Düzey) Koşullanma", "dogruMu": true },
+      { "metin": "Duyusal Ön Koşullanma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q155",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'un teorisinde, kabul edilemez dürtülerin veya düşüncelerin tam tersi şekilde ifade edilmesi hangi savunma mekanizmasıdır? (Örn: Nefret duyulan birine aşırı sevgi göstermek)",
+    "secenekler": [
+      { "metin": "Yansıtma", "dogruMu": false },
+      { "metin": "Bastırma", "dogruMu": false },
+      { "metin": "Karşıt Tepki Oluşturma", "dogruMu": true },
+      { "metin": "Yer Değiştirme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q156",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Kişinin, gerçekte kendisine yönelik olmayan olayları, nesneleri veya diğer insanların davranışlarını kişisel bir anlam taşıyormuş gibi yorumladığı sanrı türü hangisidir?",
+    "secenekler": [
+      { "metin": "Büyüklük Sanrısı (Grandiyöz)", "dogruMu": false },
+      { "metin": "Perseküsyon Sanrısı (Kötülük görme)", "dogruMu": false },
+      { "metin": "Alınma Sanrısı (Referans)", "dogruMu": true },
+      { "metin": "Erotomanik Sanrı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q157",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Sadece kendi görüşümüzü destekleyen bilgileri arama, yorumlama ve hatırlama, karşıt görüşleri ise göz ardı etme eğilimimiz hangisidir?",
+    "secenekler": [
+      { "metin": "Kullanılabilirlik Sezgiseli", "dogruMu": false },
+      { "metin": "Çıpalama Yanlılığı", "dogruMu": false },
+      { "metin": "Doğrulama Yanlılığı (Confirmation Bias)", "dogruMu": true },
+      { "metin": "Geriye Dönük Bakış Yanlılığı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q158",
+    "kategori": "Zeka",
+    "soru": "Kendi duygularını ve başkalarının duygularını anlama, yönetme ve kullanma yeteneğini ifade eden kavram hangisidir?",
+    "secenekler": [
+      { "metin": "Sosyal Zeka", "dogruMu": false },
+      { "metin": "Pratik Zeka", "dogruMu": false },
+      { "metin": "Duygusal Zeka (EQ)", "dogruMu": true },
+      { "metin": "İçsel Zeka", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q159",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Aaron Beck tarafından geliştirilen Bilişsel Terapi'de, bireylerin deneyimlerini yorumlarken kullandıkları temel inanç ve kurallara ne ad verilir?",
+    "secenekler": [
+      { "metin": "Savunma Mekanizmaları", "dogruMu": false },
+      { "metin": "Otomatik Düşünceler", "dogruMu": false },
+      { "metin": "Bilişsel Şemalar", "dogruMu": true },
+      { "metin": "Bilişsel Çarpıtmalar", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q160",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Clark Hull'un Dürtü Azaltma Kuramı'na göre, davranışın temel amacı nedir?",
+    "secenekler": [
+      { "metin": "Uyarılmışlık seviyesini en üst düzeye çıkarmak", "dogruMu": false },
+      { "metin": "Biyolojik ihtiyaçlardan kaynaklanan içsel gerilimi (dürtüyü) azaltmak", "dogruMu": true },
+      { "metin": "Dışsal ödülleri maksimize etmek", "dogruMu": false },
+      { "metin": "Kendini gerçekleştirme potansiyeline ulaşmak", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q161",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "İnsanların kendi gruplarını (iç grup) diğer gruplardan (dış grup) daha olumlu değerlendirme eğilimine ne denir?",
+    "secenekler": [
+      { "metin": "Dış Grup Homojenliği", "dogruMu": false },
+      { "metin": "İç Grup Yanlılığı", "dogruMu": true },
+      { "metin": "Kalıpyargı Tehdidi", "dogruMu": false },
+      { "metin": "Temas Hipotezi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q162",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "James Marcia'nın kimlik statüleri modeline göre, bir kriz yaşamış ve bir bağlanma (karar) gerçekleştirmiş olan birey hangi kimlik statüsündedir?",
+    "secenekler": [
+      { "metin": "Dağınık Kimlik", "dogruMu": false },
+      { "metin": "İpotekli Kimlik", "dogruMu": false },
+      { "metin": "Başarılı Kimlik", "dogruMu": true },
+      { "metin": "Moratoryum", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q163",
+    "kategori": "Nörobilim",
+    "soru": "Beynin duyu organlarından gelen bilgileri (koku hariç) ilgili korteks bölgelerine yönlendiren bir 'aktarma istasyonu' olarak görev yapan bölümü hangisidir?",
+    "secenekler": [
+      { "metin": "Hipotalamus", "dogruMu": false },
+      { "metin": "Amigdala", "dogruMu": false },
+      { "metin": "Talamus", "dogruMu": true },
+      { "metin": "Hipokampüs", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q164",
+    "kategori": "Psikolojik Testler",
+    "soru": "Minnesota Çok Yönlü Kişilik Envanteri (MMPI) ne tür bir testtir?",
+    "secenekler": [
+      { "metin": "Projektif Kişilik Testi", "dogruMu": false },
+      { "metin": "Objektif (Yapılandırılmış) Kişilik Testi", "dogruMu": true },
+      { "metin": "Zeka Testi", "dogruMu": false },
+      { "metin": "Başarı Testi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q165",
+    "kategori": "Duyum ve Algı",
+    "soru": "İşitme duyusunda, sesin perdesinin (tizlik-peslik) baziler zarın hangi bölgesinin titreştiğine bağlı olduğunu savunan teori hangisidir?",
+    "secenekler": [
+      { "metin": "Frekans Teorisi", "dogruMu": false },
+      { "metin": "Karşıt-Süreç Teorisi", "dogruMu": false },
+      { "metin": "Yer Teorisi (Place Theory)", "dogruMu": true },
+      { "metin": "Voleybol Prensibi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q166",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Kişinin kendi düşüncelerinin, duygularının veya vücudunun gerçek dışı veya yabancılaşmış hissedildiği, 'sanki bir rüyadaymış gibi' olma deneyimine ne ad verilir?",
+    "secenekler": [
+      { "metin": "Derealizasyon", "dogruMu": false },
+      { "metin": "Depersonalizasyon", "dogruMu": true },
+      { "metin": "Dissosiyatif Füg", "dogruMu": false },
+      { "metin": "Dissosiyatif Amnezi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q167",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'un teorisinde, bir dürtüyü veya duyguyu daha az tehdit edici bir hedefe yönlendirme hangi savunma mekanizmasıdır? (Örn: Patronuna kızıp evde kapıyı çarpmak)",
+    "secenekler": [
+      { "metin": "Yüceltme", "dogruMu": false },
+      { "metin": "Mantığa Bürüme", "dogruMu": false },
+      { "metin": "Yer Değiştirme", "dogruMu": true },
+      { "metin": "İnkar", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q168",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Bilgiyi depolama ve geri çağırma sürecinde, bilginin öğrenildiği bağlamın (yer, duygu durumu) geri çağırma için önemli bir ipucu olmasına ne denir?",
+    "secenekler": [
+      { "metin": "Duruma Bağlı Bellek (State-Dependent Memory)", "dogruMu": true },
+      { "metin": "Flaş Bellek (Flashbulb Memory)", "dogruMu": false },
+      { "metin": "Seri Pozisyon Etkisi", "dogruMu": false },
+      { "metin": "İleriye Ket Vurma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q169",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Bir uyarıcıya karşı koşullu tepki oluştuktan sonra, bu uyarıcının sunulmadığı bir durumda tepkinin zamanla zayıflayıp ortadan kalkması nedir?",
+    "secenekler": [
+      { "metin": "Duyarsızlaşma", "dogruMu": false },
+      { "metin": "Sönme (Extinction)", "dogruMu": true },
+      { "metin": "Alışma (Habituation)", "dogruMu": false },
+      { "metin": "Ket Vurma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q170",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Marsha Linehan tarafından özellikle Borderline Kişilik Bozukluğu tedavisi için geliştirilen ve bilişsel-davranışçı tekniklerle mindfulness (bilinçli farkındalık) kavramlarını birleştiren terapi hangisidir?",
+    "secenekler": [
+      { "metin": "Kabul ve Kararlılık Terapisi (ACT)", "dogruMu": false },
+      { "metin": "Şema Terapi", "dogruMu": false },
+      { "metin": "Diyalektik Davranış Terapisi (DBT)", "dogruMu": true },
+      { "metin": "Motivasyonel Görüşme", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q171",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Yaşla birlikte ortaya çıkan bilişsel yavaşlama ve hafıza sorunlarının beklendiği, ancak normal yaşlanma sürecinin ötesinde bir bozulma olan durum hangisidir?",
+    "secenekler": [
+      { "metin": "Alzheimer Hastalığı", "dogruMu": false },
+      { "metin": "Hafif Bilişsel Bozukluk (MCI)", "dogruMu": true },
+      { "metin": "Demans", "dogruMu": false },
+      { "metin": "Korsakoff Sendromu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q172",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Yüz ifadelerinin, duygusal deneyimi etkileyebileceğini veya güçlendirebileceğini öne süren hipotez hangisidir? (Örn: Gülümsemek, kişinin kendini daha mutlu hissetmesine neden olabilir)",
+    "secenekler": [
+      { "metin": "Cannon-Bard Teorisi", "dogruMu": false },
+      { "metin": "Yüz Geri Bildirim Hipotezi", "dogruMu": true },
+      { "metin": "James-Lange Teorisi", "dogruMu": false },
+      { "metin": "İki Faktörlü Teori", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q173",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir kişinin, ait olduğu bir grupla ilgili olumsuz bir kalıpyargıyı doğrulayacağı korkusuyla performansının düşmesine ne denir?",
+    "secenekler": [
+      { "metin": "Kalıpyargı Tehdidi (Stereotype Threat)", "dogruMu": true },
+      { "metin": "Kendini Doğrulayan Kehanet", "dogruMu": false },
+      { "metin": "Dış Grup Homojenliği", "dogruMu": false },
+      { "metin": "İç Grup Yanlılığı", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q174",
+    "kategori": "Nörobilim",
+    "soru": "Öğrenme ve hafıza için kritik olan, uzun süreli güçlenme (LTP) olarak bilinen sinaptik bağlantıların güçlenmesi süreci en çok hangi beyin yapısıyla ilişkilidir?",
+    "secenekler": [
+      { "metin": "Amigdala", "dogruMu": false },
+      { "metin": "Serebellum", "dogruMu": false },
+      { "metin": "Hipokampüs", "dogruMu": true },
+      { "metin": "Frontal Korteks", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q175",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Daha önce öğrenilen bilgilerin, yeni bilgilerin öğrenilmesini veya hatırlanmasını zorlaştırması durumuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "Geriye Ket Vurma", "dogruMu": false },
+      { "metin": "İleriye Doğru Ket Vurma", "dogruMu": true },
+      { "metin": "Unutma Eğrisi", "dogruMu": false },
+      { "metin": "Kaynak Amnezisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q176",
+    "kategori": "Duyum ve Algı",
+    "soru": "Bir nesnenin rengi, parlaklığı veya şekli gibi algısal özelliklerinin, bakış açısı veya aydınlatma koşulları değişse bile sabit kalması olgusuna ne denir?",
+    "secenekler": [
+      { "metin": "Algısal Set", "dogruMu": false },
+      { "metin": "Algısal Değişmezlik", "dogruMu": true },
+      { "metin": "Şekil-Zemin Algısı", "dogruMu": false },
+      { "metin": "Algısal Adaptasyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q177",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Şizoid Kişilik Bozukluğu'nun temel özelliği nedir?",
+    "secenekler": [
+      { "metin": "Başkalarına karşı sürekli bir şüphe ve güvensizlik", "dogruMu": false },
+      { "metin": "Sosyal ilişkilerden kopukluk ve duygusal soğukluk", "dogruMu": true },
+      { "metin": "Aşırı derecede dikkat çekme ve duygusal taşkınlık", "dogruMu": false },
+      { "metin": "Başkalarına bağımlı olma ve kendi başına karar verememe", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q178",
+    "kategori": "Zeka",
+    "soru": "Alfred Binet, ilk zeka testini hangi amaçla geliştirmiştir?",
+    "secenekler": [
+      { "metin": "Askeri personel seçimi için", "dogruMu": false },
+      { "metin": "Okulda öğrenme güçlüğü yaşayan çocukları tespit etmek için", "dogruMu": true },
+      { "metin": "Üstün zekalı bireyleri belirlemek için", "dogruMu": false },
+      { "metin": "Kariyer danışmanlığı yapmak için", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q179",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'a göre, kabul edilemez ilkel dürtülerin (id'den gelen) toplum tarafından kabul edilebilir faaliyetlere (sanat, bilim vb.) dönüştürülmesi hangi savunma mekanizmasıdır?",
+    "secenekler": [
+      { "metin": "Mantığa Bürüme", "dogruMu": false },
+      { "metin": "Yer Değiştirme", "dogruMu": false },
+      { "metin": "Yüceltme (Sublimation)", "dogruMu": true },
+      { "metin": "Bastırma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q180",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Kabul ve Kararlılık Terapisi'nin (ACT) temel amacı nedir?",
+    "secenekler": [
+      { "metin": "Olumsuz düşünceleri tamamen ortadan kaldırmak.", "dogruMu": false },
+      { "metin": "Geçmiş çocukluk travmalarını çözümlemek.", "dogruMu": false },
+      { "metin": "Hoşa gitmeyen düşünce ve duyguları kabul etmeyi ve bireyin değerleri doğrultusunda hareket etmesini sağlamak.", "dogruMu": true },
+      { "metin": "Danışanın tüm davranışlarını mantıksal olarak analiz etmek.", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q181",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Yeni öğrenilen bilgilerin, daha önce öğrenilmiş eski bilgilerin hatırlanmasını engellemesi veya bozması durumuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "İleriye Ket Vurma", "dogruMu": false },
+      { "metin": "Geriye Ket Vurma", "dogruMu": true },
+      { "metin": "Bağlamsal Unutma", "dogruMu": false },
+      { "metin": "Bozulma Teorisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q182",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "Aşağıdakilerden hangisi bir 'yaklaşma-kaçınma çatışması' örneğidir?",
+    "secenekler": [
+      { "metin": "İki sevilen film arasında seçim yapmak.", "dogruMu": false },
+      { "metin": "Hem olumlu hem de olumsuz yönleri olan bir iş teklifini değerlendirmek.", "dogruMu": true },
+      { "metin": "İki sevilmeyen ders arasında seçim yapmak.", "dogruMu": false },
+      { "metin": "İki eşit derecede çekici tatlı arasında karar vermek.", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q183",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Diğer insanların ne düşündüğünü veya ne yaptığını, doğru davranış biçimi için bir ipucu olarak kullanma eğilimimiz hangi kavramla ifade edilir?",
+    "secenekler": [
+      { "metin": "Normatif Sosyal Etki", "dogruMu": false },
+      { "metin": "Bilgilendirici Sosyal Etki", "dogruMu": true },
+      { "metin": "Otoriteye İtaat", "dogruMu": false },
+      { "metin": "Benzerlik İlkesi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q184",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "Piaget'nin teorisinde, soyut, mantıksal ve varsayımsal düşüncenin geliştiği son dönem hangisidir?",
+    "secenekler": [
+      { "metin": "Duyusal-Motor Dönem", "dogruMu": false },
+      { "metin": "İşlem Öncesi Dönem", "dogruMu": false },
+      { "metin": "Somut İşlemler Dönemi", "dogruMu": false },
+      { "metin": "Soyut İşlemler Dönemi", "dogruMu": true }
+    ]
+  },
+  {
+    "id": "q185",
+    "kategori": "Duyum ve Algı",
+    "soru": "Görsel bir sahneyi algılarken, figürü (ön plandaki nesne) arka plandan ayırma eğilimimize ne denir?",
+    "secenekler": [
+      { "metin": "Algısal Değişmezlik", "dogruMu": false },
+      { "metin": "Şekil-Zemin Algısı", "dogruMu": true },
+      { "metin": "Derinlik Algısı", "dogruMu": false },
+      { "metin": "Algıda Gruplama", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q186",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Kişinin, abartılı bir kendini beğenme, hayranlık ihtiyacı ve empati yoksunluğu ile karakterize kişilik bozukluğu hangisidir?",
+    "secenekler": [
+      { "metin": "Histriyonik Kişilik Bozukluğu", "dogruMu": false },
+      { "metin": "Antisosyal Kişilik Bozukluğu", "dogruMu": false },
+      { "metin": "Narsisistik Kişilik Bozukluğu", "dogruMu": true },
+      { "metin": "Borderline Kişilik Bozukluğu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q187",
+    "kategori": "Sağlık Psikolojisi",
+    "soru": "Stresle başa çıkmada, sorunun kendisini değiştirmeye veya çözmeye odaklanan strateji türüne ne ad verilir?",
+    "secenekler": [
+      { "metin": "Duygu Odaklı Başa Çıkma", "dogruMu": false },
+      { "metin": "Problem Odaklı Başa Çıkma", "dogruMu": true },
+      { "metin": "Kaçınmacı Başa Çıkma", "dogruMu": false },
+      { "metin": "Sosyal Destek Arama", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q188",
+    "kategori": "Nörobilim",
+    "soru": "Hormonları salgılayarak vücudun diğer endokrin bezlerini kontrol eden ve 'ana bez' olarak bilinen yapı hangisidir?",
+    "secenekler": [
+      { "metin": "Tiroid Bezi", "dogruMu": false },
+      { "metin": "Adrenal Bez", "dogruMu": false },
+      { "metin": "Hipofiz Bezi", "dogruMu": true },
+      { "metin": "Pankreas", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q189",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Beş Faktör Kişilik Modeli'ndeki 'Sorumluluk' (Conscientiousness) boyutu hangi özellikleri içerir?",
+    "secenekler": [
+      { "metin": "Sosyallik, konuşkanlık, enerjik olma", "dogruMu": false },
+      { "metin": "Organize olma, disiplin, dikkatli olma", "dogruMu": true },
+      { "metin": "Kaygı, gerginlik, güvensizlik", "dogruMu": false },
+      { "metin": "Yaratıcılık, merak, yeni deneyimlere açık olma", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q190",
+    "kategori": "Öğrenme Teorileri",
+    "soru": "Martin Seligman'ın köpeklerle yaptığı deneylerde, kaçma şansları olsa bile şoktan kaçmayı denememeleri hangi kavramın temelini oluşturmuştur?",
+    "secenekler": [
+      { "metin": "İçgörüsel Öğrenme", "dogruMu": false },
+      { "metin": "Gizil Öğrenme", "dogruMu": false },
+      { "metin": "Öğrenilmiş Çaresizlik", "dogruMu": true },
+      { "metin": "Kaçınma Koşullanması", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q191",
+    "kategori": "Bilişsel Psikoloji",
+    "soru": "Duygusal olarak yoğun veya şaşırtıcı bir olayın (örn: ulusal bir trajedi) yaşandığı ana dair canlı ve detaylı anılara ne denir?",
+    "secenekler": [
+      { "metin": "Epizodik Bellek", "dogruMu": false },
+      { "metin": "Flaş Bellek (Flashbulb Memory)", "dogruMu": true },
+      { "metin": "Semantik Bellek", "dogruMu": false },
+      { "metin": "Örtük Bellek", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q192",
+    "kategori": "Terapi Yöntemleri",
+    "soru": "Danışanın koşulsuz olarak kabul edildiği, terapistin empati ve içtenlik gösterdiği, Carl Rogers tarafından geliştirilen terapi yaklaşımı hangisidir?",
+    "secenekler": [
+      { "metin": "Psikanaliz", "dogruMu": false },
+      { "metin": "Bilişsel Terapi", "dogruMu": false },
+      { "metin": "Danışan Odaklı Terapi", "dogruMu": true },
+      { "metin": "Gestalt Terapisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q193",
+    "kategori": "Duyum ve Algı",
+    "soru": "İki sabit ışığın belirli bir hızla art arda yanıp sönmesiyle hareketli bir ışık algısı yaratılmasına dayanan ilüzyona ne denir? (Film ve çizgi filmlerin temelidir)",
+    "secenekler": [
+      { "metin": "Otokinetik Etki", "dogruMu": false },
+      { "metin": "Fi Fenomeni", "dogruMu": true },
+      { "metin": "Ponzo İllüzyonu", "dogruMu": false },
+      { "metin": "Müller-Lyer İllüzyonu", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q194",
+    "kategori": "Zeka",
+    "soru": "Lewis Terman tarafından geliştirilen ve orijinal Binet testinden uyarlanan zeka bölümü (IQ) formülü nedir?",
+    "secenekler": [
+      { "metin": "(Zeka Yaşı / Kronolojik Yaş) x 100", "dogruMu": true },
+      { "metin": "(Kronolojik Yaş / Zeka Yaşı) x 100", "dogruMu": false },
+      { "metin": "Zeka Yaşı - Kronolojik Yaş", "dogruMu": false },
+      { "metin": "Zeka Yaşı + Kronolojik Yaş", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q195",
+    "kategori": "Sosyal Psikoloji",
+    "soru": "Bir kalabalık içinde, bir bireyin kimliğinin ve kişisel sorumluluk duygusunun kaybolması durumuna ne ad verilir?",
+    "secenekler": [
+      { "metin": "Sosyal Kaytarma", "dogruMu": false },
+      { "metin": "Grup Kutuplaşması", "dogruMu": false },
+      { "metin": "Kimliksizleşme (Deindividuation)", "dogruMu": true },
+      { "metin": "Seyirci Etkisi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q196",
+    "kategori": "Gelişim Psikolojisi",
+    "soru": "James Marcia'nın kimlik statüleri modeline göre, henüz bir kimlik krizi yaşamamış ancak başkalarının (genellikle ebeveynlerin) beklentilerine göre bir kimliği benimsemiş birey hangi statüdedir?",
+    "secenekler": [
+      { "metin": "Başarılı Kimlik", "dogruMu": false },
+      { "metin": "Dağınık Kimlik", "dogruMu": false },
+      { "metin": "İpotekli Kimlik", "dogruMu": true },
+      { "metin": "Moratoryum", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q197",
+    "kategori": "Anormal Psikoloji",
+    "soru": "Kişinin, çevresinin veya dünyanın gerçek dışı, tuhaf veya değişmiş olduğu hissine kapıldığı deneyime ne denir?",
+    "secenekler": [
+      { "metin": "Depersonalizasyon", "dogruMu": false },
+      { "metin": "Derealizasyon", "dogruMu": true },
+      { "metin": "Dissosiyatif Amnezi", "dogruMu": false },
+      { "metin": "Halüsinasyon", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q198",
+    "kategori": "Motivasyon ve Duygu",
+    "soru": "James-Lange Duygu Kuramı'na göre, duygusal deneyimin sırası nasıldır?",
+    "secenekler": [
+      { "metin": "Önce duyguyu hissederiz, sonra bedensel tepki veririz.", "dogruMu": false },
+      { "metin": "Duygu ve bedensel tepki aynı anda oluşur.", "dogruMu": false },
+      { "metin": "Önce bir uyaran bedensel bir tepkiye yol açar, sonra bu tepkinin algılanmasıyla duygu oluşur.", "dogruMu": true },
+      { "metin": "Duygu, bedensel tepki ve bilişsel yorumlamanın birleşiminden oluşur.", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q199",
+    "kategori": "Endüstriyel/Örgütsel Psikoloji",
+    "soru": "Çalışanların motivasyonunu, iş tatminini ve performansını artırmak için işin içeriğini ve yapısını değiştirmeye yönelik uygulamalara ne ad verilir?",
+    "secenekler": [
+      { "metin": "Performans Değerlendirme", "dogruMu": false },
+      { "metin": "İş Analizi", "dogruMu": false },
+      { "metin": "İş Tasarımı (Job Design)", "dogruMu": true },
+      { "metin": "Personel Seçimi", "dogruMu": false }
+    ]
+  },
+  {
+    "id": "q200",
+    "kategori": "Kişilik Teorileri",
+    "soru": "Freud'un teorisinde, bir kişinin stresli bir durumda daha önceki bir gelişim evresine geri dönmesi hangi savunma mekanizmasıdır?",
+    "secenekler": [
+      { "metin": "İnkar", "dogruMu": false },
+      { "metin": "Gerileme (Regression)", "dogruMu": true },
+      { "metin": "Bastırma", "dogruMu": false },
+      { "metin": "Yansıtma", "dogruMu": false }
+    ]
   }
 ]

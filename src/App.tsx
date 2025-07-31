@@ -9,11 +9,13 @@ import NotFound from "./pages/NotFound";
 import { SettingsPage } from "./pages/SettingsPage";
 import { HistoryPage } from "./pages/HistoryPage";
 import { EtikProblemlerScreen } from "./pages/EtikProblemlerScreen";
+import { EtikProblemlerSetup } from "./pages/EtikProblemlerSetup";
 import { BilBakalimScreen } from "./pages/BilBakalimScreen";
 import { BilBakalimSetup } from "./pages/BilBakalimSetup";
 import { RenkDizisiScreen } from "./pages/RenkDizisiScreen";
+import { RenkDizisiSetup } from "./pages/RenkDizisiSetup";
 import { BenKimimSetup } from "./pages/BenKimimSetup";
-import { BenKimimGameWrapper } from "./pages/BenKimimGameWrapper";
+import { BenKimimScreen } from "./pages/BenKimimScreen";
 import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
 import { InstallPrompt } from "./components/shared/InstallPrompt";
@@ -49,18 +51,18 @@ const AppContent = () => {
             <HistoryPage />
           </AppLayout>
         } />
-        <Route path="/game/etikproblemler/setup" element={<div>Etik Problemler Setup - Coming Soon</div>} />
+        <Route path="/game/etikproblemler/setup" element={<EtikProblemlerSetup />} />
         <Route path="/game/etikproblemler" element={<EtikProblemlerScreen />} />
         <Route path="/game/bilbakalim/setup" element={<BilBakalimSetup />} />
         <Route path="/game/bilbakalim" element={<BilBakalimScreen />} />
-        <Route path="/game/renkdizisi/setup" element={<div>Renk Dizisi Setup - Coming Soon</div>} />
+        <Route path="/game/renkdizisi/setup" element={<RenkDizisiSetup />} />
         <Route path="/game/renkdizisi" element={<RenkDizisiScreen />} />
         <Route path="/game/benkimim/setup" element={<BenKimimSetup onStartGame={(settings) => {
           // Ayarları kaydet ve oyun sayfasına yönlendir
           localStorage.setItem('benKimimGameSettings', JSON.stringify(settings));
           window.location.href = '/game/benkimim';
         }} onGoBack={() => window.history.back()} />} />
-        <Route path="/game/benkimim" element={<BenKimimGameWrapper />} />
+        <Route path="/game/benkimim" element={<BenKimimScreen />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Routes>
