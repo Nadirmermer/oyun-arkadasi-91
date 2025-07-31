@@ -5,7 +5,7 @@ import { BenKimimEngine } from '@/games/benkimim/BenKimimEngine';
 import { BenKimimGameState } from '@/types/benkimim';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
 
-interface BenKimimGameProps {
+interface BenKimimPortraitGameProps {
   gameEngine: BenKimimEngine;
   onGameEnd: () => void;
   onGoHome: () => void;
@@ -15,7 +15,7 @@ interface BenKimimGameProps {
  * Ben Kimim oyunu dikey mod ekranı
  * Normal telefon kullanımı için optimize edilmiş tasarım
  */
-export const BenKimimGame = ({ gameEngine, onGameEnd, onGoHome }: BenKimimGameProps) => {
+export const BenKimimPortraitGame = ({ gameEngine, onGameEnd, onGoHome }: BenKimimPortraitGameProps) => {
   const [gameState, setGameState] = useState<BenKimimGameState>(gameEngine.getGameState());
   const [motionPermissionRequested, setMotionPermissionRequested] = useState(false);
 

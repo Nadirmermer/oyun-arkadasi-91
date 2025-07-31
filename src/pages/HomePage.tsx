@@ -8,7 +8,7 @@ import { GameSettings } from './GameSettings';
 import { GameScreen } from './GameScreen';
 import { ScoreScreen } from './ScoreScreen';
 import { BenKimimSetup } from './BenKimimSetup';
-import { BenKimimGame } from './BenKimimGame';
+import { BenKimimGameWrapper } from './BenKimimGameWrapper';
 import { BenKimimScore } from './BenKimimScore';
 import { IkiDogruBirYalanSetup } from './IkiDogruBirYalanSetup';
 import { IkiDogruBirYalanGame } from './IkiDogruBirYalanGame';
@@ -184,10 +184,10 @@ export const HomePage = () => {
     return <BenKimimSetup onStartGame={handleStartBenKimim} onGoBack={() => setCurrentPhase('home')} />;
   }
   if (currentPhase === 'benkimim-playing') {
-    return <div>Ben Kimim oyunu navigate ile yönlendirilecek</div>;
+    return <BenKimimGameWrapper />;
   }
   if (currentPhase === 'benkimim-score') {
-    return <BenKimimScore gameState={benKimimEngine.getGameState()} onNewGame={handleBenKimimNewGame} onGoHome={handleGoHome} />;
+    return <BenKimimScore gameEngine={benKimimEngine} onPlayAgain={handleBenKimimNewGame} onGoHome={handleGoHome} />;
   }
   if (currentPhase === 'iki-dogru-bir-yalan-setup') {
     return <IkiDogruBirYalanSetup onStartGame={handleStartIkiDogruBirYalan} onGoBack={() => setCurrentPhase('home')} />;
@@ -266,8 +266,8 @@ export const HomePage = () => {
             </button>
           </Card>
 
-          <Card className="p-0 overflow-hidden shadow-card">
-            <button onClick={() => setCurrentPhase('benkimim-setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
+            <Card className="p-0 overflow-hidden shadow-card">
+            <button onClick={() => navigate('/game/benkimim/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
               <div className="text-center">
                 <div className="w-12 h-12 bg-success/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
                   <Brain className="w-6 h-6 text-success" />

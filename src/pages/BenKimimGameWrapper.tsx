@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BenKimimEngine } from '@/games/benkimim/BenKimimEngine';
-import { BenKimimGame } from '../BenKimimGame';
+import { BenKimimGame } from './BenKimimGame';
 import { BenKimimLandscape } from './BenKimimLandscape';
 import { BenKimimScore } from './BenKimimScore';
 import { saveGameRecord } from '@/lib/storage';
