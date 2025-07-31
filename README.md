@@ -2,7 +2,7 @@
 
 **Psikoloji öğrencileri ve meraklıları için özel olarak tasarlanan eğlenceli oyun koleksiyonu.**
 
-![PsikOyun Logo](./public/lovable-uploads/9ddc97b4-8710-4ea6-9b87-b4d511fef382.png)
+![PsikOyun Logo](./public/logo.png)
 
 ## 🌟 Özellikler
 

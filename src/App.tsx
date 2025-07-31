@@ -18,9 +18,7 @@ import { BenKimimSetup } from "./pages/BenKimimSetup";
 import { BenKimimScreen } from "./pages/BenKimimScreen";
 import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
-import { InstallPrompt } from "./components/shared/InstallPrompt";
 
-import { OfflineIndicator } from "./components/shared/OfflineIndicator";
 
 const AppContent = () => {
   const location = useLocation();
@@ -34,10 +32,6 @@ const AppContent = () => {
   
   return (
     <div className="min-h-screen bg-background">
-      {/* PWA Bileşenleri */}
-      <OfflineIndicator />
-      <InstallPrompt />
-      
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/settings" element={

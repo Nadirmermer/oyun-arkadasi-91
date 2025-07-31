@@ -20,7 +20,7 @@ import { BenKimimSettings } from '@/types/benkimim';
 import { loadTeams, saveTeams, saveGameRecord } from '@/lib/storage';
 import { useNavigate } from 'react-router-dom';
 import { useSystemTheme } from '@/hooks/use-system-theme';
-import { usePwaUpdate } from '@/hooks/use-pwa-update';
+
 type GamePhase = 'home' | 'team-setup' | 'settings' | 'playing' | 'score' | 'benkimim-setup' | 'benkimim-playing' | 'benkimim-score' | 'iki-dogru-bir-yalan-setup' | 'iki-dogru-bir-yalan-playing';
 
 /**
@@ -34,9 +34,8 @@ export const HomePage = () => {
   const [ikiDogruBirYalanEngine] = useState(() => new IkiDogruBirYalanEngine());
   const navigate = useNavigate();
 
-  // Sistem temasını uygula ve PWA güncellemelerini dinle
+  // Sistem temasını uygula
   useSystemTheme();
-  usePwaUpdate();
 
   // Oyun motorlarını başlat ve ayarları yükle
   useEffect(() => {
