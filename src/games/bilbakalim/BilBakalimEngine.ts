@@ -171,6 +171,13 @@ export class BilBakalimEngine {
     this.stopTimer();
     
     this.gameState.currentQuestionIndex++;
+    
+    // Oyun bitti mi kontrol et
+    if (this.gameState.currentQuestionIndex >= this.questions.length) {
+      this.endGame();
+      return;
+    }
+    
     this.loadCurrentQuestion();
     
     // Eğer oyun devam ediyorsa timer'ı yeniden başlat

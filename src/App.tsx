@@ -49,9 +49,11 @@ const AppContent = () => {
             <HistoryPage />
           </AppLayout>
         } />
+        <Route path="/game/etikproblemler/setup" element={<div>Etik Problemler Setup - Coming Soon</div>} />
         <Route path="/game/etikproblemler" element={<EtikProblemlerScreen />} />
         <Route path="/game/bilbakalim/setup" element={<BilBakalimSetup />} />
         <Route path="/game/bilbakalim" element={<BilBakalimScreen />} />
+        <Route path="/game/renkdizisi/setup" element={<div>Renk Dizisi Setup - Coming Soon</div>} />
         <Route path="/game/renkdizisi" element={<RenkDizisiScreen />} />
         <Route path="/game/benkimim/setup" element={<BenKimimSetup onStartGame={(settings) => {
           // Ayarları kaydet ve oyun sayfasına yönlendir

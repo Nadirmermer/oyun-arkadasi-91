@@ -281,7 +281,7 @@ export const HomePage = () => {
           </Card>
 
           <Card className="p-0 overflow-hidden shadow-card">
-            <button onClick={() => navigate('/game/etikproblemler')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
+            <button onClick={() => navigate('/game/etikproblemler/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
               <div className="text-center">
                 <div className="w-12 h-12 bg-warning/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
                   <BookOpen className="w-6 h-6 text-warning" />
@@ -329,7 +329,7 @@ export const HomePage = () => {
             </Card>
 
             <Card className="p-0 overflow-hidden shadow-card">
-              <button onClick={() => navigate('/game/renkdizisi')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
+              <button onClick={() => navigate('/game/renkdizisi/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
                     <div className="w-6 h-6 grid grid-cols-2 gap-0.5">

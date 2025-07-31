@@ -204,31 +204,58 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
             </div>
           </div>
 
-          <div className="space-y-4">
-            <label className="flex items-center gap-3 p-3 rounded-lg border border-border cursor-pointer hover:bg-muted/50 transition-colors">
-              <input
-                type="checkbox"
-                checked={isLandscapeMode}
-                onChange={(e) => setIsLandscapeMode(e.target.checked)}
-                className="w-4 h-4 text-primary bg-background border-border rounded focus:ring-primary"
-              />
-              <div className="flex-1">
-                <span className="text-sm font-medium text-foreground">Yatay Mod</span>
-                <p className="text-xs text-muted-foreground mt-1">
-                  Telefonu yan çevir, büyük harflerle kelimeyi gör
-                </p>
+          <div className="grid grid-cols-2 gap-3">
+            <button
+              onClick={() => setIsLandscapeMode(false)}
+              className={`p-4 rounded-xl border-2 transition-all ${
+                !isLandscapeMode
+                  ? 'border-primary bg-primary/5'
+                  : 'border-border hover:border-primary/50'
+              }`}
+            >
+              <div className="flex flex-col items-center gap-2">
+                <Smartphone className={`w-6 h-6 ${
+                  !isLandscapeMode ? 'text-primary' : 'text-muted-foreground'
+                }`} />
+                <span className={`text-sm font-medium ${
+                  !isLandscapeMode ? 'text-primary' : 'text-foreground'
+                }`}>
+                  Dikey Mod
+                </span>
               </div>
-            </label>
+            </button>
 
-            {isLandscapeMode && (
-              <div className="mt-4 p-3 bg-muted/50 rounded-lg">
-                <p className="text-sm text-muted-foreground">
-                  📱 <strong>Yatay Mod:</strong> Telefonu alnına koy, kelime karşı tarafa gözüksün<br />
-                  🔄 <strong>Kontrol:</strong> Seçilen kontrol tipi yatay modda da çalışır
-                </p>
+            <button
+              onClick={() => setIsLandscapeMode(true)}
+              className={`p-4 rounded-xl border-2 transition-all ${
+                isLandscapeMode
+                  ? 'border-primary bg-primary/5'
+                  : 'border-border hover:border-primary/50'
+              }`}
+            >
+              <div className="flex flex-col items-center gap-2">
+                <div className={`w-6 h-6 transform rotate-90 ${
+                  isLandscapeMode ? 'text-primary' : 'text-muted-foreground'
+                }`}>
+                  <Smartphone className="w-6 h-6" />
+                </div>
+                <span className={`text-sm font-medium ${
+                  isLandscapeMode ? 'text-primary' : 'text-foreground'
+                }`}>
+                  Yatay Mod
+                </span>
               </div>
-            )}
+            </button>
           </div>
+
+          {isLandscapeMode && (
+            <div className="mt-4 p-3 bg-muted/50 rounded-lg">
+              <p className="text-sm text-muted-foreground">
+                📱 <strong>Yatay Mod:</strong> Telefonu alnına koy, kelime karşı tarafa gözüksün<br />
+                🔄 <strong>Kontrol:</strong> Seçilen kontrol tipi yatay modda da çalışır
+              </p>
+            </div>
+          )}
         </Card>
 
         </div>

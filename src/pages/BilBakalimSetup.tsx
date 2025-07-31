@@ -23,8 +23,8 @@ export const BilBakalimSetup = () => {
   const [settings, setSettings] = useState<BilBakalimSettings>({
     gameDuration: 15,
     totalQuestions: 10,
-    pointPerCorrect: 5,
-    timeBonus: true
+    pointPerCorrect: 10, // Otomatik puan
+    timeBonus: true // Otomatik aktif
   });
 
   const handleStartGame = () => {
@@ -113,7 +113,7 @@ export const BilBakalimSetup = () => {
             />
           </Card>
 
-          {/* Puan Sistemi */}
+          {/* Puan Sistemi Bilgisi */}
           <Card>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -122,33 +122,29 @@ export const BilBakalimSetup = () => {
               <div>
                 <h4 className="text-lg font-semibold text-foreground">Puan Sistemi</h4>
                 <p className="text-sm text-muted-foreground">
-                  Doğru cevap başına verilecek puan
+                  Otomatik puan hesaplaması
                 </p>
               </div>
             </div>
             
-            <Slider
-              label="Puan"
-              value={settings.pointPerCorrect}
-              min={3}
-              max={10}
-              step={1}
-              unit="puan"
-              onChange={(value) => setSettings(prev => ({ ...prev, pointPerCorrect: value }))}
-            />
-
-            <div className="mt-4 p-3 bg-muted/50 rounded-lg">
-              <label className="flex items-center gap-2">
-                <input
-                  type="checkbox"
-                  checked={settings.timeBonus}
-                  onChange={(e) => setSettings(prev => ({ ...prev, timeBonus: e.target.checked }))}
-                  className="rounded border-border"
-                />
-                <span className="text-sm text-foreground">
-                  <strong>Süre Bonusu:</strong> Kalan süre kadar bonus puan al
-                </span>
-              </label>
+            <div className="space-y-3">
+              <div className="p-4 bg-success/10 rounded-lg border border-success/20">
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-8 h-8 bg-success/20 rounded-full flex items-center justify-center">
+                    <span className="text-success font-bold text-sm">✓</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground">Doğru Cevap</p>
+                    <p className="text-sm text-muted-foreground">10 puan + kalan süre bonusu</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="p-3 bg-muted/50 rounded-lg">
+                <p className="text-sm text-muted-foreground">
+                  <strong>Bonus Sistemi:</strong> Hızlı cevap verirsen kalan süre kadar ekstra puan kazanırsın!
+                </p>
+              </div>
             </div>
           </Card>
         </div>

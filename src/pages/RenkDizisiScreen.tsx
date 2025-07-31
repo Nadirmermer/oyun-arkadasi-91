@@ -93,16 +93,11 @@ export const RenkDizisiScreen = () => {
     }
   }, [gameEngine, gameState, isPaused]);
 
-  // Ana menüye dön - Eğer oyun başlamadıysa direkt git, başladıysa modal göster
+  // Ana menüye dön
   const handleGoHome = useCallback(() => {
-    if (!gameState.isShowing && !gameState.isUserTurn && !gameState.isGameOver && !gameState.isLevelComplete) {
-      // Oyun henüz başlamamış, direkt ana menüye git
-      navigate('/');
-    } else {
-      // Oyun başlamış, çıkış onayı iste
-      setShowExitModal(true);
-    }
-  }, [gameState, navigate]);
+    gameEngine.resetGame();
+    navigate('/');
+  }, [gameEngine, navigate]);
 
   // Oyundan çıkışı onayla
   const handleConfirmExit = useCallback(() => {

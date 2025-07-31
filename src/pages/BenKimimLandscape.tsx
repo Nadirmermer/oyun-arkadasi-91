@@ -105,43 +105,43 @@ export const BenKimimLandscape = ({ gameEngine, onGameEnd, onGoHome }: BenKimimL
   }
 
   return (
-    <div className="min-h-screen bg-background flex flex-col overflow-hidden landscape-mode">
+    <div className="min-h-screen bg-background dark:bg-background flex flex-col overflow-hidden landscape-mode">
       {/* Üst Bilgi Çubuğu - Minimal */}
-      <div className="flex-none bg-card border-b border-border">
+      <div className="flex-none bg-card dark:bg-card border-b border-border dark:border-border">
         <div className="flex justify-between items-center px-6 py-2">
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">
+            <div className="text-2xl font-bold text-primary dark:text-primary">
               {formatTime(gameState.timeLeft)}
             </div>
-            <div className="text-xs text-muted-foreground">Kalan Süre</div>
+            <div className="text-xs text-muted-foreground dark:text-muted-foreground">Kalan Süre</div>
           </div>
           
           <div className="text-center">
-            <div className="text-2xl font-bold text-foreground">
+            <div className="text-2xl font-bold text-foreground dark:text-foreground">
               {gameState.score}/{gameState.settings.targetScore}
             </div>
-            <div className="text-xs text-muted-foreground">Skor</div>
+            <div className="text-xs text-muted-foreground dark:text-muted-foreground">Skor</div>
           </div>
         </div>
       </div>
 
       {/* Ana Kelime Alanı - Maksimum büyüklük */}
-      <div className="flex-1 flex items-center justify-center p-8">
+      <div className="flex-1 flex items-center justify-center p-8 bg-background dark:bg-background">
         <div className="text-center max-w-4xl w-full">
           {/* Ana Kelime - Çok büyük */}
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-foreground mb-6 leading-none">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-foreground dark:text-foreground mb-6 leading-none">
             {gameState.currentWord.kisi}
           </h1>
           
           {/* Kategori */}
-          <p className="text-xl md:text-2xl lg:text-3xl text-primary font-medium">
+          <p className="text-xl md:text-2xl lg:text-3xl text-primary dark:text-primary font-medium">
             {gameState.currentWord.kategori}
           </p>
         </div>
       </div>
 
       {/* Alt Kontrol Paneli - Kompakt */}
-      <div className="flex-none bg-card border-t border-border">
+      <div className="flex-none bg-card dark:bg-card border-t border-border dark:border-border">
         <div className="px-6 py-4">
           {gameState.settings.controlType === 'buttons' ? (
             <div className="flex justify-center gap-8">
@@ -187,6 +187,8 @@ export const BenKimimLandscape = ({ gameEngine, onGameEnd, onGoHome }: BenKimimL
       <style>{`
         .landscape-mode {
           /* Yatay modda özel stiller */
+          background: hsl(var(--background));
+          color: hsl(var(--foreground));
         }
         
         @media (orientation: landscape) {
