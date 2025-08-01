@@ -4,7 +4,7 @@
 
 PsikOyun, psikoloji alanındaki bilgileri eğlenceli bir şekilde öğrenmenizi ve test etmenizi sağlayan kapsamlı bir oyun platformudur. Grup halinde veya bireysel olarak oynayabileceğiniz çeşitli oyun modları ile psikoloji terimlerini, kavramları ve vakaları keşfedin.
 
-![PsikOyun Logo](./public/logo.png)
+![PsikOyun Logo](./public/icons/icon-192x192.png)
 
 ## 🌟 Özellikler
 

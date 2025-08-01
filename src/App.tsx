@@ -17,6 +17,8 @@ import { BenKimimSetup } from "./pages/BenKimimSetup";
 import { BenKimimScreen } from "./pages/BenKimimScreen";
 import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
+import { PWAInstallPrompt } from "./components/shared/PWAInstallPrompt";
+import { PWAUpdatePrompt } from "./components/shared/PWAUpdatePrompt";
 
 
 const AppContent = () => {
@@ -31,6 +33,8 @@ const AppContent = () => {
   
   return (
     <div className="min-h-screen bg-background">
+      <PWAInstallPrompt />
+      <PWAUpdatePrompt />
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/settings" element={
@@ -67,7 +71,12 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true
+        }}
+      >
         <AppContent />
       </BrowserRouter>
     </TooltipProvider>

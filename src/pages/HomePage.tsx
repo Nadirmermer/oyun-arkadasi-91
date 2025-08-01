@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { MessageCircle, Brain, Target, BookOpen, HelpCircle } from 'lucide-react';
-import logoImage from '/logo.png';
+import logoImage from '/icons/icon-192x192.png';
 import { Card } from '@/components/shared/Card';
 import { AppLayout } from '@/components/shared/AppLayout';
 import { TeamSetup } from './TeamSetup';
