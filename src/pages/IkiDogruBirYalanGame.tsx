@@ -4,6 +4,7 @@ import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
+import { GameResultScreen } from '@/components/shared/GameResultScreen';
 import { IkiDogruBirYalanEngine } from '@/games/ikidogrubiryalan/IkiDogruBirYalanEngine';
 
 interface IkiDogruBirYalanGameProps {
@@ -34,6 +35,11 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
 
   const handleNextQuestion = () => {
     gameEngine.handleAction('next-question');
+  };
+
+  const handleRestart = () => {
+    gameEngine.resetGame();
+    gameEngine.startGame();
   };
 
   const getAnswerButtonStyle = (index: number) => {
@@ -72,6 +78,35 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
     }
   };
 
+  // Oyun bitti ekranı - Ortak bileşeni kullan
+  if (gameState.isFinished) {
+    const metrics = gameEngine.getGameMetrics();
+    
+    return (
+      <GameResultScreen
+        metrics={{
+          primary: { 
+            label: "Doğru Cevaplar", 
+            value: `${metrics.correctAnswers}/${metrics.totalQuestions}`,
+            color: "text-primary"
+          },
+          secondary: { 
+            label: "Başarı Oranı", 
+            value: `%${metrics.accuracy}`,
+            color: "text-success"
+          },
+          tertiary: { 
+            label: "Cevaplanan Soru", 
+            value: `${metrics.totalAnswered}/${metrics.totalQuestions}`
+          }
+        }}
+        performanceMessage={metrics.performanceLevel}
+        onRestart={handleRestart}
+        onGoHome={onGoHome}
+      />
+    );
+  }
+
   if (!gameState.currentSoru) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -98,15 +133,20 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
           </button>
         </div>
 
-        {/* Skor */}
+        {/* Skor ve İlerleme */}
         <div className="px-4 pb-4">
-          <div className="grid grid-cols-1 gap-2 mb-4">
+          <div className="grid grid-cols-2 gap-2 mb-4">
             <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md">
-              <div className="flex items-center justify-center gap-2">
-                <span className="font-medium text-xs sm:text-sm">Doğru Cevaplar</span>
-              </div>
+              <div className="font-medium text-xs sm:text-sm">Skor</div>
               <div className="text-xl sm:text-2xl font-bold mt-1">
                 {gameState.correctAnswers}/{gameState.totalAnswered}
+              </div>
+            </div>
+            
+            <div className="p-3 sm:p-4 rounded-xl text-center bg-info text-info-foreground shadow-md">
+              <div className="font-medium text-xs sm:text-sm">Soru</div>
+              <div className="text-xl sm:text-2xl font-bold mt-1">
+                {gameState.currentQuestionNumber}/{gameState.totalQuestionsInSession}
               </div>
             </div>
           </div>

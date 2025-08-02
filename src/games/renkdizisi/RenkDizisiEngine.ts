@@ -10,6 +10,7 @@ export class RenkDizisiEngine {
   private settings: RenkDizisiSettings;
   private onStateChange?: () => void;
   private showSequenceTimeout?: NodeJS.Timeout;
+  private activeTimeouts: NodeJS.Timeout[] = []; // Tüm timeout'ları takip et
 
   constructor() {
     this.state = this.getInitialState();
@@ -30,7 +31,10 @@ export class RenkDizisiEngine {
       isGameOver: false,
       isLevelComplete: false,
       score: 0,
-      highestScore: 0
+      highestScore: 0,
+      lives: 3,        // Başlangıçta 3 can
+      maxLives: 3,     // Maksimum 3 can
+      isPaused: false  // Başlangıçta duraklatma yok
     };
   }
 
@@ -58,10 +62,12 @@ export class RenkDizisiEngine {
   }
 
   /**
-   * Oyunu başlat
+   * Oyunu başlat - Can sistemi ile
    */
   startGame() {
     this.state = this.getInitialState();
+    this.state.maxLives = 3;
+    this.state.lives = 3;
     this.generateSequence();
     this.showSequence();
     this.notifyStateChange();
@@ -96,7 +102,7 @@ export class RenkDizisiEngine {
   }
 
   /**
-   * Sıradaki rengi göster
+   * Sıradaki rengi göster - Timeout takip sistemi ile
    */
   private showNextColor(index: number) {
     if (index >= this.state.sequence.length) {
@@ -113,22 +119,26 @@ export class RenkDizisiEngine {
     this.notifyStateChange();
 
     // Belirtilen süre sonra söndür ve bir sonrakine geç
-    this.showSequenceTimeout = setTimeout(() => {
+    const timeout1 = setTimeout(() => {
       this.state.currentShowingIndex = -1;
       this.notifyStateChange();
 
       // Kısa bir duraklama sonra bir sonraki rengi göster
-      this.showSequenceTimeout = setTimeout(() => {
+      const timeout2 = setTimeout(() => {
         this.showNextColor(index + 1);
       }, this.settings.pauseDuration);
+      
+      this.activeTimeouts.push(timeout2);
     }, this.settings.showDuration);
+    
+    this.activeTimeouts.push(timeout1);
   }
 
   /**
-   * Kullanıcı renk seçimi
+   * Kullanıcı renk seçimi - Can sistemi ile
    */
   selectColor(color: Color) {
-    if (!this.state.isUserTurn || this.state.isGameOver) {
+    if (!this.state.isUserTurn || this.state.isGameOver || this.state.isPaused) {
       return;
     }
 
@@ -150,9 +160,18 @@ export class RenkDizisiEngine {
         }
       }
     } else {
-      // Yanlış seçim - oyun biter
-      this.state.isGameOver = true;
-      this.state.isUserTurn = false;
+      // Yanlış seçim - Can azalt
+      this.state.lives--;
+      
+      if (this.state.lives <= 0) {
+        // Canlar bittiyse oyun biter
+        this.state.isGameOver = true;
+        this.state.isUserTurn = false;
+      } else {
+        // Can kaldıysa aynı seviyeyi tekrar göster
+        this.state.userSequence = [];
+        this.showSequence();
+      }
     }
 
     this.notifyStateChange();
@@ -174,27 +193,46 @@ export class RenkDizisiEngine {
   }
 
   /**
-   * Oyunu yeniden başlat
+   * Oyunu yeniden başlat - Bellek temizliği ile
    */
   resetGame() {
-    if (this.showSequenceTimeout) {
-      clearTimeout(this.showSequenceTimeout);
-    }
-    
+    this.clearAllTimeouts();
     this.state = this.getInitialState();
     this.notifyStateChange();
   }
 
   /**
-   * Oyunu duraklat/devam ettir
+   * Tüm timeout'ları temizle - Bellek sızıntısını önle
+   */
+  private clearAllTimeouts() {
+    // Aktif timeout'ları temizle
+    this.activeTimeouts.forEach(timeout => clearTimeout(timeout));
+    this.activeTimeouts = [];
+    
+    // Eski showSequenceTimeout'u da temizle
+    if (this.showSequenceTimeout) {
+      clearTimeout(this.showSequenceTimeout);
+      this.showSequenceTimeout = undefined;
+    }
+  }
+
+  /**
+   * Motor temizliği - Component unmount'ta çağrılacak
+   */
+  destroy() {
+    this.clearAllTimeouts();
+    this.onStateChange = undefined;
+  }
+
+  /**
+   * Oyunu duraklat/devam ettir - Merkezileştirilmiş durum yönetimi
    */
   togglePause() {
-    // Basit implementasyon - şu an için sadece user turn'u toggle edelim
-    if (this.state.isUserTurn) {
-      this.state.isUserTurn = false;
-    } else if (!this.state.isShowing && !this.state.isGameOver && !this.state.isLevelComplete) {
-      this.state.isUserTurn = true;
+    if (this.state.isGameOver || this.state.isLevelComplete || this.state.isShowing) {
+      return; // Bu durumlarda duraklatamazsın
     }
+    
+    this.state.isPaused = !this.state.isPaused;
     this.notifyStateChange();
   }
 
@@ -207,5 +245,17 @@ export class RenkDizisiEngine {
     }
     
     return this.state.sequence[this.state.currentShowingIndex] === color;
+  }
+
+  /**
+   * Oyun metrikleri - GameResultScreen için
+   */
+  getGameMetrics() {
+    return {
+      finalLevel: this.state.highestScore,
+      remainingLives: this.state.lives,
+      maxLives: this.state.maxLives,
+      level: this.state.level
+    };
   }
 }

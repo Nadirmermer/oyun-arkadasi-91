@@ -17,6 +17,7 @@ export interface RenkDizisiState {
   highestScore: number;
   lives: number;        // Mevcut can sayısı
   maxLives: number;     // Maksimum can sayısı
+  isPaused: boolean;    // Duraklatma durumu
 }
 
 export interface RenkDizisiSettings {

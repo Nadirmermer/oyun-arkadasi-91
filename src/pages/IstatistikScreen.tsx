@@ -5,6 +5,7 @@ import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
 import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
+import { GameResultScreen } from '@/components/shared/GameResultScreen';
 import { IstatistikEngine } from '@/games/istatistik/IstatistikEngine';
 import { IstatistikGameState, IstatistikResult } from '@/types/istatistik';
 import { saveGameRecord } from '@/lib/storage';
@@ -201,59 +202,36 @@ export const IstatistikScreen = () => {
 
   // Oyun bitti ekranı
   if (gameState.isFinished) {
+    const getPerformanceMessage = (accuracy: number) => {
+      if (accuracy >= 80) return '🌟 Mükemmel! İstatistik sezgin çok güçlü!';
+      if (accuracy >= 60) return '👍 İyi! Sezgilerin gelişiyor!';
+      if (accuracy >= 40) return '📚 Fena değil! Daha fazla pratik yapmalısın!';
+      return '💪 Endişelenme, herkes bir yerden başlar!';
+    };
+    
     return (
-      <div className="min-h-screen bg-background page-fade-in">
-        <div className="flex items-center justify-center min-h-screen p-4">
-          <div className="w-full max-w-md space-y-6">
-            {/* Sonuç Kartı */}
-            <Card className="text-center p-8">
-              <div className="w-20 h-20 bg-success/10 rounded-2xl mx-auto mb-6 flex items-center justify-center">
-                <TrendingUp className="w-10 h-10 text-success" />
-              </div>
-              
-              <h2 className="text-2xl font-bold text-foreground mb-4">
-                Oyun Tamamlandı! 🎉
-              </h2>
-              
-              <div className="space-y-4 mb-6">
-                <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                  <span className="font-medium">Toplam Puan:</span>
-                  <span className="text-2xl font-bold text-primary">{gameState.score}</span>
-                </div>
-                
-                <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                  <span className="font-medium">Ortalama Doğruluk:</span>
-                  <span className="text-xl font-bold text-success">%{gameState.averageAccuracy}</span>
-                </div>
-                
-                <div className="flex justify-between items-center p-3 bg-muted/50 rounded-lg">
-                  <span className="font-medium">Cevaplanan Soru:</span>
-                  <span className="font-bold">{gameState.totalAnswered}/{gameState.totalQuestions}</span>
-                </div>
-              </div>
-
-              {/* Performans Değerlendirmesi */}
-              <div className="mb-6">
-                {gameState.averageAccuracy >= 80 && <p className="text-lg text-success font-medium">🌟 Mükemmel! İstatistik sezgin çok güçlü!</p>}
-                {gameState.averageAccuracy >= 60 && gameState.averageAccuracy < 80 && <p className="text-lg text-warning font-medium">👍 İyi! Sezgilerin gelişiyor!</p>}
-                {gameState.averageAccuracy >= 40 && gameState.averageAccuracy < 60 && <p className="text-lg text-info font-medium">📚 Fena değil! Daha fazla pratik yapmalısın!</p>}
-                {gameState.averageAccuracy < 40 && <p className="text-lg text-muted-foreground">💪 Endişelenme, herkes bir yerden başlar!</p>}
-              </div>
-            </Card>
-
-            {/* Aksiyon Butonları */}
-            <div className="space-y-4">
-              <Button onClick={handleNewGame} variant="primary" size="lg" fullWidth>
-                Yeniden Oyna
-              </Button>
-
-              <Button onClick={handleGoHome} variant="secondary" size="lg" fullWidth>
-                Ana Menüye Dön
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <GameResultScreen
+        icon={<TrendingUp className="w-10 h-10 text-success" />}
+        metrics={{
+          primary: { 
+            label: "Toplam Puan", 
+            value: gameState.score,
+            color: "text-primary"
+          },
+          secondary: { 
+            label: "Ortalama Doğruluk", 
+            value: `%${gameState.averageAccuracy}`,
+            color: "text-success"
+          },
+          tertiary: { 
+            label: "Cevaplanan Soru", 
+            value: `${gameState.totalAnswered}/${gameState.totalQuestions}`
+          }
+        }}
+        performanceMessage={getPerformanceMessage(gameState.averageAccuracy)}
+        onRestart={handleNewGame}
+        onGoHome={handleGoHome}
+      />
     );
   }
 

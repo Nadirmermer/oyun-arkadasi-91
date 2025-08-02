@@ -1,17 +1,22 @@
 import { useState, useEffect } from 'react';
-import { Brain } from 'lucide-react';
+import { Brain, Trophy, Pause, Play } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { CircularTimer } from '@/components/shared/CircularTimer';
-import { GameContainer } from '@/components/shared/GameContainer';
-import { GameLoadingScreen } from '@/components/shared/GameLoadingScreen';
-import { GameEndScreen } from '@/components/shared/GameEndScreen';
+import { GameResultScreen } from '@/components/shared/GameResultScreen';
+import { PauseModal } from '@/components/shared/PauseModal';
+import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { BilBakalimEngine, BilBakalimGameState } from '@/games/bilbakalim/BilBakalimEngine';
 import { cn } from '@/lib/utils';
 import { useSystemTheme } from '@/hooks/use-system-theme';
+import { useNavigate } from 'react-router-dom';
+import { saveGameRecord } from '@/lib/storage';
 export const BilBakalimScreen = () => {
+  const navigate = useNavigate();
   const [gameEngine] = useState(() => new BilBakalimEngine());
   const [gameState, setGameState] = useState<BilBakalimGameState>(gameEngine.getGameState());
+  const [showPauseModal, setShowPauseModal] = useState(false);
+  const [showExitModal, setShowExitModal] = useState(false);
 
   // Tema uyumluluğunu sağla
   useSystemTheme();
@@ -120,56 +125,39 @@ export const BilBakalimScreen = () => {
 
   // Oyun bitti ekranı
   if (gameState.isFinished) {
-    return <div className="min-h-screen bg-background page-fade-in">
-        {/* Header - Tabu tarzı minimal header */}
-        <div className="flex-none bg-card shadow-sm relative z-10">
-          <div className="flex justify-between items-center p-4">
-            <div className="w-8" />
-            <h1 className="text-xl font-bold text-primary">Bil Bakalım</h1>
-            <div className="w-8" />
-          </div>
-        </div>
-
-        <div className="px-4 pt-8">
-          {/* Sonuç Kartı */}
-          <Card className="text-center mb-8 bg-primary/5 border-primary/20">
-            <Trophy className="w-16 h-16 text-primary mx-auto mb-4" />
-            <h2 className="text-3xl font-bold text-primary mb-2">Oyun Bitti!</h2>
-            <div className="space-y-2">
-              <p className="text-xl text-foreground">
-                <span className="font-bold">{gameState.correctAnswers}/{gameState.totalQuestions}</span> doğru
-              </p>
-              <p className="text-lg text-primary font-bold">
-                Toplam Puan: {gameState.score}
-              </p>
-              <p className="text-muted-foreground">
-                Başarı oranı: %{Math.round(gameState.correctAnswers / gameState.totalQuestions * 100)}
-              </p>
-            </div>
-          </Card>
-
-          {/* Başarı Mesajı */}
-          <Card className="text-center mb-8">
-            <div className="space-y-2">
-              {gameState.correctAnswers >= 8 && <p className="text-lg text-success font-bold">🎉 Harika performans!</p>}
-              {gameState.correctAnswers >= 6 && gameState.correctAnswers < 8 && <p className="text-lg text-primary font-bold">👏 İyi iş çıkardın!</p>}
-              {gameState.correctAnswers >= 4 && gameState.correctAnswers < 6 && <p className="text-lg text-warning font-bold">👍 Fena değil!</p>}
-              {gameState.correctAnswers < 4 && <p className="text-lg text-muted-foreground">💪 Daha fazla çalışman gerekiyor!</p>}
-            </div>
-          </Card>
-
-          {/* Aksiyon Butonları */}
-          <div className="space-y-4">
-            <Button onClick={handleNewGame} variant="primary" size="lg" fullWidth>
-              Yeniden Oyna
-            </Button>
-
-            <Button onClick={handleGameEnd} variant="secondary" size="lg" fullWidth>
-              Ana Menüye Dön
-            </Button>
-          </div>
-        </div>
-      </div>;
+    const accuracy = Math.round(gameState.correctAnswers / gameState.totalQuestions * 100);
+    
+    const getPerformanceMessage = (acc: number) => {
+      if (acc >= 80) return '🎉 Harika performans!';
+      if (acc >= 60) return '👏 İyi iş çıkardın!';
+      if (acc >= 40) return '👍 Fena değil!';
+      return '💪 Daha fazla çalışman gerekiyor!';
+    };
+    
+    return (
+      <GameResultScreen
+        icon={<Trophy className="w-10 h-10 text-success" />}
+        metrics={{
+          primary: { 
+            label: "Doğru Cevaplar", 
+            value: `${gameState.correctAnswers}/${gameState.totalQuestions}`,
+            color: "text-primary"
+          },
+          secondary: { 
+            label: "Toplam Puan", 
+            value: gameState.score,
+            color: "text-success"
+          },
+          tertiary: { 
+            label: "Başarı Oranı", 
+            value: `%${accuracy}`
+          }
+        }}
+        performanceMessage={getPerformanceMessage(accuracy)}
+        onRestart={handleNewGame}
+        onGoHome={handleGameEnd}
+      />
+    );
   }
 
   // Oyun ekranı
