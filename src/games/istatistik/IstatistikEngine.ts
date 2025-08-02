@@ -1,0 +1,264 @@
+import { 
+  IstatistikSoru, 
+  IstatistikSettings, 
+  IstatistikGameState,
+  IstatistikAction,
+  IstatistikResult
+} from '@/types/istatistik';
+
+/**
+ * İstatistik Sezgisi oyunu için oyun motoru
+ * Soru yönetimi, puanlama sistemi ve oyun akışı işlemlerini yönetir
+ */
+export class IstatistikEngine {
+  private sorular: IstatistikSoru[] = [];
+  private gameState: IstatistikGameState;
+  private listeners: Array<() => void> = [];
+  private timer: NodeJS.Timeout | null = null;
+
+  constructor() {
+    this.gameState = {
+      currentSoru: null,
+      isPlaying: false,
+      isPaused: false,
+      isFinished: false,
+      playerGuess: null,
+      isAnswerRevealed: false,
+      currentQuestionIndex: 0,
+      totalQuestions: 12, // Varsayılan değer (data dosyasındaki toplam soru sayısı)
+      score: 0,
+      totalAnswered: 0,
+      averageAccuracy: 0,
+      settings: {
+        gameDuration: 30, // Her soru için 30 saniye
+        scoreMultiplier: 1
+      }
+    };
+  }
+
+  /**
+   * Soru dosyasını yükle
+   */
+  async loadQuestions(): Promise<void> {
+    try {
+      const response = await fetch('/data/istatistik_data_tr.json');
+      if (!response.ok) {
+        throw new Error('İstatistik soruları yüklenemedi');
+      }
+      this.sorular = await response.json();
+      console.log(`${this.sorular.length} İstatistik sorusu yüklendi`);
+    } catch (error) {
+      console.error('İstatistik soruları yüklenirken hata:', error);
+      this.sorular = [];
+    }
+  }
+
+  /**
+   * Oyunu başlat
+   */
+  startGame(customSettings?: IstatistikSettings): void {
+    if (this.sorular.length === 0) {
+      throw new Error('Sorular henüz yüklenmedi');
+    }
+
+    // Özel ayarları uygula
+    if (customSettings) {
+      this.gameState.settings = { ...this.gameState.settings, ...customSettings };
+    }
+
+    this.resetGame();
+    this.gameState.isPlaying = true;
+    
+    // Tüm soruları kullan, rastgele sırala
+    this.gameState.totalQuestions = this.sorular.length;
+    const shuffledQuestions = [...this.sorular].sort(() => Math.random() - 0.5);
+    this.sorular = shuffledQuestions;
+
+    this.nextQuestion();
+    this.notifyListeners();
+  }
+
+  /**
+   * Sonraki soruya geç
+   */
+  private nextQuestion(): void {
+    if (this.gameState.currentQuestionIndex >= this.sorular.length) {
+      this.endGame();
+      return;
+    }
+
+    const currentQuestion = this.sorular[this.gameState.currentQuestionIndex];
+    this.gameState.currentSoru = currentQuestion;
+    this.gameState.playerGuess = null;
+    this.gameState.isAnswerRevealed = false;
+
+    this.notifyListeners();
+  }
+
+  /**
+   * Oyuncunun tahminini işle
+   */
+  submitGuess(guess: number): IstatistikResult {
+    if (!this.gameState.currentSoru || this.gameState.isAnswerRevealed) {
+      throw new Error('Geçersiz oyun durumu');
+    }
+
+    this.gameState.playerGuess = guess;
+    this.gameState.isAnswerRevealed = true;
+    this.gameState.totalAnswered++;
+
+    const correctAnswer = this.gameState.currentSoru.answer;
+    const accuracy = this.calculateAccuracy(guess, correctAnswer);
+    const points = this.calculatePoints(accuracy);
+
+    this.gameState.score += points;
+    this.updateAverageAccuracy(accuracy);
+
+    const result: IstatistikResult = {
+      playerGuess: guess,
+      correctAnswer,
+      accuracy,
+      points,
+      explanation: this.gameState.currentSoru.explanation,
+      source: this.gameState.currentSoru.source
+    };
+
+    this.notifyListeners();
+    return result;
+  }
+
+  /**
+   * Doğruluk oranını hesapla (0-100 arası)
+   */
+  private calculateAccuracy(guess: number, correct: number): number {
+    if (correct === 0) {
+      return guess === 0 ? 100 : 0;
+    }
+    
+    const difference = Math.abs(guess - correct);
+    const relativeError = difference / correct;
+    
+    // Maksimum %50 hata toleransı ile 0-100 arası doğruluk hesapla
+    const accuracy = Math.max(0, 100 - (relativeError * 200));
+    return Math.round(accuracy);
+  }
+
+  /**
+   * Doğruluk oranına göre puan hesapla
+   */
+  private calculatePoints(accuracy: number): number {
+    const basePoints = Math.round((accuracy / 100) * 100); // 0-100 arası
+    const multiplier = this.gameState.settings.scoreMultiplier || 1;
+    return Math.round(basePoints * multiplier);
+  }
+
+  /**
+   * Ortalama doğruluk oranını güncelle
+   */
+  private updateAverageAccuracy(newAccuracy: number): void {
+    const total = this.gameState.averageAccuracy * (this.gameState.totalAnswered - 1) + newAccuracy;
+    this.gameState.averageAccuracy = Math.round(total / this.gameState.totalAnswered);
+  }
+
+  /**
+   * Sonraki soruya geç (oyuncu aksiyonu)
+   */
+  handleAction(action: IstatistikAction): void {
+    switch (action) {
+      case 'next-question':
+        this.gameState.currentQuestionIndex++;
+        this.nextQuestion();
+        break;
+      
+      case 'pause':
+        this.gameState.isPaused = true;
+        break;
+      
+      case 'resume':
+        this.gameState.isPaused = false;
+        break;
+      
+      case 'restart':
+        this.startGame();
+        break;
+      
+      case 'end-game':
+        this.endGame();
+        break;
+    }
+    
+    this.notifyListeners();
+  }
+
+  /**
+   * Oyunu bitir
+   */
+  private endGame(): void {
+    this.gameState.isPlaying = false;
+    this.gameState.isFinished = true;
+    this.notifyListeners();
+  }
+
+  /**
+   * Oyunu sıfırla
+   */
+  resetGame(): void {
+    this.gameState.isPlaying = false;
+    this.gameState.isPaused = false;
+    this.gameState.isFinished = false;
+    this.gameState.currentSoru = null;
+    this.gameState.playerGuess = null;
+    this.gameState.isAnswerRevealed = false;
+    this.gameState.currentQuestionIndex = 0;
+    this.gameState.score = 0;
+    this.gameState.totalAnswered = 0;
+    this.gameState.averageAccuracy = 0;
+    this.notifyListeners();
+  }
+
+  /**
+   * Mevcut oyun durumunu al
+   */
+  getGameState(): IstatistikGameState {
+    return { ...this.gameState };
+  }
+
+  /**
+   * Sorular yüklenmiş mi?
+   */
+  isLoaded(): boolean {
+    return this.sorular.length > 0;
+  }
+
+  /**
+   * Dinleyici ekle
+   */
+  addListener(listener: () => void): void {
+    this.listeners.push(listener);
+  }
+
+  /**
+   * Dinleyici kaldır
+   */
+  removeListener(listener: () => void): void {
+    this.listeners = this.listeners.filter(l => l !== listener);
+  }
+
+  /**
+   * Tüm dinleyicileri bilgilendir
+   */
+  private notifyListeners(): void {
+    this.listeners.forEach(listener => listener());
+  }
+
+  /**
+   * Kaynakları temizle
+   */
+  destroy(): void {
+    if (this.timer) {
+      clearTimeout(this.timer);
+      this.timer = null;
+    }
+    this.listeners = [];
+  }
+}

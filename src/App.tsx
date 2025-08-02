@@ -15,6 +15,8 @@ import { RenkDizisiScreen } from "./pages/RenkDizisiScreen";
 import { RenkDizisiSetup } from "./pages/RenkDizisiSetup";
 import { BenKimimSetup } from "./pages/BenKimimSetup";
 import { BenKimimScreen } from "./pages/BenKimimScreen";
+import { IstatistikScreen } from "./pages/IstatistikScreen";
+import { IstatistikSetup } from "./pages/IstatistikSetup";
 import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
 import { PWAInstallPrompt } from "./components/shared/PWAInstallPrompt";
@@ -59,6 +61,8 @@ const AppContent = () => {
           window.location.href = '/game/benkimim';
         }} onGoBack={() => window.history.back()} />} />
         <Route path="/game/benkimim" element={<BenKimimScreen />} />
+        <Route path="/game/istatistik/setup" element={<IstatistikSetup />} />
+        <Route path="/game/istatistik" element={<IstatistikScreen />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Routes>
