@@ -1,6 +1,7 @@
-import { ArrowLeft, Target, Play } from 'lucide-react';
+import { Filter, Play, Search } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
+import { PageHeader } from '@/components/shared/PageHeader';
 
 interface IkiDogruBirYalanSetupProps {
   onStartGame: () => void;
@@ -13,80 +14,51 @@ interface IkiDogruBirYalanSetupProps {
 export const IkiDogruBirYalanSetup = ({ onStartGame, onGoBack }: IkiDogruBirYalanSetupProps) => {
   return (
     <div className="min-h-screen bg-background page-fade-in">
-      {/* Header */}
-      <div className="sticky top-0 bg-background/80 backdrop-blur-md border-b border-border z-10">
-        <div className="flex items-center justify-between p-4">
-          <Button 
-            variant="ghost" 
-            size="sm" 
-            onClick={onGoBack}
-            className="flex items-center gap-2"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Ana Menü
-          </Button>
-          <h1 className="text-xl font-bold text-foreground">İki Doğru Bir Yalan</h1>
-          <div className="w-20" />
-        </div>
-      </div>
+      <PageHeader
+        title="İki Doğru Bir Yalan"
+        subtitle="Oyunu başlat"
+        onGoBack={onGoBack}
+      />
 
-      {/* Content */}
-      <div className="p-4 max-w-md mx-auto">
-        {/* Game Info */}
-        <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-accent/10 rounded-2xl mx-auto mb-6 flex items-center justify-center">
-            <Target className="w-10 h-10 text-accent-foreground" />
-          </div>
-          <h2 className="text-2xl font-bold text-foreground mb-3">
-            İki Doğru Bir Yalan
-          </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Psikoloji hakkında üç ifade göreceğin. İkisi doğru, biri yalan. 
-            Amacın yalanı bulmak!
-          </p>
-        </div>
-
-        {/* Game Rules */}
-        <Card className="p-6 mb-6">
-          <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
-            <Target className="w-5 h-5 text-accent-foreground" />
-            Nasıl Oynanır?
-          </h3>
-          <div className="space-y-3 text-sm text-muted-foreground">
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                <span className="text-xs font-medium text-primary">1</span>
-              </div>
-              <p>Bir konu hakkında 3 ifade göreceksin</p>
+      <div className="p-4 space-y-6">
+        {/* Oyun Açıklaması */}
+        <Card>
+          <div className="text-center space-y-4">
+            <div className="w-16 h-16 bg-success/10 rounded-2xl mx-auto flex items-center justify-center">
+              <Filter className="w-8 h-8 text-success" />
             </div>
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                <span className="text-xs font-medium text-primary">2</span>
-              </div>
-              <p>Yalan olduğunu düşündüğün ifadeye tıkla</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                <span className="text-xs font-medium text-primary">3</span>
-              </div>
-              <p>Doğru cevabı öğren ve sonraki soruya geç</p>
-            </div>
+            <h2 className="text-2xl font-bold text-foreground">İki Doğru Bir Yalan</h2>
+            <p className="text-muted-foreground">
+              Psikoloji hakkında üç ifade göreceksin. İkisi doğru, biri yalan. 
+              Amacın yalanı bulmak!
+            </p>
           </div>
         </Card>
 
-        {/* Start Game Button */}
-        <Button 
+        {/* Oyun Hakkında */}
+        <Card>
+          <div className="space-y-3">
+            <h3 className="text-lg font-semibold text-foreground">Nasıl Oynanır?</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>• Bir konu hakkında 3 ifade göreceksin</li>
+              <li>• Yalan olduğunu düşündüğün ifadeye tıkla</li>
+              <li>• Doğru cevabı öğren ve sonraki soruya geç</li>
+              <li>• Bilgin ne kadar geniş? Hadi test edelim!</li>
+            </ul>
+          </div>
+        </Card>
+
+        {/* Başlat Butonu */}
+        <Button
           onClick={onStartGame}
-          className="w-full h-14 text-lg font-semibold"
+          variant="primary"
           size="lg"
+          fullWidth
+          className="mt-8 shadow-elevated"
         >
-          <Play className="w-5 h-5 mr-2" />
+          <Play className="w-5 h-5" />
           Oyunu Başlat
         </Button>
-        
-        <p className="text-center text-sm text-muted-foreground mt-4">
-          Bilgin ne kadar geniş? Hadi test edelim!
-        </p>
       </div>
     </div>
   );

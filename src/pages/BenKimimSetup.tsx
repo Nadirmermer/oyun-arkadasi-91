@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, Clock, Target, Gamepad2, Smartphone, Brain } from 'lucide-react';
+import { Play, Clock, Target, Gamepad2, Smartphone, Search } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
@@ -60,7 +60,7 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
         <Card>
           <div className="text-center space-y-4">
             <div className="w-16 h-16 bg-success/10 rounded-2xl mx-auto flex items-center justify-center">
-              <Brain className="w-8 h-8 text-success" />
+              <Search className="w-8 h-8 text-success" />
             </div>
             <h2 className="text-2xl font-bold text-foreground">Ben Kimim?</h2>
             <p className="text-muted-foreground">

@@ -1,4 +1,4 @@
-import { Play, Brain } from 'lucide-react';
+import { Play, Scale } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { PageHeader } from '@/components/shared/PageHeader';
@@ -32,7 +32,7 @@ export const EtikProblemlerSetup = () => {
         <Card>
           <div className="text-center space-y-4">
             <div className="w-16 h-16 bg-success/10 rounded-2xl mx-auto flex items-center justify-center">
-              <Brain className="w-8 h-8 text-success" />
+              <Scale className="w-8 h-8 text-success" />
             </div>
             <h2 className="text-2xl font-bold text-foreground">Etik Problemler</h2>
             <p className="text-muted-foreground">

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, Clock, Target, Brain } from 'lucide-react';
+import { Play, Clock, Target, Lightbulb } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
@@ -46,7 +46,7 @@ export const BilBakalimSetup = () => {
         <Card>
           <div className="text-center space-y-4">
             <div className="w-16 h-16 bg-success/10 rounded-2xl mx-auto flex items-center justify-center">
-              <Brain className="w-8 h-8 text-success" />
+              <Lightbulb className="w-8 h-8 text-success" />
             </div>
             <h2 className="text-2xl font-bold text-foreground">Bil Bakalım</h2>
             <p className="text-muted-foreground">
