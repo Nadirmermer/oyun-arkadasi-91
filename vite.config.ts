@@ -123,7 +123,7 @@ export default defineConfig(({ mode }) => ({
         ]
       },
       devOptions: {
-        enabled: false // Production'da kapalı
+        enabled: true // Development'da da aktif
       }
     })
   ],
