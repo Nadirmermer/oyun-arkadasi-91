@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { TrendingUp, BarChart3, Pause, Play } from 'lucide-react';
+import { TrendingUp, BarChart3, Pause, Play, ExternalLink } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
@@ -23,6 +23,7 @@ export const IstatistikScreen = () => {
   const [lastResult, setLastResult] = useState<IstatistikResult | null>(null);
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
+  const [remainingTime, setRemainingTime] = useState<number>(0);
 
   // Tema uyumluluğunu sağla
   useSystemTheme();
@@ -32,15 +33,28 @@ export const IstatistikScreen = () => {
     const initGame = async () => {
       await gameEngine.loadQuestions();
       if (gameEngine.isLoaded()) {
-        // Kaydedilen ayarları kontrol et
+        // Kaydedilen ayarları kontrol et ve kullan
         const savedSettings = localStorage.getItem('istatistikSettings');
+        let settings = undefined;
+        
         if (savedSettings) {
-          const settings = JSON.parse(savedSettings);
-          gameEngine.startGame(settings);
-        } else {
-          gameEngine.startGame();
+          try {
+            settings = JSON.parse(savedSettings);
+            console.log('Kaydedilen ayarlar yüklendi:', settings);
+          } catch (error) {
+            console.error('Ayarlar parse edilemedi:', error);
+          }
         }
+        
+        gameEngine.startGame(settings);
         setGameState(gameEngine.getGameState());
+        
+        // Slider başlangıç değerini soru aralığının ortasına ayarla
+        const currentQuestion = gameEngine.getGameState().currentSoru;
+        if (currentQuestion) {
+          const midPoint = Math.round((currentQuestion.min + currentQuestion.max) / 2);
+          setCurrentGuess(midPoint);
+        }
       }
     };
     initGame();
@@ -51,6 +65,7 @@ export const IstatistikScreen = () => {
     const handleGameStateChange = () => {
       const newState = gameEngine.getGameState();
       setGameState(newState);
+      setRemainingTime(gameEngine.getRemainingTime());
     };
 
     gameEngine.addListener(handleGameStateChange);
@@ -79,7 +94,13 @@ export const IstatistikScreen = () => {
   const handleNextQuestion = () => {
     gameEngine.handleAction('next-question');
     setLastResult(null);
-    setCurrentGuess(50); // Tahmini sıfırla
+    
+    // Yeni soru için slider değerini ortaya ayarla
+    const newState = gameEngine.getGameState();
+    if (newState.currentSoru) {
+      const midPoint = Math.round((newState.currentSoru.min + newState.currentSoru.max) / 2);
+      setCurrentGuess(midPoint);
+    }
   };
 
   /**
@@ -89,8 +110,14 @@ export const IstatistikScreen = () => {
     gameEngine.resetGame();
     gameEngine.startGame();
     setLastResult(null);
-    setCurrentGuess(50);
     setGameState(gameEngine.getGameState());
+    
+    // Slider değerini yeni sorunun ortasına ayarla
+    const currentQuestion = gameEngine.getGameState().currentSoru;
+    if (currentQuestion) {
+      const midPoint = Math.round((currentQuestion.min + currentQuestion.max) / 2);
+      setCurrentGuess(midPoint);
+    }
   };
 
   /**
@@ -142,6 +169,15 @@ export const IstatistikScreen = () => {
     };
     saveGameRecord(gameResult);
     navigate('/');
+  };
+
+  /**
+   * Kaynağa git (dış link)
+   */
+  const handleGoToSource = () => {
+    if (lastResult?.link) {
+      window.open(lastResult.link, '_blank', 'noopener,noreferrer');
+    }
   };
 
   /**
@@ -239,7 +275,20 @@ export const IstatistikScreen = () => {
 
         {/* Skor ve İlerleme */}
         <div className="px-4 pb-4">
-          <div className="grid grid-cols-2 gap-2 mb-4">
+          {/* Zamanlayıcı - sadece tahmin aşamasında göster */}
+          {!gameState.isAnswerRevealed && remainingTime > 0 && (
+            <div className="mb-4 text-center">
+              <div className={`inline-flex items-center px-4 py-2 rounded-lg font-bold text-lg ${
+                remainingTime <= 10 ? 'bg-danger text-danger-foreground animate-pulse' : 
+                remainingTime <= 20 ? 'bg-warning text-warning-foreground' : 
+                'bg-info text-info-foreground'
+              }`}>
+                ⏱️ {remainingTime}s
+              </div>
+            </div>
+          )}
+          
+          <div className="grid grid-cols-3 gap-2 mb-4">
             <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md">
               <div className="font-medium text-xs sm:text-sm">Puan</div>
               <div className="text-xl sm:text-2xl font-bold mt-1">{gameState.score}</div>
@@ -248,7 +297,14 @@ export const IstatistikScreen = () => {
             <div className="p-3 sm:p-4 rounded-xl text-center bg-success text-success-foreground shadow-md">
               <div className="font-medium text-xs sm:text-sm">Doğruluk</div>
               <div className="text-xl sm:text-2xl font-bold mt-1">
-                {gameState.totalAnswered > 0 ? `%${gameState.averageAccuracy}` : '-%'}
+                {gameState.totalAnswered > 0 ? `%${gameState.averageAccuracy}` : '%__'}
+              </div>
+            </div>
+
+            <div className="p-3 sm:p-4 rounded-xl text-center bg-info text-info-foreground shadow-md">
+              <div className="font-medium text-xs sm:text-sm">Soru</div>
+              <div className="text-xl sm:text-2xl font-bold mt-1">
+                {gameState.currentQuestionIndex + 1}/{gameState.totalQuestions}
               </div>
             </div>
           </div>
@@ -274,11 +330,11 @@ export const IstatistikScreen = () => {
             <h3 className="text-lg font-semibold text-center mb-6">Senin Tahminin</h3>
             
             <Slider
-              label={`Tahmin: ${currentGuess}${gameState.currentSoru.unit}`}
+              label="Tahmin"
               value={currentGuess}
-              min={0}
-              max={100}
-              step={1}
+              min={gameState.currentSoru.min}
+              max={gameState.currentSoru.max}
+              step={gameState.currentSoru.max - gameState.currentSoru.min > 100 ? 5 : 1}
               unit={gameState.currentSoru.unit}
               onChange={setCurrentGuess}
             />
@@ -331,9 +387,22 @@ export const IstatistikScreen = () => {
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {lastResult.explanation}
                 </p>
-                <p className="text-sm text-muted-foreground italic">
+                <p className="text-sm text-muted-foreground italic mb-4">
                   Kaynak: {lastResult.source}
                 </p>
+                
+                {/* Kaynağa Git Butonu */}
+                {lastResult.link && (
+                  <Button
+                    onClick={handleGoToSource}
+                    variant="secondary" 
+                    size="sm"
+                    className="w-full sm:w-auto"
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Kaynağa Git
+                  </Button>
+                )}
               </Card>
             )}
 

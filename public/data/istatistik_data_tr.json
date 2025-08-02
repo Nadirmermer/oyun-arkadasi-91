@@ -1,314 +1,365 @@
 [
   {
     "id": "stats001",
-    "question": "Asch'in uyma deneylerinde, grubun bariz şekilde yanlış olan kararına katılımcıların yüzde kaçı en az bir kez katılmıştır?",
+    "question": "Solomon Asch'in klasik uyma deneyinde, diğer grup üyeleri kasıtlı olarak yanlış cevap verdiğinde, gerçek katılımcıların yüzde kaçı en az bir kez gruba uyarak bariz şekilde yanlış olanı seçmiştir?",
     "answer": 75,
     "unit": "%",
+    "min": 0,
+    "max": 100,
     "explanation": "Bu şaşırtıcı oran, insanların doğruyu bilseler bile gruptan dışlanmamak için grubun kararına uyma eğiliminde olduğunu gösterir. Buna 'normatif sosyal etki' denir.",
-    "source": "Asch, S. E. (1951)"
+    "source": "Asch, S. E. (1955)",
+    "link": "https://www.simplypsychology.org/asch-conformity.html"
   },
   {
     "id": "stats002",
-    "question": "Milgram'ın ünlü itaat deneyinde, sıradan insanların yüzde kaçı bir otorite figürünün emriyle başka bir insana potansiyel olarak ölümcül olan en yüksek (450v) şoku vermiştir?",
-    "answer": 65,
-    "unit": "%",
-    "explanation": "Bu sarsıcı sonuç, insanların meşru bir otoritenin sorumluluğu üstlendiği durumlarda, kişisel vicdanlarına aykırı eylemleri bile gerçekleştirebileceğini gösterir.",
-    "source": "Milgram, S. (1963)"
+    "question": "Philip Zimbardo'nun Stanford Hapishane Deneyi'nde, planlanan iki haftalık sürenin aksine, deney kaç gün sonra durdurulmak zorunda kalmıştır?",
+    "answer": 6,
+    "unit": "gün",
+    "min": 0,
+    "max": 30,
+    "explanation": "Deney, gardiyan rolündeki katılımcıların beklenmedik bir hızla sadistik davranışlar sergilemesi ve mahkumların aşırı psikolojik stres yaşaması nedeniyle erken sonlandırıldı. Bu, durumların ve rollerin insan davranışını ne kadar güçlü bir şekilde şekillendirebildiğini gösterir. ",
+    "source": "Haney, C., Banks, W. C., & Zimbardo, P. G. (1973)",
+    "link": "https://doi.org/10.21236/AD0751041"
   },
   {
     "id": "stats003",
-    "question": "Acil bir duruma tek başına şahit olan birinin yardım etme olasılığı %85 iken, altı kişilik bir grupta bu oran 'Seyirci Etkisi' nedeniyle yüzde kaça düşer?",
-    "answer": 31,
+    "question": "Darley ve Latané'nin 'seyirci etkisi' deneyinde, birinin nöbet geçirdiğini duyan tek tanık olduklarına inanan katılımcıların yüzde kaçı yardım etmek için harekete geçmiştir?",
+    "answer": 85,
     "unit": "%",
-    "explanation": "Buna 'sorumluluğun dağılması' denir. Ortamdaki tanık sayısı arttıkça, her bir bireyin harekete geçme sorumluluğu hissetme olasılığı azalır.",
-    "source": "Darley, J. M., & Latané, B. (1968)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu oran, sorumluluğun dağılmadığı durumlarda insanların yardım etme olasılığının çok daha yüksek olduğunu gösterir. Gruptaki kişi sayısı arttıkça, bireylerin yardım etme olasılığı 'sorumluluğun dağılması' nedeniyle düşer. ",
+    "source": "Darley, J. M., & Latané, B. (1968)",
+    "link": "https://doi.org/10.1037/h0025589"
   },
   {
     "id": "stats004",
-    "question": "İki hafta (14 gün) sürmesi planlanan ünlü Stanford Hapishane Deneyi, katılımcıların davranışlarındaki bozulma nedeniyle kaçıncı günde erken sonlandırılmıştır?",
-    "answer": 6,
-    "unit": "gün",
-    "explanation": "Bu deney, atanan sosyal rollerin ve içinde bulunulan durumun, sıradan insanların davranışlarını ne kadar hızlı ve derinden değiştirebileceğinin en çarpıcı örneklerinden biridir.",
-    "source": "Zimbardo, P. G. (1971)"
+    "question": "Darley ve Latané'nin 'seyirci etkisi' deneyinde, kendileriyle birlikte dört kişinin daha olduğuna inanan (toplam 6 kişilik grup) katılımcıların yüzde kaçı nöbet geçiren kişiye yardım etmiştir?",
+    "answer": 31,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu düşük oran, 'sorumluluğun dağılması' olarak bilinen olguyu kanıtlar. Gruptaki kişi sayısı arttıkça, her bir bireyin kişisel sorumluluk hissi azalır ve 'bir başkası yardım eder' düşüncesiyle eylemsiz kalma olasılığı artar. ",
+    "source": "Darley, J. M., & Latané, B. (1968)",
+    "link": "https://doi.org/10.1037/h0025589"
   },
   {
     "id": "stats005",
-    "question": "Festinger'in deneyinde, sıkıcı bir iş hakkında yalan söylemek için 1$ alanlar mı yoksa 20$ alanlar mı işi daha 'keyifli' olarak değerlendirmiştir?",
-    "answer": 1,
-    "unit": "$'lık grup",
-    "explanation": "1$ alanlar, bu kadar küçük bir para için yalan söylemelerini haklı çıkarmak amacıyla, görevin aslında o kadar da sıkıcı olmadığına kendilerini ikna etmişlerdir. Bu, bilişsel çelişkinin klasik bir örneğidir.",
-    "source": "Festinger, L., & Carlsmith, J. M. (1959)"
+    "question": "Kahneman ve Tversky'nin çıpalama deneyinde, şans çarkından '65' çıpasına maruz kalan katılımcıların Birleşmiş Milletler'deki Afrika ülkelerinin yüzdesine dair medyan tahmini ne olmuştur?",
+    "answer": 45,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu sonuç, insanların tahminlerinin, konuyla tamamen alakasız olsa bile, maruz kaldıkları ilk sayıdan ('çıpa') etkilendiğini gösterir. Beyin, bu çıpayı bir başlangıç noktası olarak kullanır ve yetersiz bir düzeltme yapar. ",
+    "source": "Tversky, A., & Kahneman, D. (1974)",
+    "link": "https://doi.org/10.1126/science.185.4157.1124"
   },
   {
     "id": "stats006",
-    "question": "Dunning-Kruger etkisine göre, bir testte en alt %25'lik dilimde yer alan kişiler, kendi performanslarını ortalama olarak yüzde kaçlık dilimde sanmışlardır?",
+    "question": "Dunning-Kruger etkisini gösteren orijinal çalışmada, mantık ve gramer testlerinde en alt çeyrekte (12. persentil) yer alan katılımcılar, kendi performanslarını ortalama olarak kaçıncı persentilde tahmin etmişlerdir?",
     "answer": 62,
-    "unit": "%'lik dilim",
-    "explanation": "Bu etki, bir konuda yetersiz olan kişilerin, bu yetersizliklerini fark etme becerisinden de yoksun olmaları durumunu açıklar. Buna 'cahil cesareti' de denir.",
-    "source": "Kruger, J., & Dunning, D. (1999)"
+    "unit": ". persentil",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu abartılı öz-değerlendirme, yetersiz insanların sadece hata yapmakla kalmayıp, aynı zamanda bu yetersizliklerini fark etmelerini sağlayan üstbilişsel becerilerden de yoksun olmalarından kaynaklanır. Buna 'çifte lanet' denir. ",
+    "source": "Kruger, J., & Dunning, D. (1999)",
+    "link": "https://doi.org/10.1037/0022-3514.77.6.1121"
   },
   {
     "id": "stats007",
-    "question": "Ebbinghaus'un unutma eğrisine göre, yeni öğrenilen anlamsız bilginin yaklaşık yüzde kaçı sadece 24 saat içinde unutulur?",
-    "answer": 66,
-    "unit": "%",
-    "explanation": "Bu eğri, bilginin kalıcı olması için aktif tekrarın şart olduğunu ve en büyük bilgi kaybının öğrenmeden hemen sonra yaşandığını gösterir.",
-    "source": "Ebbinghaus, H. (1885)"
+    "question": "Festinger ve Carlsmith'in bilişsel çelişki deneyinde, çok sıkıcı bir görev hakkında yalan söylemeleri için sadece 1 dolar alan katılımcılar, görevin ne kadar eğlenceli olduğunu -5 (çok sıkıcı) ile +5 (çok eğlenceli) arasında bir ölçekte nasıl derecelendirmiştir?",
+    "answer": 1.35,
+    "unit": "puan",
+    "min": 0,
+    "max": 5,
+    "explanation": "Yetersiz bir dışsal gerekçe (1$), davranışları ('yalan söyledim') ile inançları ('görev sıkıcıydı') arasında bir çelişki yaratmıştır. Bu çelişkiyi azaltmak için katılımcılar, inançlarını değiştirerek görevin aslında eğlenceli olduğuna kendilerini ikna etmişlerdir. [29, 40]",
+    "source": "Festinger, L., & Carlsmith, J. M. (1959)",
+    "link": "https://www.age-of-the-sage.org/psychology/social/festinger_carlsmith_cognitive_dissonance.html"
   },
   {
     "id": "stats008",
-    "question": "Kısa süreli belleğimizin kapasitesini tanımlayan 'Büyülü Sayı' kuralına göre, bir insan aynı anda ortalama kaç anlamlı bilgi birimini aklında tutabilir?",
-    "answer": 7,
-    "unit": "birim",
-    "explanation": "George Miller'ın bu ünlü bulgusu, kısa süreli belleğimizin kapasitesinin 7 (artı veya eksi 2) anlamlı 'öbek' (chunk) ile sınırlı olduğunu göstermiştir.",
-    "source": "Miller, G. A. (1956)"
+    "question": "'Spotlight Etkisi' deneyinde, utanç verici bir tişört giyen katılımcılar, gözlemcilerin yüzde kaçının tişörtü fark edeceğini tahmin etmiştir?",
+    "answer": 50,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu, insanların kendi görünümlerinin ve eylemlerinin başkaları tarafından ne ölçüde fark edildiğini abartma eğilimini gösterir. Kendi üzerimizde hissettiğimiz 'spot ışığı' gerçekte olduğundan çok daha sönüktür. ",
+    "source": "Gilovich, T., Medvec, V. H., & Savitsky, K. (2000)",
+    "link": "https://doi.org/10.1037//0022-3514.78.2.211"
   },
   {
     "id": "stats009",
-    "question": "McGurk etkisinde, 'ga' diyen bir yüz izlerken 'ba' sesi duyan insanların yüzde kaçı, aslında orada olmayan 'da' sesini duyduğunu rapor eder?",
-    "answer": 98,
+    "question": "'Spotlight Etkisi' deneyinde, utanç verici bir tişört giyen katılımcıları gözlemleyenlerin gerçekte yüzde kaçı tişörtü fark etmiştir?",
+    "answer": 25,
     "unit": "%",
-    "explanation": "Bu güçlü algısal yanılsama, beynimizin konuşmayı anlarken görsel ve işitsel bilgileri nasıl birleştirdiğini ve bazen tamamen yeni bir algı yarattığını gösterir.",
-    "source": "McGurk, H., & MacDonald, J. (1976)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Gerçek farkındalık oranının tahmin edilenden çok daha düşük olması, benmerkezci bir yanılgıdan kaynaklanır. Kendi deneyimimize odaklanır ve başkalarının perspektifini yeterince hesaba katmayız. ",
+    "source": "Gilovich, T., Medvec, V. H., & Savitsky, K. (2000)",
+    "link": "https://doi.org/10.1037//0022-3514.78.2.211"
   },
   {
     "id": "stats010",
-    "question": "Simons ve Levin'in 'kapı deneyi'nde, konuştukları kişinin bir anlığına yer değiştirdiğini yayaların yüzde kaçı FARK ETMEMİŞTİR?",
-    "answer": 50,
+    "question": "Loftus'un 'Alışveriş Merkezinde Kaybolma' deneyinde, katılımcıların yüzde kaçına, hiç yaşanmamış bir çocukluk anısı (alışveriş merkezinde kaybolma) başarılı bir şekilde telkin edilmiştir?",
+    "answer": 25,
     "unit": "%",
-    "explanation": "Buna 'değişim körlüğü' denir. Bu durum, görsel dünyamızın ayrıntılı bir resmini tutmadığımızı, aksine dikkat etmediğimiz büyük değişiklikleri bile kaçırabildiğimizi gösterir.",
-    "source": "Simons, D. J., & Levin, D. T. (1998)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu bulgu, hafızanın yeniden yapılandırıcı doğasını gösterir. Hatırlama, geçmişin pasif bir kaydı değil, mevcut bilgiler ve dış telkinlerle aktif olarak yeniden inşa edildiği bir süreçtir. ",
+    "source": "Loftus, E. F., & Pickrell, J. E. (1995)",
+    "link": "https://doi.org/10.3928/0048-5713-19951201-07"
   },
   {
     "id": "stats011",
-    "question": "Skinner'ın deneyinde, rastgele zamanlarda yem verilen güvercinlerin yüzde kaçı, yemin gelişini sağladığına inandıkları 'batıl' davranışlar geliştirmiştir?",
-    "answer": 75,
+    "question": "Simons ve Levin'in 'kapı deneyi'nde, konuştukları kişinin kısa bir kesinti sırasında başka biriyle değiştirildiğini yayaların yaklaşık yüzde kaçı fark etmemiştir?",
+    "answer": 50,
     "unit": "%",
-    "explanation": "Bu deney, aslında bir bağlantı olmasa da, beynimizin tesadüfi olaylar arasında bile neden-sonuç ilişkisi kurmaya ne kadar hevesli olduğunu gösterir.",
-    "source": "Skinner, B. F. (1948)"
+    "min": 0,
+    "max": 100,
+    "explanation": "'Değişim körlüğü' olarak bilinen bu fenomen, görsel sahnelerdeki büyük değişiklikleri bile fark etmedeki şaşırtıcı başarısızlığımızı gösterir. Beynimiz dünyayı detaylı bir fotoğraf gibi kaydetmez, sadece sahnenin 'özünü' kodlar. ",
+    "source": "Simons, D. J., & Levin, D. T. (1998)",
+    "link": "https://doi.org/10.3758/BF03208840"
   },
   {
     "id": "stats012",
-    "question": "Seligman'ın 'öğrenilmiş çaresizlik' deneyinde, kaçamayacakları şoklara maruz kalan köpeklerin yaklaşık yüzde kaçı, daha sonra kaçma imkanı varken denememiştir bile?",
-    "answer": 67,
-    "unit": "%",
-    "explanation": "Bu fenomen, geçmişteki kontrolsüz kötü deneyimlerin, gelecekte kontrol mümkün olsa bile bireyleri pasifliğe ve denemekten vazgeçmeye nasıl itebileceğini açıklar.",
-    "source": "Seligman, M. E. P., & Maier, S. F. (1967)"
+    "question": "Marshmallow testinin bir varyasyonunda, güvenilir bir araştırmacıyla etkileşime giren çocuklar, ikinci bir şekerleme için ortalama kaç dakika beklemiştir?",
+    "answer": 12,
+    "unit": "dakika",
+    "min": 0,
+    "max": 30,
+    "explanation": "Bu sonuç, hazzı erteleme yeteneğinin sadece içsel bir irade gücü meselesi olmadığını, aynı zamanda çevrenin güvenilirliğine dair rasyonel bir hesaplamayı da yansıttığını gösterir. ",
+    "source": "Kidd, C., Palmeri, H., & Aslin, R. N. (2013)",
+    "link": "https://www.strategian.com/fulltext/Kidd2013.pdf"
   },
   {
     "id": "stats013",
-    "question": "Stroop etkisine göre, kelimenin anlamı ile rengi çeliştiğinde (örn: mavi renkle yazılmış 'KIRMIZI'), rengi söyleme süresi yüzde kaç oranında artar?",
-    "answer": 74,
-    "unit": "%",
-    "explanation": "Bu gecikme, okuma gibi otomatik bir sürecin, renk söyleme gibi daha kontrollü bir sürece müdahale etmesinden kaynaklanır ve beynin çatışmayı çözme çabasını gösterir.",
-    "source": "Stroop, J. R. (1935)"
+    "question": "Marshmallow testinin bir varyasyonunda, güvenilmez bir araştırmacıyla etkileşime giren çocuklar, ikinci bir şekerleme için ortalama kaç dakika beklemiştir?",
+    "answer": 3,
+    "unit": "dakika",
+    "min": 0,
+    "max": 15,
+    "explanation": "Güvenilmez bir ortamda beklememek, 'zayıf öz kontrol' değil, gelecekteki bir vaadin gerçekleşme olasılığının düşük olduğuna dair öğrenilmiş bir deneyime dayanan rasyonel bir karardır. ",
+    "source": "Kidd, C., Palmeri, H., & Aslin, R. N. (2013)",
+    "link": "https://www.strategian.com/fulltext/Kidd2013.pdf"
   },
   {
     "id": "stats014",
-    "question": "Kapıdaki Ayak Tekniği deneyinde, önce küçük bir ricayı kabul eden ev sahiplerinin, daha sonra bahçelerine büyük ve çirkin bir tabela koyma talebini kabul etme oranı yüzde kaçtır?",
-    "answer": 76,
+    "question": "'Yanlış Fikir Birliği Etkisi' deneyinde, kampüste bir sandviç tabela giymeyi kabul eden öğrenciler, akranlarının yüzde kaçının da aynı şeyi yapacağını tahmin etmiştir?",
+    "answer": 62.2,
     "unit": "%",
-    "explanation": "Bu oran, doğrudan sorulduğunda sadece %17'ydi. Bu teknik, insanların tutarlı görünme arzusu üzerinden nasıl ikna edilebileceğini gösterir.",
-    "source": "Freedman, J. L., & Fraser, S. C. (1966)"
-  },
-  {
-    "id": "stats015",
-    "question": "Harlow'un deneylerinde, yavru maymunlar günlerinin yaklaşık yüzde kaçını kendilerini besleyen 'telli anne' yerine, beslemeyen 'kumaş anne' ile geçirmiştir?",
-    "answer": 95,
-    "unit": "%",
-    "explanation": "Yavrular günde 17-18 saatini kumaş anneyle geçirmiştir. Bu deney, sevgi ve bağlanmanın temelinde beslenmenin değil, 'temas konforu'nun yattığını kanıtlamıştır.",
-    "source": "Harlow, H. F. (1958)"
-  },
-  {
-    "id": "stats016",
-    "question": "Majör depresyon tedavisi için yapılan klinik deneylerde, farmakolojik olarak etkisiz bir hap (plasebo) alan hastaların ortalama yüzde kaçı belirgin bir iyileşme gösterir?",
-    "answer": 35,
-    "unit": "%",
-    "explanation": "Plasebo etkisi, zihin-beden bağlantısının gücünü ve sadece tedaviye olan inancın bile iyileşme sürecini nasıl tetikleyebileceğini gösterir.",
-    "source": "Kirsch, I. (2010)"
-  },
-  {
-    "id": "stats017",
-    "question": "Dünya Sağlık Örgütü'ne göre, depresyon kadınlarda erkeklere kıyasla yaklaşık yüzde kaç daha yaygındır?",
-    "answer": 50,
-    "unit": "%",
-    "explanation": "Bu küresel veri, depresyonun etiyolojisinde hormonal, psikolojik ve sosyokültürel faktörlerin karmaşık bir etkileşimi olduğunu düşündürmektedir.",
-    "source": "World Health Organization (2021)"
-  },
-  {
-    "id": "stats018",
-    "question": "Rochester Üniversitesi'ndeki takip çalışmasına göre, sözünü tutmayan 'güvenilmez' bir ortamdaki çocukların marshmallow testinde bekleme süresi, güvenilir ortama göre yüzde kaç azalmıştır?",
-    "answer": 75,
-    "unit": "%",
-    "explanation": "Güvenilir ortamda ortalama 12 dakika bekleyen çocuklar, güvenilmez ortamda sadece 3 dakika beklemiştir. Bu, öz kontrolün aynı zamanda rasyonel bir güven kararı olduğunu gösterir.",
-    "source": "Kidd, C., Palmeri, H., & Aslin, R. N. (2013)"
-  },
-  {
-    "id": "stats019",
-    "question": "Bir araba kazasıyla ilgili aynı videoyu izleyenlerden, arabaların birbirine 'çarptığını' duyanların %14'ü kırık cam hatırlarken, 'paramparça olduğunu' duyanların yüzde kaçı hatırlamıştır?",
-    "answer": 32,
-    "unit": "%",
-    "explanation": "Loftus'un bu deneyi, 'yanlış bilgi etkisi'ni gösterir. Anılarımız, olaydan sonra duyduğumuz kelimelerle bile kolayca değişebilir ve sahte detaylar içerebilir.",
-    "source": "Loftus, E. F., & Palmer, J. C. (1974)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu etki, insanların kendi davranışlarının ve görüşlerinin başkaları arasında ne kadar yaygın olduğunu abartma eğilimini gösterir. Kendi seçimlerimizi norm olarak görme eğilimindeyiz. [10]",
+    "source": "Ross, L., Greene, D., & House, P. (1977)",
+    "link": "https://www.bulidomics.com/w/images/d/d8/4705-Ross-et-al-False-Consensus-Effect.pdf"
   },
   {
     "id": "stats020",
-    "question": "Davranışsal ekonomiye göre, insanlar için bir kayıptan duyulan acı, eşdeğer bir kazancın verdiği zevkten yaklaşık kaç kat daha güçlüdür?",
-    "answer": 2.25,
-    "unit": "kat",
-    "explanation": "Buna 'Kayıptan Kaçınma' denir. Bu psikolojik asimetri, insanların potansiyel kayıplardan, eşdeğer kazançların getireceği zevkten çok daha fazla kaçınma eğiliminde olduğunu gösterir.",
-    "source": "Tversky, A., & Kahneman, D. (1992)"
+    "question": "Popüler inanışın aksine, bilimsel bir araştırmaya göre yeni bir alışkanlığın (örneğin her gün egzersiz yapmak) otomatik hale gelmesi için ortalama kaç gün gerekmektedir?",
+    "answer": 66,
+    "unit": "gün",
+    "min": 5,
+    "max": 90,
+    "explanation": "Phillippa Lally ve ekibinin 2009'daki çalışması, '21 günde alışkanlık' efsanesini çürütmüştür. Araştırmaya göre, yeni bir davranışın düşünmeden yapılan otomatik bir eyleme dönüşmesi için geçen ortalama süre 66 gündür. Ancak bu süre kişiden kişiye ve alışkanlığın zorluğuna göre 18 günden 254 güne kadar değişebilmektedir.",
+    "source": "Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: Modelling habit formation in the real world. European Journal of Social Psychology, 40(6), 998-1009.",
+    "link": "https://doi.org/10.1002/ejsp.674"
   },
   {
     "id": "stats021",
-    "question": "'Sahiplik Etkisi' deneyinde, bir kupaya sahip olan 'Satıcılar', aynı kupayı almak isteyen 'Alıcılara' göre kupaya yaklaşık kaç kat daha fazla değer biçmiştir?",
-    "answer": 2.5,
-    "unit": "kat",
-    "explanation": "İnsanlar sahip oldukları bir nesneye, sırf onlara ait olduğu için, rasyonel değerinin çok üzerinde bir bedel biçme eğilimindedir. Nesneden vazgeçmek bir 'kayıp' olarak algılandığı için daha acı vericidir.",
-    "source": "Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1990)"
+    "question": "Yetişkin bir insanın beyni, toplam vücut ağırlığının sadece %2'sini oluşturmasına rağmen, vücudun dinlenme halindeyken tükettiği toplam enerjinin yüzde kaçını kullanır?",
+    "answer": 20,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Beyin, vücudun en metabolik olarak pahalı organıdır. Ağırlığına oranla 10 kat daha fazla enerji tüketir. Bu muazzam enerjinin yaklaşık %75'i, hücre bakımı gibi pasif işler için değil, nöronların ateşlenmesi ve bilgi işlenmesi gibi aktif sinirsel faaliyetler için kullanılır. Beynimiz, biz 'hiçbir şey yapmıyorken' bile sürekli yüksek devirde çalışır.",
+    "source": "Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. Proceedings of the National Academy of Sciences, 99(16), 10237-10239.",
+    "link": "https://doi.org/10.1073/pnas.172399499"
   },
   {
     "id": "stats022",
-    "question": "Ünlü 'Reçel Deneyi'nde, seçenek sayısı 24'ten 6'ya düşürüldüğünde, müşterilerin reçel satın alma olasılığı kaç kat artmıştır?",
-    "answer": 10,
-    "unit": "kat",
-    "explanation": "Buna 'seçim felci' denir. Çok fazla seçenek sunmak, insanların karar verme sürecini zorlaştırarak hiçbir şey yapmamalarına neden olabilir. Bazen daha az, daha fazladır.",
-    "source": "Iyengar, S. S., & Lepper, M. R. (2000)"
+    "question": "Bir kolunu veya bacağını kaybeden (ampute) kişilerin yüzde kaçı, artık var olmayan bu uzuvlarında gerçek ağrı hissettiklerini bildirmektedir?",
+    "answer": 64,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu duruma 'Fantom Uzuv Ağrısı' denir ve psikolojik bir yanılsama değil, gerçek bir nörolojik olgudur. Kapsamlı bir meta-analiz, ampute bireylerin yaklaşık %64'ünün bu durumu yaşadığını göstermiştir. Bu, beynin vücudun bir 'haritasını' veya 'şemasını' tuttuğunu ve uzuv fiziksel olarak yok olsa bile bu haritanın ağrı sinyalleri üretmeye devam edebileceğini kanıtlar.",
+    "source": "Limakatso, K., Bedwell, G. J., Madden, V. J., & Parker, R. (2020). The prevalence and risk factors for phantom limb pain in people with amputations: A systematic review and meta-analysis. PloS one, 15(10), e0240431.",
+    "link": "https://doi.org/10.1371/journal.pone.0240431"
   },
   {
     "id": "stats023",
-    "question": "'Yem Etkisi' deneyinde, açıkça daha kötü olan bir üçüncü seçenek ('yem') sunulduğunda, en pahalı aboneliği tercih edenlerin oranı yüzde kaçtır?",
-    "answer": 84,
+    "question": "Yetişkinlerde rüyaların görüldüğü REM uykusu toplam uykunun yaklaşık %25'ini oluştururken, yeni doğan bir bebek uyku süresinin yüzde kaçını REM evresinde geçirir?",
+    "answer": 50,
     "unit": "%",
-    "explanation": "Açıkça daha kötü bir 'yem' seçeneğin varlığı, karar verme sürecimizi basitleştirir ve hedef ürünü daha çekici göstererek tercihlerimizi sistematik olarak değiştirir.",
-    "source": "Ariely, D. (2008)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Yeni doğan bebekler, uyku sürelerinin yarısını REM evresinde geçirirler. Bu oran, prematüre bebeklerde %80'e kadar çıkabilir. Bu durumun, bebeklerin henüz çok az anısı olduğu için anı pekiştirmeyle değil, beynin sinirsel devrelerini kurması ve geliştirmesi için gereken içsel uyarımı sağlamasıyla ilgili olduğu düşünülmektedir. Bebek beyni, uyurken kendini 'inşa eder'.",
+    "source": "Children's Hospital of Philadelphia. (n.d.). Newborn Sleep Patterns.",
+    "link": "https://www.chop.edu/pages/newborn-sleep-patterns"
   },
   {
     "id": "stats024",
-    "question": "Zihinsel olarak meşgul olan (7 haneli bir sayıyı aklında tutan) insanların yüzde kaçı, sağlıklı meyve salatası yerine dürtüsel bir seçim olan çikolatalı keki tercih etmiştir?",
-    "answer": 63,
+    "question": "En yaygın fobilerden biri olan akrofobi, yani klinik düzeyde yükseklik korkusu, dünya nüfusunun yaklaşık yüzde kaçını etkilemektedir?",
+    "answer": 5,
     "unit": "%",
-    "explanation": "Öz denetim, sınırlı bir bilişsel kaynaktır. Zihnimiz meşgul olduğunda, irademiz zayıflar ve anlık tatmin sunan dürtüsel kararlar verme olasılığımız artar.",
-    "source": "Shiv, B., & Fedorikhin, A. (1999)"
+    "min": 0,
+    "max": 50,
+    "explanation": "Akrofobi, sadece yüksekten rahatsız olmaktan öte, kişinin hayatını etkileyen yoğun bir korku ve anksiyete durumudur. Epidemiyolojik çalışmalar, bu durumun dünya genelinde insanların %3 ila %6'sını etkilediğini göstermektedir. Bu, her 20 kişiden birinin bu fobiyle yaşadığı anlamına gelir.",
+    "source": "Cleveland Clinic. (2022, April 18). Acrophobia (Fear of Heights).",
+    "link": "https://my.clevelandclinic.org/health/diseases/21956-acrophobia-fear-of-heights"
   },
   {
     "id": "stats025",
-    "question": "Lepper'ın deneyine göre, başlangıçta sevdikleri bir aktivite için ödül alan çocukların bu aktiviteye olan ilgisi, ödül almayanlara kıyasla ne oranda azalmıştır?",
-    "answer": 50,
+    "question": "DEHB'nin (Dikkat Eksikliği ve Hiperaktivite Bozukluğu) sadece bir çocukluk hastalığı olduğu yanılgısının aksine, tanı konmuş çocukların yüzde kaçı yetişkinlikte de semptomları göstermeye devam eder?",
+    "answer": 60,
     "unit": "%",
-    "explanation": "Buna 'Aşırı Gerekçelendirme Etkisi' denir. Dışsal bir ödül (para, not), bir işe yönelik içsel motivasyonu ve doğal ilgiyi yok edebilir.",
-    "source": "Lepper, M. R., Greene, D., & Nisbett, R. E. (1973)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Kapsamlı bir uzunlamasına çalışma (MTA çalışması), en güvenilir ölçüm yöntemleri kullanıldığında, çocukken DEHB tanısı alanların %60'ının genç yetişkinlikte de semptom kalıcılığı gösterdiğini bulmuştur. Bu bulgu, DEHB'nin sıklıkla kronik ve yaşam boyu devam eden bir durum olduğunu ortaya koymaktadır.",
+    "source": "Sibley, M. H., Swanson, J. M., Arnold, L. E., et al. (2017). Defining ADHD symptom persistence in adulthood: optimizing sensitivity and specificity. Journal of Child Psychology and Psychiatry, 58(6), 655-662.",
+    "link": "https://doi.org/10.1111/jcpp.12620"
   },
   {
     "id": "stats026",
-    "question": "Zeigarnik Etkisi'ne göre, insanlar yarıda kesilen görevleri, tamamladıkları görevlere göre yaklaşık yüzde kaç daha iyi hatırlar?",
-    "answer": 90,
+    "question": "Psikoterapinin etkinliğini ölçen araştırmalara göre, terapiye başlayan danışanların yüzde kaçı yaklaşık 8 haftalık (8 seans) bir süreç sonunda klinik olarak anlamlı bir iyileşme gösterir?",
+    "answer": 50,
     "unit": "%",
-    "explanation": "Tamamlanmamış hedefler, zihnimizde bir 'gerilim' yaratarak sürekli aklımıza takılır ve bu nedenle tamamlanmış işlere göre çok daha kolay hatırlanır.",
-    "source": "Zeigarnik, B. (1927)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Psikoterapide 'doz-yanıt' ilişkisini inceleyen geniş çaplı analizler, danışanların yaklaşık %50'sinin 8 ila 10 seansta belirgin bir iyileşme yaşadığını göstermektedir. Ancak, danışanların %75'inin aynı iyileşme seviyesine ulaşması için gereken süre yaklaşık 26 seanstır. Bu, terapinin etkili olduğunu ancak iyileşme hızının kişiden kişiye değiştiğini gösterir.",
+    "source": "Howard, K. I., Kopta, S. M., Krause, M. S., & Orlinsky, D. E. (1986). The dose-effect relationship in psychotherapy. American Psychologist, 41(2), 159–164.",
+    "link": "https://doi.org/10.1037/0003-066X.41.2.159"
   },
   {
     "id": "stats027",
-    "question": "Yapılan bir araştırmaya göre, yeni bir davranışın otomatik bir alışkanlık haline gelmesi ortalama kaç gün sürmektedir?",
-    "answer": 66,
-    "unit": "gün",
-    "explanation": "Popüler kültürdeki '21 gün' mitinin aksine, bir alışkanlığın otomatikleşmesi ortalama 66 gün sürer ve bu süre kişiden kişiye 18 günden 254 güne kadar değişebilir.",
-    "source": "Lally, P., et al. (2010)"
+    "question": "Bebeklerin dil gelişimindeki 'kelime patlaması' döneminde (18-24 ay), kelime öğrenme hızları günde kaç yeni kelimeye kadar çıkabilir?",
+    "answer": 15,
+    "unit": "kelime",
+    "min": 5,
+    "max": 60,
+    "explanation": "'İsimlendirme patlaması' olarak da bilinen bu dönemde, bebeklerin kelime dağarcığı üstel bir hızla büyür. Bu sıçramanın nedeni, 'hızlı eşleme' adı verilen, bir kelimenin anlamını tek bir duyumla öğrenebilme yeteneğinin gelişmesidir. Bu dönemde bir bebek, neredeyse her uyanık saatte yeni bir kelime öğrenebilir.",
+    "source": "Parenting Counts. (n.d.). A Rapid Increase in Vocabulary Begins Now: Infants Add 10-20 Words per Day during This Period (18-24 Months).",
+    "link": "https://www.parentingcounts.org/a-rapid-increase-in-vocabulary-begins-now-infants-add-10-20-words-per-day-during-this-period-18-24-months/"
   },
   {
     "id": "stats028",
-    "question": "İyi Samiriyeli Deneyi'nde, çok acelesi olduğunu düşünen ilahiyat öğrencilerinin yüzde kaçı yerde yatan yardıma muhtaç bir kişiye yardım etmiştir?",
-    "answer": 10,
+    "question": "Dil öğrenimindeki 'Kritik Dönem Hipotezi'ne göre, ikinci bir dili ergenlikten sonra öğrenmeye başlayan yetişkinlerin yaklaşık yüzde kaçı o dili anadili seviyesinde bir yetkinlikle konuşabilir?",
+    "answer": 5,
     "unit": "%",
-    "explanation": "Bu oran, acelesi olmayanlarda %63'tür. Bu deney, zaman baskısı gibi durumsal faktörlerin, ahlaki inançların bile önüne geçebileceğini çarpıcı bir şekilde gösterir.",
-    "source": "Darley, J. M., & Batson, C. D. (1973)"
+    "min": 0,
+    "max": 50,
+    "explanation": "Bu hipotez, beynin dil öğrenme konusundaki esnekliğinin (nöroplastisite) ergenlikle birlikte önemli ölçüde azaldığını öne sürer. Bu dönemden sonra yeni bir dil öğrenmek mümkün olsa da, anadili seviyesinde bir aksan ve dilbilgisi sezgisine ulaşmak son derece nadirdir. Araştırmalar, yetişkin öğrenenlerin sadece küçük bir azınlığının (%5 civarı) bu seviyeye ulaşabildiğini göstermektedir.",
+    "source": "Singleton, D., & Lengyel, Z. (Eds.). (1995). The age factor in second language acquisition: A critical look at the critical period hypothesis.",
+    "link": "https://www.multilingual-matters.com/page/detail/The-Age-Factor-in-Second-Language-Acquisition/?k=9781853592589"
   },
   {
     "id": "stats029",
-    "question": "Herhangi bir psikiyatrik tanısı olmayan genel nüfusun yaklaşık yüzde kaçı, son üç ayda bir kez bile olsa, istenmeyen (örn: saldırgan, cinsel) bir düşünceye sahip olduğunu rapor etmiştir?",
-    "answer": 94,
+    "question": "Utanç verici bir tişört giyen denekler, odadaki insanların yüzde kaçının tişörtü fark edeceğini tahmin etmiştir?",
+    "answer": 50,
     "unit": "%",
-    "explanation": "Bu bulgu, 'kötü' veya 'garip' düşüncelere sahip olmanın anormal bir durum değil, evrensel bir insan deneyimi olduğunu gösterir. Önemli olan bu düşüncelere verilen tepkidir.",
-    "source": "ICOCS network, & Abramowitz, J. S. (2014)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu, 'Sahne Işığı Etkisi'dir. Denekler, odadakilerin yaklaşık %50'sinin tişörtü fark edeceğini tahmin ederken, gerçekte fark edenlerin oranı sadece %23 civarındaydı. Kendi görünüşümüze ve eylemlerimize aşırı odaklandığımız için, başkalarının da bize aynı derecede dikkat ettiğini varsayma eğilimindeyiz, ancak çoğu zaman yanılırız.",
+    "source": "Gilovich, T., Medvec, V. H., & Savitsky, K. (2000). The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance. Journal of Personality and Social Psychology, 78(2), 211–222.",
+    "link": "https://doi.org/10.1037/0022-3514.78.2.211"
   },
   {
     "id": "stats030",
-    "question": "Beyin gelişiminin en yoğun olduğu dönemde, yenidoğan bir bebek toplam uyku süresinin yaklaşık yüzde kaçını rüya görülen REM evresinde geçirir?",
-    "answer": 50,
+    "question": "Bir deneyi kabul eden öğrenciler, akranlarının yüzde kaçının da kabul edeceğini tahmin etmiştir?",
+    "answer": 62,
     "unit": "%",
-    "explanation": "Bu yüksek oran, REM uykusunun bebeklikte beynin yapısal bağlantılarını kurmak için hayati bir rol oynadığını gösterir. Yetişkinlerde bu oran %20-25'e düşer.",
-    "source": "Grigg-Damberger, M. M. (2016)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu, 'Hatalı Fikir Birliği Etkisi'dir. Bir teklifi kabul edenler, akranlarının %62'sinin de kabul edeceğini düşünürken, teklifi reddedenler bu oranın sadece %33 olduğunu tahmin etmiştir. Kendi görüşlerimizin ve davranışlarımızın ne kadar yaygın olduğunu sistematik olarak abartma eğilimindeyiz.",
+    "source": "Ross, L., Greene, D., & House, P. (1977). The 'false consensus effect': An egocentric bias in social perception and attribution processes. Journal of Experimental Social Psychology, 13(3), 279-301.",
+    "link": "https://doi.org/10.1016/0022-1031(77)90049-X"
   },
   {
     "id": "stats031",
-    "question": "Gördüğümüz rüyaların yaklaşık yüzde kaçı, uyandıktan sadece birkaç dakika sonra tamamen unutulur?",
-    "answer": 95,
+    "question": "Ünlü 'kapı deneyi'nde, yol tarifi soran kişinin aradan geçen bir kapı sayesinde başka biriyle değiştiğini, yayaların yüzde kaçı fark etmemiştir?",
+    "answer": 50,
     "unit": "%",
-    "explanation": "Beynimizin varsayılan ayarı rüyaları unutmaktır. Bu durum, rüyanın amacının hatırlanabilir bir hikaye değil, duygusal düzenleme gibi arka plan işlemleri olabileceğini düşündürür.",
-    "source": "Kavanau, J. L. (2000)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu, 'Değişim Körlüğü'nün çarpıcı bir örneğidir. Yayaların yaklaşık yarısı, konuştukları kişinin tamamen farklı biriyle değiştiğini fark etmedi. Bu durum, görsel dünyamızın ayrıntılı bir kaydını tutmadığımızı, bunun yerine sahnenin genel 'özünü' anladığımızı ve bu öze uymayan büyük değişiklikleri bile gözden kaçırabildiğimizi gösterir.",
+    "source": "Simons, D. J., & Levin, D. T. (1998). Failure to detect changes to people during a real-world interaction. Psychonomic Bulletin & Review, 5(4), 644-649.",
+    "link": "https://doi.org/10.3758/BF03208840"
   },
   {
     "id": "stats032",
-    "question": "Bir kol veya bacağını kaybeden (ampute) insanların yaklaşık yüzde kaçı, artık var olmayan uzuvlarında 'fantom ağrı' olarak bilinen gerçek acıyı hissetmeye devam eder?",
-    "answer": 64,
+    "question": "Zamanında doğan bebekler uyku sürelerinin %50'sini REM uykusunda geçirirken, prematüre doğan bebeklerde bu oran yüzde kaça kadar çıkabilir?",
+    "answer": 80,
     "unit": "%",
-    "explanation": "Bu durum, beynin vücut haritasının bir uzuv kaybedildiğinde bile varlığını sürdürdüğünü ve bazen hatalı ağrı sinyalleri üretebildiğini gösteren çarpıcı bir kanıttır.",
-    "source": "Limakatso, K., et al. (2020)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Prematüre bebekler, beyin gelişimlerinin daha erken bir aşamasında oldukları için, sinirsel bağlantıların kurulması ve güçlendirilmesi amacıyla daha da fazla içsel uyarıma ihtiyaç duyarlar. Bu nedenle, toplam uyku sürelerinin %80'ine varan olağanüstü bir kısmını, beynin kendini 'inşa ettiği' REM uykusunda geçirirler.",
+    "source": "Davis, B. E., et al. (2004). Maturation of sleep patterns in preterm infants. Infant Behavior and Development, 27(3), 321-329.",
+    "link": "https://doi.org/10.1016/j.infbeh.2003.12.003"
   },
-  {
+{
     "id": "stats033",
-    "question": "18-24 ay arasındaki 'kelime patlaması' döneminde, küçük bir çocuk günde kaç yeni kelime öğrenebilir?",
-    "answer": 10,
-    "unit": "kelime",
-    "explanation": "Bu dönemde çocukların beyinleri 'hızlı haritalama' moduna geçer ve bir kelimenin anlamını tek bir kez duyduktan sonra bile çıkarabilirler. Bu, bilişsel bir devrimdir.",
-    "source": "Reznick, J. S., & Goldfield, B. A. (1992)"
+    "question": "Stanley Milgram'ın klasik itaat deneyinde, beyaz önlüklü bir otorite figürünün emriyle, başka bir insana en yüksek seviyedeki (450 volt) elektrik şokunu uygulayan katılımcıların yüzdesi kaçtır?",
+    "answer": 65,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu şok edici oran, sıradan insanların meşru bir otoritenin talimatlarına, bu talimatlar vicdanlarıyla çelişse bile, ne ölçüde uyabileceğini göstermektedir. Bu durum 'aracı durum' (agentic state) olarak bilinir; kişi sorumluluğu otoriteye devreder.",
+    "source": "Milgram, S. (1963)",
+    "link": "https://doi.org/10.1037/h0040525"
   },
   {
     "id": "stats034",
-    "question": "Challenger uzay mekiği felaketinden 2.5 yıl sonra, insanların olayı ilk duydukları ana dair 'flaş bellek' anılarının yüzde kaçı tamamen hatalıydı?",
-    "answer": 25,
-    "unit": "%",
-    "explanation": "Duygusal anılarımızın fotoğraf gibi net olduğuna inansak da, zamanla onlar da bozulur. Duygu, anının doğruluğunu değil, anıya olan 'güvenimizi' yüksek tutar.",
-    "source": "Neisser, U., & Harsch, N. (1992)"
+    "question": "Albert Bandura'nın Bobo Doll deneyinde, saldırgan bir yetişkini izleyen çocuklar, kontrol grubuna göre ortalama kaç kat daha fazla taklitçi fiziksel saldırganlık göstermiştir?",
+    "answer": 7,
+    "unit": "kat",
+    "min": 1,
+    "max": 35,
+    "explanation": "Bu deney, saldırganlığın sadece izleyerek öğrenilebileceğini kanıtlayan 'Sosyal Öğrenme Kuramı'nın temelini atmıştır. Çocuklar, gözlemledikleri davranışları, özellikle de yetişkinlerden gelenleri, model alma ve taklit etme eğilimindedir.",
+    "source": "Bandura, A., Ross, D., & Ross, S. A. (1961)",
+    "link": "https://doi.org/10.1037/h0045925"
   },
   {
     "id": "stats035",
-    "question": "Ringelmann Etkisi'ne göre, 8 kişilik bir halat çekme grubundaki bir birey, tek başına çektiği gücün yalnızca yüzde kaçı kadar efor sarf eder?",
-    "answer": 49,
+    "question": "Martin Seligman'ın 'Öğrenilmiş Çaresizlik' deneyinde, kaçamayacakları şoklara maruz bırakılan köpeklerin yüzde kaçı, daha sonra kaçış mümkün olduğu halde kaçmayı denememiştir?",
+    "answer": 67,
     "unit": "%",
-    "explanation": "'Sosyal kaytarma' olarak bilinen bu etki, bir grubun parçası olduğumuzda bireysel katkımız daha az fark edileceği için daha az çaba gösterme eğilimimizi ifade eder.",
-    "source": "Ringelmann, M. (1913) / Ingham et al. (1974)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu köpeklerin yaklaşık üçte ikisi, eylemlerinin sonuçları değiştirmeyeceğine dair bir beklenti geliştirmiş ve pasif kalmıştır. Bu 'öğrenilmiş çaresizlik' kavramı, insanlarda depresyon ve diğer ruhsal durumları anlamak için de kullanılmaktadır.",
+    "source": "Seligman, M. E. P., & Maier, S. F. (1967)",
+    "link": "https://doi.org/10.1037/h0024514"
   },
   {
     "id": "stats036",
-    "question": "ABD'de yapılan araştırmaya göre, yetişkinlerin yüzde kaçı hayatlarının bir döneminde spesifik bir fobi (yükseklik, hayvan vb.) tanısı almaktadır?",
-    "answer": 12.5,
+    "question": "Simons ve Chabris'in 'Görünmez Goril' deneyinde, pasları saymaya odaklanan katılımcıların yüzde kaçı, ekranın ortasından geçen goril kostümlü kişiyi fark etmemiştir?",
+    "answer": 50,
     "unit": "%",
-    "explanation": "Bu oran her 8 yetişkinden 1'ine denk gelir ve spesifik fobileri en yaygın anksiyete bozukluklarından biri yapar.",
-    "source": "Kessler, R. C., et al. (2005)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu fenomen 'dikkatsizlik körlüğü' olarak bilinir. Belirli bir göreve yoğun bir şekilde odaklandığımızda, görsel alanımızdaki beklenmedik ve bariz nesneleri bile fark edemeyebiliriz. Bu, dikkatin ne kadar seçici ve sınırlı bir kaynak olduğunu gösterir.",
+    "source": "Simons, D. J., & Chabris, C. F. (1999)",
+    "link": "https://doi.org/10.1068/p281059"
   },
   {
     "id": "stats037",
-    "question": "Çocukken DEHB tanısı alanların yaklaşık yüzde kaçı, yetişkinlikte de hem semptomları hem de işlevsel bozulmayı içeren tam tanı kriterlerini karşılamaktadır?",
-    "answer": 41,
+    "question": "Muzafer Sherif'in 'Hırsızlar Mağarası' deneyinin rekabet aşamasında, çocuklar 'en iyi arkadaşları'nı yüzde kaç oranında kendi gruplarından seçmiştir?",
+    "answer": 93,
     "unit": "%",
-    "explanation": "DEHB'nin 'büyüyünce geçtiği' yönündeki eski inanış doğru değildir. Bu veri, DEHB'nin vakaların çoğunda yaşam boyu devam eden kronik bir durum olduğunu kanıtlar.",
-    "source": "Sibley, M. H., et al. (2017)"
+    "min": 0,
+    "max": 100,
+    "explanation": "Gruplar arası rekabet yaratıldığında, grup içi bağlılık ve grup dışına yönelik düşmanlık hızla artmıştır. Bu, 'Gerçekçi Çatışma Kuramı'nı destekler; gruplar kıt kaynaklar için rekabet ettiğinde önyargı ve çatışma ortaya çıkar.",
+    "source": "Sherif, M., et al. (1961)",
+    "link": "https://www.simplypsychology.org/robbers-cave.html"
   },
   {
     "id": "stats038",
-    "question": "Psikoterapiye giden danışanların yaklaşık yüzde kaçı, 8 ila 10. seansa ulaştıklarında klinik olarak anlamlı bir iyileşme gösterir?",
-    "answer": 50,
-    "unit": "%",
-    "explanation": "Araştırmalar, en büyük iyileşmenin genellikle tedavinin ilk birkaç ayında gerçekleştiğini gösterir. İlk seanslar en büyük etkiyi yaratır, sonraki seansların katkısı giderek azalır.",
-    "source": "Howard, K. I., et al. (1986)"
-  },
-  {
-    "id": "stats039",
-    "question": "Dil öğrenimindeki 'kritik dönem'e göre, 7 yaşından önce ikinci bir dili öğrenmeye başlayanlar, dilbilgisi testlerinde anadili seviyesine ne kadar yaklaşır?",
-    "answer": 100,
-    "unit": "%",
-    "explanation": "7 yaşından önce başlayanlar, anadili konuşanlarla neredeyse aynı puanları alırken, ergenlikten sonra başlayanların performansı belirgin şekilde düşer. Beynin dil öğrenme penceresi yaşla birlikte daralır.",
-    "source": "Johnson, J. S., & Newport, E. L. (1989)"
+    "question": "Rosenthal ve Jacobson'ın 'Pygmalion Etkisi' deneyinde, öğretmenlere 'akademik olarak patlama yapacakları' söylenen (aslında rastgele seçilmiş) öğrenciler, bir yılın sonunda ortalama kaç IQ puanı kazanmıştır?",
+    "answer": 12,
+    "unit": "IQ puanı",
+    "min": 0,
+    "max": 100,
+    "explanation": "Bu, 'kendini gerçekleştiren kehanet'in gücünü gösterir. Öğretmenlerin öğrencilere yönelik olumlu beklentileri, farkında olmadan davranışlarını etkilemiş ve bu öğrencilerin gerçekten de daha başarılı olmalarına yol açmıştır. Beklentilerimiz, gerçekliği şekillendirebilir.",
+    "source": "Rosenthal, R., & Jacobson, L. (1968)",
+    "link": "https://link.springer.com/article/10.1007/BF02322211"
   }
 ]

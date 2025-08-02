@@ -12,9 +12,11 @@ import {
  */
 export class IstatistikEngine {
   private sorular: IstatistikSoru[] = [];
+  private originalSorular: IstatistikSoru[] = []; // Orijinal soru listesi (karıştırılmamış)
   private gameState: IstatistikGameState;
   private listeners: Array<() => void> = [];
   private timer: NodeJS.Timeout | null = null;
+  private remainingTime: number = 0; // Kalan süre (saniye)
 
   constructor() {
     this.gameState = {
@@ -46,10 +48,16 @@ export class IstatistikEngine {
         throw new Error('İstatistik soruları yüklenemedi');
       }
       this.sorular = await response.json();
+      this.originalSorular = [...this.sorular]; // Orijinal listesini de sakla
+      
+      // Dinamik olarak toplam soru sayısını güncelle
+      this.gameState.totalQuestions = this.sorular.length;
+      
       console.log(`${this.sorular.length} İstatistik sorusu yüklendi`);
     } catch (error) {
       console.error('İstatistik soruları yüklenirken hata:', error);
       this.sorular = [];
+      this.originalSorular = [];
     }
   }
 
@@ -69,7 +77,10 @@ export class IstatistikEngine {
     this.resetGame();
     this.gameState.isPlaying = true;
     
-    // Tüm soruları kullan, rastgele sırala
+    // Orijinal soru listesini koru
+    this.originalSorular = [...this.sorular];
+    
+    // Tüm soruları kullan, rastgele sırala (orijinali bozmadan)
     this.gameState.totalQuestions = this.sorular.length;
     const shuffledQuestions = [...this.sorular].sort(() => Math.random() - 0.5);
     this.sorular = shuffledQuestions;
@@ -92,7 +103,54 @@ export class IstatistikEngine {
     this.gameState.playerGuess = null;
     this.gameState.isAnswerRevealed = false;
 
+    // Zamanlayıcı başlat
+    this.startTimer();
+
     this.notifyListeners();
+  }
+
+  /**
+   * Zamanlayıcıyı başlat
+   */
+  private startTimer(): void {
+    if (this.timer) {
+      clearInterval(this.timer);
+    }
+
+    this.remainingTime = this.gameState.settings.gameDuration || 30;
+    
+    this.timer = setInterval(() => {
+      this.remainingTime--;
+      
+      if (this.remainingTime <= 0) {
+        this.handleTimeUp();
+      }
+      
+      this.notifyListeners();
+    }, 1000);
+  }
+
+  /**
+   * Süre dolduğunda çağrılır
+   */
+  private handleTimeUp(): void {
+    if (this.timer) {
+      clearInterval(this.timer);
+      this.timer = null;
+    }
+
+    if (!this.gameState.isAnswerRevealed && this.gameState.currentSoru) {
+      // Otomatik olarak orta değeri tahmin et
+      const midPoint = Math.round((this.gameState.currentSoru.min + this.gameState.currentSoru.max) / 2);
+      this.submitGuess(midPoint);
+    }
+  }
+
+  /**
+   * Kalan süreyi al
+   */
+  getRemainingTime(): number {
+    return this.remainingTime;
   }
 
   /**
@@ -101,6 +159,12 @@ export class IstatistikEngine {
   submitGuess(guess: number): IstatistikResult {
     if (!this.gameState.currentSoru || this.gameState.isAnswerRevealed) {
       throw new Error('Geçersiz oyun durumu');
+    }
+
+    // Zamanlayıcıyı durdur
+    if (this.timer) {
+      clearInterval(this.timer);
+      this.timer = null;
     }
 
     this.gameState.playerGuess = guess;
@@ -120,7 +184,8 @@ export class IstatistikEngine {
       accuracy,
       points,
       explanation: this.gameState.currentSoru.explanation,
-      source: this.gameState.currentSoru.source
+      source: this.gameState.currentSoru.source,
+      link: this.gameState.currentSoru.link // Kaynağa ulaş özelliği için link bilgisi
     };
 
     this.notifyListeners();
@@ -128,18 +193,20 @@ export class IstatistikEngine {
   }
 
   /**
-   * Doğruluk oranını hesapla (0-100 arası)
+   * Doğruluk oranını hesapla (0-100 arası) - Dinamik aralık desteği
    */
   private calculateAccuracy(guess: number, correct: number): number {
-    if (correct === 0) {
-      return guess === 0 ? 100 : 0;
+    if (!this.gameState.currentSoru) return 0;
+    
+    const { min, max } = this.gameState.currentSoru;
+    const range = max - min;
+    
+    if (range === 0) {
+      return guess === correct ? 100 : 0;
     }
     
-    const difference = Math.abs(guess - correct);
-    const relativeError = difference / correct;
-    
-    // Maksimum %50 hata toleransı ile 0-100 arası doğruluk hesapla
-    const accuracy = Math.max(0, 100 - (relativeError * 200));
+    const error = Math.abs(correct - guess);
+    const accuracy = Math.max(0, 100 - (error / range) * 100);
     return Math.round(accuracy);
   }
 
@@ -172,10 +239,17 @@ export class IstatistikEngine {
       
       case 'pause':
         this.gameState.isPaused = true;
+        if (this.timer) {
+          clearInterval(this.timer);
+          this.timer = null;
+        }
         break;
       
       case 'resume':
         this.gameState.isPaused = false;
+        if (!this.gameState.isAnswerRevealed) {
+          this.startTimer();
+        }
         break;
       
       case 'restart':

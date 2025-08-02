@@ -7,8 +7,11 @@ export interface IstatistikSoru {
   question: string;
   answer: number;
   unit: string;
+  min: number;       // Minimum olası değer
+  max: number;       // Maksimum olası değer
   explanation: string;
   source: string;
+  link?: string;     // Orijinal bilimsel makale bağlantısı
 }
 
 export interface IstatistikSettings {
@@ -38,6 +41,7 @@ export interface IstatistikResult {
   points: number; // Bu soru için kazanılan puan
   explanation: string;
   source: string;
+  link?: string; // Orijinal bilimsel makale bağlantısı
 }
 
 export type IstatistikAction = 

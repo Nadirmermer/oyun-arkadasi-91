@@ -15,6 +15,8 @@ export interface RenkDizisiState {
   isLevelComplete: boolean;
   score: number;
   highestScore: number;
+  lives: number;        // Mevcut can sayısı
+  maxLives: number;     // Maksimum can sayısı
 }
 
 export interface RenkDizisiSettings {

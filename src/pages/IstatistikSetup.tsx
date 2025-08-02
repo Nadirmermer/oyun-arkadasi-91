@@ -90,7 +90,7 @@ export const IstatistikSetup = () => {
               value={settings.gameDuration}
               min={15}
               max={60}
-              step={15}
+              step={5}
               unit="saniye"
               onChange={(value) => setSettings(prev => ({ ...prev, gameDuration: value }))}
             />
@@ -104,7 +104,7 @@ export const IstatistikSetup = () => {
             <h4 className="font-semibold text-info mb-2">💡 İpucu</h4>
             <p className="text-sm text-muted-foreground">
               Tüm sorular gerçek psikoloji araştırmalarından alınmıştır. 
-              Mevcut tüm sorular rastgele sırayla gelecek, istediğin zaman çıkabilirsin!
+              39 farklı soru rastgele sırada gelecek, istediğin zaman çıkabilirsin! 
               Bu oyun psikoloji bilginizi değil, sezgisel düşünme becerilerinizi geliştirir.
             </p>
           </div>
