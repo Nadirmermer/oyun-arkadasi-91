@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Pause, Play, SkipForward, Check, X, Home, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
@@ -29,7 +29,6 @@ export const GameScreen = ({
   const [showExitModal, setShowExitModal] = useState(false);
   const [showTurnTransition, setShowTurnTransition] = useState(false);
   const [flashColor, setFlashColor] = useState<'success' | 'danger' | null>(null);
-  const [motionPermissionRequested, setMotionPermissionRequested] = useState(false);
   const motionSensor = useMotionSensor();
 
   // Optimize edilmiş oyun durumu güncelleme
@@ -72,43 +71,38 @@ export const GameScreen = ({
     };
   }, [gameEngine, onGameEnd]);
 
-  // Hareket sensörü ayarları
+  /**
+   * Oyun aksiyonunu işler
+   */
+  const handleAction = useCallback((action: GameAction) => {
+    gameEngine.processAction(action);
+    setGameState(gameEngine.getState());
+  }, [gameEngine]);
+
+  // Hareket sensörü ayarları - sadece permission durumu değiştiğinde çalışır
   useEffect(() => {
-    if (gameState.settings.controlType === 'motion' && !motionPermissionRequested) {
-      setMotionPermissionRequested(true);
-      const setupMotionSensor = async () => {
-        if (motionSensor.isSupported) {
-          const hasPermission = await motionSensor.requestPermission();
-          if (hasPermission) {
-            motionSensor.onTiltRight(() => {
-              if (gameState.isPlaying && !gameState.isPaused) {
-                handleAction('correct');
-              }
-            });
-            motionSensor.onTiltLeft(() => {
-              if (gameState.isPlaying && !gameState.isPaused) {
-                handleAction('tabu');
-              }
-            });
-          } else {
-            // İzin verilmediyse buton moduna geç
-            gameEngine.updateSettings({
-              controlType: 'buttons'
-            });
-          }
-        } else {
-          // Desteklenmiyorsa buton moduna geç
-          gameEngine.updateSettings({
-            controlType: 'buttons'
-          });
+    if (gameState.settings.controlType === 'motion' && motionSensor.hasPermission) {
+      // İzin zaten var, sadece callback'leri ayarla
+      motionSensor.onTiltRight(() => {
+        if (gameState.isPlaying && !gameState.isPaused) {
+          handleAction('correct');
         }
-      };
-      setupMotionSensor();
+      });
+      
+      motionSensor.onTiltLeft(() => {
+        if (gameState.isPlaying && !gameState.isPaused) {
+          handleAction('tabu');
+        }
+      });
     }
+
     return () => {
-      motionSensor.cleanup();
+      // Cleanup sadece component unmount'ta
+      if (gameState.settings.controlType === 'motion') {
+        motionSensor.cleanup();
+      }
     };
-  }, [gameState.settings.controlType, motionPermissionRequested, motionSensor, gameEngine, gameState.isPlaying, gameState.isPaused]);
+  }, [gameState.settings.controlType, motionSensor.hasPermission, motionSensor, gameEngine, gameState.isPlaying, gameState.isPaused, handleAction]);
 
   /**
    * Oyunu duraklatır/devam ettirir
@@ -122,15 +116,6 @@ export const GameScreen = ({
       setShowPauseModal(true);
     }
   };
-
-  /**
-   * Oyun aksiyonunu işler
-   */
-  const handleAction = (action: GameAction) => {
-    gameEngine.processAction(action);
-    setGameState(gameEngine.getState());
-  };
-
   /**
    * Flash efekti ile aksiyon işler
    */

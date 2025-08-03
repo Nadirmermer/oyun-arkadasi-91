@@ -6,6 +6,7 @@ import { Slider } from '@/components/shared/Slider';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { BenKimimSettings } from '@/types/benkimim';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
+import { toast } from '@/hooks/use-toast';
 
 interface BenKimimSetupProps {
   onStartGame: (settings: BenKimimSettings & { isLandscapeMode: boolean }) => void;
@@ -31,14 +32,18 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
     // Eğer hareket kontrolü seçildiyse izin iste
     if (settings.controlType === 'motion') {
       if (!motionSensor.isSupported) {
-        alert('Bu cihaz hareket sensörünü desteklemiyor. Lütfen buton kontrolünü seçin.');
+        toast({
+          title: "Hareket Sensörü Desteklenmiyor",
+          description: "Bu cihaz hareket sensörünü desteklemiyor. Lütfen buton kontrolünü seçin.",
+          variant: "destructive"
+        });
         return;
       }
       
       if (!motionSensor.hasPermission) {
         const granted = await motionSensor.requestPermission();
         if (!granted) {
-          alert('Hareket sensörü izni gerekli. Lütfen ayarlardan izin verin veya buton kontrolünü seçin.');
+          // Toast zaten hook içinde gösterildi
           return;
         }
       }

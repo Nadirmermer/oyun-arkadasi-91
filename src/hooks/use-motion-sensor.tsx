@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { loadSettings, saveSettings } from '@/lib/storage';
+import { toast } from '@/hooks/use-toast';
 
 interface MotionData {
   alpha: number;  // Z-axis rotation
@@ -32,6 +33,7 @@ interface UseMotionSensorResult {
 /**
  * Cihaz hareket sensörü hook'u
  * Telefon eğme hareketlerini algılar ve callback'leri tetikler
+ * iOS 13+ uyumlu, memory leak safe
  */
 export const useMotionSensor = (): UseMotionSensorResult => {
   const [motionData, setMotionData] = useState<MotionData | null>(null);
@@ -39,15 +41,18 @@ export const useMotionSensor = (): UseMotionSensorResult => {
   const [hasPermission, setHasPermission] = useState(false);
   const [sensitivity, setSensitivity] = useState<MotionSensitivity>('medium');
   
-  // Callback'ler
-  const [forwardCallback, setForwardCallback] = useState<MotionCallback | null>(null);
-  const [backwardCallback, setBackwardCallback] = useState<MotionCallback | null>(null);
-  const [leftCallback, setLeftCallback] = useState<MotionCallback | null>(null);
-  const [rightCallback, setRightCallback] = useState<MotionCallback | null>(null);
+  // useRef ile callback'leri yönet - re-render'larda kaybolmasın
+  const forwardCallback = useRef<MotionCallback | null>(null);
+  const backwardCallback = useRef<MotionCallback | null>(null);
+  const leftCallback = useRef<MotionCallback | null>(null);
+  const rightCallback = useRef<MotionCallback | null>(null);
 
   // Veri yumuşatma için buffer
   const [motionBuffer, setMotionBuffer] = useState<MotionData[]>([]);
   const [lastTriggerTime, setLastTriggerTime] = useState(0);
+  
+  // Event listener referansı - cleanup için
+  const deviceOrientationHandler = useRef<((event: DeviceOrientationEvent) => void) | null>(null);
   
   // Ayarlardan hassasiyet değerlerini al
   const getSensitivityThresholds = (sens: MotionSensitivity) => {
@@ -62,13 +67,20 @@ export const useMotionSensor = (): UseMotionSensorResult => {
   const COOLDOWN_TIME = 800; // ms
   const BUFFER_SIZE = 3; // Yumuşatma için son 3 değeri sakla
 
+  // İlk yükleme: cihaz desteği ve kaydedilen ayarları kontrol et
   useEffect(() => {
     // Cihaz desteğini kontrol et
-    setIsSupported('DeviceOrientationEvent' in window);
+    const supported = 'DeviceOrientationEvent' in window;
+    setIsSupported(supported);
     
     // Kaydedilen ayarları yükle
     const settings = loadSettings();
-    setSensitivity(settings.motionSensitivity);
+    setSensitivity(settings.motionSensitivity || 'medium');
+    
+    // Önceki permission durumunu yükle
+    if (supported && settings.motionPermissionStatus === 'granted') {
+      setHasPermission(true);
+    }
   }, []);
 
   // Veri yumuşatma fonksiyonu
@@ -97,65 +109,84 @@ export const useMotionSensor = (): UseMotionSensorResult => {
     }
   }, []);
 
-  const handleDeviceOrientation = useCallback((event: DeviceOrientationEvent) => {
-    const { alpha, beta, gamma } = event;
-    
-    if (alpha !== null && beta !== null && gamma !== null) {
-      const newMotionData = { alpha, beta, gamma };
-      setMotionData(newMotionData);
-      smoothMotionData(newMotionData);
-
-      // Cooldown kontrolü
-      const now = Date.now();
-      if (now - lastTriggerTime < COOLDOWN_TIME) {
-        return;
-      }
-
-      // Dead zone kontrolü
-      const isInDeadZone = Math.abs(beta) < DEAD_ZONE && Math.abs(gamma) < DEAD_ZONE;
-      if (isInDeadZone) {
-        return;
-      }
-
-      let actionTriggered = false;
-
-      // İleri eğilme (ekran aşağı)
-      if (beta > TILT_THRESHOLD && forwardCallback) {
-        forwardCallback();
-        actionTriggered = true;
-      }
+  // Device orientation handler - memoized
+  const createDeviceOrientationHandler = useCallback(() => {
+    return (event: DeviceOrientationEvent) => {
+      const { alpha, beta, gamma } = event;
       
-      // Geri eğilme (ekran yukarı)
-      else if (beta < -TILT_THRESHOLD && backwardCallback) {
-        backwardCallback();
-        actionTriggered = true;
-      }
-      
-      // Sağa eğilme
-      else if (gamma > TILT_THRESHOLD && rightCallback) {
-        rightCallback();
-        actionTriggered = true;
-      }
-      
-      // Sola eğilme  
-      else if (gamma < -TILT_THRESHOLD && leftCallback) {
-        leftCallback();
-        actionTriggered = true;
-      }
+      if (alpha !== null && beta !== null && gamma !== null) {
+        const newMotionData = { alpha, beta, gamma };
+        setMotionData(newMotionData);
+        smoothMotionData(newMotionData);
 
-      if (actionTriggered) {
-        setLastTriggerTime(now);
-        triggerHapticFeedback();
-      }
-    }
-  }, [forwardCallback, backwardCallback, leftCallback, rightCallback, lastTriggerTime, TILT_THRESHOLD, DEAD_ZONE, COOLDOWN_TIME, smoothMotionData, triggerHapticFeedback]);
+        // Cooldown kontrolü
+        const now = Date.now();
+        if (now - lastTriggerTime < COOLDOWN_TIME) {
+          return;
+        }
 
+        // Dead zone kontrolü
+        const isInDeadZone = Math.abs(beta) < DEAD_ZONE && Math.abs(gamma) < DEAD_ZONE;
+        if (isInDeadZone) {
+          return;
+        }
+
+        let actionTriggered = false;
+
+        // İleri eğilme (ekran aşağı)
+        if (beta > TILT_THRESHOLD && forwardCallback.current) {
+          forwardCallback.current();
+          actionTriggered = true;
+        }
+        
+        // Geri eğilme (ekran yukarı)
+        else if (beta < -TILT_THRESHOLD && backwardCallback.current) {
+          backwardCallback.current();
+          actionTriggered = true;
+        }
+        
+        // Sağa eğilme
+        else if (gamma > TILT_THRESHOLD && rightCallback.current) {
+          rightCallback.current();
+          actionTriggered = true;
+        }
+        
+        // Sola eğilme  
+        else if (gamma < -TILT_THRESHOLD && leftCallback.current) {
+          leftCallback.current();
+          actionTriggered = true;
+        }
+
+        if (actionTriggered) {
+          setLastTriggerTime(now);
+          triggerHapticFeedback();
+        }
+      }
+    };
+  }, [lastTriggerTime, TILT_THRESHOLD, DEAD_ZONE, COOLDOWN_TIME, smoothMotionData, triggerHapticFeedback]);
+
+  // İzin isteme fonksiyonu - kritik düzeltme: kullanıcı eylemi kontekstinde çağrılmalı
   const requestPermission = useCallback(async (): Promise<boolean> => {
     if (!isSupported) {
       // Ayarları güncelle - desteklenmiyor
       const settings = loadSettings();
       saveSettings({ ...settings, motionPermissionStatus: 'unsupported' });
+      
+      toast({
+        title: "Hareket Sensörü Desteklenmiyor",
+        description: "Bu cihaz hareket sensörünü desteklemiyor. Buton kontrolü kullanılacak.",
+        variant: "destructive"
+      });
+      
       return false;
+    }
+
+    // Eğer zaten izin varsa event listener'ı başlat
+    if (hasPermission && !deviceOrientationHandler.current) {
+      const handler = createDeviceOrientationHandler();
+      deviceOrientationHandler.current = handler;
+      window.addEventListener('deviceorientation', handler);
+      return true;
     }
 
     try {
@@ -165,26 +196,53 @@ export const useMotionSensor = (): UseMotionSensorResult => {
         const permission = await deviceOrientationEvent.requestPermission();
         if (permission === 'granted') {
           setHasPermission(true);
-          window.addEventListener('deviceorientation', handleDeviceOrientation);
+          
+          // Event listener'ı ekle
+          const handler = createDeviceOrientationHandler();
+          deviceOrientationHandler.current = handler;
+          window.addEventListener('deviceorientation', handler);
           
           // Ayarları güncelle
           const settings = loadSettings();
           saveSettings({ ...settings, motionPermissionStatus: 'granted' });
+          
+          toast({
+            title: "Hareket Kontrolü Aktif",
+            description: "Telefonu eğerek oyunu kontrol edebilirsiniz.",
+          });
+          
           return true;
         } else {
           // Ayarları güncelle - reddedildi
           const settings = loadSettings();
           saveSettings({ ...settings, motionPermissionStatus: 'denied' });
+          
+          toast({
+            title: "İzin Reddedildi",
+            description: "Hareket sensörü izni reddedildi. Ayarlardan manuel olarak izin verebilirsiniz.",
+            variant: "destructive"
+          });
+          
           return false;
         }
       } else {
         // Android ve eski tarayıcılar için
         setHasPermission(true);
-        window.addEventListener('deviceorientation', handleDeviceOrientation);
+        
+        // Event listener'ı ekle
+        const handler = createDeviceOrientationHandler();
+        deviceOrientationHandler.current = handler;
+        window.addEventListener('deviceorientation', handler);
         
         // Ayarları güncelle
         const settings = loadSettings();
         saveSettings({ ...settings, motionPermissionStatus: 'granted' });
+        
+        toast({
+          title: "Hareket Kontrolü Aktif",
+          description: "Telefonu eğerek oyunu kontrol edebilirsiniz.",
+        });
+        
         return true;
       }
     } catch (error) {
@@ -193,26 +251,35 @@ export const useMotionSensor = (): UseMotionSensorResult => {
       // Ayarları güncelle - hata
       const settings = loadSettings();
       saveSettings({ ...settings, motionPermissionStatus: 'denied' });
+      
+      toast({
+        title: "Hareket Sensörü Hatası",
+        description: "Hareket sensörü etkinleştirilemedi. Buton kontrolü kullanılacak.",
+        variant: "destructive"
+      });
+      
       return false;
     }
-  }, [isSupported, handleDeviceOrientation]);
+  }, [isSupported, hasPermission, createDeviceOrientationHandler]);
 
+  // Callback ayarlama fonksiyonları - useRef kullanarak memory safe
   const onTiltForward = useCallback((callback: MotionCallback) => {
-    setForwardCallback(() => callback);
+    forwardCallback.current = callback;
   }, []);
 
   const onTiltBackward = useCallback((callback: MotionCallback) => {
-    setBackwardCallback(() => callback);
+    backwardCallback.current = callback;
   }, []);
 
   const onTiltLeft = useCallback((callback: MotionCallback) => {
-    setLeftCallback(() => callback);
+    leftCallback.current = callback;
   }, []);
 
   const onTiltRight = useCallback((callback: MotionCallback) => {
-    setRightCallback(() => callback);
+    rightCallback.current = callback;
   }, []);
 
+  // Hassasiyet güncelleme
   const updateSensitivity = useCallback((newSensitivity: MotionSensitivity) => {
     setSensitivity(newSensitivity);
     
@@ -221,14 +288,21 @@ export const useMotionSensor = (): UseMotionSensorResult => {
     saveSettings({ ...settings, motionSensitivity: newSensitivity });
   }, []);
 
+  // Temizlik fonksiyonu - memory leak'leri önle
   const cleanup = useCallback(() => {
-    window.removeEventListener('deviceorientation', handleDeviceOrientation);
-    setForwardCallback(null);
-    setBackwardCallback(null);
-    setLeftCallback(null);
-    setRightCallback(null);
+    if (deviceOrientationHandler.current) {
+      window.removeEventListener('deviceorientation', deviceOrientationHandler.current);
+      deviceOrientationHandler.current = null;
+    }
+    
+    // Callback'leri temizle
+    forwardCallback.current = null;
+    backwardCallback.current = null;
+    leftCallback.current = null;
+    rightCallback.current = null;
+    
     setHasPermission(false);
-  }, [handleDeviceOrientation]);
+  }, []);
 
   return {
     motionData,

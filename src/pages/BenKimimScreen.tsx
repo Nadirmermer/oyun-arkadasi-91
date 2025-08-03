@@ -18,7 +18,6 @@ export const BenKimimScreen = () => {
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
   const [isLandscapeMode, setIsLandscapeMode] = useState(false);
-  const [motionPermissionRequested, setMotionPermissionRequested] = useState(false);
   const [showResults, setShowResults] = useState(false);
 
   const motionSensor = useMotionSensor();
@@ -64,42 +63,30 @@ export const BenKimimScreen = () => {
     };
   }, [gameEngine]);
 
-  // Hareket sensörü ayarları
+  // Hareket sensörü ayarları - sadece permission durumu değiştiğinde çalışır
   useEffect(() => {
-    if (gameState.settings.controlType === 'motion' && !motionPermissionRequested) {
-      setMotionPermissionRequested(true);
-      
-      const setupMotionSensor = async () => {
-        if (motionSensor.isSupported) {
-          const hasPermission = await motionSensor.requestPermission();
-          
-          if (hasPermission) {
-            motionSensor.onTiltForward(() => {
-              if (gameState.isPlaying && !gameState.isPaused) {
-                gameEngine.handleAction('correct');
-              }
-            });
-            
-            motionSensor.onTiltBackward(() => {
-              if (gameState.isPlaying && !gameState.isPaused) {
-                gameEngine.handleAction('pass');
-              }
-            });
-          } else {
-            gameEngine.updateSettings({ controlType: 'buttons' });
-          }
-        } else {
-          gameEngine.updateSettings({ controlType: 'buttons' });
+    if (gameState.settings.controlType === 'motion' && motionSensor.hasPermission) {
+      // İzin zaten var, sadece callback'leri ayarla
+      motionSensor.onTiltForward(() => {
+        if (gameState.isPlaying && !gameState.isPaused) {
+          gameEngine.handleAction('correct');
         }
-      };
-
-      setupMotionSensor();
+      });
+      
+      motionSensor.onTiltBackward(() => {
+        if (gameState.isPlaying && !gameState.isPaused) {
+          gameEngine.handleAction('pass');
+        }
+      });
     }
 
     return () => {
-      motionSensor.cleanup();
+      // Cleanup sadece component unmount'ta
+      if (gameState.settings.controlType === 'motion') {
+        motionSensor.cleanup();
+      }
     };
-  }, [gameState.settings.controlType, motionPermissionRequested, motionSensor, gameEngine, gameState.isPlaying, gameState.isPaused]);
+  }, [gameState.settings.controlType, motionSensor.hasPermission, motionSensor, gameEngine, gameState.isPlaying, gameState.isPaused]);
 
   const handleCorrect = () => {
     gameEngine.handleAction('correct');

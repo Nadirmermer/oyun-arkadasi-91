@@ -6,6 +6,7 @@ import { Slider } from '@/components/shared/Slider';
 import { Team, GameSettings as GameSettingsType } from '@/types/game';
 import { loadSettings, saveSettings } from '@/lib/storage';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
+import { toast } from '@/hooks/use-toast';
 
 interface GameSettingsProps {
   teams: Team[];
@@ -34,14 +35,18 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
     // Eğer hareket kontrolü seçildiyse izin iste
     if (controlType === 'motion') {
       if (!motionSensor.isSupported) {
-        alert('Bu cihaz hareket sensörünü desteklemiyor. Lütfen buton kontrolünü seçin.');
+        toast({
+          title: "Hareket Sensörü Desteklenmiyor",
+          description: "Bu cihaz hareket sensörünü desteklemiyor. Lütfen buton kontrolünü seçin.",
+          variant: "destructive"
+        });
         return;
       }
       
       if (!motionSensor.hasPermission) {
         const granted = await motionSensor.requestPermission();
         if (!granted) {
-          alert('Hareket sensörü izni gerekli. Lütfen ayarlardan izin verin veya buton kontrolünü seçin.');
+          // Toast zaten hook içinde gösterildi
           return;
         }
       }
