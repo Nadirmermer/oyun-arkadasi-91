@@ -1,85 +1,41 @@
 import { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { X, Download, Smartphone } from 'lucide-react';
-
-interface BeforeInstallPromptEvent extends Event {
-  readonly platforms: string[];
-  readonly userChoice: Promise<{
-    outcome: 'accepted' | 'dismissed';
-    platform: string;
-  }>;
-  prompt(): Promise<void>;
-}
+import { useIsMobile } from '@/hooks/use-mobile';
+import { usePWAInstall } from '@/hooks/use-pwa-install';
 
 export const PWAInstallPrompt = () => {
-  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [showPrompt, setShowPrompt] = useState(false);
   const [isIOS, setIsIOS] = useState(false);
-  const [isInstalled, setIsInstalled] = useState(false);
+  const isMobile = useIsMobile();
+  const { deferredPrompt, isInstalled, installApp } = usePWAInstall();
 
   useEffect(() => {
     // iOS kontrolü
     const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
     setIsIOS(iOS);
 
-    // Zaten yüklenmiş mi kontrol et
-    const isInStandaloneMode = window.navigator.standalone || 
-      window.matchMedia('(display-mode: standalone)').matches;
-    setIsInstalled(isInStandaloneMode);
-
-    // PWA install event listener
-    const handleBeforeInstallPrompt = (e: Event) => {
-      e.preventDefault();
-      setDeferredPrompt(e as BeforeInstallPromptEvent);
+    // Sadece mobil cihazlarda ve PWA kurulabilir durumdayken göster
+    if (isMobile && deferredPrompt && !isInstalled) {
+      // localStorage'dan kontrol et, daha önce dismiss edilmiş mi
+      const promptDismissed = localStorage.getItem('pwaInstallDismissed');
       
-      // localStorage'dan kontrol et, daha önce kapatılmış mı
-      const promptDismissed = localStorage.getItem('pwa-prompt-dismissed');
-      const lastDismissed = promptDismissed ? parseInt(promptDismissed) : 0;
-      const daysSinceLastDismiss = (Date.now() - lastDismissed) / (1000 * 60 * 60 * 24);
-      
-      // 7 gün geçtiyse veya hiç kapatılmamışsa göster
-      if (!promptDismissed || daysSinceLastDismiss > 7) {
+      // Eğer daha önce dismiss edilmemişse göster
+      if (!promptDismissed) {
         setTimeout(() => setShowPrompt(true), 2000); // 2 saniye sonra göster
       }
-    };
-
-    // App yüklendikten sonra prompt'u temizle
-    const handleAppInstalled = () => {
-      setShowPrompt(false);
-      setDeferredPrompt(null);
-      setIsInstalled(true);
-    };
-
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-    window.addEventListener('appinstalled', handleAppInstalled);
-
-    return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-      window.removeEventListener('appinstalled', handleAppInstalled);
-    };
-  }, []);
+    }
+  }, [isMobile, deferredPrompt, isInstalled]);
 
   const handleInstallClick = async () => {
-    if (!deferredPrompt) return;
-
-    try {
-      await deferredPrompt.prompt();
-      const choiceResult = await deferredPrompt.userChoice;
-      
-      if (choiceResult.outcome === 'accepted') {
-        // PWA başarıyla yüklendi
-      }
-      
-      setDeferredPrompt(null);
-      setShowPrompt(false);
-    } catch (error) {
-      // PWA kurulum hatası
-    }
+    await installApp();
+    setShowPrompt(false);
   };
 
   const handleDismiss = () => {
     setShowPrompt(false);
-    localStorage.setItem('pwa-prompt-dismissed', Date.now().toString());
+    // Kullanıcı modalı kapattı, bir daha otomatik olarak gösterme
+    localStorage.setItem('pwaInstallDismissed', 'true');
   };
 
   // Zaten yüklenmiş veya gösterilmeyecekse render etme

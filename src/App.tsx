@@ -21,6 +21,7 @@ import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
 import { PWAInstallPrompt } from "./components/shared/PWAInstallPrompt";
 import { PWAUpdatePrompt } from "./components/shared/PWAUpdatePrompt";
+import { PWAInstallProvider } from "./contexts/PWAInstallContext";
 
 
 const AppContent = () => {
@@ -73,16 +74,18 @@ const AppContent = () => {
 const App = () => (
   <ErrorBoundary>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter
-        future={{
-          v7_startTransition: true,
-          v7_relativeSplatPath: true
-        }}
-      >
-        <AppContent />
-      </BrowserRouter>
+      <PWAInstallProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter
+          future={{
+            v7_startTransition: true,
+            v7_relativeSplatPath: true
+          }}
+        >
+          <AppContent />
+        </BrowserRouter>
+      </PWAInstallProvider>
     </TooltipProvider>
   </ErrorBoundary>
 );

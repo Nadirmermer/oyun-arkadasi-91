@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Moon, Sun, Smartphone, Settings as SettingsIcon, Info, X, Trophy } from 'lucide-react';
+import { Moon, Sun, Smartphone, Settings as SettingsIcon, Info, X, Trophy, Download } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
 import { loadSettings, saveSettings, StoredSettings } from '@/lib/storage';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
+import { usePWAInstall } from '@/hooks/use-pwa-install';
 import { cn } from '@/lib/utils';
 
 /**
@@ -15,6 +16,7 @@ export const SettingsPage = () => {
   const [settings, setSettings] = useState<StoredSettings>(loadSettings());
   const [showAboutModal, setShowAboutModal] = useState(false);
   const motionSensor = useMotionSensor();
+  const { canInstall, isInstalled, installApp } = usePWAInstall();
   useEffect(() => {
     // Karanlık mod uygula
     if (settings.darkMode) {
@@ -154,6 +156,39 @@ export const SettingsPage = () => {
             </div>
           </Card>
         </div>
+
+        {/* PWA Kurulum Bölümü - Sadece kurulabilir durumdaysa veya dismiss edilmişse göster */}
+        {(canInstall || (!isInstalled && localStorage.getItem('pwaInstallDismissed'))) && (
+          <div>
+            <h2 className="text-lg font-semibold text-foreground mb-4 px-2">Uygulama</h2>
+            
+            <Card className="mb-4">
+              <div className="p-4">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <Download className="w-5 h-5 text-primary" />
+                    <div>
+                      <h3 className="font-semibold text-foreground">Ana Ekrana Ekle</h3>
+                      <p className="text-sm text-muted-foreground">
+                        Uygulamayı telefona yükleyerek daha hızlı erişin
+                      </p>
+                    </div>
+                  </div>
+                  <Button
+                    onClick={installApp}
+                    variant="primary"
+                    size="sm"
+                    disabled={!canInstall}
+                    className="flex items-center gap-2"
+                  >
+                    <Download className="w-4 h-4" />
+                    Yükle
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+        )}
 
         {/* Hareketle Kontrol Bölümü */}
         <div>
