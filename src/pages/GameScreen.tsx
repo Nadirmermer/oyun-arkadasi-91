@@ -3,7 +3,6 @@ import { Pause, Play, SkipForward, Check, X, Home, ChevronLeft, ChevronRight } f
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { CircularTimer } from '@/components/shared/CircularTimer';
-import { TurnTransition } from '@/components/shared/TurnTransition';
 import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { TabuEngine } from '@/games/tabu/TabuEngine';
@@ -274,8 +273,60 @@ export const GameScreen = ({
       {/* Duraklatma Modalı */}
       {showPauseModal && <PauseModal onResume={handlePauseToggle} onGoHome={handleGoHome} />}
 
-      {/* Tur Geçişi Modalı */}
-      {showTurnTransition && <TurnTransition currentTeam={gameEngine.getState().teams[(gameEngine.getState().currentTeamIndex + 1) % gameEngine.getState().teams.length]} onContinue={handleContinueTurn} scoreboard={gameEngine.getScoreboard()} />}
+      {/* Tur Geçişi Modalı - Inline entegre edildi */}
+      {showTurnTransition && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <Card className="w-full max-w-sm m-4">
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <Play className="w-8 h-8 text-primary" />
+              </div>
+              
+              <h2 className="text-xl font-bold text-primary mb-2">Tur Bitti!</h2>
+              
+              <p className="text-muted-foreground mb-4">
+                Sıra şimdi <span className="font-semibold text-foreground">
+                  {gameEngine.getState().teams[(gameEngine.getState().currentTeamIndex + 1) % gameEngine.getState().teams.length]?.name}
+                </span> takımında
+              </p>
+
+              {/* Puan Durumu */}
+              <div className="space-y-2 mb-6">
+                <h3 className="text-sm font-semibold text-muted-foreground">Puan Durumu</h3>
+                {gameEngine.getScoreboard().map((team) => (
+                  <div key={`${team.id}-${team.score}`} className="flex justify-between items-center">
+                    <span className={`text-sm ${
+                      team.id === gameEngine.getState().teams[(gameEngine.getState().currentTeamIndex + 1) % gameEngine.getState().teams.length]?.id 
+                        ? 'font-bold text-primary' 
+                        : 'text-muted-foreground'
+                    }`}>
+                      {team.name}
+                    </span>
+                    <span className={`text-sm font-semibold ${
+                      team.id === gameEngine.getState().teams[(gameEngine.getState().currentTeamIndex + 1) % gameEngine.getState().teams.length]?.id 
+                        ? 'text-primary' 
+                        : 'text-foreground'
+                    }`}>
+                      {team.score}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              <Button
+                onClick={handleContinueTurn}
+                variant="primary"
+                size="lg"
+                fullWidth
+                className="flex items-center justify-center gap-2"
+              >
+                <Play className="w-4 h-4" />
+                <span>Başla</span>
+              </Button>
+            </div>
+          </Card>
+        </div>
+      )}
 
       {/* Çıkış Onayı Modalı */}
       <ExitGameModal isOpen={showExitModal} onClose={() => setShowExitModal(false)} onConfirm={handleConfirmExit} />

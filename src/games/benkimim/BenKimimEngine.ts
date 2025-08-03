@@ -202,6 +202,22 @@ export class BenKimimEngine {
   }
 
   /**
+   * Oyun sonucu metriklerini al (GameResultScreen için)
+   */
+  getGameMetrics() {
+    const accuracy = this.gameState.totalWords > 0 ? 
+      Math.round((this.gameState.score / this.gameState.totalWords) * 100) : 0;
+    
+    return {
+      finalScore: this.gameState.score,
+      totalWords: this.gameState.totalWords,
+      accuracy: accuracy,
+      targetScore: this.gameState.settings.targetScore,
+      timeUsed: this.gameState.settings.gameDuration - this.gameState.timeLeft
+    };
+  }
+
+  /**
    * Dinleyici ekle
    */
   addListener(listener: () => void): void {

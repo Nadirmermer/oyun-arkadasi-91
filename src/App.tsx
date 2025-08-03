@@ -3,7 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import Index from "./pages/Index";
+import { HomePage } from "./pages/HomePage";
 import NotFound from "./pages/NotFound";
 import { SettingsPage } from "./pages/SettingsPage";
 import { HistoryPage } from "./pages/HistoryPage";
@@ -38,7 +38,7 @@ const AppContent = () => {
       <PWAInstallPrompt />
       <PWAUpdatePrompt />
       <Routes>
-        <Route path="/" element={<Index />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/settings" element={
           <AppLayout showBottomNav={true}>
             <SettingsPage />

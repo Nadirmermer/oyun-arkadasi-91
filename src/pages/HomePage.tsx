@@ -9,7 +9,6 @@ import { GameScreen } from './GameScreen';
 import { ScoreScreen } from './ScoreScreen';
 import { BenKimimSetup } from './BenKimimSetup';
 // Ben Kimim artık direkt route üzerinden çalışıyor
-import { BenKimimScore } from './BenKimimScore';
 import { IkiDogruBirYalanSetup } from './IkiDogruBirYalanSetup';
 import { IkiDogruBirYalanGame } from './IkiDogruBirYalanGame';
 import { TabuEngine } from '@/games/tabu/TabuEngine';
@@ -186,9 +185,6 @@ export const HomePage = () => {
     // Ben Kimim artık direkt route üzerinden çalışıyor
     navigate('/game/benkimim');
     return null;
-  }
-  if (currentPhase === 'benkimim-score') {
-    return <BenKimimScore gameEngine={benKimimEngine} onPlayAgain={handleBenKimimNewGame} onGoHome={handleGoHome} />;
   }
   if (currentPhase === 'iki-dogru-bir-yalan-setup') {
     return <IkiDogruBirYalanSetup onStartGame={handleStartIkiDogruBirYalan} onGoBack={() => setCurrentPhase('home')} />;

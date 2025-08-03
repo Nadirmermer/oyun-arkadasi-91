@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Check, X, Pause, Play } from 'lucide-react';
+import { Check, X, Pause, Play, User } from 'lucide-react';
 import { Button } from '@/components/shared/Button';
 import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
+import { GameResultScreen } from '@/components/shared/GameResultScreen';
 import { BenKimimEngine } from '@/games/benkimim/BenKimimEngine';
 import { BenKimimGameState } from '@/types/benkimim';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
@@ -18,6 +19,7 @@ export const BenKimimScreen = () => {
   const [showExitModal, setShowExitModal] = useState(false);
   const [isLandscapeMode, setIsLandscapeMode] = useState(false);
   const [motionPermissionRequested, setMotionPermissionRequested] = useState(false);
+  const [showResults, setShowResults] = useState(false);
 
   const motionSensor = useMotionSensor();
 
@@ -126,7 +128,7 @@ export const BenKimimScreen = () => {
     navigate('/');
   };
 
-  const handleGameEnd = () => {
+  const handleGameEnd = useCallback(() => {
     const gameResult = {
       id: Date.now().toString(),
       gameType: 'BenKimim' as const,
@@ -138,6 +140,17 @@ export const BenKimimScreen = () => {
       winner: 'Oyuncu'
     };
     saveGameRecord(gameResult);
+    setShowResults(true);
+  }, [gameState.score]);
+
+  const handleRestart = () => {
+    setShowResults(false);
+    gameEngine.resetGame();
+    gameEngine.startGame();
+  };
+
+  const handleGoHome = () => {
+    gameEngine.destroy();
     navigate('/');
   };
 
@@ -152,7 +165,34 @@ export const BenKimimScreen = () => {
     if (!gameState.isPlaying && gameState.score > 0) {
       handleGameEnd();
     }
-  }, [gameState.isPlaying, gameState.score]);
+  }, [gameState.isPlaying, gameState.score, handleGameEnd]);
+
+  // Sonuç ekranını göster
+  if (showResults) {
+    const metrics = gameEngine.getGameMetrics();
+    const performanceMessage = 
+      metrics.accuracy >= 80 ? "Mükemmel performans! 🌟" :
+      metrics.accuracy >= 60 ? "İyi performans! 👍" :
+      "Daha fazla pratik yapabilirsin! 💪";
+
+    return (
+      <GameResultScreen
+        title="Ben Kimim Tamamlandı! 🎭"
+        icon={<User className="w-10 h-10 text-primary" />}
+        iconBgColor="bg-primary/10"
+        metrics={{
+          primary: { label: "Final Skor", value: `${metrics.finalScore}/${metrics.targetScore}`, color: "text-primary" },
+          secondary: { label: "Doğruluk Oranı", value: `%${metrics.accuracy}`, color: "text-success" },
+          tertiary: { label: "Toplam Kelime", value: metrics.totalWords }
+        }}
+        performanceMessage={performanceMessage}
+        onRestart={handleRestart}
+        onGoHome={handleGoHome}
+        restartButtonText="Tekrar Oyna"
+        homeButtonText="Ana Menü"
+      />
+    );
+  }
 
   // Yükleniyor durumu
   if (!gameState.currentWord) {
