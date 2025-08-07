@@ -68,10 +68,15 @@ export class IkiDogruBirYalanEngine {
     this.resetGame();
     
     // Ana soru havuzunu karıştır (tekrar oynanabilirlik için)
-    const shuffledQuestions = [...this.sorular].sort(() => Math.random() - 0.5);
+    const shuffledQuestions = this.shuffleArray(this.sorular);
     
-    // Bu oturum için ilk N soruyu seç
-    this.sessionQuestions = shuffledQuestions.slice(0, Math.min(sessionLength, shuffledQuestions.length));
+    // Bu oturum için ilk N soruyu seç ve her sorunun ifadelerini karıştır
+    this.sessionQuestions = shuffledQuestions
+      .slice(0, Math.min(sessionLength, shuffledQuestions.length))
+      .map((q) => ({
+        ...q,
+        ifadeler: this.shuffleArray(q.ifadeler),
+      }));
     
     // Oyun durumunu başlat
     this.gameState.isPlaying = true;
@@ -83,6 +88,18 @@ export class IkiDogruBirYalanEngine {
     
     this.nextQuestion();
     this.notifyListeners();
+  }
+
+  /**
+   * Verilen dizinin yeni bir karıştırılmış kopyasını döndürür
+   */
+  private shuffleArray<T>(array: T[]): T[] {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
   }
 
   /**

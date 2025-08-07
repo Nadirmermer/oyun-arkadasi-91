@@ -1,523 +1,4303 @@
 [
   {
     "kelime": "Depresyon",
-    "yasaklar": ["Üzüntü", "Mutsuzluk", "Çökkünlük", "Melankolik", "Keder"],
+    "yasaklar": [
+      "Üzüntü",
+      "Mutsuzluk",
+      "Çökkünlük",
+      "Melankolik",
+      "Keder"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Anksiyete",
-    "yasaklar": ["Kaygı", "Endişe", "Korku", "Tedirginlik", "Panik"],
+    "yasaklar": [
+      "Kaygı",
+      "Endişe",
+      "Korku",
+      "Tedirginlik",
+      "Panik"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Klasik Koşullanma",
-    "yasaklar": ["Pavlov", "Zil", "Salya", "Köpek", "Uyaran"],
+    "yasaklar": [
+      "Pavlov",
+      "Zil",
+      "Salya",
+      "Köpek",
+      "Uyaran"
+    ],
     "kategori": "Davranışçılık"
   },
   {
     "kelime": "Edimsel Koşullanma",
-    "yasaklar": ["Skinner", "Pekiştirme", "Ceza", "Kutu", "Ödül"],
+    "yasaklar": [
+      "Skinner",
+      "Pekiştirme",
+      "Ceza",
+      "Kutu",
+      "Ödül"
+    ],
     "kategori": "Davranışçılık"
   },
   {
     "kelime": "Psikanaliz",
-    "yasaklar": ["Freud", "Bilinçdışı", "Rüya", "Libido", "İd"],
+    "yasaklar": [
+      "Freud",
+      "Bilinçdışı",
+      "Rüya",
+      "Libido",
+      "İd"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Ödipal Kompleks",
-    "yasaklar": ["Baba", "Anne", "Çocuk", "Freud", "Cinsellik"],
+    "yasaklar": [
+      "Baba",
+      "Anne",
+      "Çocuk",
+      "Freud",
+      "Cinsellik"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Bilişsel Çelişki",
-    "yasaklar": ["Festinger", "Uyumsuzluk", "Tutum", "İnanç", "Rahatsızlık"],
+    "yasaklar": [
+      "Festinger",
+      "Uyumsuzluk",
+      "Tutum",
+      "İnanç",
+      "Rahatsızlık"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Şizofreni",
-    "yasaklar": ["Halüsinasyon", "Psikoz", "Varsanı", "Gerçeklik", "Sanrı"],
+    "yasaklar": [
+      "Halüsinasyon",
+      "Psikoz",
+      "Varsanı",
+      "Gerçeklik",
+      "Sanrı"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Gestalt",
-    "yasaklar": ["Bütün", "Parça", "Algı", "Şekil", "Zemin"],
+    "yasaklar": [
+      "Bütün",
+      "Parça",
+      "Algı",
+      "Şekil",
+      "Zemin"
+    ],
     "kategori": "Algı Psikolojisi"
   },
   {
     "kelime": "Obsesif Kompulsif Bozukluk",
-    "yasaklar": ["OKB", "Takıntı", "Zorlantı", "Tekrarlama", "Ritüel"],
+    "yasaklar": [
+      "OKB",
+      "Takıntı",
+      "Zorlantı",
+      "Tekrarlama",
+      "Ritüel"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Empati",
-    "yasaklar": ["Anlayış", "Duygu", "Paylaşma", "Onun Yerine Koyma", "Hissetme"],
+    "yasaklar": [
+      "Anlayış",
+      "Duygu",
+      "Paylaşma",
+      "Onun Yerine Koyma",
+      "Hissetme"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Nöron",
-    "yasaklar": ["Sinir", "Hücre", "Beyin", "Akson", "Dendrit"],
+    "yasaklar": [
+      "Sinir",
+      "Hücre",
+      "Beyin",
+      "Akson",
+      "Dendrit"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Dopamin",
-    "yasaklar": ["Nörotransmitter", "Mutluluk", "Ödül", "Haz", "Kimyasal"],
+    "yasaklar": [
+      "Nörotransmitter",
+      "Mutluluk",
+      "Ödül",
+      "Haz",
+      "Kimyasal"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Kohlberg",
-    "yasaklar": ["Ahlak", "Gelişim", "Seviye", "Evre", "Heinz İkilemi"],
+    "yasaklar": [
+      "Ahlak",
+      "Gelişim",
+      "Seviye",
+      "Evre",
+      "Heinz İkilemi"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Piaget",
-    "yasaklar": ["Bilişsel", "Gelişim", "Şema", "Asimilasyon", "Çocuk"],
+    "yasaklar": [
+      "Bilişsel",
+      "Gelişim",
+      "Şema",
+      "Asimilasyon",
+      "Çocuk"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Travma",
-    "yasaklar": ["Şok", "Olay", "Yara", "Ruhsal", "Sarsıntı"],
+    "yasaklar": [
+      "Şok",
+      "Olay",
+      "Yara",
+      "Ruhsal",
+      "Sarsıntı"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Hipnoz",
-    "yasaklar": ["Uyku", "Telkin", "Bilinçaltı", "Sarkaç", "Trans"],
+    "yasaklar": [
+      "Uyku",
+      "Telkin",
+      "Bilinçaltı",
+      "Sarkaç",
+      "Trans"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "Kişilik",
-    "yasaklar": ["Karakter", "Mizaç", "Özellik", "Davranış", "Benlik"],
+    "yasaklar": [
+      "Karakter",
+      "Mizaç",
+      "Özellik",
+      "Davranış",
+      "Benlik"
+    ],
     "kategori": "Kişilik Psikolojisi"
   },
   {
     "kelime": "Stres",
-    "yasaklar": ["Gerginlik", "Baskı", "Zorlanma", "Kortizol", "Savaş ya da Kaç"],
+    "yasaklar": [
+      "Gerginlik",
+      "Baskı",
+      "Zorlanma",
+      "Kortizol",
+      "Savaş ya da Kaç"
+    ],
     "kategori": "Sağlık Psikolojisi"
   },
   {
     "kelime": "Bilinçaltı",
-    "yasaklar": ["Gizli", "Mesaj", "Algı", "Farkında Olmama", "Eşik Altı"],
+    "yasaklar": [
+      "Gizli",
+      "Mesaj",
+      "Algı",
+      "Farkında Olmama",
+      "Eşik Altı"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Bipolar Bozukluk",
-    "yasaklar": ["Manik", "Depresif", "Duygudurum", "İki Uçlu", "Taşkınlık"],
+    "yasaklar": [
+      "Manik",
+      "Depresif",
+      "Duygudurum",
+      "İki Uçlu",
+      "Taşkınlık"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Panik Atak",
-    "yasaklar": ["Kriz", "Korku", "Çarpıntı", "Nefes Darlığı", "Nöbet"],
+    "yasaklar": [
+      "Kriz",
+      "Korku",
+      "Çarpıntı",
+      "Nefes Darlığı",
+      "Nöbet"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Fobi",
-    "yasaklar": ["Korku", "Kaçınma", "Mantıksız", "Örümcek", "Yükseklik"],
+    "yasaklar": [
+      "Korku",
+      "Kaçınma",
+      "Mantıksız",
+      "Örümcek",
+      "Yükseklik"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Narsisizm",
-    "yasaklar": ["Kendini Beğenme", "Egoist", "Üstünlük", "Empati Yoksunluğu", "Benmerkezci"],
+    "yasaklar": [
+      "Kendini Beğenme",
+      "Egoist",
+      "Üstünlük",
+      "Empati Yoksunluğu",
+      "Benmerkezci"
+    ],
     "kategori": "Kişilik Psikolojisi"
   },
   {
     "kelime": "Paranoya",
-    "yasaklar": ["Şüphe", "Kuruntu", "Takip Edilme", "Komplo", "Güvensizlik"],
+    "yasaklar": [
+      "Şüphe",
+      "Kuruntu",
+      "Takip Edilme",
+      "Komplo",
+      "Güvensizlik"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Model Alma",
-    "yasaklar": ["Bandura", "Gözlem", "Taklit", "Örnek Alma", "Sosyal Öğrenme"],
+    "yasaklar": [
+      "Bandura",
+      "Gözlem",
+      "Taklit",
+      "Örnek Alma",
+      "Sosyal Öğrenme"
+    ],
     "kategori": "Davranışçılık"
   },
   {
     "kelime": "Sistematik Duyarsızlaştırma",
-    "yasaklar": ["Fobi", "Gevşeme", "Hiyerarşi", "Maruz Bırakma", "Alıştırma"],
+    "yasaklar": [
+      "Fobi",
+      "Gevşeme",
+      "Hiyerarşi",
+      "Maruz Bırakma",
+      "Alıştırma"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "Ego",
-    "yasaklar": ["Benlik", "İd", "Süperego", "Gerçeklik", "Denge"],
+    "yasaklar": [
+      "Benlik",
+      "İd",
+      "Süperego",
+      "Gerçeklik",
+      "Denge"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Süperego",
-    "yasaklar": ["Vicdan", "Ahlak", "Üst Benlik", "Kurallar", "Ayıp"],
+    "yasaklar": [
+      "Vicdan",
+      "Ahlak",
+      "Üst Benlik",
+      "Kurallar",
+      "Ayıp"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Aktarım",
-    "yasaklar": ["Terapist", "Duygu", "Yansıtma", "Geçmiş", "İlişki"],
+    "yasaklar": [
+      "Terapist",
+      "Duygu",
+      "Yansıtma",
+      "Geçmiş",
+      "İlişki"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Savunma Mekanizması",
-    "yasaklar": ["Bastırma", "Yansıtma", "Ego", "İnkar", "Mantığa Bürüme"],
+    "yasaklar": [
+      "Bastırma",
+      "Yansıtma",
+      "Ego",
+      "İnkar",
+      "Mantığa Bürüme"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "İtaat",
-    "yasaklar": ["Milgram", "Otorite", "Boyun Eğme", "Deney", "Elektrik Şoku"],
+    "yasaklar": [
+      "Milgram",
+      "Otorite",
+      "Boyun Eğme",
+      "Deney",
+      "Elektrik Şoku"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Seyirci Etkisi",
-    "yasaklar": ["Yardım Etmeme", "Kalabalık", "Sorumluluğun Dağılması", "Genovese", "Kayıtsızlık"],
+    "yasaklar": [
+      "Yardım Etmeme",
+      "Kalabalık",
+      "Sorumluluğun Dağılması",
+      "Genovese",
+      "Kayıtsızlık"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Uyma Davranışı",
-    "yasaklar": ["Asch", "Grup Baskısı", "Konformite", "Çizgi Deneyi", "Çoğunluk"],
+    "yasaklar": [
+      "Asch",
+      "Grup Baskısı",
+      "Konformite",
+      "Çizgi Deneyi",
+      "Çoğunluk"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Kalıp Yargı",
-    "yasaklar": ["Stereotip", "Genelleme", "Grup", "Ön Yargı", "Ayrımcılık"],
+    "yasaklar": [
+      "Stereotip",
+      "Genelleme",
+      "Grup",
+      "Ön Yargı",
+      "Ayrımcılık"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Kısa Süreli Bellek",
-    "yasaklar": ["Hafıza", "Yedi Rakam", "Miller", "Tutma", "Geçici"],
+    "yasaklar": [
+      "Hafıza",
+      "Yedi Rakam",
+      "Miller",
+      "Tutma",
+      "Geçici"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Uzun Süreli Bellek",
-    "yasaklar": ["Hafıza", "Anı", "Kalıcı", "Depolama", "Hatırlama"],
+    "yasaklar": [
+      "Hafıza",
+      "Anı",
+      "Kalıcı",
+      "Depolama",
+      "Hatırlama"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Seçici Dikkat",
-    "yasaklar": ["Odaklanma", "Filtreleme", "Kokteyl Partisi Etkisi", "Ayıklama", "İlgilenme"],
+    "yasaklar": [
+      "Odaklanma",
+      "Filtreleme",
+      "Kokteyl Partisi Etkisi",
+      "Ayıklama",
+      "İlgilenme"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Serotonin",
-    "yasaklar": ["Mutluluk", "Nörotransmitter", "Depresyon", "Ruh Hali", "SSRI"],
+    "yasaklar": [
+      "Mutluluk",
+      "Nörotransmitter",
+      "Depresyon",
+      "Ruh Hali",
+      "SSRI"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Amigdala",
-    "yasaklar": ["Korku", "Duygu", "Badem", "Beyin", "Limbik Sistem"],
+    "yasaklar": [
+      "Korku",
+      "Duygu",
+      "Badem",
+      "Beyin",
+      "Limbik Sistem"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Hipokampus",
-    "yasaklar": ["Hafıza", "Bellek", "Öğrenme", "Beyin", "Anı"],
+    "yasaklar": [
+      "Hafıza",
+      "Bellek",
+      "Öğrenme",
+      "Beyin",
+      "Anı"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Frontal Lob",
-    "yasaklar": ["Planlama", "Karar Verme", "Kişilik", "Beynin Ön Kısmı", "Yürütücü İşlevler"],
+    "yasaklar": [
+      "Planlama",
+      "Karar Verme",
+      "Kişilik",
+      "Beynin Ön Kısmı",
+      "Yürütücü İşlevler"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Beyin Plastisitesi",
-    "yasaklar": ["Değişim", "Esneklik", "Öğrenme", "Sinaps", "Yeniden Yapılanma"],
+    "yasaklar": [
+      "Değişim",
+      "Esneklik",
+      "Öğrenme",
+      "Sinaps",
+      "Yeniden Yapılanma"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Bağlanma Kuramı",
-    "yasaklar": ["Bowlby", "Ainsworth", "Anne", "Güvenli", "Kaygılı"],
+    "yasaklar": [
+      "Bowlby",
+      "Ainsworth",
+      "Anne",
+      "Güvenli",
+      "Kaygılı"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Vygotsky",
-    "yasaklar": ["Sosyal", "Kültürel", "Gelişim", "Yakınsal Gelişim Alanı", "İskele Kurma"],
+    "yasaklar": [
+      "Sosyal",
+      "Kültürel",
+      "Gelişim",
+      "Yakınsal Gelişim Alanı",
+      "İskele Kurma"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Erikson",
-    "yasaklar": ["Psikososyal", "Gelişim", "Kriz", "Kimlik", "Sekiz Evre"],
+    "yasaklar": [
+      "Psikososyal",
+      "Gelişim",
+      "Kriz",
+      "Kimlik",
+      "Sekiz Evre"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Nesne Sürekliliği",
-    "yasaklar": ["Piaget", "Bebek", "Görünürde Olmayan", "Yok Olmama", "Saklama"],
+    "yasaklar": [
+      "Piaget",
+      "Bebek",
+      "Görünürde Olmayan",
+      "Yok Olmama",
+      "Saklama"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Bilişsel Davranışçı Terapi",
-    "yasaklar": ["BDT", "Düşünce", "Davranış", "Duygu", "Aaron Beck"],
+    "yasaklar": [
+      "BDT",
+      "Düşünce",
+      "Davranış",
+      "Duygu",
+      "Aaron Beck"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "EMDR",
-    "yasaklar": ["Travma", "Göz Hareketleri", "Anı", "Yeniden İşleme", "Duyarsızlaştırma"],
+    "yasaklar": [
+      "Travma",
+      "Göz Hareketleri",
+      "Anı",
+      "Yeniden İşleme",
+      "Duyarsızlaştırma"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "Hümanistik Terapi",
-    "yasaklar": ["Rogers", "Maslow", "Kendini Gerçekleştirme", "Potansiyel", "Koşulsuz Kabul"],
+    "yasaklar": [
+      "Rogers",
+      "Maslow",
+      "Kendini Gerçekleştirme",
+      "Potansiyel",
+      "Koşulsuz Kabul"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "Beş Faktör Kuramı",
-    "yasaklar": ["Dışadönüklük", "Nevrotiklik", "Açıklık", "Sorumluluk", "Uyumluluk"],
+    "yasaklar": [
+      "Dışadönüklük",
+      "Nevrotiklik",
+      "Açıklık",
+      "Sorumluluk",
+      "Uyumluluk"
+    ],
     "kategori": "Kişilik Psikolojisi"
   },
   {
     "kelime": "Denetim Odağı",
-    "yasaklar": ["İçsel", "Dışsal", "Sorumluluk", "Rotter", "Kontrol"],
+    "yasaklar": [
+      "İçsel",
+      "Dışsal",
+      "Sorumluluk",
+      "Rotter",
+      "Kontrol"
+    ],
     "kategori": "Kişilik Psikolojisi"
   },
   {
     "kelime": "Projektif Test",
-    "yasaklar": ["Rorschach", "TAT", "Yorumlama", "Mürekkep Lekesi", "Belirsiz Uyaran"],
+    "yasaklar": [
+      "Rorschach",
+      "TAT",
+      "Yorumlama",
+      "Mürekkep Lekesi",
+      "Belirsiz Uyaran"
+    ],
     "kategori": "Psikolojik Testler"
   },
   {
     "kelime": "Zeka (IQ)",
-    "yasaklar": ["Test", "Binet", "Puan", "Yetenek", "Wechsler"],
+    "yasaklar": [
+      "Test",
+      "Binet",
+      "Puan",
+      "Yetenek",
+      "Wechsler"
+    ],
     "kategori": "Psikolojik Testler"
   },
   {
     "kelime": "Tükenmişlik Sendromu",
-    "yasaklar": ["İş", "Stres", "Yorgunluk", "Duygusal Tükenme", "Motivasyon Kaybı"],
+    "yasaklar": [
+      "İş",
+      "Stres",
+      "Yorgunluk",
+      "Duygusal Tükenme",
+      "Motivasyon Kaybı"
+    ],
     "kategori": "Endüstri Psikolojisi"
   },
   {
     "kelime": "Liderlik",
-    "yasaklar": ["Yönetici", "Motive Etme", "Grup", "Önder", "Takım"],
+    "yasaklar": [
+      "Yönetici",
+      "Motive Etme",
+      "Grup",
+      "Önder",
+      "Takım"
+    ],
     "kategori": "Endüstri Psikolojisi"
   },
   {
     "kelime": "Plasebo Etkisi",
-    "yasaklar": ["İnanç", "Sahte İlaç", "Beklenti", "İyileşme", "Boş"],
+    "yasaklar": [
+      "İnanç",
+      "Sahte İlaç",
+      "Beklenti",
+      "İyileşme",
+      "Boş"
+    ],
     "kategori": "Deneysel Psikoloji"
   },
   {
     "kelime": "Bağımlı Değişken",
-    "yasaklar": ["Sonuç", "Etkilenen", "Deney", "Ölçülen", "Neden"],
+    "yasaklar": [
+      "Sonuç",
+      "Etkilenen",
+      "Deney",
+      "Ölçülen",
+      "Neden"
+    ],
     "kategori": "Deneysel Psikoloji"
   },
   {
     "kelime": "Öğrenilmiş Çaresizlik",
-    "yasaklar": ["Seligman", "Pes Etme", "Denemekten Vazgeçme", "Pasiflik", "Kontrolsüzlük"],
+    "yasaklar": [
+      "Seligman",
+      "Pes Etme",
+      "Denemekten Vazgeçme",
+      "Pasiflik",
+      "Kontrolsüzlük"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Terapi",
-    "yasaklar": ["Tedavi", "Psikolog", "Seans", "Danışan", "Konuşma"],
+    "yasaklar": [
+      "Tedavi",
+      "Psikolog",
+      "Seans",
+      "Danışan",
+      "Konuşma"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "Zeka",
-    "yasaklar": ["Akıl", "IQ", "Test", "Yetenek", "Bilişsel"],
+    "yasaklar": [
+      "Akıl",
+      "IQ",
+      "Test",
+      "Yetenek",
+      "Bilişsel"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Rüya",
-    "yasaklar": ["Uyku", "Görmek", "Yorum", "Bilinçdışı", "Freud"],
+    "yasaklar": [
+      "Uyku",
+      "Görmek",
+      "Yorum",
+      "Bilinçdışı",
+      "Freud"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Hafıza",
-    "yasaklar": ["Bellek", "Hatırlamak", "Unutmak", "Anı", "Depolama"],
+    "yasaklar": [
+      "Bellek",
+      "Hatırlamak",
+      "Unutmak",
+      "Anı",
+      "Depolama"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Davranış",
-    "yasaklar": ["Hareket", "Tepki", "Eylem", "Yapmak", "Gözlem"],
+    "yasaklar": [
+      "Hareket",
+      "Tepki",
+      "Eylem",
+      "Yapmak",
+      "Gözlem"
+    ],
     "kategori": "Davranışçılık"
   },
   {
     "kelime": "Duygu",
-    "yasaklar": ["His", "Mutluluk", "Üzüntü", "Öfke", "Tepki"],
+    "yasaklar": [
+      "His",
+      "Mutluluk",
+      "Üzüntü",
+      "Öfke",
+      "Tepki"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Motivasyon",
-    "yasaklar": ["Güdü", "İstek", "Hedef", "Harekete Geçme", "İçsel"],
+    "yasaklar": [
+      "Güdü",
+      "İstek",
+      "Hedef",
+      "Harekete Geçme",
+      "İçsel"
+    ],
     "kategori": "Genel Psikoloji"
   },
   {
     "kelime": "Test",
-    "yasaklar": ["Ölçme", "Sınav", "Puan", "Değerlendirme", "Sorular"],
+    "yasaklar": [
+      "Ölçme",
+      "Sınav",
+      "Puan",
+      "Değerlendirme",
+      "Sorular"
+    ],
     "kategori": "Psikolojik Testler"
   },
   {
     "kelime": "Algı",
-    "yasaklar": ["Duyu", "Anlamlandırma", "Yorumlama", "Görmek", "İşitmek"],
+    "yasaklar": [
+      "Duyu",
+      "Anlamlandırma",
+      "Yorumlama",
+      "Görmek",
+      "İşitmek"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Benlik",
-    "yasaklar": ["Ego", "Kimlik", "Kendilik", "Öz saygı", "Kişilik"],
+    "yasaklar": [
+      "Ego",
+      "Kimlik",
+      "Kendilik",
+      "Öz saygı",
+      "Kişilik"
+    ],
     "kategori": "Kişilik Psikolojisi"
   },
   {
     "kelime": "Ödül",
-    "yasaklar": ["Ceza", "Pekiştirme", "Skinner", "Mükafat", "İstenen Davranış"],
+    "yasaklar": [
+      "Ceza",
+      "Pekiştirme",
+      "Skinner",
+      "Mükafat",
+      "İstenen Davranış"
+    ],
     "kategori": "Davranışçılık"
   },
   {
     "kelime": "Çocuk",
-    "yasaklar": ["Bebek", "Gelişim", "Piaget", "Oyun", "Büyüme"],
+    "yasaklar": [
+      "Bebek",
+      "Gelişim",
+      "Piaget",
+      "Oyun",
+      "Büyüme"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Ergenlik",
-    "yasaklar": ["Gençlik", "Kimlik", "Değişim", "Sivilce", "Bunalım"],
+    "yasaklar": [
+      "Gençlik",
+      "Kimlik",
+      "Değişim",
+      "Sivilce",
+      "Bunalım"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Aile",
-    "yasaklar": ["Anne", "Baba", "Kardeş", "Ev", "Sistem"],
+    "yasaklar": [
+      "Anne",
+      "Baba",
+      "Kardeş",
+      "Ev",
+      "Sistem"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Unutmak",
-    "yasaklar": ["Hatırlamamak", "Hafıza", "Bellek", "Silinme", "Ebbinghaus"],
+    "yasaklar": [
+      "Hatırlamamak",
+      "Hafıza",
+      "Bellek",
+      "Silinme",
+      "Ebbinghaus"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
-
   {
     "kelime": "Pygmalion Etkisi",
-    "yasaklar": ["Beklenti", "Kendini Gerçekleştiren Kehanet", "Öğretmen", "Rosenthal", "Performans"],
+    "yasaklar": [
+      "Beklenti",
+      "Kendini Gerçekleştiren Kehanet",
+      "Öğretmen",
+      "Rosenthal",
+      "Performans"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Halo Etkisi (Hale)",
-    "yasaklar": ["İzlenim", "Genelleme", "Çekicilik", "Olumlu", "Yanlılık"],
+    "yasaklar": [
+      "İzlenim",
+      "Genelleme",
+      "Çekicilik",
+      "Olumlu",
+      "Yanlılık"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Duygusal Zeka",
-    "yasaklar": ["EQ", "Goleman", "Empati", "Duygu Yönetimi", "Farkındalık"],
+    "yasaklar": [
+      "EQ",
+      "Goleman",
+      "Empati",
+      "Duygu Yönetimi",
+      "Farkındalık"
+    ],
     "kategori": "Zeka"
   },
   {
     "kelime": "İçgörü",
-    "yasaklar": ["Aha Anı", "Kavrama", "Aniden Anlama", "Problem Çözme", "Köhler"],
+    "yasaklar": [
+      "Aha Anı",
+      "Kavrama",
+      "Aniden Anlama",
+      "Problem Çözme",
+      "Köhler"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Kimliksizleşme",
-    "yasaklar": ["Kalabalık", "Grup", "Sorumluluk Kaybı", "Anonim", "Zimbardo"],
+    "yasaklar": [
+      "Kalabalık",
+      "Grup",
+      "Sorumluluk Kaybı",
+      "Anonim",
+      "Zimbardo"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Benmerkezcilik",
-    "yasaklar": ["Piaget", "Çocuk", "Egosantrizm", "Kendi Bakış Açısı", "Empati Yoksunluğu"],
+    "yasaklar": [
+      "Piaget",
+      "Çocuk",
+      "Egosantrizm",
+      "Kendi Bakış Açısı",
+      "Empati Yoksunluğu"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Somatizasyon",
-    "yasaklar": ["Bedensel", "Fiziksel Belirti", "Psikolojik", "Ağrı", "Mide Bulantısı"],
+    "yasaklar": [
+      "Bedensel",
+      "Fiziksel Belirti",
+      "Psikolojik",
+      "Ağrı",
+      "Mide Bulantısı"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Akıcı Zeka",
-    "yasaklar": ["Kristalize Zeka", "Problem Çözme", "Soyut Düşünme", "Hız", "Yeni Durumlar"],
+    "yasaklar": [
+      "Kristalize Zeka",
+      "Problem Çözme",
+      "Soyut Düşünme",
+      "Hız",
+      "Yeni Durumlar"
+    ],
     "kategori": "Zeka"
   },
   {
     "kelime": "Kristalize Zeka",
-    "yasaklar": ["Akıcı Zeka", "Deneyim", "Bilgi Birikimi", "Yaş", "Kültürel Bilgi"],
+    "yasaklar": [
+      "Akıcı Zeka",
+      "Deneyim",
+      "Bilgi Birikimi",
+      "Yaş",
+      "Kültürel Bilgi"
+    ],
     "kategori": "Zeka"
   },
   {
     "kelime": "Sinaps",
-    "yasaklar": ["Boşluk", "Nöron", "İletişim", "Bağlantı", "Nörotransmitter"],
+    "yasaklar": [
+      "Boşluk",
+      "Nöron",
+      "İletişim",
+      "Bağlantı",
+      "Nörotransmitter"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Yüceltme",
-    "yasaklar": ["Savunma Mekanizması", "İçgüdü", "Kabul Edilebilir Davranış", "Sanat", "Spor"],
+    "yasaklar": [
+      "Savunma Mekanizması",
+      "İçgüdü",
+      "Kabul Edilebilir Davranış",
+      "Sanat",
+      "Spor"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Karşıt Tepki Oluşturma",
-    "yasaklar": ["Savunma Mekanizması", "Tersini Yapma", "Duygu", "Nefret", "Aşırı Sevgi"],
+    "yasaklar": [
+      "Savunma Mekanizması",
+      "Tersini Yapma",
+      "Duygu",
+      "Nefret",
+      "Aşırı Sevgi"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Temas Hipotezi",
-    "yasaklar": ["Önyargı", "Grup", "Azaltma", "Allport", "Etkileşim"],
+    "yasaklar": [
+      "Önyargı",
+      "Grup",
+      "Azaltma",
+      "Allport",
+      "Etkileşim"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Metabiliş",
-    "yasaklar": ["Düşünme Hakkında Düşünme", "Farkındalık", "Öğrenmeyi Öğrenme", "Strateji", "Kendi Süreçleri"],
+    "yasaklar": [
+      "Düşünme Hakkında Düşünme",
+      "Farkındalık",
+      "Öğrenmeyi Öğrenme",
+      "Strateji",
+      "Kendi Süreçleri"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Grup Düşüncesi",
-    "yasaklar": ["Janis", "Uyum Baskısı", "Hatalı Karar", "Muhalefet Yokluğu", "Illüzyon"],
+    "yasaklar": [
+      "Janis",
+      "Uyum Baskısı",
+      "Hatalı Karar",
+      "Muhalefet Yokluğu",
+      "Illüzyon"
+    ],
     "kategori": "Sosyal Psikoloji"
   },
   {
     "kelime": "Logoterapi",
-    "yasaklar": ["Viktor Frankl", "Anlam", "Varoluşçu", "Toplama Kampı", "İnsanın Anlam Arayışı"],
+    "yasaklar": [
+      "Viktor Frankl",
+      "Anlam",
+      "Varoluşçu",
+      "Toplama Kampı",
+      "İnsanın Anlam Arayışı"
+    ],
     "kategori": "Terapi Yöntemleri"
   },
   {
     "kelime": "Lapsus",
-    "yasaklar": ["Dil Sürçmesi", "Freud", "Bilinçdışı", "İstek", "Yanlış Söyleme"],
+    "yasaklar": [
+      "Dil Sürçmesi",
+      "Freud",
+      "Bilinçdışı",
+      "İstek",
+      "Yanlış Söyleme"
+    ],
     "kategori": "Psikanalitik Kuram"
   },
   {
     "kelime": "Afazi",
-    "yasaklar": ["Konuşma Bozukluğu", "Broca", "Wernicke", "Beyin Hasarı", "Dil"],
+    "yasaklar": [
+      "Konuşma Bozukluğu",
+      "Broca",
+      "Wernicke",
+      "Beyin Hasarı",
+      "Dil"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Agnosia",
-    "yasaklar": ["Tanımama", "Nesne", "Yüz", "Algı Bozukluğu", "Anlamama"],
+    "yasaklar": [
+      "Tanımama",
+      "Nesne",
+      "Yüz",
+      "Algı Bozukluğu",
+      "Anlamama"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Prosopagnosia",
-    "yasaklar": ["Yüz Körlüğü", "Tanıyamama", "İnsan", "Siması Yabancı Gelme", "Agnosia"],
+    "yasaklar": [
+      "Yüz Körlüğü",
+      "Tanıyamama",
+      "İnsan",
+      "Siması Yabancı Gelme",
+      "Agnosia"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Aleksitimi",
-    "yasaklar": ["Duygu Körlüğü", "Hissetmeme", "İfade Edememe", "Farkında Olmama", "Duygusal"],
+    "yasaklar": [
+      "Duygu Körlüğü",
+      "Hissetmeme",
+      "İfade Edememe",
+      "Farkında Olmama",
+      "Duygusal"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "Anhedoni",
-    "yasaklar": ["Haz Alamama", "Zevk Yoksunluğu", "Depresyon Belirtisi", "Keyifsizlik", "İsteksizlik"],
+    "yasaklar": [
+      "Haz Alamama",
+      "Zevk Yoksunluğu",
+      "Depresyon Belirtisi",
+      "Keyifsizlik",
+      "İsteksizlik"
+    ],
     "kategori": "Klinik Psikoloji"
   },
   {
     "kelime": "İşlevsel Sabitlenme",
-    "yasaklar": ["Yaratıcılık Engeli", "Nesne", "Farklı Kullanım", "Problem Çözme", "Kutu"],
+    "yasaklar": [
+      "Yaratıcılık Engeli",
+      "Nesne",
+      "Farklı Kullanım",
+      "Problem Çözme",
+      "Kutu"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Korpus Kallosum",
-    "yasaklar": ["İki Yarımküre", "Bağlantı", "Beyin", "Ayrık Beyin", "Sinir Lifi"],
+    "yasaklar": [
+      "İki Yarımküre",
+      "Bağlantı",
+      "Beyin",
+      "Ayrık Beyin",
+      "Sinir Lifi"
+    ],
     "kategori": "Nöropsikoloji"
   },
   {
     "kelime": "Nocebo Etkisi",
-    "yasaklar": ["Plasebo Tersi", "Zarar Beklentisi", "Olumsuz Etki", "İnanç", "Kötüleşme"],
+    "yasaklar": [
+      "Plasebo Tersi",
+      "Zarar Beklentisi",
+      "Olumsuz Etki",
+      "İnanç",
+      "Kötüleşme"
+    ],
     "kategori": "Deneysel Psikoloji"
   },
   {
     "kelime": "Moratoryum",
-    "yasaklar": ["Kimlik Statüsü", "James Marcia", "Ergenlik", "Arayış", "Bunalım"],
+    "yasaklar": [
+      "Kimlik Statüsü",
+      "James Marcia",
+      "Ergenlik",
+      "Arayış",
+      "Bunalım"
+    ],
     "kategori": "Gelişim Psikolojisi"
   },
   {
     "kelime": "Flynn Etkisi",
-    "yasaklar": ["Zeka", "IQ Artışı", "Nesil", "Test Puanları", "Yükselme"],
+    "yasaklar": [
+      "Zeka",
+      "IQ Artışı",
+      "Nesil",
+      "Test Puanları",
+      "Yükselme"
+    ],
     "kategori": "Zeka"
   },
   {
     "kelime": "Kriptomnezi",
-    "yasaklar": ["Gizli Hafıza", "İntihal", "Fikir Çalma", "Kendi Sanma", "Unutulmuş Anı"],
+    "yasaklar": [
+      "Gizli Hafıza",
+      "İntihal",
+      "Fikir Çalma",
+      "Kendi Sanma",
+      "Unutulmuş Anı"
+    ],
     "kategori": "Bilişsel Psikoloji"
   },
   {
     "kelime": "Epigenetik",
-    "yasaklar": ["Gen İfadesi", "Çevre", "Kalıtım", "DNA Değişimi Olmadan", "Etkileşim"],
+    "yasaklar": [
+      "Gen İfadesi",
+      "Çevre",
+      "Kalıtım",
+      "DNA Değişimi Olmadan",
+      "Etkileşim"
+    ],
     "kategori": "Biyopsikoloji"
   },
   {
     "kelime": "Apophenia",
-    "yasaklar": ["Anlamlı Örüntü", "Rastlantı", "İlişki Kurma", "Bulutlarda Şekil Görme", "Yanlış Bağlantı"],
+    "yasaklar": [
+      "Anlamlı Örüntü",
+      "Rastlantı",
+      "İlişki Kurma",
+      "Bulutlarda Şekil Görme",
+      "Yanlış Bağlantı"
+    ],
     "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Yaygın Anksiyete Bozukluğu",
+    "yasaklar": [
+      "Sürekli Kaygı",
+      "Endişe",
+      "Gevşeyememe",
+      "Aşırı Düşünme",
+      "Gerginlik"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Sosyal Anksiyete Bozukluğu",
+    "yasaklar": [
+      "Sosyal Fobi",
+      "Utanma",
+      "Kalabalık",
+      "Sahne",
+      "Yargılanma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Majör Depresif Bozukluk",
+    "yasaklar": [
+      "Çökkünlük",
+      "Anhedoni",
+      "Uyku",
+      "İştah",
+      "İntihar"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Süregen Depresif Bozukluk",
+    "yasaklar": [
+      "Distimi",
+      "Uzun Süre",
+      "Düşük Ruh Hali",
+      "İlgi Kaybı",
+      "Enerji Düşüklüğü"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Şizoafektif Bozukluk",
+    "yasaklar": [
+      "Psikoz",
+      "Duygudurum",
+      "Halüsinasyon",
+      "Sanrı",
+      "Mani"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Borderline Kişilik Bozukluğu",
+    "yasaklar": [
+      "Terk Edilme",
+      "Duygu Dalgalanması",
+      "Kendine Zarar",
+      "İlişki",
+      "Boşluk"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Antisosyal Kişilik Bozukluğu",
+    "yasaklar": [
+      "Empati Yoksunluğu",
+      "Suç",
+      "Kurallar",
+      "Manipülasyon",
+      "Sorumluluk"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Şizotipal Kişilik Bozukluğu",
+    "yasaklar": [
+      "Tuhaf",
+      "Büyüsel Düşünme",
+      "İlişki Kuramama",
+      "Paranoya",
+      "Eksantrik"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Çekingen Kişilik Bozukluğu",
+    "yasaklar": [
+      "Sosyal Kaçınma",
+      "Utangaçlık",
+      "Eleştiri",
+      "Yetersizlik",
+      "Reddedilme"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Obsesif Kompulsif Kişilik Bozukluğu",
+    "yasaklar": [
+      "Aşırı Düzen",
+      "Mükemmeliyetçilik",
+      "Kontrol",
+      "Esneksizlik",
+      "Çalışma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Paranoid Kişilik Bozukluğu",
+    "yasaklar": [
+      "Şüphe",
+      "Güvensizlik",
+      "Komplo",
+      "Kıskançlık",
+      "Düşmanlık"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Bağımlı Kişilik Bozukluğu",
+    "yasaklar": [
+      "İhtiyaç",
+      "Ayrılma Kaygısı",
+      "Karar Verememe",
+      "Onay",
+      "Korunma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Beden Dismorfik Bozukluğu",
+    "yasaklar": [
+      "Dismorfofobi",
+      "Görünüş",
+      "Kusur",
+      "Ayna",
+      "Takıntı"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Hastalık Anksiyetesi",
+    "yasaklar": [
+      "Hipokondriyazis",
+      "Doktor",
+      "Belirti",
+      "Kaygı",
+      "Hastalık"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Somatik Belirti Bozukluğu",
+    "yasaklar": [
+      "Ağrı",
+      "Mide",
+      "Yorgunluk",
+      "Tıbbi Açıklama",
+      "Kaygı"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Dissosiyatif Kimlik Bozukluğu",
+    "yasaklar": [
+      "Çoklu Kimlik",
+      "Amnezi",
+      "Travma",
+      "Kopma",
+      "Kişilik"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Depersonalizasyon Bozukluğu",
+    "yasaklar": [
+      "Kendinden Kopma",
+      "Gerçekdışı",
+      "Kimlik",
+      "Benlik",
+      "Uzaklaşma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Derealizasyon Bozukluğu",
+    "yasaklar": [
+      "Çevre",
+      "Gerçekdışı",
+      "Sisli",
+      "Yabancılaşma",
+      "Algı"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Travma Sonrası Stres Bozukluğu",
+    "yasaklar": [
+      "TSSB",
+      "Flaşbek",
+      "Kaçınma",
+      "Uyarılmışlık",
+      "Travma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Akut Stres Bozukluğu",
+    "yasaklar": [
+      "Kısa Süre",
+      "Travma",
+      "Uyarılmışlık",
+      "Kaçınma",
+      "Anı"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Anoreksiya Nervoza",
+    "yasaklar": [
+      "Kilo",
+      "Yememe",
+      "Zayıflık",
+      "Beden",
+      "İnkar"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Bulimia Nervoza",
+    "yasaklar": [
+      "Tıkınırcasına",
+      "Kusma",
+      "Telafi",
+      "Kontrolsüz",
+      "Beden"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Tıkınırcasına Yeme Bozukluğu",
+    "yasaklar": [
+      "Aşırı Yeme",
+      "Kontrol Kaybı",
+      "Hızlı",
+      "Suçluluk",
+      "Miktar"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Uykusuzluk Bozukluğu",
+    "yasaklar": [
+      "İnsomnia",
+      "Uykuya Dalamama",
+      "Uyanma",
+      "Yorgun",
+      "Gündüz"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Tourette Bozukluğu",
+    "yasaklar": [
+      "Tik",
+      "Ses",
+      "Motor",
+      "İstemsiz",
+      "Başlama"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Dikkat Eksikliği ve Hiperaktivite",
+    "yasaklar": [
+      "DEHB",
+      "Dikkat",
+      "Hiperaktif",
+      "Dürtüsellik",
+      "Okul"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Sönme",
+    "yasaklar": [
+      "Pekiştirme Yok",
+      "Azalma",
+      "Koşullu Tepki",
+      "Kesilme",
+      "Davranış"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Genelleme",
+    "yasaklar": [
+      "Benzer Uyaran",
+      "Yayılma",
+      "Koşullama",
+      "Ayrım",
+      "Aktarım"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Ayırt Etme",
+    "yasaklar": [
+      "Discriminative",
+      "Seçici",
+      "Fark",
+      "Uyaran",
+      "Öğrenme"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Biçimlendirme",
+    "yasaklar": [
+      "Shaping",
+      "Yaklaşıklaştırma",
+      "Adım Adım",
+      "Pekiştirme",
+      "Hedef Davranış"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Zincirleme",
+    "yasaklar": [
+      "Chaining",
+      "Sıra",
+      "Adım",
+      "Karmaşık",
+      "Bağlama"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Premack İlkesi",
+    "yasaklar": [
+      "Daha Olası",
+      "Daha Az Olası",
+      "Pekiştirme",
+      "Etkinlik",
+      "Kural"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Sabit Oran Pekiştirme",
+    "yasaklar": [
+      "FR",
+      "Belirli Sayı",
+      "Tepki",
+      "Ödül",
+      "Program"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Değişken Oran Pekiştirme",
+    "yasaklar": [
+      "VR",
+      "Rastgele",
+      "Tepki",
+      "Kumar",
+      "Program"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Sabit Aralık Pekiştirme",
+    "yasaklar": [
+      "FI",
+      "Zaman",
+      "Süre",
+      "Ödül",
+      "Program"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Değişken Aralık Pekiştirme",
+    "yasaklar": [
+      "VI",
+      "Rastgele Zaman",
+      "Süre",
+      "Ödül",
+      "Program"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Serbest Çağrışım",
+    "yasaklar": [
+      "Söyleme",
+      "Sansürsüz",
+      "Düşünce",
+      "Terapist",
+      "Psikanaliz"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Karşıaktarım",
+    "yasaklar": [
+      "Terapist",
+      "Duygu",
+      "Danışan",
+      "İlişki",
+      "Aktarım"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Yalıtma",
+    "yasaklar": [
+      "İzolasyon",
+      "Duygu",
+      "Düşünce",
+      "Savunma",
+      "Ayrı"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Gerileme",
+    "yasaklar": [
+      "Regresyon",
+      "Erken Evre",
+      "Savunma",
+      "Çocukça",
+      "Dönüş"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Yer Değiştirme",
+    "yasaklar": [
+      "Duygu Aktarımı",
+      "Güçlüden Zayıfa",
+      "Öfke",
+      "Savunma",
+      "Yöneltme"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Aşırı Telafi",
+    "yasaklar": [
+      "Kompanzasyon",
+      "Eksiklik",
+      "Aşırılık",
+      "Savunma",
+      "Denge"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Yansıtmalı Özdeşim",
+    "yasaklar": [
+      "Projeksiyon",
+      "İlişki",
+      "İçselleştirme",
+      "Duygu",
+      "Aktarım"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Fiksasyon",
+    "yasaklar": [
+      "Saplanma",
+      "Evre",
+      "Psikoseksüel",
+      "Gelişim",
+      "Takılma"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Electra Kompleksi",
+    "yasaklar": [
+      "Anne",
+      "Baba",
+      "Kız",
+      "Kıskançlık",
+      "Psikanaliz"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Nesne İlişkileri Kuramı",
+    "yasaklar": [
+      "Klein",
+      "İç Nesne",
+      "Bağlanma",
+      "İlişki",
+      "İçselleştirme"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Bölme",
+    "yasaklar": [
+      "Splitting",
+      "İyi-Kötü",
+      "Ayırma",
+      "Savunma",
+      "Parçalama"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Temel Atıf Hatası",
+    "yasaklar": [
+      "Kişilik",
+      "Durum",
+      "Yanlılık",
+      "Davranış",
+      "Yargı"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Kendini Hizmet Eden Yanlılık",
+    "yasaklar": [
+      "Başarı",
+      "Başarısızlık",
+      "Atıf",
+      "Kredi",
+      "Suçlama"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Adil Dünya İnancı",
+    "yasaklar": [
+      "Hak Eder",
+      "Suçlu",
+      "Kader",
+      "Adalet",
+      "Rasyonelleştirme"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Sosyal Kolaylaştırma",
+    "yasaklar": [
+      "Performans",
+      "Kalabalık",
+      "Gözlemci",
+      "Basit Görev",
+      "Artış"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Sosyal Kaytarma",
+    "yasaklar": [
+      "Grup",
+      "Emeğe Katkı",
+      "Azalma",
+      "Sorumluluk",
+      "Toplam"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Kendini Sunum",
+    "yasaklar": [
+      "İzlenim Yönetimi",
+      "Goffman",
+      "İmaj",
+      "Sahne",
+      "Rol"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Normatif Etki",
+    "yasaklar": [
+      "Uyma",
+      "Onay",
+      "Sosyal",
+      "Beğenilme",
+      "Baskı"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Bilgilendirici Etki",
+    "yasaklar": [
+      "Doğru",
+      "Belirsizlik",
+      "Kanıt",
+      "Uyma",
+      "Grup"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Azınlık Etkisi",
+    "yasaklar": [
+      "Tutarlılık",
+      "İkna",
+      "Grup",
+      "Değişim",
+      "Çoğunluk"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Bumerang Etkisi",
+    "yasaklar": [
+      "İkna",
+      "Ters Tepme",
+      "Tutum",
+      "Direnç",
+      "Mesaj"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Kapıya Ayak Sokma",
+    "yasaklar": [
+      "Küçük İstek",
+      "Büyük İstek",
+      "Uyma",
+      "Teknik",
+      "İkna"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Kapıyı Yüzüne Çarpma",
+    "yasaklar": [
+      "Aşırı İstek",
+      "Reddetme",
+      "Daha Küçük",
+      "Uyma",
+      "Teknik"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Değişim Körlüğü",
+    "yasaklar": [
+      "Görsel",
+      "Fark",
+      "Dikkat",
+      "Algı",
+      "Video"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Dikkat Körlüğü",
+    "yasaklar": [
+      "Goril",
+      "Fark Etmeme",
+      "Odak",
+      "Görme",
+      "Seçici"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "McGurk Etkisi",
+    "yasaklar": [
+      "Ses",
+      "Görüntü",
+      "Bütünleşme",
+      "Algı",
+      "Yanılsama"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Ames Odası",
+    "yasaklar": [
+      "Yanılsama",
+      "Oda",
+      "Perspektif",
+      "Boyut",
+      "Algı"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Müller-Lyer İllüzyonu",
+    "yasaklar": [
+      "Ok Ucu",
+      "Uzunluk",
+      "Yanıltma",
+      "Algı",
+      "Çizgi"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Ponzo İllüzyonu",
+    "yasaklar": [
+      "Perspektif",
+      "Demiryolu",
+      "Uzunluk",
+      "Yakınsama",
+      "Yanılsama"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Phi Fenomeni",
+    "yasaklar": [
+      "Hareket",
+      "Sabit",
+      "Işık",
+      "Algı",
+      "Sıralı"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Yakınlık İlkesi",
+    "yasaklar": [
+      "Gestalt",
+      "Gruplama",
+      "Uzaklık",
+      "Öğe",
+      "Birlik"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Benzerlik İlkesi",
+    "yasaklar": [
+      "Gestalt",
+      "Renk",
+      "Şekil",
+      "Gruplama",
+      "Kategori"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Tamamlama İlkesi",
+    "yasaklar": [
+      "Gestalt",
+      "Eksik",
+      "Bütün",
+      "Algı",
+      "Kapama"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Süreklilik İlkesi",
+    "yasaklar": [
+      "Gestalt",
+      "Çizgi",
+      "Akış",
+      "Devam",
+      "Algı"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Broca Alanı",
+    "yasaklar": [
+      "Konuşma",
+      "Afasia",
+      "Frontal",
+      "Beyin",
+      "Üretim"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Wernicke Alanı",
+    "yasaklar": [
+      "Anlama",
+      "Afasia",
+      "Temporal",
+      "Dil",
+      "Beyin"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Bazal Ganglion",
+    "yasaklar": [
+      "Hareket",
+      "Dopamin",
+      "Parkinson",
+      "Öğrenme",
+      "Striatum"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Beyincik",
+    "yasaklar": [
+      "Serebellum",
+      "Denge",
+      "Koordinasyon",
+      "Motor",
+      "Hareket"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Prefrontal Korteks",
+    "yasaklar": [
+      "Yürütücü İşlev",
+      "Planlama",
+      "Karar",
+      "İnhibisyon",
+      "Beyin"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Ayna Nöronlar",
+    "yasaklar": [
+      "Gözlem",
+      "Taklit",
+      "Empati",
+      "Motor",
+      "Sistem"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Miyelin",
+    "yasaklar": [
+      "Kılıf",
+      "İletim",
+      "Hız",
+      "Akson",
+      "Demiyelinizasyon"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Hipotalamus",
+    "yasaklar": [
+      "Homeostaz",
+      "Açlık",
+      "Susuzluk",
+      "Hormonal",
+      "Beyin"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Talamus",
+    "yasaklar": [
+      "Duyu",
+      "Aktarma",
+      "Beyin",
+      "Kapı",
+      "Çekirdek"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Substantia Nigra",
+    "yasaklar": [
+      "Dopamin",
+      "Parkinson",
+      "Bazal",
+      "Hareket",
+      "Nigra"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Nucleus Accumbens",
+    "yasaklar": [
+      "Ödül",
+      "Dopamin",
+      "Bağımlılık",
+      "Motivasyon",
+      "Striatum"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Glia Hücreleri",
+    "yasaklar": [
+      "Destek",
+      "Astrosit",
+      "Mikroglia",
+      "Oligodendrosit",
+      "Nöron Dışı"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Oligodendrosit",
+    "yasaklar": [
+      "Miyelin",
+      "Merkezi Sinir",
+      "Glia",
+      "Akson",
+      "Destek"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Mikroglia",
+    "yasaklar": [
+      "Bağışıklık",
+      "Temizlik",
+      "Enflamasyon",
+      "Glia",
+      "Beyin"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Astrosit",
+    "yasaklar": [
+      "Destek",
+      "Kan-Beyin",
+      "Glia",
+      "Beslenme",
+      "Homeostaz"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Zihin Kuramı",
+    "yasaklar": [
+      "Başkasının Zihni",
+      "İnanç",
+      "Niyet",
+      "Otizm",
+      "Anlama"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Ebeveynlik Stilleri",
+    "yasaklar": [
+      "Otoriter",
+      "Otoritatif",
+      "İzin Verici",
+      "İhmalci",
+      "Çocuk"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Otoriter Ebeveynlik",
+    "yasaklar": [
+      "Katı",
+      "Kural",
+      "İtaat",
+      "Ceza",
+      "Kontrol"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Otoritatif Ebeveynlik",
+    "yasaklar": [
+      "Sıcak",
+      "Sınır",
+      "Demokratik",
+      "Destek",
+      "Disiplin"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "İzin Verici Ebeveynlik",
+    "yasaklar": [
+      "Gevşek",
+      "Kural Yok",
+      "Özgür",
+      "Sınır",
+      "Tutarsız"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "İhmalci Ebeveynlik",
+    "yasaklar": [
+      "İlgisiz",
+      "Gözetim",
+      "Bağlanma",
+      "Uzak",
+      "İhtiyaç"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Mizaç",
+    "yasaklar": [
+      "Kolay",
+      "Zor",
+      "Yavaş Isınan",
+      "Kişilik",
+      "Doğuştan"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Akran Etkisi",
+    "yasaklar": [
+      "Arkadaş",
+      "Grup",
+      "Ergen",
+      "Uyum",
+      "Davranış"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Duygusal Düzenleme",
+    "yasaklar": [
+      "Kontrol",
+      "Strateji",
+      "Çocuk",
+      "Yürütücü",
+      "Beceri"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Yürütücü İşlev Gelişimi",
+    "yasaklar": [
+      "Planlama",
+      "Çalışma Belleği",
+      "İnhibisyon",
+      "Prefrontal",
+      "Kontrol"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Perspektif Alma",
+    "yasaklar": [
+      "Bakış Açısı",
+      "Empati",
+      "Zihin",
+      "Anlama",
+      "Sosyal"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Şema Terapi",
+    "yasaklar": [
+      "Young",
+      "Mod",
+      "Temel İhtiyaç",
+      "Kalıp",
+      "Uyumsuz"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Kabul ve Kararlılık Terapisi",
+    "yasaklar": [
+      "ACT",
+      "Mindfulness",
+      "Değerler",
+      "Kabul",
+      "Bağlılık"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Diyalektik Davranış Terapisi",
+    "yasaklar": [
+      "DBT",
+      "Marsha Linehan",
+      "Düzenleme",
+      "Beceri",
+      "Mindfulness"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Çözüm Odaklı Kısa Terapi",
+    "yasaklar": [
+      "Hedef",
+      "Kaynak",
+      "İstisna",
+      "Ölçek",
+      "Kısa"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Motivasyonel Görüşme",
+    "yasaklar": [
+      "Değişim",
+      "Çatışma",
+      "Empati",
+      "Özerklik",
+      "İşbirliği"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Aile Terapisi",
+    "yasaklar": [
+      "Sistem",
+      "İlişki",
+      "Roller",
+      "İletişim",
+      "Döngü"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Çift Terapisi",
+    "yasaklar": [
+      "İlişki",
+      "İletişim",
+      "Çatışma",
+      "Yakınlık",
+      "Güven"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Oyun Terapisi",
+    "yasaklar": [
+      "Çocuk",
+      "Sembol",
+      "Oyuncak",
+      "Duygu",
+      "İfade"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Sanat Terapisi",
+    "yasaklar": [
+      "Resim",
+      "Yaratıcılık",
+      "İfade",
+      "Duygu",
+      "Süreç"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Mindfulness Temelli Terapi",
+    "yasaklar": [
+      "Farkındalık",
+      "An",
+      "Nefes",
+      "Kabul",
+      "Meditasyon"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Varoluşçu Terapi",
+    "yasaklar": [
+      "Anlam",
+      "Özgürlük",
+      "Sorumluluk",
+      "Yalnızlık",
+      "Ölüm"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Duygu Odaklı Terapi",
+    "yasaklar": [
+      "EFT",
+      "Duygu",
+      "Bağlanma",
+      "İlişki",
+      "Model"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Makyavelizm",
+    "yasaklar": [
+      "Manipülasyon",
+      "Güç",
+      "Çıkar",
+      "Soğuk",
+      "Strateji"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Psikopati",
+    "yasaklar": [
+      "Empati Yoksunluğu",
+      "Duygusuz",
+      "Antisosyal",
+      "Risk",
+      "Dürtü"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Kendini İzleme",
+    "yasaklar": [
+      "Davranış Ayarı",
+      "Duruma Uyum",
+      "İmaj",
+      "Esneklik",
+      "Farkındalık"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Özsaygı",
+    "yasaklar": [
+      "Kendine Değer",
+      "Benlik",
+      "Güven",
+      "Saygı",
+      "Değerlendirme"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "İhtiyaçlar Kuramı",
+    "yasaklar": [
+      "McClelland",
+      "Başarı",
+      "Güç",
+      "Yakınlık",
+      "Motivasyon"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Başa Çıkma Stratejileri",
+    "yasaklar": [
+      "Problem Odaklı",
+      "Duygu Odaklı",
+      "Kaçınma",
+      "Uyum",
+      "Stres"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Tip A Davranış Kalıbı",
+    "yasaklar": [
+      "Rekabetçi",
+      "Acele",
+      "Öfke",
+      "Koroner",
+      "Stres"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Tip B Davranış Kalıbı",
+    "yasaklar": [
+      "Rahat",
+      "Sakin",
+      "Az Stres",
+      "Sabırlı",
+      "Dengeli"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Sağlık İnanç Modeli",
+    "yasaklar": [
+      "Algı",
+      "Duyarlılık",
+      "Ciddiyet",
+      "Engel",
+      "Fayda"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Planlı Davranış Teorisi",
+    "yasaklar": [
+      "Niyet",
+      "Tutum",
+      "Norm",
+      "Kontrol",
+      "Davranış"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Algılanan Stres",
+    "yasaklar": [
+      "Değerlendirme",
+      "Yük",
+      "Kaynak",
+      "Tehdit",
+      "Başa Çıkma"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Sosyal Destek",
+    "yasaklar": [
+      "Ağ",
+      "Yardım",
+      "Arkadaş",
+      "Aile",
+      "Kaynak"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Psikosomatik Hastalık",
+    "yasaklar": [
+      "Beden",
+      "Zihin",
+      "Belirti",
+      "Stres",
+      "İlişki"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "MMPI",
+    "yasaklar": [
+      "Kişilik Envanteri",
+      "Minnesota",
+      "Klinik Ölçek",
+      "Doğruluk",
+      "Psikometri"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "WAIS",
+    "yasaklar": [
+      "Wechsler",
+      "Yetişkin",
+      "Zeka",
+      "Alt Test",
+      "PUAN"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "WISC",
+    "yasaklar": [
+      "Wechsler",
+      "Çocuk",
+      "Zeka",
+      "Alt Test",
+      "Puan"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Raven İlerleyen Matrisler",
+    "yasaklar": [
+      "Şekil",
+      "Desen",
+      "Soyut",
+      "Zeka",
+      "Kültür Bağımsız"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Beck Depresyon Envanteri",
+    "yasaklar": [
+      "BDI",
+      "Öz Bildirim",
+      "Belirti",
+      "Puan",
+      "Kesme"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Beck Anksiyete Envanteri",
+    "yasaklar": [
+      "BAI",
+      "Kaygı",
+      "Belirti",
+      "Öz Bildirim",
+      "Puan"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "STAI",
+    "yasaklar": [
+      "Durumluk",
+      "Sürekli",
+      "Kaygı",
+      "Envanter",
+      "Spielberger"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "NEO-PI-R",
+    "yasaklar": [
+      "Beş Faktör",
+      "Kişilik",
+      "Envanter",
+      "Uyumluluk",
+      "Açıklık"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Bender-Gestalt Testi",
+    "yasaklar": [
+      "Görsel Motor",
+      "Algı",
+      "Çizim",
+      "Nöropsikoloji",
+      "Değerlendirme"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Wisconsin Kart Eşleme Testi",
+    "yasaklar": [
+      "Yürütücü İşlev",
+      "Esneklik",
+      "Kategori",
+      "Kural",
+      "Prefrontal"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Stroop Testi",
+    "yasaklar": [
+      "Renk",
+      "Kelime",
+      "Çatışma",
+      "İnhibisyon",
+      "Zaman"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Bağımsız Değişken",
+    "yasaklar": [
+      "Manipüle",
+      "Neden",
+      "Deney",
+      "Koşul",
+      "Etki"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Kontrol Grubu",
+    "yasaklar": [
+      "Karşılaştırma",
+      "Plasebo",
+      "Koşul",
+      "Deney",
+      "Fark"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Deney Grubu",
+    "yasaklar": [
+      "Müdahale",
+      "Koşul",
+      "Etki",
+      "Karşılaştırma",
+      "Manipülasyon"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Rastgele Atama",
+    "yasaklar": [
+      "Randomizasyon",
+      "Şans",
+      "Dengeli",
+      "Önyargı",
+      "Denek"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Çift Kör Tasarım",
+    "yasaklar": [
+      "Körleme",
+      "Araştırmacı",
+      "Katılımcı",
+      "Yanlılık",
+      "İlaç"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Tek Kör Tasarım",
+    "yasaklar": [
+      "Plasebo",
+      "Katılımcı",
+      "Bilmez",
+      "Yanlılık",
+      "Koşul"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Talep Özellikleri",
+    "yasaklar": [
+      "İpucu",
+      "Beklenti",
+      "Davranış",
+      "Araştırma",
+      "Etki"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Deneyci Etkisi",
+    "yasaklar": [
+      "Beklenti",
+      "Yanlılık",
+      "Araştırmacı",
+      "Sonuç",
+      "Etkilenme"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "İç Geçerlik",
+    "yasaklar": [
+      "Neden-Sonuç",
+      "Kontrol",
+      "Tehdit",
+      "Karıştırıcı",
+      "Dizayn"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Dış Geçerlik",
+    "yasaklar": [
+      "Genellenebilirlik",
+      "Örneklem",
+      "Ortam",
+      "Gerçek Dünya",
+      "Uygulama"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Güvenirlik",
+    "yasaklar": [
+      "Tutarlılık",
+      "Tekrar",
+      "Ölçüm",
+      "Hata",
+      "Test"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Bilinç",
+    "yasaklar": [
+      "Farkındalık",
+      "Uyanıklık",
+      "Düş",
+      "Kontrol",
+      "Dikkat"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Düşünme",
+    "yasaklar": [
+      "Problem",
+      "Çözüm",
+      "Akıl Yürütme",
+      "Karar",
+      "Kavram"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Dil",
+    "yasaklar": [
+      "Sözcük",
+      "Gramer",
+      "Anlam",
+      "Konuşma",
+      "Anlama"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Duygu Düzenleme",
+    "yasaklar": [
+      "Kontrol",
+      "Yönetim",
+      "Strateji",
+      "Biliş",
+      "Denge"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Problem Çözme",
+    "yasaklar": [
+      "Engel",
+      "Strateji",
+      "Deneme Yanılma",
+      "İçgörü",
+      "Plan"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Karar Verme",
+    "yasaklar": [
+      "Seçim",
+      "Alternatif",
+      "Risk",
+      "Yarar",
+      "Heuristik"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Sezgisel Kestirme",
+    "yasaklar": [
+      "Heuristik",
+      "Hızlı",
+      "Basit",
+      "Yanlılık",
+      "Kural"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Sürdürülen Dikkat",
+    "yasaklar": [
+      "Uzun Süre",
+      "Odak",
+      "Performans",
+      "Uyanıklık",
+      "Görev"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "G Faktörü",
+    "yasaklar": [
+      "Genel Zeka",
+      "Spearman",
+      "Ortak",
+      "Yetenek",
+      "Bileşen"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "S Faktörü",
+    "yasaklar": [
+      "Özel Zeka",
+      "Görev",
+      "Beceriler",
+      "Alan",
+      "Bileşen"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Çoklu Zeka Kuramı",
+    "yasaklar": [
+      "Gardner",
+      "Sözel",
+      "Görsel",
+      "Bedensel",
+      "Müzik"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Üçlü Zeka Kuramı",
+    "yasaklar": [
+      "Sternberg",
+      "Analitik",
+      "Yaratıcı",
+      "Pratik",
+      "Model"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Yaratıcı Zeka",
+    "yasaklar": [
+      "Fikir",
+      "Özgün",
+      "Çözüm",
+      "Esneklik",
+      "Üretken"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Pratik Zeka",
+    "yasaklar": [
+      "Uygulama",
+      "Günlük",
+      "Uyum",
+      "Deneyim",
+      "Sokak"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Analitik Zeka",
+    "yasaklar": [
+      "Akıl Yürütme",
+      "Mantık",
+      "Değerlendirme",
+      "Test",
+      "Çözümleme"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Zeka Yaşı",
+    "yasaklar": [
+      "Binet",
+      "Kronolojik",
+      "Karşılaştırma",
+      "Puan",
+      "Seviye"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "HPA Ekseni",
+    "yasaklar": [
+      "Hipotalamus",
+      "Hipofiz",
+      "Adrenal",
+      "Kortizol",
+      "Stres"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Noradrenalin",
+    "yasaklar": [
+      "Nörotransmitter",
+      "Uyanıklık",
+      "Savaş ya da Kaç",
+      "Lokus Coeruleus",
+      "Dikkat"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Asetilkolin",
+    "yasaklar": [
+      "Nörotransmitter",
+      "Kas",
+      "Bellek",
+      "Alzheimer",
+      "Parasempatik"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "GABA",
+    "yasaklar": [
+      "İnhibitör",
+      "Nörotransmitter",
+      "Sakinleştirici",
+      "Benzodiazepin",
+      "Anksiyete"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Glutamat",
+    "yasaklar": [
+      "Uyarıcı",
+      "Nörotransmitter",
+      "Öğrenme",
+      "Plastisite",
+      "NMDA"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Oksitosin",
+    "yasaklar": [
+      "Bağ",
+      "Güven",
+      "Hormon",
+      "Annelik",
+      "Sosyal"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Melatonin",
+    "yasaklar": [
+      "Uyku",
+      "Karanlık",
+      "Pineal",
+      "Ritim",
+      "Hormon"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Endorfin",
+    "yasaklar": [
+      "Ağrı",
+      "Ödül",
+      "Koşucu",
+      "Hormon",
+      "Mutluluk"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Mevsimsel Duygudurum Bozukluğu",
+    "yasaklar": [
+      "Kış",
+      "Işık",
+      "Depresyon",
+      "Mevsim",
+      "Ritim"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Premenstrüel Disforik Bozukluk",
+    "yasaklar": [
+      "PMDB",
+      "Duygudurum",
+      "Adet",
+      "İrritabilite",
+      "Belirti"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Agorafobi",
+    "yasaklar": [
+      "Kalabalık",
+      "Kaçış",
+      "Panik",
+      "Mekan",
+      "Kaçınma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Dissosiyatif Füg",
+    "yasaklar": [
+      "Kimlik",
+      "Gezi",
+      "Amnezi",
+      "Kopma",
+      "Travma"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Token Ekonomisi",
+    "yasaklar": [
+      "Jeton",
+      "Pekiştirme",
+      "Ödül",
+      "Davranış",
+      "Program"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Ayrımsal Uyarıcı",
+    "yasaklar": [
+      "Sinyal",
+      "Davranış",
+      "Koşul",
+      "Seçici",
+      "İpucu"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Kaçınma Öğrenmesi",
+    "yasaklar": [
+      "Tehdit",
+      "Negatif",
+      "Pekiştirme",
+      "Kaçış",
+      "Sinyal"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Sıklıkla Maruz Kalma Etkisi",
+    "yasaklar": [
+      "Mere Exposure",
+      "Tekrar",
+      "Beğeni",
+      "Tanıdıklık",
+      "Tercih"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Grup Kutuplaşması",
+    "yasaklar": [
+      "Aşırılık",
+      "Tartışma",
+      "Grup",
+      "Tutum",
+      "Uçlaşma"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Karşılıklılık Normu",
+    "yasaklar": [
+      "İyilik",
+      "Karşılık",
+      "Norm",
+      "Sosyal",
+      "Beklenti"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Thatcher Etkisi",
+    "yasaklar": [
+      "Yüz",
+      "Ters",
+      "Algı",
+      "Bozulma",
+      "İllüzyon"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Hareket Sonrası Etki",
+    "yasaklar": [
+      "Aftereffect",
+      "Hareket",
+      "Görsel",
+      "Algı",
+      "Yanılsama"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Elde Edilebilirlik Sezgisi",
+    "yasaklar": [
+      "Availability",
+      "Örnek",
+      "Kolaylık",
+      "Olasılık",
+      "Hızlı"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Temsil Edicilik Sezgisi",
+    "yasaklar": [
+      "Representativeness",
+      "Benzerlik",
+      "Kategori",
+      "Olasılık",
+      "Kestirme"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Çerçeveleme Etkisi",
+    "yasaklar": [
+      "Sunum",
+      "Kayıp",
+      "Kazanç",
+      "Karar",
+      "İfade"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Batık Maliyet Yanılgısı",
+    "yasaklar": [
+      "Devam",
+      "Yatırım",
+      "Bırakamama",
+      "Karar",
+      "Kayıp"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Fusiform Yüz Alanı",
+    "yasaklar": [
+      "FFA",
+      "Yüz",
+      "Tanıma",
+      "Temporal",
+      "Fusiform"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Primer Motor Korteks",
+    "yasaklar": [
+      "M1",
+      "Hareket",
+      "Frontal",
+      "Korteks",
+      "Motor"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Hipomanik Epizot",
+    "yasaklar": [
+      "Mani",
+      "Bipolar",
+      "Yüksek Enerji",
+      "Uyku Azalması",
+      "Dürtüsellik"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Katatonik Belirtiler",
+    "yasaklar": [
+      "Hareket",
+      "Donakalma",
+      "Esneklik",
+      "Mutizm",
+      "Psikoz"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Psikotik Özellikli Depresyon",
+    "yasaklar": [
+      "Sanrı",
+      "Halüsinasyon",
+      "Ağır",
+      "Depresyon",
+      "Psikoz"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Tardif Diskinezi",
+    "yasaklar": [
+      "İlaç",
+      "Antipsikotik",
+      "İstem Dışı",
+      "Yüz",
+      "Hareket"
+    ],
+    "kategori": "Klinik Psikoloji"
+  },
+  {
+    "kelime": "Karşı Koşullama",
+    "yasaklar": [
+      "Öğrenme",
+      "Maruz Bırakma",
+      "Fobi",
+      "Yeni Tepki",
+      "Uyumsuz"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Duygusal Koşullanma",
+    "yasaklar": [
+      "Korku",
+      "Klasik",
+      "Uyaran",
+      "Tepki",
+      "Deney"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "İpucu Kontrolü",
+    "yasaklar": [
+      "Discriminative",
+      "Sinyal",
+      "Uyarıcı",
+      "Davranış",
+      "Kontrol"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Yadsıma",
+    "yasaklar": [
+      "İnkar",
+      "Gerçeklik",
+      "Savunma",
+      "Ego",
+      "Kabul Etmeme"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Bastırma",
+    "yasaklar": [
+      "Bilinçdışı",
+      "Anı",
+      "Savunma",
+      "İtme",
+      "Kaygı"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Haz İlkesi",
+    "yasaklar": [
+      "İd",
+      "Anlık",
+      "Tatmin",
+      "Gerçeklik İlkesi",
+      "Güdü"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Barnum Etkisi",
+    "yasaklar": [
+      "Genel",
+      "Kişisel",
+      "Fal",
+      "Onay",
+      "Forer"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "İllüzyonel Üstünlük",
+    "yasaklar": [
+      "Ortalama Üstü",
+      "Benlik",
+      "Yanlılık",
+      "Karşılaştırma",
+      "Değerlendirme"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Temel Sıklık Yanılgısı",
+    "yasaklar": [
+      "Base Rate",
+      "Olasılık",
+      "Göz ardı",
+      "İstatistik",
+      "Örnek"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Görsel Arama",
+    "yasaklar": [
+      "Hedef",
+      "Dikkat",
+      "Dizi",
+      "Özellik",
+      "Sahne"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Dikkat Yakalama",
+    "yasaklar": [
+      "Aniden",
+      "Beklenmedik",
+      "Uyarıcı",
+      "Odak",
+      "Çekme"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Bilişsel Yük",
+    "yasaklar": [
+      "Kaynak",
+      "Zorlanma",
+      "Görev",
+      "Çaba",
+      "Sınır"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "İnhibisyon Kontrolü",
+    "yasaklar": [
+      "Durdurma",
+      "Yanıt",
+      "Yürütücü",
+      "Çatışma",
+      "Kontrol"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Parietal Lob",
+    "yasaklar": [
+      "Duyu",
+      "Uzamsal",
+      "Dikkat",
+      "Somatosensoriyel",
+      "Beyin"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Temporal Lob",
+    "yasaklar": [
+      "Bellek",
+      "Dil",
+      "İşitsel",
+      "Tanıma",
+      "Beyin"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "İş Tatmini",
+    "yasaklar": [
+      "Memnuniyet",
+      "Çalışma",
+      "Motivasyon",
+      "Örgüt",
+      "Anket"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Örgütsel Adalet",
+    "yasaklar": [
+      "Dağıtım",
+      "Prosedür",
+      "Etkileşimsel",
+      "Adil",
+      "Algı"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Psikolojik Güvenlik",
+    "yasaklar": [
+      "Takım",
+      "Hata",
+      "Konuşma",
+      "Risk",
+      "Cezasız"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Alışkanlık",
+    "yasaklar": [
+      "Tekrar",
+      "Otomatik",
+      "Davranış",
+      "Rutin",
+      "Öğrenme"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Duyusal Uyarlama",
+    "yasaklar": [
+      "Adaptasyon",
+      "Sabit",
+      "Uyarıcı",
+      "Azalma",
+      "Duyu"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "İçsel Motivasyon",
+    "yasaklar": [
+      "Ödül",
+      "Merak",
+      "Keyif",
+      "Özerklik",
+      "Güdü"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Sağlık Okuryazarlığı",
+    "yasaklar": [
+      "Bilgi",
+      "Anlama",
+      "Karar",
+      "Tedavi",
+      "İletişim"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Risk Algısı",
+    "yasaklar": [
+      "Tehdit",
+      "Olasılık",
+      "Duygu",
+      "Karar",
+      "Korunma"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Hastalıkla Baş Etme",
+    "yasaklar": [
+      "Uyum",
+      "Strateji",
+      "Sosyal Destek",
+      "Problem Odaklı",
+      "Duygu Odaklı"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Nörohormon",
+    "yasaklar": [
+      "Hormon",
+      "Beyin",
+      "İletim",
+      "Endokrin",
+      "Davranış"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Sinaptik Budanma",
+    "yasaklar": [
+      "Gelişim",
+      "Ergenlik",
+      "Bağlantı",
+      "Verimlilik",
+      "Plastisite"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Homeostazis",
+    "yasaklar": [
+      "Denge",
+      "Hipotalamus",
+      "İç Ortam",
+      "Düzenleme",
+      "Sabitlik"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Öz-yeterlik",
+    "yasaklar": [
+      "Bandura",
+      "İnanç",
+      "Başarı",
+      "Kontrol",
+      "Beklenti"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Öz-anlayış",
+    "yasaklar": [
+      "Kendine Şefkat",
+      "Neff",
+      "Nazik",
+      "Farkındalık",
+      "İnsani Ortaklık"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Karanlık Üçlü",
+    "yasaklar": [
+      "Narsisizm",
+      "Makyavelizm",
+      "Psikopati",
+      "Kişilik",
+      "Olumsuz"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Zekanın Kalıtımsallığı",
+    "yasaklar": [
+      "İkiz",
+      "Korelasyon",
+      "Genetik",
+      "Çevre",
+      "Miras"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Zeka Testi Normları",
+    "yasaklar": [
+      "Standart",
+      "Yaş",
+      "Puan",
+      "Dağılım",
+      "Norm"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "IQ Dağılımı",
+    "yasaklar": [
+      "Normal",
+      "Çan Eğrisi",
+      "Standart Sapma",
+      "Ortalama",
+      "Yüzdelik"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "TCI",
+    "yasaklar": [
+      "Cloninger",
+      "Mizaç",
+      "Karakter",
+      "Envanter",
+      "Boyut"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "PAI",
+    "yasaklar": [
+      "Assessment",
+      "Kişilik",
+      "Klinik",
+      "Ölçek",
+      "Öz Bildirim"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "HADS",
+    "yasaklar": [
+      "Anksiyete",
+      "Depresyon",
+      "Hastane",
+      "Ölçek",
+      "Tarama"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Tekrarlı Ölçümler Tasarımı",
+    "yasaklar": [
+      "Aynı Denek",
+      "Koşul",
+      "Varyans",
+      "Karşılaştırma",
+      "Zaman"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Faktöriyel Tasarım",
+    "yasaklar": [
+      "Etkileşim",
+      "Ana Etki",
+      "2x2",
+      "Dizayn",
+      "Deney"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Karıştırıcı Değişken",
+    "yasaklar": [
+      "Confound",
+      "Kontrol",
+      "Tehdit",
+      "İç Geçerlik",
+      "Yanlılık"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Derinlik İpuçları",
+    "yasaklar": [
+      "Binoküler",
+      "Monoküler",
+      "Perspektif",
+      "Yakınsama",
+      "Gölge"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Hareket Paralaksı",
+    "yasaklar": [
+      "Yakın",
+      "Uzak",
+      "Göreli",
+      "Hareket",
+      "İpucu"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Renk Karşıtlık Kuramı",
+    "yasaklar": [
+      "Ewald Hering",
+      "Kırmızı-Yeşil",
+      "Mavi-Sarı",
+      "Karşıt",
+      "Görme"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "İş Stresi Yönetimi",
+    "yasaklar": [
+      "Talepler",
+      "Kaynaklar",
+      "Tükenmişlik",
+      "Coping",
+      "İşyeri"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "İşe Alım ve Seçme",
+    "yasaklar": [
+      "Mülakat",
+      "Değerlendirme",
+      "Aday",
+      "Uygunluk",
+      "Kriter"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Performans Değerlendirme",
+    "yasaklar": [
+      "Geri Bildirim",
+      "Hedef",
+      "KPI",
+      "Derecelendirme",
+      "Yeterlik"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Ödül Sistemleri",
+    "yasaklar": [
+      "Prim",
+      "Maaş",
+      "Teşvik",
+      "Adalet",
+      "Motivasyon"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "İş Rotasyonu",
+    "yasaklar": [
+      "Görev",
+      "Çeşitlilik",
+      "Öğrenme",
+      "Sıkılma",
+      "Yetenek"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Ergonomi",
+    "yasaklar": [
+      "Uygunluk",
+      "Tasarım",
+      "İşyeri",
+      "Konfor",
+      "Verimlilik"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "İş Analizi",
+    "yasaklar": [
+      "Görev",
+      "Sorumluluk",
+      "Yetkinlik",
+      "Açıklama",
+      "Gereklilik"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Lider-Üye Etkileşimi",
+    "yasaklar": [
+      "LMX",
+      "İlişki",
+      "Güven",
+      "Takım",
+      "Değişim"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Örgütsel Bağlılık",
+    "yasaklar": [
+      "Sadakat",
+      "Devam",
+      "Duygusal",
+      "Normatif",
+      "Tutum"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "İşgücü Devri",
+    "yasaklar": [
+      "Ayrılma",
+      "Devir",
+      "Tutma",
+      "Memnuniyet",
+      "Niyet"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "İlaç Uyumu",
+    "yasaklar": [
+      "Tedavi",
+      "Düzenli",
+      "Hatırlatma",
+      "Doz",
+      "Sadakat"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Sağlıklı Yaşam Davranışları",
+    "yasaklar": [
+      "Beslenme",
+      "Egzersiz",
+      "Uyku",
+      "Alkol",
+      "Sigara"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Ağrı Yönetimi",
+    "yasaklar": [
+      "Analjezi",
+      "Bilişsel",
+      "Gevşeme",
+      "Biyoğrafik",
+      "Davranışsal"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Öğrenme Eğrisi",
+    "yasaklar": [
+      "Pratik",
+      "İyileşme",
+      "Performans",
+      "Zaman",
+      "Tekrar"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Duygulanım",
+    "yasaklar": [
+      "Affect",
+      "Duygu",
+      "Valans",
+      "Uyarılma",
+      "İfade"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Uyarılma Düzeyi",
+    "yasaklar": [
+      "Arousal",
+      "Yerkes-Dodson",
+      "Performans",
+      "U",
+      "Stres"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Endokanabinoid Sistem",
+    "yasaklar": [
+      "CB1",
+      "CB2",
+      "Anandamid",
+      "İştah",
+      "Ağrı"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Kortizol",
+    "yasaklar": [
+      "Stres",
+      "Glukokortikoid",
+      "Adrenal",
+      "Ritim",
+      "HPA"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Nöromodülasyon",
+    "yasaklar": [
+      "Modüle",
+      "Ağ",
+      "Nörotransmitter",
+      "Denge",
+      "Etkileşim"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Öz-düzenleme",
+    "yasaklar": [
+      "Kendi Kontrol",
+      "Hedef",
+      "İzleme",
+      "Strateji",
+      "Davranış"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Mizaç ve Karakter Boyutları",
+    "yasaklar": [
+      "Cloninger",
+      "TCI",
+      "Boyut",
+      "Kişilik",
+      "Değişken"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Konformite",
+    "yasaklar": [
+      "Uyum",
+      "Grup",
+      "Baskı",
+      "Asch",
+      "Başkaları"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Ön Yargı",
+    "yasaklar": [
+      "Kalıp Yargı",
+      "Ayrımcılık",
+      "Tutum",
+      "Olumsuz",
+      "Grup"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Amnezi",
+    "yasaklar": [
+      "Hafıza",
+      "Unutmak",
+      "Bellek",
+      "Travma",
+      "Hatırlamamak"
+    ],
+    "kategori": "Nöropsikoloji"
+  },
+  {
+    "kelime": "Libido",
+    "yasaklar": [
+      "Cinsel",
+      "Enerji",
+      "Freud",
+      "Haz",
+      "Dürtü"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Bağlanma",
+    "yasaklar": [
+      "Bowlby",
+      "Anne",
+      "Bebek",
+      "Güvenli",
+      "Kaygılı"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Gestalt Terapi",
+    "yasaklar": [
+      "Bütün",
+      "Fritz Perls",
+      "Burada ve Şimdi",
+      "Farkındalık",
+      "Sandalye"
+    ],
+    "kategori": "Terapi Yöntemleri"
+  },
+  {
+    "kelime": "Rorschach Testi",
+    "yasaklar": [
+      "Mürekkep",
+      "Leke",
+      "Projektif",
+      "Yorumlama",
+      "Kişilik"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "TAT (Tematik Algı Testi)",
+    "yasaklar": [
+      "Resim",
+      "Hikaye",
+      "Projektif",
+      "Yorumlama",
+      "Murray"
+    ],
+    "kategori": "Psikolojik Testler"
+  },
+  {
+    "kelime": "Korelasyon",
+    "yasaklar": [
+      "İlişki",
+      "Değişken",
+      "Pozitif",
+      "Negatif",
+      "Neden-Sonuç Değil"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "IQ",
+    "yasaklar": [
+      "Zeka",
+      "Puan",
+      "Test",
+      "Binet",
+      "Wechsler"
+    ],
+    "kategori": "Zeka"
+  },
+  {
+    "kelime": "Dışadönüklük",
+    "yasaklar": [
+      "Sosyal",
+      "Enerjik",
+      "Konuşkan",
+      "Jung",
+      "İçe dönük"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Psikosomatik",
+    "yasaklar": [
+      "Zihin",
+      "Beden",
+      "Hastalık",
+      "Stres",
+      "Ülser"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Mobbing",
+    "yasaklar": [
+      "İş yeri",
+      "Yıldırma",
+      "Baskı",
+      "Psikolojik",
+      "Zorbalık"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Kolektif Bilinçdışı",
+    "yasaklar": [
+      "Jung",
+      "Arketip",
+      "Ortak",
+      "Atalar",
+      "Miras"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Kimlik Bunalımı",
+    "yasaklar": [
+      "Erikson",
+      "Ergenlik",
+      "Ben Kimim",
+      "Rol Karmaşası",
+      "Kriz"
+    ],
+    "kategori": "Gelişim Psikolojisi"
+  },
+  {
+    "kelime": "Doğrulama Yanlılığı",
+    "yasaklar": [
+      "Kanıt",
+      "İnanç",
+      "Aramak",
+      "Fikir",
+      "Desteklemek"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Algıda Seçicilik",
+    "yasaklar": [
+      "Dikkat",
+      "Odaklanma",
+      "Fark Etmek",
+      "Önemli",
+      "İlgi"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "A Tipi Kişilik",
+    "yasaklar": [
+      "Aceleci",
+      "Rekabetçi",
+      "Sabırsız",
+      "Stres",
+      "Kalp Hastalığı"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Maslow Piramidi",
+    "yasaklar": [
+      "İhtiyaçlar",
+      "Hiyerarşi",
+      "Kendini Gerçekleştirme",
+      "Fizyolojik",
+      "Güvenlik"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Nöroplastisite",
+    "yasaklar": [
+      "Beyin",
+      "Değişebilirlik",
+      "Esneklik",
+      "Öğrenme",
+      "Bağlantı"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "Hawthorne Etkisi",
+    "yasaklar": [
+      "Gözlem",
+      "Verimlilik",
+      "Deney",
+      "Farkında Olma",
+      "Davranış Değişimi"
+    ],
+    "kategori": "Endüstri Psikolojisi"
+  },
+  {
+    "kelime": "Atıf Teorisi",
+    "yasaklar": [
+      "Neden",
+      "Yükleme",
+      "Davranış",
+      "İçsel",
+      "Dışsal"
+    ],
+    "kategori": "Sosyal Psikoloji"
+  },
+  {
+    "kelime": "Oedipus Kompleksi",
+    "yasaklar": [
+      "Freud",
+      "Anne",
+      "Baba",
+      "Çocuk",
+      "Cinsellik"
+    ],
+    "kategori": "Psikanalitik Kuram"
+  },
+  {
+    "kelime": "Pekiştireç",
+    "yasaklar": [
+      "Ödül",
+      "Davranış",
+      "Artırmak",
+      "Olumlu",
+      "Olumsuz"
+    ],
+    "kategori": "Davranışçılık"
+  },
+  {
+    "kelime": "Şema",
+    "yasaklar": [
+      "Zihinsel",
+      "Çerçeve",
+      "Bilgi",
+      "Kalıp",
+      "Piaget"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Dikkat",
+    "yasaklar": [
+      "Odaklanma",
+      "Seçici",
+      "Algı",
+      "Konsantrasyon",
+      "Filtre"
+    ],
+    "kategori": "Bilişsel Psikoloji"
+  },
+  {
+    "kelime": "Mutlak Eşik",
+    "yasaklar": [
+      "Duyu",
+      "Fark Etme",
+      "En Az",
+      "Uyaran",
+      "Sınır"
+    ],
+    "kategori": "Algı Psikolojisi"
+  },
+  {
+    "kelime": "Hipotez",
+    "yasaklar": [
+      "Tahmin",
+      "Deney",
+      "Değişken",
+      "Test Etmek",
+      "Araştırma"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "Plasebo",
+    "yasaklar": [
+      "Etkisiz",
+      "İlaç",
+      "Beklenti",
+      "Kontrol Grubu",
+      "Sahte"
+    ],
+    "kategori": "Deneysel Psikoloji"
+  },
+  {
+    "kelime": "İçedönüklük",
+    "yasaklar": [
+      "Yalnız",
+      "Sessiz",
+      "Jung",
+      "Enerji",
+      "Sosyal"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Beş Faktör Kişilik Kuramı",
+    "yasaklar": [
+      "Dışadönüklük",
+      "Nevrotiklik",
+      "Açıklık",
+      "Sorumluluk",
+      "Uyumluluk"
+    ],
+    "kategori": "Kişilik Psikolojisi"
+  },
+  {
+    "kelime": "Başa Çıkma",
+    "yasaklar": [
+      "Stres",
+      "Mücadele",
+      "Yöntem",
+      "Problem Odaklı",
+      "Duygu Odaklı"
+    ],
+    "kategori": "Sağlık Psikolojisi"
+  },
+  {
+    "kelime": "Öğrenme",
+    "yasaklar": [
+      "Davranış",
+      "Değişiklik",
+      "Yaşantı",
+      "Kalıcı",
+      "Koşullanma"
+    ],
+    "kategori": "Genel Psikoloji"
+  },
+  {
+    "kelime": "Nörotransmitter",
+    "yasaklar": [
+      "Kimyasal",
+      "Sinaps",
+      "Mesaj",
+      "Beyin",
+      "Serotonin"
+    ],
+    "kategori": "Biyopsikoloji"
+  },
+  {
+    "kelime": "İş Doyumu",
+    "yasaklar": [
+      "Memnuniyet",
+      "Çalışan",
+      "Mutluluk",
+      "Tatmin",
+      "Performans"
+    ],
+    "kategori": "Endüstri Psikolojisi"
   }
 ]
