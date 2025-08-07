@@ -93,9 +93,11 @@ export class TabuEngine {
    * Rastgele kelime seçer (seçilen kategorilerden)
    */
   getRandomWord(): PsychologyWord | null {
+    const categories = this.state.settings.selectedCategories;
     const availableWords = this.words.filter(word => {
       const isNotUsed = !this.usedWords.has(word.kelime);
-      return isNotUsed;
+      const inSelectedCategory = !categories || categories.length === 0 ? true : categories.includes(word.kategori);
+      return isNotUsed && inSelectedCategory;
     });
 
     if (availableWords.length === 0) {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowLeft, Clock, Target, SkipForward, Gamepad2, Smartphone } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
@@ -7,6 +7,7 @@ import { Team, GameSettings as GameSettingsType } from '@/types/game';
 import { loadSettings, saveSettings } from '@/lib/storage';
 import { useMotionSensor } from '@/hooks/use-motion-sensor';
 import { toast } from '@/hooks/use-toast';
+import { TabuEngine } from '@/games/tabu/TabuEngine';
 
 interface GameSettingsProps {
   teams: Team[];
@@ -25,8 +26,19 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
   const [maxScore, setMaxScore] = useState(savedSettings.maxScore);
   const [passCount, setPassCount] = useState(savedSettings.passCount);
   const [controlType, setControlType] = useState<'buttons' | 'motion'>('buttons');
+  const [allCategories, setAllCategories] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   
   const motionSensor = useMotionSensor();
+  // Kategori listesini TabuEngine'den al
+  useEffect(() => {
+    const engine = new TabuEngine();
+    engine.loadWords().then(() => {
+      const cats = engine.getCategories();
+      setAllCategories(cats);
+    });
+    // engine listener gerekmiyor burada
+  }, []);
 
   /**
    * Oyunu başlat
@@ -57,7 +69,8 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
       maxScore,
       passCount,
       darkMode: savedSettings.darkMode,
-      controlType
+      controlType,
+      selectedCategories
     };
     
     // Ayarları kaydet
@@ -157,6 +170,31 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
               unit="hak"
               onChange={setPassCount}
             />
+
+            {/* Kategori Seçimi */}
+            {allCategories.length > 0 && (
+              <div>
+                <h4 className="text-lg font-semibold text-foreground mb-2">Kategoriler</h4>
+                <p className="text-sm text-muted-foreground mb-3">Hangi kategorilerden kelime gelsin?</p>
+                <div className="grid grid-cols-2 gap-2">
+                  {allCategories.map((cat) => {
+                    const active = selectedCategories.includes(cat);
+                    return (
+                      <button
+                        key={cat}
+                        onClick={() => setSelectedCategories(prev => active ? prev.filter(c => c !== cat) : [...prev, cat])}
+                        className={`px-3 py-2 rounded-xl border text-left ${active ? 'border-primary bg-primary/10 text-primary' : 'border-border hover:border-primary/50'}`}
+                      >
+                        {cat}
+                      </button>
+                    );
+                  })}
+                </div>
+                <div className="mt-3 text-xs text-muted-foreground">
+                  {selectedCategories.length === 0 ? 'Tümü seçili (kısıtlama yok)' : `${selectedCategories.length} kategori seçildi`}
+                </div>
+              </div>
+            )}
           </div>
         </Card>
 

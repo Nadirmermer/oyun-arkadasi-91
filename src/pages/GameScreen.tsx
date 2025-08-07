@@ -91,6 +91,16 @@ export const GameScreen = ({
     }
     setShowPauseModal(true);
   };
+
+  /**
+   * Duraklatma modundan devam et
+   */
+  const handleResume = () => {
+    if (gameEngine.getState().isPaused) {
+      gameEngine.togglePause();
+    }
+    setShowPauseModal(false);
+  };
   /**
    * Flash efekti ile aksiyon işler
    */
@@ -236,7 +246,7 @@ export const GameScreen = ({
       </GameFooterControls>
 
       {/* Duraklatma Modalı */}
-      {showPauseModal && <PauseModal onResume={handlePauseToggle} onGoHome={handleGoHome} />}
+      {showPauseModal && <PauseModal onResume={handleResume} onGoHome={handleGoHome} />}
 
       {/* Tur Geçişi Modalı - Inline entegre edildi */}
       {showTurnTransition && (

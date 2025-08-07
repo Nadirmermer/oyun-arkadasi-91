@@ -64,6 +64,14 @@ export const BilBakalimScreen = () => {
     setShowPauseModal(true);
   };
 
+  // Duraklatma modundan devam
+  const handleResume = () => {
+    if (gameEngine.getGameState().isPaused) {
+      gameEngine.togglePause();
+    }
+    setShowPauseModal(false);
+  };
+
   /**
    * Cevap seçildiğinde
    */
@@ -238,7 +246,7 @@ export const BilBakalimScreen = () => {
       </div>
 
       {/* Pause Modal */}
-      {showPauseModal && <PauseModal onResume={handlePauseToggle} onGoHome={handleGoHomeInternal} />}
+      {showPauseModal && <PauseModal onResume={handleResume} onGoHome={handleGoHomeInternal} />}
 
       {/* Exit Game Modal */}
       <ExitGameModal isOpen={showExitModal} onClose={() => setShowExitModal(false)} onConfirm={handleConfirmExit} />
