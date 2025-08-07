@@ -9,6 +9,7 @@ export class TabuEngine {
   private words: PsychologyWord[] = [];
   private usedWords: Set<string> = new Set();
   private timer: NodeJS.Timeout | null = null;
+  private listeners: Array<() => void> = [];
 
   constructor() {
     this.state = {
@@ -36,9 +37,11 @@ export class TabuEngine {
     try {
       const response = await fetch('/data/psikoloji_words_tr.json');
       this.words = await response.json();
+      this.notifyListeners();
     } catch (error) {
       console.error('Kelimeler yüklenirken hata:', error);
       this.words = [];
+      this.notifyListeners();
     }
   }
 
@@ -67,6 +70,7 @@ export class TabuEngine {
   updateSettings(settings: Partial<GameSettings>): void {
     this.state.settings = { ...this.state.settings, ...settings };
     this.state.timeLeft = this.state.settings.gameDuration;
+    this.notifyListeners();
   }
 
   /**
@@ -82,6 +86,7 @@ export class TabuEngine {
   nextTeam(): void {
     this.state.currentTeamIndex = (this.state.currentTeamIndex + 1) % this.state.teams.length;
     this.state.passesUsed = 0; // Yeni takım için pas sayısını sıfırla
+    this.notifyListeners();
   }
 
   /**
@@ -119,6 +124,7 @@ export class TabuEngine {
     this.state.timeLeft = this.state.settings.gameDuration;
     this.state.currentWord = this.getRandomWord();
     this.startTimer();
+    this.notifyListeners();
   }
 
   /**
@@ -132,6 +138,7 @@ export class TabuEngine {
     } else {
       this.startTimer();
     }
+    this.notifyListeners();
   }
 
   /**
@@ -147,6 +154,7 @@ export class TabuEngine {
         if (this.state.timeLeft <= 0) {
           this.endTurn();
         }
+        this.notifyListeners();
       }
     }, 1000);
   }
@@ -168,6 +176,7 @@ export class TabuEngine {
     this.state.isPlaying = false;
     this.state.isPaused = false;
     this.stopTimer();
+    this.notifyListeners();
   }
 
   /**
@@ -191,6 +200,7 @@ export class TabuEngine {
     
     this.state.isPlaying = true;
     this.startTimer();
+    this.notifyListeners();
   }
 
   /**
@@ -232,6 +242,7 @@ export class TabuEngine {
     }
 
     // Tur tabanlı oyunda puan tabanlı bitirme yok
+    this.notifyListeners();
   }
 
   /**
@@ -241,6 +252,7 @@ export class TabuEngine {
     this.state.isPlaying = false;
     this.state.isPaused = false;
     this.stopTimer();
+    this.notifyListeners();
   }
 
   /**
@@ -257,6 +269,7 @@ export class TabuEngine {
     this.state.currentRound = 1;
     this.usedWords.clear();
     this.stopTimer();
+    this.notifyListeners();
   }
 
   /**
@@ -292,5 +305,17 @@ export class TabuEngine {
    */
   getScoreboard(): Team[] {
     return [...this.state.teams].sort((a, b) => b.score - a.score);
+  }
+
+  addListener(listener: () => void): void {
+    this.listeners.push(listener);
+  }
+
+  removeListener(listener: () => void): void {
+    this.listeners = this.listeners.filter(l => l !== listener);
+  }
+
+  private notifyListeners(): void {
+    this.listeners.forEach(l => l());
   }
 }

@@ -22,7 +22,9 @@ export const EtikProblemlerScreen = () => {
   useEffect(() => {
     // Oyun motoru dinleyicisini ekle
     const updateGameState = () => {
-      setGameState(gameState);
+      // Not: Önceki implementasyon closure'daki eski state'i tekrar set ediyordu.
+      // Motorun güncel durumunu okuyarak state'i güncellemek gerekir.
+      setGameState(gameEngine.getGameState());
     };
     gameEngine.addListener(updateGameState);
 

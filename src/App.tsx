@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { HomePage } from "./pages/HomePage";
 import NotFound from "./pages/NotFound";
@@ -26,6 +26,7 @@ import { PWAInstallProvider } from "./contexts/PWAInstallContext";
 
 const AppContent = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   
   // Sayfa değiştiğinde en üste scroll
   useEffect(() => {
@@ -59,8 +60,8 @@ const AppContent = () => {
         <Route path="/game/benkimim/setup" element={<BenKimimSetup onStartGame={(settings) => {
           // Ayarları kaydet ve oyun sayfasına yönlendir
           localStorage.setItem('benKimimGameSettings', JSON.stringify(settings));
-          window.location.href = '/game/benkimim';
-        }} onGoBack={() => window.history.back()} />} />
+          navigate('/game/benkimim');
+        }} onGoBack={() => navigate(-1)} />} />
         <Route path="/game/benkimim" element={<BenKimimScreen />} />
         <Route path="/game/istatistik/setup" element={<IstatistikSetup />} />
         <Route path="/game/istatistik" element={<IstatistikScreen />} />

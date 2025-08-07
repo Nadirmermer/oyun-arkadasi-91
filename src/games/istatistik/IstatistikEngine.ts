@@ -330,7 +330,8 @@ export class IstatistikEngine {
    */
   destroy(): void {
     if (this.timer) {
-      clearTimeout(this.timer);
+      // Not: Timer setInterval ile kurulduğundan clearInterval kullanılmalı
+      clearInterval(this.timer);
       this.timer = null;
     }
     this.listeners = [];

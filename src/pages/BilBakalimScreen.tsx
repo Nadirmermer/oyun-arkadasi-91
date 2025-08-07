@@ -11,6 +11,7 @@ import { cn } from '@/lib/utils';
 import { useSystemTheme } from '@/hooks/use-system-theme';
 import { useNavigate } from 'react-router-dom';
 import { saveGameRecord } from '@/lib/storage';
+import { GameHeader } from '@/components/shared/GameHeader';
 export const BilBakalimScreen = () => {
   const navigate = useNavigate();
   const [gameEngine] = useState(() => new BilBakalimEngine());
@@ -43,25 +44,24 @@ export const BilBakalimScreen = () => {
     initGame();
   }, [gameEngine]);
 
-  // Oyun durumu güncellemelerini dinle
+  // Oyun durumu güncellemelerini dinle - event-driven
   useEffect(() => {
-    const interval = setInterval(() => {
-      const newState = gameEngine.getGameState();
-      setGameState(prev => {
-        if (JSON.stringify(prev) !== JSON.stringify(newState)) {
-          return newState;
-        }
-        return prev;
-      });
-    }, 100);
-    return () => clearInterval(interval);
+    const handleUpdate = () => {
+      setGameState(gameEngine.getGameState());
+    };
+    gameEngine.addListener(handleUpdate);
+    return () => gameEngine.removeListener(handleUpdate);
   }, [gameEngine]);
 
   /**
    * Oyunu duraklatır/devam ettirir
    */
   const handlePauseToggle = () => {
-    gameEngine.togglePause();
+    // Header'dan gelen pause: modalı aç ve oyunu duraklat
+    if (!gameState.isPaused) {
+      gameEngine.togglePause();
+    }
+    setShowPauseModal(true);
   };
 
   /**
@@ -113,6 +113,20 @@ export const BilBakalimScreen = () => {
     navigate('/');
   };
 
+  // Uygulama arkaplana gidince otomatik duraklat
+  useEffect(() => {
+    const handleVisibility = () => {
+      if (document.visibilityState === 'hidden') {
+        if (gameState.isPlaying && !gameState.isPaused) {
+          gameEngine.togglePause();
+          setShowPauseModal(true);
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, [gameEngine, gameState.isPlaying, gameState.isPaused]);
+
   // Yükleniyor durumu
   if (!gameEngine.isLoaded() || !gameState.currentQuestion) {
     return <div className="min-h-screen bg-background flex items-center justify-center">
@@ -162,18 +176,14 @@ export const BilBakalimScreen = () => {
 
   // Oyun ekranı
   return <div className="min-h-screen bg-background page-fade-in">
-      {/* Header - Tabu tarzı minimal header */}
-      <div className="flex-none bg-card shadow-sm relative z-10">
-        <div className="flex justify-between items-center p-4">
-          <div className="w-8" />
-          <h1 className="text-xl font-bold text-primary">Bil Bakalım</h1>
-          <button onClick={handlePauseToggle} className="p-2 text-muted-foreground hover:text-foreground transition-colors">
-            {gameState.isPaused ? <Play className="w-6 h-6" /> : <Pause className="w-6 h-6" />}
-          </button>
-        </div>
+      <GameHeader
+        title="Bil Bakalım"
+        isPaused={gameState.isPaused}
+        onPauseToggle={handlePauseToggle}
+      />
 
-        {/* Circular Timer ve Puan */}
-        <div className="pb-4 my-0 py-0 px-[27px]">
+      {/* Circular Timer ve Puan */}
+      <div className="pb-4 my-0 py-0 px-6 md:px-8">
           <div className="grid grid-cols-2 gap-2 mb-4">
             <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md flex flex-col items-center justify-center py-0 px-0">
               <CircularTimer timeLeft={gameState.timeLeft} totalTime={gameState.questionDuration} className="scale-75" />
@@ -185,10 +195,9 @@ export const BilBakalimScreen = () => {
             </div>
           </div>
         </div>
-      </div>
 
       {/* Ana İçerik Alanı */}
-      <div className="flex-1 p-4 flex flex-col justify-center pb-32 min-h-0 relative z-10 px-[27px] py-0 mx-0 my-[13px]">
+      <div className="flex-1 p-4 flex flex-col justify-center pb-32 min-h-0 relative z-10 px-6 md:px-8 mx-0 my-3">
         {/* Kategori */}
         <div className="text-center mb-4">
           <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">

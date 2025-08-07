@@ -149,7 +149,8 @@ export const BenKimimScreen = () => {
 
   // Oyun bitti mi kontrol et
   useEffect(() => {
-    if (!gameState.isPlaying && gameState.score > 0) {
+    // Not: Süre dolduğunda skor 0 olsa da oyun bitişini yakalamak gerekir
+    if (!gameState.isPlaying) {
       handleGameEnd();
     }
   }, [gameState.isPlaying, gameState.score, handleGameEnd]);

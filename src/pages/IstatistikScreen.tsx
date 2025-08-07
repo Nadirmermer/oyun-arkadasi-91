@@ -12,6 +12,7 @@ import { saveGameRecord } from '@/lib/storage';
 import { useNavigate } from 'react-router-dom';
 import { useSystemTheme } from '@/hooks/use-system-theme';
 import { cn } from '@/lib/utils';
+import { GameHeader } from '@/components/shared/GameHeader';
 
 /**
  * İstatistik Sezgisi oyunu ana ekranı
@@ -238,21 +239,14 @@ export const IstatistikScreen = () => {
   // Ana oyun ekranı
   return (
     <div className="min-h-screen bg-background page-fade-in">
-      {/* Header - Tabu tarzı minimal header */}
-      <div className="flex-none bg-card shadow-sm relative z-10">
-        <div className="flex justify-between items-center p-4">
-          <div className="w-8" />
-          <h1 className="text-xl font-bold text-primary">İstatistik Sezgisi</h1>
-          <button 
-            onClick={handleOpenPauseModal} 
-            className="p-2 text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <Pause className="w-6 h-6" />
-          </button>
-        </div>
+      <GameHeader
+        title="İstatistik Sezgisi"
+        isPaused={gameState.isPaused}
+        onPauseToggle={handleOpenPauseModal}
+      />
 
-        {/* Skor ve İlerleme */}
-        <div className="px-4 pb-4">
+      {/* Skor ve İlerleme */}
+      <div className="px-4 pb-4">
           {/* Zamanlayıcı - sadece tahmin aşamasında göster */}
           {!gameState.isAnswerRevealed && remainingTime > 0 && (
             <div className="mb-4 text-center">
@@ -286,11 +280,10 @@ export const IstatistikScreen = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
 
       {/* Ana İçerik Alanı */}
-      <div className="flex-1 p-4 flex flex-col justify-center pb-32 min-h-0 relative z-10 px-[27px] py-0 mx-0 my-[13px]">
+      <div className="flex-1 p-4 flex flex-col justify-center pb-32 min-h-0 relative z-10 px-6 md:px-8 mx-0 my-3">
         {/* Soru Kartı */}
         <Card className="text-center mb-6 p-6">
           <div className="mb-4">

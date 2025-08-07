@@ -22,7 +22,7 @@ export default {
 			fontFamily: {
 				nunito: ['Nunito', 'sans-serif'],
 			},
-			colors: {
+				colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -44,6 +44,10 @@ export default {
 					DEFAULT: 'hsl(var(--warning))',
 					foreground: 'hsl(var(--warning-foreground))'
 				},
+					info: {
+						DEFAULT: 'hsl(var(--info))',
+						foreground: 'hsl(var(--info-foreground))'
+					},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'

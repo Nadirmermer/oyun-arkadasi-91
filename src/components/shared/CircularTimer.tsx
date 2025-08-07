@@ -18,14 +18,14 @@ export const CircularTimer = ({ timeLeft, totalTime, className }: CircularTimerP
 
   // Zamanın azalmasına göre renk değişimi
   const getColor = () => {
-    if (progress > 50) return 'stroke-success'; // Yeşil
-    if (progress > 25) return 'stroke-yellow-500'; // Sarı
-    return 'stroke-danger'; // Kırmızı
+    if (progress > 50) return 'text-success'; // currentColor için text-* sınıfı
+    if (progress > 25) return 'text-warning'; // Sarı (tema uyumlu)
+    return 'text-danger'; // Kırmızı
   };
 
   const getBackgroundColor = () => {
     if (progress > 50) return 'text-success'; // Yeşil
-    if (progress > 25) return 'text-yellow-500'; // Sarı
+    if (progress > 25) return 'text-warning'; // Sarı (tema uyumlu)
     return 'text-danger'; // Kırmızı
   };
 

@@ -52,6 +52,21 @@ export class BilBakalimEngine {
     timeBonus: true
   };
 
+  // Event-driven güncellemeler için dinleyiciler
+  private listeners: Array<() => void> = [];
+
+  private notifyListeners() {
+    this.listeners.forEach((l) => l());
+  }
+
+  public addListener(listener: () => void) {
+    this.listeners.push(listener);
+  }
+
+  public removeListener(listener: () => void) {
+    this.listeners = this.listeners.filter((l) => l !== listener);
+  }
+
   /**
    * Soruları yükle
    */
@@ -62,9 +77,11 @@ export class BilBakalimEngine {
         throw new Error('Sorular yüklenemedi');
       }
       this.questions = await response.json();
+      this.notifyListeners();
     } catch (error) {
       console.error('Sorular yüklenirken hata:', error);
       this.questions = [];
+      this.notifyListeners();
     }
   }
 
@@ -109,6 +126,7 @@ export class BilBakalimEngine {
 
     this.loadCurrentQuestion();
     this.startTimer();
+    this.notifyListeners();
   }
 
   /**
@@ -133,6 +151,7 @@ export class BilBakalimEngine {
     this.gameState.selectedAnswer = null;
     this.gameState.showResult = false;
     this.gameState.timeLeft = this.gameState.questionDuration; // Her soruda süreyi resetle
+    this.notifyListeners();
   }
 
   /**
@@ -161,6 +180,7 @@ export class BilBakalimEngine {
     setTimeout(() => {
       this.nextQuestion();
     }, 2000);
+    this.notifyListeners();
   }
 
   /**
@@ -184,6 +204,7 @@ export class BilBakalimEngine {
     if (!this.gameState.isFinished) {
       this.startTimer();
     }
+    this.notifyListeners();
   }
 
   /**
@@ -193,6 +214,7 @@ export class BilBakalimEngine {
     this.stopTimer();
     this.gameState.isPlaying = false;
     this.gameState.isFinished = true;
+    this.notifyListeners();
   }
 
   /**
@@ -207,6 +229,7 @@ export class BilBakalimEngine {
           // Süre bitince sonraki soruya geç
           this.nextQuestion();
         }
+        this.notifyListeners();
       }
     }, 1000);
   }
@@ -226,6 +249,7 @@ export class BilBakalimEngine {
    */
   togglePause(): void {
     this.gameState.isPaused = !this.gameState.isPaused;
+    this.notifyListeners();
   }
 
   /**
@@ -250,6 +274,7 @@ export class BilBakalimEngine {
       pointPerCorrect: 5,
       timeBonus: true
     };
+    this.notifyListeners();
   }
 
   /**

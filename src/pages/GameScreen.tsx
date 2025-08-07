@@ -5,6 +5,8 @@ import { Button } from '@/components/shared/Button';
 import { CircularTimer } from '@/components/shared/CircularTimer';
 import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
+import { GameHeader } from '@/components/shared/GameHeader';
+import { GameFooterControls } from '@/components/shared/GameFooterControls';
 import { TabuEngine } from '@/games/tabu/TabuEngine';
 import { GameState, Team, GameAction } from '@/types/game';
 import { cn } from '@/lib/utils';
@@ -31,44 +33,20 @@ export const GameScreen = ({
   const [flashColor, setFlashColor] = useState<'success' | 'danger' | null>(null);
   const motionSensor = useMotionSensor();
 
-  // Optimize edilmiş oyun durumu güncelleme
+  // Event-driven güncelleme
   useEffect(() => {
-    let animationFrameId: number;
-    let lastUpdate = 0;
-    const UPDATE_INTERVAL = 500; // 500ms daha performanslı
-
-    const updateGameState = (timestamp: number) => {
-      if (timestamp - lastUpdate >= UPDATE_INTERVAL) {
-        const newState = gameEngine.getState();
-
-        // Sadece değişiklik varsa state'i güncelle
-        setGameState(prevState => {
-          if (JSON.stringify(prevState) !== JSON.stringify(newState)) {
-            return newState;
-          }
-          return prevState;
-        });
-
-        // Tur geçişi gerekli mi kontrol et
-        if (gameEngine.needsTurnTransition()) {
-          setShowTurnTransition(true);
-        }
-
-        // Oyun bittiyse (kazanan var)
-        if (gameEngine.getWinner()) {
-          onGameEnd();
-          return;
-        }
-        lastUpdate = timestamp;
+    const handleUpdate = () => {
+      const newState = gameEngine.getState();
+      setGameState(newState);
+      if (gameEngine.needsTurnTransition()) {
+        setShowTurnTransition(true);
       }
-      animationFrameId = requestAnimationFrame(updateGameState);
-    };
-    animationFrameId = requestAnimationFrame(updateGameState);
-    return () => {
-      if (animationFrameId) {
-        cancelAnimationFrame(animationFrameId);
+      if (gameEngine.getWinner()) {
+        onGameEnd();
       }
     };
+    gameEngine.addListener(handleUpdate);
+    return () => gameEngine.removeListener(handleUpdate);
   }, [gameEngine, onGameEnd]);
 
   /**
@@ -108,13 +86,10 @@ export const GameScreen = ({
    * Oyunu duraklatır/devam ettirir
    */
   const handlePauseToggle = () => {
-    if (gameState.isPaused) {
+    if (!gameState.isPaused) {
       gameEngine.togglePause();
-      setShowPauseModal(false);
-    } else {
-      gameEngine.togglePause();
-      setShowPauseModal(true);
     }
+    setShowPauseModal(true);
   };
   /**
    * Flash efekti ile aksiyon işler
@@ -144,6 +119,20 @@ export const GameScreen = ({
     setShowExitModal(true);
   };
 
+  // Arkaplana gidince otomatik duraklat
+  useEffect(() => {
+    const handleVisibility = () => {
+      if (document.visibilityState === 'hidden') {
+        if (gameState.isPlaying && !gameState.isPaused) {
+          gameEngine.togglePause();
+          setShowPauseModal(true);
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, [gameEngine, gameState.isPlaying, gameState.isPaused]);
+
   /**
    * Oyundan çıkışı onayla
    */
@@ -156,17 +145,14 @@ export const GameScreen = ({
   return <div className="min-h-screen flex flex-col overflow-hidden bg-background relative">
       {/* Flash Overlay - Tam ekran */}
       {flashColor && <div className={cn("fixed inset-0 z-40 pointer-events-none transition-opacity duration-150", flashColor === 'success' ? 'bg-success/40' : 'bg-danger/40')} />}
-      {/* Header - Yeniden düzenlenmiş */}
-      <div className="flex-none bg-card shadow-sm relative z-10">
-        <div className="flex justify-between items-center p-4">
-          <div className="w-8" />
-          <h1 className="text-xl font-bold text-primary">PsikoOyun</h1>
-          <button onClick={handlePauseToggle} className="p-2 text-muted-foreground hover:text-foreground transition-colors">
-            {gameState.isPaused ? <Play className="w-6 h-6" /> : <Pause className="w-6 h-6" />}
-          </button>
-        </div>
+      {/* Header */}
+      <GameHeader
+        title="Psikoloji Tabu"
+        isPaused={gameState.isPaused}
+        onPauseToggle={handlePauseToggle}
+      />
 
-        {/* Takım Bilgileri ve Timer */}
+      {/* Takım Bilgileri ve Timer */}
         <div className="pb-4 px-[18px] py-0 my-0 mx-0">
           <div className="grid grid-cols-2 gap-2 mb-4">
             <div className={cn('p-3 sm:p-4 rounded-xl text-center transition-all', 'bg-primary text-primary-foreground shadow-md')}>
@@ -184,11 +170,10 @@ export const GameScreen = ({
           </div>
           
           {/* Timer - Takımların altında */}
-          <div className="flex justify-center my-0 py-0 px-0 mx-[107px]">
+          <div className="flex justify-center my-0 py-0 px-0 mx-6 md:mx-10">
             <CircularTimer timeLeft={gameState.timeLeft} totalTime={gameState.settings.gameDuration} className="scale-75 sm:scale-100" />
           </div>
         </div>
-      </div>
 
       {/* Ana İçerik Alanı - Orta kısım, responsive */}
       <div className="flex-1 p-4 flex flex-col justify-center pb-32 min-h-0 relative z-10">
@@ -223,37 +208,32 @@ export const GameScreen = ({
           </Card>}
       </div>
 
-      {/* Alt Kontrol Paneli - Daha güvenli alanda */}
-      <div className="flex-none bg-card shadow-lg border-t border-border fixed bottom-0 left-0 right-0 z-20">
-        <div className="p-3 sm:p-4 pb-4 sm:pb-6">
-          {gameState.settings.controlType === 'motion' ? (/* Hareket Modu - Sadece Pas Butonu */
-        <div className="flex justify-center">
-              <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem] px-8">
-                <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
-              </Button>
-            </div>) : (/* Buton Modu - Tüm Butonlar */
-        <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-sm mx-auto">
-              {/* Pas Butonu */}
-              <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
-                <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
-              </Button>
-
-              {/* Doğru Butonu */}
-              <Button onClick={() => handleActionWithFlash('correct')} variant="success" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
-                <Check className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span className="text-xs">Doğru</span>
-              </Button>
-
-              {/* Tabu Butonu */}
-              <Button onClick={() => handleActionWithFlash('tabu')} variant="danger" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
-                <X className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span className="text-xs">Tabu</span>
-              </Button>
-            </div>)}
-        </div>
-      </div>
+      {/* Alt Kontrol Paneli */}
+      <GameFooterControls>
+        {gameState.settings.controlType === 'motion' ? (
+          <div className="flex justify-center">
+            <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem] px-8">
+              <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
+            </Button>
+          </div>
+        ) : (
+          <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-sm mx-auto">
+            <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
+              <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
+            </Button>
+            <Button onClick={() => handleActionWithFlash('correct')} variant="success" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
+              <Check className="w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="text-xs">Doğru</span>
+            </Button>
+            <Button onClick={() => handleActionWithFlash('tabu')} variant="danger" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
+              <X className="w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="text-xs">Tabu</span>
+            </Button>
+          </div>
+        )}
+      </GameFooterControls>
 
       {/* Duraklatma Modalı */}
       {showPauseModal && <PauseModal onResume={handlePauseToggle} onGoHome={handleGoHome} />}

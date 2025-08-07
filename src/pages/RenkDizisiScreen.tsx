@@ -15,6 +15,7 @@ import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { saveGameRecord } from '@/lib/storage';
 import { useSystemTheme } from '@/hooks/use-system-theme';
+import { GameHeader } from '@/components/shared/GameHeader';
 
 export const RenkDizisiScreen = () => {
   const navigate = useNavigate();
@@ -31,20 +32,13 @@ export const RenkDizisiScreen = () => {
     gameEngine.resetGame();
   }, [gameEngine]);
 
-  // Oyun durumu güncellemelerini dinle - BilBakalim pattern'i
+  // Oyun durumu güncellemelerini dinle - event-driven
   useEffect(() => {
-    const interval = setInterval(() => {
-      const newState = gameEngine.getGameState();
-      setGameState(prev => {
-        if (JSON.stringify(prev) !== JSON.stringify(newState)) {
-          return newState;
-        }
-        return prev;
-      });
-    }, 100);
+    const handleUpdate = () => setGameState(gameEngine.getGameState());
+    gameEngine.setOnStateChange(handleUpdate);
     return () => {
-      clearInterval(interval);
-      gameEngine.destroy(); // Bellek temizliği
+      gameEngine.setOnStateChange(() => {});
+      gameEngine.destroy();
     };
   }, [gameEngine]);
 
@@ -93,7 +87,10 @@ export const RenkDizisiScreen = () => {
    * Duraklat/Devam - BilBakalim pattern'i
    */
   const handlePauseToggle = () => {
-    gameEngine.togglePause();
+    if (!gameState.isPaused) {
+      gameEngine.togglePause();
+    }
+    setShowPauseModal(true);
   };
 
   /**
@@ -111,6 +108,20 @@ export const RenkDizisiScreen = () => {
     gameEngine.resetGame();
     navigate('/');
   }, [gameEngine, navigate]);
+
+  // Arkaplana gidince otomatik duraklat
+  useEffect(() => {
+    const handleVisibility = () => {
+      if (document.visibilityState === 'hidden') {
+        if (!gameState.isPaused && !gameState.isGameOver && !gameState.isShowing) {
+          gameEngine.togglePause();
+          setShowPauseModal(true);
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, [gameEngine, gameState.isPaused, gameState.isGameOver, gameState.isShowing]);
 
   // Renk butonları için sınıflar - basit ve responsive
   const getColorClasses = (color: Color): string => {
@@ -271,22 +282,15 @@ export const RenkDizisiScreen = () => {
   // Ana oyun ekranı - BilBakalim/IstatistikScreen pattern'i
   return (
     <div className="min-h-screen bg-background page-fade-in">
-      {/* Header - Tutarlı header yapısı */}
-      <div className="flex-none bg-card shadow-sm relative z-10">
-        <div className="flex justify-between items-center p-4">
-          <div className="w-8" />
-          <h1 className="text-xl font-bold text-primary">Renk Dizisi Takibi</h1>
-          <button 
-            onClick={handlePauseToggle} 
-            className="p-2 text-muted-foreground hover:text-foreground transition-colors"
-            disabled={gameState.isShowing || gameState.isGameOver}
-          >
-            {gameState.isPaused ? <Play className="w-6 h-6" /> : <Pause className="w-6 h-6" />}
-          </button>
-        </div>
+      <GameHeader
+        title="Renk Dizisi Takibi"
+        isPaused={gameState.isPaused}
+        onPauseToggle={handlePauseToggle}
+        pauseDisabled={gameState.isShowing || gameState.isGameOver}
+      />
 
-        {/* Skor ve İlerleme - IstatistikScreen pattern'i */}
-        <div className="px-4 pb-4">
+      {/* Skor ve İlerleme */}
+      <div className="px-6 md:px-8 pb-4">
           <div className="grid grid-cols-3 gap-2 mb-4">
             <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md">
               <div className="font-medium text-xs sm:text-sm">Seviye</div>
@@ -305,7 +309,6 @@ export const RenkDizisiScreen = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
 
       {/* Ana İçerik Alanı - BilBakalim pattern'i */}
