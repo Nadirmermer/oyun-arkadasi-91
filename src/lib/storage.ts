@@ -132,6 +132,9 @@ export interface StoredSettings {
   motionSensorEnabled: boolean;
   motionSensitivity: 'low' | 'medium' | 'high';
   motionPermissionStatus: 'granted' | 'denied' | 'prompt' | 'unsupported';
+  // Tabu oyunu ek ayarları
+  selectedCategories: string[];
+  controlType: 'buttons' | 'motion';
 }
 
 export interface GameRecord {
@@ -194,7 +197,9 @@ export const loadSettings = (): StoredSettings => {
     passCount: 3,
     motionSensorEnabled: false,
     motionSensitivity: 'medium' as const,
-    motionPermissionStatus: 'prompt' as const
+    motionPermissionStatus: 'prompt' as const,
+    selectedCategories: [],
+    controlType: 'buttons' as const
   };
   
   const stored = safeLocalStorageGet(STORAGE_KEYS.SETTINGS);

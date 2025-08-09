@@ -167,10 +167,21 @@ export const HomePage = () => {
 
   // Ana menü harici her şey navigation olmadan
   if (currentPhase === 'team-setup') {
-    return <TeamSetup initialTeams={teams} onTeamsReady={handleTeamsReady} onGoBack={() => setCurrentPhase('home')} />;
+    // Eğer takımlar zaten varsa (düzenleme modundaysa), geri butonu settings'e götürür
+    const goBackTarget = teams.length >= 2 ? 'settings' : 'home';
+    return <TeamSetup 
+      initialTeams={teams} 
+      onTeamsReady={handleTeamsReady} 
+      onGoBack={() => setCurrentPhase(goBackTarget)} 
+    />;
   }
   if (currentPhase === 'settings') {
-    return <GameSettingsComponent teams={teams} onStartGame={handleStartGame} onGoBack={() => setCurrentPhase('team-setup')} />;
+    return <GameSettingsComponent 
+      teams={teams} 
+      onStartGame={handleStartGame} 
+      onGoBack={() => setCurrentPhase('home')}
+      onEditTeams={() => setCurrentPhase('team-setup')}
+    />;
   }
   if (currentPhase === 'playing') {
     return <GameScreen gameEngine={gameEngine} onGameEnd={handleGameEnd} onGoHome={handleGoHome} />;

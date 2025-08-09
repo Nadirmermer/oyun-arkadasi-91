@@ -149,11 +149,12 @@ export const BenKimimScreen = () => {
 
   // Oyun bitti mi kontrol et
   useEffect(() => {
-    // Not: Süre dolduğunda skor 0 olsa da oyun bitişini yakalamak gerekir
-    if (!gameState.isPlaying) {
+    // Oyun daha önce başlatılmış ve şimdi playing false ise oyun bitmiştir
+    // İlk mount sırasında oyun hiç başlatılmamışsa (currentWord null) oyun bitişi sayılmaz
+    if (!gameState.isPlaying && gameState.currentWord !== null && (gameState.score > 0 || gameState.totalWords > 0)) {
       handleGameEnd();
     }
-  }, [gameState.isPlaying, gameState.score, handleGameEnd]);
+  }, [gameState.isPlaying, gameState.score, gameState.totalWords, gameState.currentWord, handleGameEnd]);
 
   // Sonuç ekranını göster
   if (showResults) {

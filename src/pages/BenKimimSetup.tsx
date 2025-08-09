@@ -69,7 +69,7 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
             </div>
             <h2 className="text-2xl font-bold text-foreground">Ben Kimim?</h2>
             <p className="text-muted-foreground">
-              Psikoloji alanından ünlü kişi, kavram ve vakaları tahmin etmeye çalış!
+              Psikoloji alanından ünlü kişileri tahmin etmeye çalış!
             </p>
           </div>
         </Card>

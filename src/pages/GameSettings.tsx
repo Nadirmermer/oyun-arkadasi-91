@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Clock, Target, SkipForward, Gamepad2, Smartphone } from 'lucide-react';
+import { ArrowLeft, Clock, Target, SkipForward, Gamepad2, Smartphone, Edit3, CheckCircle, XCircle } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
@@ -13,21 +13,22 @@ interface GameSettingsProps {
   teams: Team[];
   onStartGame: (settings: GameSettingsType) => void;
   onGoBack?: () => void;
+  onEditTeams?: () => void;
 }
 
 /**
  * Oyun ayarları ekranı
  * Kullanıcıların oyun parametrelerini ayarlamasını sağlar
  */
-export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps) => {
+export const GameSettings = ({ teams, onStartGame, onGoBack, onEditTeams }: GameSettingsProps) => {
   // Kaydedilmiş ayarları yükle
   const savedSettings = loadSettings();
   const [gameDuration, setGameDuration] = useState(savedSettings.gameDuration);
   const [maxScore, setMaxScore] = useState(savedSettings.maxScore);
   const [passCount, setPassCount] = useState(savedSettings.passCount);
-  const [controlType, setControlType] = useState<'buttons' | 'motion'>('buttons');
+  const [controlType, setControlType] = useState<'buttons' | 'motion'>(savedSettings.controlType);
   const [allCategories, setAllCategories] = useState<string[]>([]);
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>(savedSettings.selectedCategories);
   
   const motionSensor = useMotionSensor();
   // Kategori listesini TabuEngine'den al
@@ -81,7 +82,9 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
       darkMode: savedSettings.darkMode,
       motionSensorEnabled: savedSettings.motionSensorEnabled,
       motionSensitivity: savedSettings.motionSensitivity,
-      motionPermissionStatus: savedSettings.motionPermissionStatus
+      motionPermissionStatus: savedSettings.motionPermissionStatus,
+      selectedCategories,
+      controlType
     });
     
     onStartGame(settings);
@@ -126,6 +129,22 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
               </div>
             ))}
           </div>
+
+          {/* Takımları Düzenle Butonu */}
+          {onEditTeams && (
+            <div className="mt-6 pt-4 border-t border-border">
+              <Button
+                onClick={onEditTeams}
+                variant="secondary"
+                size="md"
+                fullWidth
+                className="flex items-center justify-center gap-2 border border-border hover:bg-primary/5 hover:border-primary/50 transition-all"
+              >
+                <Edit3 className="w-5 h-5" />
+                Takımları Düzenle
+              </Button>
+            </div>
+          )}
         </Card>
 
         {/* Oyun Ayarları */}
@@ -174,24 +193,75 @@ export const GameSettings = ({ teams, onStartGame, onGoBack }: GameSettingsProps
             {/* Kategori Seçimi */}
             {allCategories.length > 0 && (
               <div>
-                <h4 className="text-lg font-semibold text-foreground mb-2">Kategoriler</h4>
-                <p className="text-sm text-muted-foreground mb-3">Hangi kategorilerden kelime gelsin?</p>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground">Kategoriler</h4>
+                    <p className="text-sm text-muted-foreground">
+                      {selectedCategories.length === 0 
+                        ? 'Tüm kategorilerden kelime gelecek' 
+                        : selectedCategories.length === allCategories.length
+                        ? 'Tüm kategoriler seçili'
+                        : `${selectedCategories.length}/${allCategories.length} kategori seçili`}
+                    </p>
+                  </div>
+                  <div className="flex gap-2">
+                    <Button
+                      onClick={() => setSelectedCategories([])}
+                      variant="secondary"
+                      size="sm"
+                      className="flex items-center gap-1"
+                    >
+                      <XCircle className="w-4 h-4" />
+                      Tümü Kaldır
+                    </Button>
+                  </div>
+                </div>
+
+                {/* Kategori Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-h-72 sm:max-h-96 overflow-y-auto p-2 border border-border rounded-xl bg-muted/30">
                   {allCategories.map((cat) => {
                     const active = selectedCategories.includes(cat);
                     return (
                       <button
                         key={cat}
                         onClick={() => setSelectedCategories(prev => active ? prev.filter(c => c !== cat) : [...prev, cat])}
-                        className={`px-3 py-2 rounded-xl border text-left ${active ? 'border-primary bg-primary/10 text-primary' : 'border-border hover:border-primary/50'}`}
+                        className={`relative p-3 rounded-lg border text-left transition-all group ${
+                          active 
+                            ? 'border-primary bg-primary/10 text-primary shadow-sm' 
+                            : 'border-border bg-background hover:border-primary/50 hover:bg-primary/5 hover:shadow-sm'
+                        }`}
                       >
-                        {cat}
+                        <div className="flex items-center justify-between">
+                          <span className="font-medium text-sm leading-tight">{cat}</span>
+                          <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${
+                            active 
+                              ? 'border-primary bg-primary' 
+                              : 'border-muted-foreground group-hover:border-primary/50'
+                          }`}>
+                            {active && <CheckCircle className="w-3 h-3 text-primary-foreground" />}
+                          </div>
+                        </div>
                       </button>
                     );
                   })}
                 </div>
-                <div className="mt-3 text-xs text-muted-foreground">
-                  {selectedCategories.length === 0 ? 'Tümü seçili (kısıtlama yok)' : `${selectedCategories.length} kategori seçildi`}
+
+                {/* Bilgi Kutusu */}
+                <div className="mt-4 p-3 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+                  <div className="flex items-start gap-2">
+                    <div className="w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">💡</span>
+                    </div>
+                    <div className="text-sm text-blue-700 dark:text-blue-300">
+                      <p className="font-medium mb-1">Kategori Seçimi Nasıl Çalışır?</p>
+                      <p>
+                        {selectedCategories.length === 0 
+                          ? "🎯 Şu anda tüm kategorilerden kelime gelecek (varsayılan)"
+                          : "🎯 Sadece seçili kategorilerden kelime gelecek"
+                        }
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             )}
