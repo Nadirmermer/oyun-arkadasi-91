@@ -130,6 +130,26 @@ export default {
 						opacity: "1"
 					}
 				},
+				"scale-out": {
+					"0%": {
+						transform: "scale(1)",
+						opacity: "1"
+					},
+					"100%": {
+						transform: "scale(0.95)",
+						opacity: "0"
+					}
+				},
+				"fade-out": {
+					"0%": {
+						opacity: "1",
+						transform: "translateY(0)"
+					},
+					"100%": {
+						opacity: "0",
+						transform: "translateY(10px)"
+					}
+				},
 				'slide-in-up': {
 					from: {
 						transform: 'translateY(100%)',
@@ -145,7 +165,9 @@ export default {
 				"color-flash": "color-flash 0.8s ease-in-out",
 				"pulse-ring": "pulse-ring 1.5s ease-out infinite",
 				"fade-in": "fade-in 0.3s ease-out",
+				"fade-out": "fade-out 0.3s ease-out",
 				"scale-in": "scale-in 0.2s ease-out",
+				"scale-out": "scale-out 0.2s ease-out",
 				'slide-in-up': 'slide-in-up 0.3s ease-out'
 			}
 		}

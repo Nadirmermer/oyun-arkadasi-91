@@ -7,8 +7,7 @@ import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { EtikProblemlerEngine } from '@/games/etikproblemler/EtikProblemlerEngine';
 import { EtikProblemlerGameState } from '@/types/etikproblemler';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { saveGameRecord } from '@/lib/storage';
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { useSystemTheme } from '@/hooks/use-system-theme';
 export const EtikProblemlerScreen = () => {
   const [gameEngine] = useState(() => new EtikProblemlerEngine());
@@ -51,18 +50,7 @@ export const EtikProblemlerScreen = () => {
     setGameState(gameEngine.getGameState());
   };
   const handleGoHome = () => {
-    // Oyun kaydını kaydet - Etik Problemler sadece vaka sayısını takip eder
-    const gameResult = {
-      id: Date.now().toString(),
-      gameType: 'EtikProblemler' as const,
-      gameDate: new Date().toISOString(),
-      results: [{
-        name: 'İncelenen Vaka',
-        score: gameState?.currentVakaIndex ? gameState.currentVakaIndex + 1 : 1
-      }],
-      winner: 'Oyuncu'
-    };
-    saveGameRecord(gameResult);
+    // Etik Problemler oyunu eğitim amaçlıdır, puanlanmaz ve kaydedilmez
     navigate('/');
   };
   if (!gameState || !gameState.currentVaka) {
@@ -124,41 +112,57 @@ export const EtikProblemlerScreen = () => {
                 <p className="text-base text-foreground leading-relaxed bg-muted/50 p-4 rounded-lg">
                   {currentVaka.tartisma}
                 </p>
-              </div>}
-          </div>
-
-          {/* Kaynak Butonu */}
-          <div className="absolute bottom-6 right-6">
-            <Dialog>
-              <DialogTrigger asChild>
-                <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-foreground my-0 px-0 mx-0 py-0">
-                  <Book className="w-4 h-4" />
-                  Kaynak
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="max-w-md">
-                <DialogHeader>
-                  <DialogTitle className="text-center">Kaynak Bilgisi</DialogTitle>
-                </DialogHeader>
-                <div className="space-y-4 text-sm">
-                  <p className="text-center text-muted-foreground">
-                    Bu vaka, <span className="font-semibold">{currentVaka.kaynak.uyarlayan}</span> tarafından{' '}
-                    <span className="font-semibold">{currentVaka.kaynak.yazarlar}</span>'in{' '}
-                    <span className="font-semibold">"{currentVaka.kaynak.kitap}"</span> adlı eserinden uyarlanmıştır.
-                  </p>
-                  <div className="border-t border-border pt-4">
-                    <p className="text-center text-muted-foreground">
-                      <span className="font-semibold">Yayın:</span> {currentVaka.kaynak.bulten}
-                    </p>
-                  </div>
+                
+                {/* Kaynak Bilgisi - Tartışma altında */}
+                <div className="mt-4 pt-4 border-t border-border/50">
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <button className="text-xs text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 hover:underline">
+                        <Book className="w-3 h-3" />
+                        Kaynak bilgisini görüntüle
+                      </button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-md sm:max-w-lg">
+                      <DialogHeader>
+                        <DialogTitle className="text-center">Kaynak Bilgisi</DialogTitle>
+                        <DialogDescription className="text-center text-sm text-muted-foreground">
+                          Bu etik vakanın akademik kaynak bilgileri
+                        </DialogDescription>
+                      </DialogHeader>
+                      <div className="space-y-4 text-sm">
+                        <div className="text-center space-y-3">
+                          <div>
+                            <p className="text-muted-foreground">
+                              Bu vaka, <span className="font-semibold text-foreground">{currentVaka.kaynak.uyarlayan}</span> tarafından uyarlanmıştır.
+                            </p>
+                          </div>
+                          
+                          <div className="p-3 bg-muted/50 rounded-lg">
+                            <p className="font-semibold text-foreground mb-1">Orijinal Kaynak:</p>
+                            <p className="text-muted-foreground">
+                              <span className="font-medium">{currentVaka.kaynak.yazarlar}</span>
+                            </p>
+                            <p className="text-muted-foreground">
+                              "{currentVaka.kaynak.kitap}"
+                            </p>
+                          </div>
+                          
+                          <div className="text-xs text-muted-foreground border-t border-border pt-3">
+                            <p>
+                              <span className="font-medium">Yayın:</span> {currentVaka.kaynak.bulten}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
                 </div>
-              </DialogContent>
-            </Dialog>
+              </div>}
           </div>
         </Card>
 
         {/* Alt Butonlar */}
-        <div className="flex gap-4 justify-center mt-8">
+        <div className="flex justify-center mt-8">
           <Button variant="primary" onClick={handleNewVaka} className="gap-2">
             <RefreshCw className="w-4 h-4" />
             Yeni Vaka

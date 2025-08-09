@@ -27,7 +27,7 @@ export const EtikProblemlerSetup = () => {
         onGoBack={handleGoBack}
       />
 
-      <div className="p-2 space-y-6">
+      <div className="p-4 space-y-6">
         {/* Oyun Açıklaması */}
         <Card>
           <div className="text-center space-y-4">

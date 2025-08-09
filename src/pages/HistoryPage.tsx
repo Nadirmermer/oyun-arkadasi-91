@@ -45,8 +45,6 @@ export const HistoryPage = () => {
         return <Lightbulb className="w-6 h-6" />;
       case 'RenkDizisi':
         return <Palette className="w-6 h-6" />;
-      case 'EtikProblemler':
-        return <Book className="w-6 h-6" />;
       default:
         return <Trophy className="w-6 h-6" />;
     }
@@ -63,8 +61,6 @@ export const HistoryPage = () => {
         return 'Bil Bakalım';
       case 'RenkDizisi':
         return 'Renk Dizisi';
-      case 'EtikProblemler':
-        return 'Etik Problemler';
       default:
         return gameType;
     }
