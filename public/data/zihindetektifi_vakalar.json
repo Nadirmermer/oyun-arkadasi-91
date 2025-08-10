@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "type": "savunma_mekanizmasi",
+    "case_text": "Ali, sunumda yaptığı büyük bir hatadan dolayı yöneticisinden sert bir uyarı almıştı. Çok utanmıştı. Öğle arasında stajyere, 'Hiçbir işi doğru yapamıyor musun!' diye bağırdı.",
+    "question": "Ali'nin, yöneticisine olan öfkesini stajyere yöneltmesi hangi savunma mekanizmasıdır?",
+    "options": ["Yön Değiştirme", "Yansıtma", "Yüceltme", "Akılcılaştırma"],
+    "correct_answer": "Yön Değiştirme",
+    "explanation": "Kişi, asıl hedefe gösteremediği bir duyguyu veya tepkiyi, daha az riskli veya ilgisiz bir hedefe yöneltir."
+  },
+  {
+    "id": 2,
+    "type": "bilissel_carpitma",
+    "case_text": "Ayşe, sınavdan 85 aldığını öğrendiğinde 'Mahvoldum, kesin dersten kalacağım. Akademik kariyerim bitti.' diye düşündü.",
+    "question": "Ayşe'nin tek bir olaydan yola çıkarak genel ve felaket bir sonuca varması hangi bilişsel çarpıtmadır?",
+    "options": ["Felaketleştirme", "Zihin Okuma", "Aşırı Genelleme", "Ya Hep Ya Hiç"],
+    "correct_answer": "Felaketleştirme",
+    "explanation": "Kişi, olumsuz bir olayın sonuçlarının olabilecek en kötü şekilde sonuçlanacağına inanır ve bu ihtimali abartır."
+  },
+  {
+    "id": 3,
+    "type": "uyumsuz_sema",
+    "case_text": "Mehmet, ne kadar başarılı olursa olsun, her an her şeyin ters gideceğini ve elindeki her şeyi kaybedeceğini düşünerek yoğun bir kaygı yaşar. 'Bu kadar iyi gitmesi normal değil, kesin kötü bir şey olacak.' der.",
+    "question": "Mehmet'in, başarının kalıcı olmayacağı ve felaketin kaçınılmaz olduğu yönündeki inancı hangi şemaya işaret eder?",
+    "options": ["Karamsarlık", "Terk Edilme", "Başarısızlık", "Dayanıksızlık"],
+    "correct_answer": "Karamsarlık",
+    "explanation": "Bu şemaya sahip kişiler, olumlu olayların geçici olduğuna ve gelecekte her şeyin kaçınılmaz olarak kötüye gideceğine inanırlar."
+  },
+  {
+    "id": 4,
+    "type": "savunma_mekanizmasi",
+    "case_text": "Zehra, arkadaşının kendisini hiç aramadığını ve unuttuğunu düşünüyordu. Aslında Zehra'nın arkadaşını hiç aramadığı gerçeğini görmezden geliyordu.",
+    "question": "Zehra'nın kendi davranışını arkadaşına atfetmesi hangi savunma mekanizmasıdır?",
+    "options": ["Yansıtma", "İnkar", "Entelektüelleştirme", "Regresyon"],
+    "correct_answer": "Yansıtma",
+    "explanation": "Kişi, kendi kabul edilemez düşünce, duygu veya davranışlarını başkalarına atfeder."
+  },
+  {
+    "id": 5,
+    "type": "bilissel_carpitma",
+    "case_text": "Can, projesinde küçük bir hata yaptığında 'Ben hiçbir şeyi doğru yapamıyorum, tam bir başarısızım' diye düşündü.",
+    "question": "Can'ın küçük bir hatadan yola çıkarak kendini tamamen değerlendirmesi hangi bilişsel çarpıtmadır?",
+    "options": ["Aşırı Genelleme", "Etiketleme", "Zihin Okuma", "Kişiselleştirme"],
+    "correct_answer": "Aşırı Genelleme",
+    "explanation": "Tek bir olumsuz olayın, sürekli tekrarlanan bir başarısızlık modeli olduğunu varsayma eğilimidir."
+  },
+  {
+    "id": 6,
+    "type": "uyumsuz_sema",
+    "case_text": "Elif, her ilişkisinde partneri onu terk edeceği korkusuyla sürekli kontrolcü davranır ve aşırı bağımlı olur. 'Nasılsa beni de bırakacak' diye düşünür.",
+    "question": "Elif'in sürekli terk edileceği korkusu hangi şemayı işaret eder?",
+    "options": ["Terk Edilme/İstikrarsızlık", "Duygusal Mahrumiyet", "Güvensizlik/Suistimal", "Sosyal İzolasyon"],
+    "correct_answer": "Terk Edilme/İstikrarsızlık",
+    "explanation": "Önemli kişilerin duygusal destek ve bağlantı sağlayamayacağı, çünkü istikrarsız oldukları veya güvenilmez olduklarına dair inanç."
+  }
+]

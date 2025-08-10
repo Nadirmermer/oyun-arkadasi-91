@@ -17,6 +17,8 @@ import { BenKimimSetup } from "./pages/BenKimimSetup";
 import { BenKimimScreen } from "./pages/BenKimimScreen";
 import { IstatistikScreen } from "./pages/IstatistikScreen";
 import { IstatistikSetup } from "./pages/IstatistikSetup";
+import { ZihinDetektifiSetup } from "./pages/ZihinDetektifiSetup";
+import { ZihinDetektifiScreen } from "./pages/ZihinDetektifiScreen";
 import { AppLayout } from "./components/shared/AppLayout";
 import { ErrorBoundary } from "./components/shared/ErrorBoundary";
 import { PWAInstallPrompt } from "./components/shared/PWAInstallPrompt";
@@ -65,6 +67,8 @@ const AppContent = () => {
         <Route path="/game/benkimim" element={<BenKimimScreen />} />
         <Route path="/game/istatistik/setup" element={<IstatistikSetup />} />
         <Route path="/game/istatistik" element={<IstatistikScreen />} />
+        <Route path="/game/zihindetektifi/setup" element={<ZihinDetektifiSetup />} />
+        <Route path="/game/zihindetektifi" element={<ZihinDetektifiScreen />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Routes>

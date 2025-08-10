@@ -363,6 +363,20 @@ export const HomePage = () => {
                 </div>
               </button>
             </Card>
+
+            <Card className="p-0 overflow-hidden shadow-card">
+              <button onClick={() => navigate('/game/zihindetektifi/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-indigo-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                    <Search className="w-6 h-6 text-indigo-500" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-foreground mb-1">Zihin Dedektifi</h3>
+                    <p className="text-xs text-muted-foreground">Psikolojik kavramları bul</p>
+                  </div>
+                </div>
+              </button>
+            </Card>
           </div>
         </div>
       </div>
