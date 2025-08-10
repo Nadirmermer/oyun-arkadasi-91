@@ -16,13 +16,13 @@ export class ZihinDetektifiEngine {
     this.gameState = {
       currentCase: null,
       settings: {
-        selectedType: null,
-        gameDuration: 300, // 5 dakika
-        targetScore: 10
+        selectedTypes: [],
+        gameDuration: 180, // 3 dakika
+        targetScore: 80
       },
       isPlaying: false,
       isPaused: false,
-      timeLeft: 300,
+      timeLeft: 180,
       score: 0,
       totalQuestions: 0,
       selectedAnswer: null,
@@ -72,7 +72,7 @@ export class ZihinDetektifiEngine {
    * Oyunu başlat
    */
   startGame(): void {
-    if (this.cases.length === 0 || !this.gameState.settings.selectedType) {
+    if (this.cases.length === 0 || this.gameState.settings.selectedTypes.length === 0) {
       console.warn('Vakalar yüklenmedi veya tür seçilmedi');
       return;
     }
@@ -113,7 +113,11 @@ export class ZihinDetektifiEngine {
     this.gameState.showFeedback = true;
     
     if (this.gameState.isCorrect) {
-      this.gameState.score++;
+      // Temel puan: 10
+      // Süre bonusu: Kalan sürenin 10'da 1'i kadar bonus (max 30 saniye bonus = 3 puan)
+      const baseScore = 10;
+      const timeBonus = Math.min(Math.floor(this.gameState.timeLeft / 10), 3);
+      this.gameState.score += baseScore + timeBonus;
     }
     
     this.gameState.totalQuestions++;
@@ -143,13 +147,53 @@ export class ZihinDetektifiEngine {
    * Rastgele bir sonraki vakayı seç
    */
   private nextCase(): void {
-    if (!this.gameState.settings.selectedType) return;
+    if (this.gameState.settings.selectedTypes.length === 0) return;
     
-    const filteredCases = this.cases.filter(c => c.type === this.gameState.settings.selectedType);
+    const filteredCases = this.cases.filter(c => 
+      this.gameState.settings.selectedTypes.includes(c.type)
+    );
     if (filteredCases.length === 0) return;
     
     const randomIndex = Math.floor(Math.random() * filteredCases.length);
-    this.gameState.currentCase = filteredCases[randomIndex];
+    const selectedCase = filteredCases[randomIndex];
+    
+    // Seçenekleri karıştır
+    const shuffledOptions = this.shuffleOptions(selectedCase.options, selectedCase.correct_answer);
+    
+    // Karıştırılmış seçeneklerle yeni bir vaka objesi oluştur
+    this.gameState.currentCase = {
+      ...selectedCase,
+      options: shuffledOptions
+    };
+  }
+
+  /**
+   * Seçenekleri rastgele karıştır (doğru cevabı takip et)
+   */
+  private shuffleOptions(options: string[], correctAnswer: string): string[] {
+    // Doğru cevabı options array'inden çıkar
+    const otherOptions = options.filter(option => option !== correctAnswer);
+    
+    // Diğer seçenekleri karıştır
+    const shuffledOthers = this.fisherYatesShuffle([...otherOptions]);
+    
+    // Rastgele bir pozisyona doğru cevabı yerleştir
+    const insertPosition = Math.floor(Math.random() * (shuffledOthers.length + 1));
+    shuffledOthers.splice(insertPosition, 0, correctAnswer);
+    
+    return shuffledOthers;
+  }
+
+  /**
+   * Fisher-Yates shuffle algoritması ile array'i karıştır
+   */
+  private fisherYatesShuffle<T>(array: T[]): T[] {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
   }
 
   /**
@@ -201,7 +245,7 @@ export class ZihinDetektifiEngine {
         gameDate: new Date().toISOString(),
         results: [{
           name: 'Oyuncu',
-          score: `${metrics.finalScore}/${metrics.totalQuestions}`
+          score: `${metrics.finalScore} puan (${metrics.totalQuestions} soru)`
         }]
       };
       

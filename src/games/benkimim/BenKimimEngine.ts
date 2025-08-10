@@ -1,4 +1,5 @@
 import { BenKimimWord, BenKimimSettings, BenKimimGameState, BenKimimAction } from '@/types/benkimim';
+import { saveGameRecord, GameRecord } from '@/lib/storage';
 
 // Global cache for words to avoid reloading
 let globalWordsCache: BenKimimWord[] | null = null;
@@ -177,7 +178,30 @@ export class BenKimimEngine {
     this.gameState.isPlaying = false;
     this.gameState.isPaused = false;
     this.stopTimer();
+    this.saveGameResult();
     this.notifyListeners();
+  }
+
+  /**
+   * Oyun sonucunu kaydet
+   */
+  private saveGameResult(): void {
+    try {
+      const metrics = this.getGameMetrics();
+      const gameRecord: GameRecord = {
+        id: `benkimim_${Date.now()}`,
+        gameType: 'BenKimim',
+        gameDate: new Date().toISOString(),
+        results: [{
+          name: 'Oyuncu',
+          score: `${metrics.finalScore}/${metrics.totalWords}`
+        }]
+      };
+      
+      saveGameRecord(gameRecord);
+    } catch (error) {
+      console.error('Oyun sonucu kaydedilemedi:', error);
+    }
   }
 
   /**

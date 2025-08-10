@@ -20,10 +20,10 @@ interface ZihinDetektifiSetupProps {
 
 export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSetupProps) => {
   const navigate = useNavigate();
-  const [selectedType, setSelectedType] = useState<'savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema' | null>(null);
+  const [selectedTypes, setSelectedTypes] = useState<('savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema')[]>([]);
   const [settings, setSettings] = useState({
-    gameDuration: 300,
-    targetScore: 10
+    gameDuration: 180,
+    targetScore: 80
   });
 
   const handleGoBack = () => {
@@ -35,10 +35,10 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
   };
 
   const handleStartGame = () => {
-    if (!selectedType) return;
+    if (selectedTypes.length === 0) return;
 
     const gameSettings = {
-      selectedType,
+      selectedTypes,
       gameDuration: settings.gameDuration,
       targetScore: settings.targetScore
     };
@@ -149,9 +149,9 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
             <Slider
               label="Süre"
               value={settings.gameDuration}
-              min={180}
-              max={600}
-              step={60}
+              min={120}
+              max={300}
+              step={30}
               unit="saniye"
               onChange={(value) => setSettings(prev => ({ ...prev, gameDuration: value }))}
             />
@@ -166,7 +166,7 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
               <div>
                 <h4 className="text-lg font-semibold text-foreground">Hedef Skor</h4>
                 <p className="text-sm text-muted-foreground">
-                  Oyunu tamamlamak için kaç doğru cevap gerekli
+                  Oyunu tamamlamak için kaç puan toplamanız gerekli
                 </p>
               </div>
             </div>
@@ -174,10 +174,10 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
             <Slider
               label="Hedef"
               value={settings.targetScore}
-              min={5}
-              max={20}
-              step={5}
-              unit="doğru"
+              min={50}
+              max={150}
+              step={10}
+              unit="puan"
               onChange={(value) => setSettings(prev => ({ ...prev, targetScore: value }))}
             />
           </Card>
@@ -185,17 +185,25 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
 
         <div className="text-center">
           <h3 className="text-lg font-semibold text-foreground mb-2">
-            İçerik Türü Seçin
+            İçerik Türlerini Seçin
           </h3>
           <p className="text-muted-foreground text-sm">
-            Hangi psikolojik kavramları çalışmak istediğinizi seçin
+            Birden fazla psikolojik kavram türünü seçebilirsiniz ({selectedTypes.length} seçili)
           </p>
         </div>
 
         <div className="grid gap-4">
           {contentTypes.map((type) => {
             const Icon = type.icon;
-            const isSelected = selectedType === type.id;
+            const isSelected = selectedTypes.includes(type.id);
+            
+            const handleTypeToggle = () => {
+              if (isSelected) {
+                setSelectedTypes(prev => prev.filter(t => t !== type.id));
+              } else {
+                setSelectedTypes(prev => [...prev, type.id]);
+              }
+            };
             
             return (
               <div
@@ -205,7 +213,7 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
                     ? 'ring-2 ring-primary bg-primary/5 border-primary' 
                     : 'hover:bg-muted/50 hover:border-primary/20'
                 }`}
-                onClick={() => setSelectedType(type.id)}
+                onClick={handleTypeToggle}
               >
                 <Card>
                   <div className="flex items-start gap-4">
@@ -235,7 +243,7 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
         {/* Başlat Butonu */}
         <Button
           onClick={handleStartGame}
-          disabled={!selectedType}
+          disabled={selectedTypes.length === 0}
           variant="primary"
           size="lg"
           fullWidth
@@ -243,6 +251,7 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
         >
           <Play className="w-5 h-5" />
           Oyunu Başlat
+          {selectedTypes.length === 0 && " (En az 1 tür seçin)"}
         </Button>
       </div>
     </div>

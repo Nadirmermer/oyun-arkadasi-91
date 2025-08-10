@@ -13,7 +13,7 @@ export interface ZihinDetektifiCase {
 }
 
 export interface ZihinDetektifiSettings {
-  selectedType: 'savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema' | null;
+  selectedTypes: ('savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema')[];
   gameDuration: number;
   targetScore: number;
 }

@@ -7,7 +7,7 @@ import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { GameResultScreen } from '@/components/shared/GameResultScreen';
 import { ZihinDetektifiEngine } from '@/games/zihindetektifi/ZihinDetektifiEngine';
-import { ArrowLeft, CheckCircle2, XCircle } from 'lucide-react';
+import { CheckCircle2, XCircle } from 'lucide-react';
 import {
   Dialog,
   DialogContent,
@@ -29,9 +29,9 @@ export const ZihinDetektifiScreen = () => {
       try {
         const settingsJson = localStorage.getItem('zihinDetektifiGameSettings');
         const settings = settingsJson ? JSON.parse(settingsJson) : {
-          selectedType: 'savunma_mekanizmasi',
-          gameDuration: 300,
-          targetScore: 10
+          selectedTypes: ['savunma_mekanizmasi'],
+          gameDuration: 180,
+          targetScore: 80
         };
 
         const engine = new ZihinDetektifiEngine();
@@ -105,7 +105,7 @@ export const ZihinDetektifiScreen = () => {
     navigate('/');
   };
 
-  const handleExit = () => {
+  const handleGoHomeInternal = () => {
     setShowExitModal(true);
   };
 
@@ -125,7 +125,7 @@ export const ZihinDetektifiScreen = () => {
       <GameResultScreen
         title="Zihin Dedektifi Tamamlandı! 🎉"
         metrics={{
-          primary: { label: "Final Skor", value: metrics.finalScore, color: "text-primary" },
+          primary: { label: "Final Skor", value: `${metrics.finalScore} puan`, color: "text-primary" },
           secondary: { label: "Doğruluk Oranı", value: `%${metrics.accuracy}`, color: "text-success" },
           tertiary: { label: "Toplam Soru", value: `${metrics.totalQuestions} soru` }
         }}
@@ -152,23 +152,24 @@ export const ZihinDetektifiScreen = () => {
         title="Zihin Dedektifi"
         isPaused={gameState.isPaused}
         onPauseToggle={handlePauseToggle}
-        leftSlot={
-          <button
-            onClick={handleExit}
-            className="p-2 text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ArrowLeft className="w-6 h-6" />
-          </button>
-        }
-        rightSlot={
-          <div className="flex items-center gap-4 text-sm font-medium">
-            <span className="text-success">{gameState.score} Puan</span>
-            <span className="text-primary">{formatTime(gameState.timeLeft)}</span>
-          </div>
-        }
       />
 
-      <div className="flex-1 p-6 space-y-6">
+      {/* Skor ve Süre Bilgisi */}
+      <div className="px-6 md:px-8 pb-4">
+        <div className="grid grid-cols-2 gap-2 mb-4">
+          <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md">
+            <div className="font-medium text-xs sm:text-sm">Kalan Süre</div>
+            <div className="text-xl sm:text-2xl font-bold mt-1">{formatTime(gameState.timeLeft)}</div>
+          </div>
+
+          <div className="p-3 sm:p-4 rounded-xl text-center bg-success text-success-foreground shadow-md">
+            <div className="font-medium text-xs sm:text-sm">Puan</div>
+            <div className="text-xl sm:text-2xl font-bold mt-1">{gameState.score}/{gameState.settings.targetScore}</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex-1 px-6 md:px-8 space-y-6 pb-32">
         {/* Vaka Metni */}
         <Card className="bg-card/50">
           <div className="space-y-4">
@@ -262,7 +263,7 @@ export const ZihinDetektifiScreen = () => {
       {showPauseModal && (
         <PauseModal
           onResume={handlePauseToggle}
-          onGoHome={confirmExit}
+          onGoHome={handleGoHomeInternal}
         />
       )}
 

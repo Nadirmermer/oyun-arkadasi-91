@@ -3,6 +3,8 @@
  * Psikoloji konulu çoktan seçmeli sorular oyunu
  */
 
+import { saveGameRecord, GameRecord } from '@/lib/storage';
+
 export interface BilBakalimSoru {
   id: string;
   kategori: string;
@@ -214,7 +216,29 @@ export class BilBakalimEngine {
     this.stopTimer();
     this.gameState.isPlaying = false;
     this.gameState.isFinished = true;
+    this.saveGameResult();
     this.notifyListeners();
+  }
+
+  /**
+   * Oyun sonucunu kaydet
+   */
+  private saveGameResult(): void {
+    try {
+      const gameRecord: GameRecord = {
+        id: `bilbakalim_${Date.now()}`,
+        gameType: 'BilBakalim',
+        gameDate: new Date().toISOString(),
+        results: [{
+          name: 'Oyuncu',
+          score: `${this.gameState.score} puan (${this.gameState.correctAnswers}/${this.gameState.totalQuestions})`
+        }]
+      };
+      
+      saveGameRecord(gameRecord);
+    } catch (error) {
+      console.error('Oyun sonucu kaydedilemedi:', error);
+    }
   }
 
   /**

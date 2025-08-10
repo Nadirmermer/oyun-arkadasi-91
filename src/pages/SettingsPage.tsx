@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Moon, Sun, Info, X, Trophy, Download } from 'lucide-react';
+import { Moon, Sun, Info, X, Trophy, Download, Instagram, Mail } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
@@ -143,7 +143,7 @@ export const SettingsPage = () => {
 
       {/* Inline About Modal */}
       {showAboutModal && (
-        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4 modal-backdrop">
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[9999] flex items-center justify-center p-4 modal-backdrop">
           <div className="bg-card rounded-2xl shadow-elevated max-w-md w-full modal-content">
             <div className="p-6">
               {/* Header */}
@@ -164,7 +164,7 @@ export const SettingsPage = () => {
               {/* Content */}
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2 mx-0 text-left">PsikOyun v1.0.0</h4>
+                  <h4 className="font-semibold text-foreground mb-2 mx-0 text-left">PsikOyun v2.1.1</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Psikoloji öğrencileri ve meraklıları için özel olarak tasarlanan eğlenceli oyun koleksiyonu. 
                     Psikoloji terimlerini öğrenirken eğlenin, arkadaşlarınızla yarışın!
@@ -181,6 +181,29 @@ export const SettingsPage = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Geliştirici</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">Nadir Mermer tarafından geliştirilmiştir.</p>
+                </div>
+
+                {/* İletişim ve Sosyal Medya */}
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">İletişim</h4>
+                  <div className="space-y-2">
+                    <a 
+                      href="mailto:1nadirmermer@gmail.com"
+                      className="flex items-center gap-2 text-muted-foreground text-sm hover:text-primary transition-colors"
+                    >
+                      <Mail className="w-4 h-4" />
+                      1nadirmermer@gmail.com
+                    </a>
+                    <a 
+                      href="https://www.instagram.com/nadir.mermer/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-muted-foreground text-sm hover:text-primary transition-colors"
+                    >
+                      <Instagram className="w-4 h-4" />
+                      @nadir.mermer
+                    </a>
+                  </div>
                 </div>
               </div>
               
