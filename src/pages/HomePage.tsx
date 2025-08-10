@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Users, Search, Filter, Scale, Lightbulb, Eye, TrendingUp } from 'lucide-react';
+import { Users, Search, Filter, Scale, Lightbulb, Eye, TrendingUp, UserCheck, Brain, Target, Puzzle, BookOpen } from 'lucide-react';
 import logoImage from '/icons/icon-192x192.png';
 import { Card } from '@/components/shared/Card';
 import { AppLayout } from '@/components/shared/AppLayout';
@@ -278,7 +278,7 @@ export const HomePage = () => {
             <button onClick={() => navigate('/game/benkimim/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
               <div className="text-center">
                 <div className="w-12 h-12 bg-success/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                  <Search className="w-6 h-6 text-success" />
+                  <UserCheck className="w-6 h-6 text-success" />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-foreground mb-1">Ben Kimim?</h3>
@@ -311,13 +311,13 @@ export const HomePage = () => {
             <Card className="p-0 overflow-hidden shadow-card">
               <button onClick={() => setCurrentPhase('iki-dogru-bir-yalan-setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-danger/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                    <Filter className="w-6 h-6 text-danger" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-foreground mb-1">İki Doğru Bir Yalan</h3>
-                    <p className="text-xs text-muted-foreground">Doğru bilgiyi bul</p>
-                  </div>
+                                  <div className="w-12 h-12 bg-danger/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                  <Target className="w-6 h-6 text-danger" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">İki Doğru Bir Yalan</h3>
+                  <p className="text-xs text-muted-foreground">Doğru bilgiyi bul</p>
+                </div>
                 </div>
               </button>
             </Card>
@@ -325,13 +325,13 @@ export const HomePage = () => {
             <Card className="p-0 overflow-hidden shadow-card">
               <button onClick={() => navigate('/game/bilbakalim/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-info/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                    <Lightbulb className="w-6 h-6 text-info" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-foreground mb-1">Bil Bakalım</h3>
-                    <p className="text-xs text-muted-foreground">Bilgi yarışması</p>
-                  </div>
+                                  <div className="w-12 h-12 bg-info/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                  <BookOpen className="w-6 h-6 text-info" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">Bil Bakalım</h3>
+                  <p className="text-xs text-muted-foreground">Bilgi yarışması</p>
+                </div>
                 </div>
               </button>
             </Card>
@@ -353,13 +353,13 @@ export const HomePage = () => {
             <Card className="p-0 overflow-hidden shadow-card">
               <button onClick={() => navigate('/game/istatistik/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                    <TrendingUp className="w-6 h-6 text-purple-500" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-foreground mb-1">İstatistik Sezgisi</h3>
-                    <p className="text-xs text-muted-foreground">Psikoloji istatistikleri</p>
-                  </div>
+                                  <div className="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                  <Puzzle className="w-6 h-6 text-purple-500" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">İstatistik Sezgisi</h3>
+                  <p className="text-xs text-muted-foreground">Psikoloji istatistikleri</p>
+                </div>
                 </div>
               </button>
             </Card>
@@ -367,13 +367,13 @@ export const HomePage = () => {
             <Card className="p-0 overflow-hidden shadow-card">
               <button onClick={() => navigate('/game/zihindetektifi/setup')} className="w-full p-4 text-left hover:bg-primary/5 transition-smooth hover-lift">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-indigo-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                    <Search className="w-6 h-6 text-indigo-500" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-foreground mb-1">Zihin Dedektifi</h3>
-                    <p className="text-xs text-muted-foreground">Psikolojik kavramları bul</p>
-                  </div>
+                                  <div className="w-12 h-12 bg-indigo-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                  <Brain className="w-6 h-6 text-indigo-500" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">Zihin Dedektifi</h3>
+                  <p className="text-xs text-muted-foreground">Psikolojik kavramları bul</p>
+                </div>
                 </div>
               </button>
             </Card>
