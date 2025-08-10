@@ -7,7 +7,7 @@ import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { GameResultScreen } from '@/components/shared/GameResultScreen';
 import { BenKimimEngine } from '@/games/benkimim/BenKimimEngine';
 import { BenKimimGameState } from '@/types/benkimim';
-import { useMotionSensor } from '@/hooks/use-motion-sensor';
+
 import { useSystemTheme } from '@/hooks/use-system-theme';
 import { saveGameRecord } from '@/lib/storage';
 
@@ -20,7 +20,7 @@ export const BenKimimScreen = () => {
   const [isLandscapeMode, setIsLandscapeMode] = useState(false);
   const [showResults, setShowResults] = useState(false);
 
-  const motionSensor = useMotionSensor();
+
 
   // Tema uyumluluğunu sağla
   useSystemTheme();
@@ -35,8 +35,7 @@ export const BenKimimScreen = () => {
         
         gameEngine.updateSettings({
           gameDuration: settings.gameDuration,
-          targetScore: settings.targetScore,
-          controlType: settings.controlType
+          targetScore: settings.targetScore
         });
       }
 
@@ -63,30 +62,7 @@ export const BenKimimScreen = () => {
     };
   }, [gameEngine]);
 
-  // Hareket sensörü ayarları - sadece permission durumu değiştiğinde çalışır
-  useEffect(() => {
-    if (gameState.settings.controlType === 'motion' && motionSensor.hasPermission) {
-      // İzin zaten var, sadece callback'leri ayarla
-      motionSensor.onTiltForward(() => {
-        if (gameState.isPlaying && !gameState.isPaused) {
-          gameEngine.handleAction('correct');
-        }
-      });
-      
-      motionSensor.onTiltBackward(() => {
-        if (gameState.isPlaying && !gameState.isPaused) {
-          gameEngine.handleAction('pass');
-        }
-      });
-    }
 
-    return () => {
-      // Cleanup sadece component unmount'ta
-      if (gameState.settings.controlType === 'motion') {
-        motionSensor.cleanup();
-      }
-    };
-  }, [gameState.settings.controlType, motionSensor.hasPermission, motionSensor, gameEngine, gameState.isPlaying, gameState.isPaused]);
 
   const handleCorrect = () => {
     gameEngine.handleAction('correct');

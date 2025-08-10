@@ -128,13 +128,8 @@ export interface StoredSettings {
   gameDuration: number;
   maxScore: number;        // Tur sayısı olarak kullanılacak
   passCount: number;
-  // Hareket sensörü ayarları
-  motionSensorEnabled: boolean;
-  motionSensitivity: 'low' | 'medium' | 'high';
-  motionPermissionStatus: 'granted' | 'denied' | 'prompt' | 'unsupported';
   // Tabu oyunu ek ayarları
   selectedCategories: string[];
-  controlType: 'buttons' | 'motion';
 }
 
 export interface GameRecord {
@@ -195,11 +190,7 @@ export const loadSettings = (): StoredSettings => {
     gameDuration: 60,
     maxScore: 3,
     passCount: 3,
-    motionSensorEnabled: false,
-    motionSensitivity: 'medium' as const,
-    motionPermissionStatus: 'prompt' as const,
-    selectedCategories: [],
-    controlType: 'buttons' as const
+    selectedCategories: []
   };
   
   const stored = safeLocalStorageGet(STORAGE_KEYS.SETTINGS);

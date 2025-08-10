@@ -19,7 +19,7 @@ export interface GameSettings {
   maxScore: number;        // Toplam tur sayısı
   passCount: number;       // Pas hakkı sayısı
   darkMode: boolean;       // Karanlık mod durumu
-  controlType?: 'buttons' | 'motion'; // Kontrol tipi (opsiyonel)
+
   selectedCategories?: string[]; // Tabu için seçili kategoriler (opsiyonel)
 }
 

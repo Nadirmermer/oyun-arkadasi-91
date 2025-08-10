@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Pause, Play, SkipForward, Check, X, Home, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Pause, Play, SkipForward, Check, X, Home } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { CircularTimer } from '@/components/shared/CircularTimer';
@@ -10,7 +10,7 @@ import { GameFooterControls } from '@/components/shared/GameFooterControls';
 import { TabuEngine } from '@/games/tabu/TabuEngine';
 import { GameState, Team, GameAction } from '@/types/game';
 import { cn } from '@/lib/utils';
-import { useMotionSensor } from '@/hooks/use-motion-sensor';
+
 interface GameScreenProps {
   gameEngine: TabuEngine;
   onGameEnd: () => void;
@@ -31,7 +31,7 @@ export const GameScreen = ({
   const [showExitModal, setShowExitModal] = useState(false);
   const [showTurnTransition, setShowTurnTransition] = useState(false);
   const [flashColor, setFlashColor] = useState<'success' | 'danger' | null>(null);
-  const motionSensor = useMotionSensor();
+
 
   // Event-driven güncelleme
   useEffect(() => {
@@ -57,30 +57,7 @@ export const GameScreen = ({
     setGameState(gameEngine.getState());
   }, [gameEngine]);
 
-  // Hareket sensörü ayarları - sadece permission durumu değiştiğinde çalışır
-  useEffect(() => {
-    if (gameState.settings.controlType === 'motion' && motionSensor.hasPermission) {
-      // İzin zaten var, sadece callback'leri ayarla
-      motionSensor.onTiltRight(() => {
-        if (gameState.isPlaying && !gameState.isPaused) {
-          handleAction('correct');
-        }
-      });
-      
-      motionSensor.onTiltLeft(() => {
-        if (gameState.isPlaying && !gameState.isPaused) {
-          handleAction('tabu');
-        }
-      });
-    }
 
-    return () => {
-      // Cleanup sadece component unmount'ta
-      if (gameState.settings.controlType === 'motion') {
-        motionSensor.cleanup();
-      }
-    };
-  }, [gameState.settings.controlType, motionSensor.hasPermission, motionSensor, gameEngine, gameState.isPlaying, gameState.isPaused, handleAction]);
 
   /**
    * Oyunu duraklatır/devam ettirir
@@ -200,49 +177,25 @@ export const GameScreen = ({
             </div>
           </Card>}
 
-        {/* Kontrol Talimatları (Hareket Modu) */}
-        {gameState.settings.controlType === 'motion' && <Card className="w-full max-w-md mt-4 mb-4">
-            <div className="text-center space-y-2">
-              <p className="text-sm text-muted-foreground">Telefonu hareket ettir:</p>
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div className="flex items-center gap-2 justify-center">
-                  <ChevronRight className="w-4 h-4 text-success" />
-                  <span>Sağa → Doğru</span>
-                </div>
-                <div className="flex items-center gap-2 justify-center">
-                  <ChevronLeft className="w-4 h-4 text-danger" />
-                  <span>Sola → Tabu</span>
-                </div>
-              </div>
-            </div>
-          </Card>}
+
       </div>
 
       {/* Alt Kontrol Paneli */}
       <GameFooterControls>
-        {gameState.settings.controlType === 'motion' ? (
-          <div className="flex justify-center">
-            <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem] px-8">
-              <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
-            </Button>
-          </div>
-        ) : (
-          <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-sm mx-auto">
-            <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
-              <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
-            </Button>
-            <Button onClick={() => handleActionWithFlash('correct')} variant="success" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
-              <Check className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="text-xs">Doğru</span>
-            </Button>
-            <Button onClick={() => handleActionWithFlash('tabu')} variant="danger" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
-              <X className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="text-xs">Tabu</span>
-            </Button>
-          </div>
-        )}
+        <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-sm mx-auto">
+          <Button onClick={() => handleAction('pass')} variant="secondary" size="md" disabled={gameState.passesUsed >= gameState.settings.passCount} className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
+            <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="text-xs">Pas ({gameState.settings.passCount - gameState.passesUsed})</span>
+          </Button>
+          <Button onClick={() => handleActionWithFlash('correct')} variant="success" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
+            <Check className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="text-xs">Doğru</span>
+          </Button>
+          <Button onClick={() => handleActionWithFlash('tabu')} variant="danger" size="md" className="flex flex-col items-center justify-center gap-1 py-3 sm:py-4 min-h-[3.5rem] sm:min-h-[4rem]">
+            <X className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="text-xs">Tabu</span>
+          </Button>
+        </div>
       </GameFooterControls>
 
       {/* Duraklatma Modalı */}

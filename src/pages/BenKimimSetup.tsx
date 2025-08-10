@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Play, Clock, Target, Gamepad2, Smartphone, Search } from 'lucide-react';
+import { Play, Clock, Target, Smartphone, Search } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { BenKimimSettings } from '@/types/benkimim';
-import { useMotionSensor } from '@/hooks/use-motion-sensor';
+
 import { toast } from '@/hooks/use-toast';
 
 interface BenKimimSetupProps {
@@ -20,35 +20,13 @@ interface BenKimimSetupProps {
 export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => {
   const [settings, setSettings] = useState<BenKimimSettings>({
     gameDuration: 90,
-    targetScore: 15,
-    controlType: 'buttons'
+    targetScore: 15
   });
   
   const [isLandscapeMode, setIsLandscapeMode] = useState(false);
-  
-  const motionSensor = useMotionSensor();
+
 
   const handleStartGame = async () => {
-    // Eğer hareket kontrolü seçildiyse izin iste
-    if (settings.controlType === 'motion') {
-      if (!motionSensor.isSupported) {
-        toast({
-          title: "Hareket Sensörü Desteklenmiyor",
-          description: "Bu cihaz hareket sensörünü desteklemiyor. Lütfen buton kontrolünü seçin.",
-          variant: "destructive"
-        });
-        return;
-      }
-      
-      if (!motionSensor.hasPermission) {
-        const granted = await motionSensor.requestPermission();
-        if (!granted) {
-          // Toast zaten hook içinde gösterildi
-          return;
-        }
-      }
-    }
-    
     onStartGame({ ...settings, isLandscapeMode });
   };
 
@@ -128,72 +106,7 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
             />
           </Card>
 
-          {/* Kontrol Tipi */}
-          <Card>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                <Gamepad2 className="w-5 h-5 text-primary" />
-              </div>
-              <div>
-                <h4 className="text-lg font-semibold text-foreground">Kontrol Tipi</h4>
-                <p className="text-sm text-muted-foreground">
-                  Oyunu nasıl kontrol etmek istiyorsun?
-                </p>
-              </div>
-            </div>
 
-            <div className="grid grid-cols-2 gap-3">
-              <button
-                onClick={() => setSettings(prev => ({ ...prev, controlType: 'buttons' }))}
-                className={`p-4 rounded-xl border-2 transition-all ${
-                  settings.controlType === 'buttons'
-                    ? 'border-primary bg-primary/5'
-                    : 'border-border hover:border-primary/50'
-                }`}
-              >
-                <div className="flex flex-col items-center gap-2">
-                  <Gamepad2 className={`w-6 h-6 ${
-                    settings.controlType === 'buttons' ? 'text-primary' : 'text-muted-foreground'
-                  }`} />
-                  <span className={`text-sm font-medium ${
-                    settings.controlType === 'buttons' ? 'text-primary' : 'text-foreground'
-                  }`}>
-                    Butonlar
-                  </span>
-                </div>
-              </button>
-
-              <button
-                onClick={() => setSettings(prev => ({ ...prev, controlType: 'motion' }))}
-                disabled={!motionSensor.isSupported}
-                className={`p-4 rounded-xl border-2 transition-all ${
-                  settings.controlType === 'motion'
-                    ? 'border-primary bg-primary/5'
-                    : 'border-border hover:border-primary/50'
-                } ${!motionSensor.isSupported ? 'opacity-50 cursor-not-allowed' : ''}`}
-              >
-                <div className="flex flex-col items-center gap-2">
-                  <Smartphone className={`w-6 h-6 ${
-                    settings.controlType === 'motion' ? 'text-primary' : 'text-muted-foreground'
-                  }`} />
-                  <span className={`text-sm font-medium ${
-                    settings.controlType === 'motion' ? 'text-primary' : 'text-foreground'
-                  }`}>
-                    {motionSensor.isSupported ? 'Hareket' : 'Desteklenmiyor'}
-                  </span>
-                </div>
-              </button>
-            </div>
-
-            {settings.controlType === 'motion' && (
-              <div className="mt-4 p-3 bg-muted/50 rounded-lg">
-                <p className="text-sm text-muted-foreground">
-                  📱 <strong>Doğru:</strong> Telefonu aşağı eğin<br />
-                  📱 <strong>Pas:</strong> Telefonu yukarı eğin
-                </p>
-              </div>
-            )}
-        </Card>
 
         {/* Yatay Mod Seçeneği */}
         <Card>
