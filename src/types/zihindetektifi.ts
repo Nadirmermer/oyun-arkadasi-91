@@ -24,6 +24,9 @@ export interface ZihinDetektifiGameState {
   score: number;
   totalQuestions: number;
   answeredQuestions: number;
+  selectedAnswer?: string | null;
+  isCorrect?: boolean;
+  showFeedback?: boolean;
 }
 
 export type ZihinDetektifiAction = 

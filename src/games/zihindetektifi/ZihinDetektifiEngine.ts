@@ -14,6 +14,9 @@ export class ZihinDetektifiEngine {
       score: 0,
       totalQuestions: 0,
       answeredQuestions: 0,
+      selectedAnswer: null,
+      isCorrect: false,
+      showFeedback: false,
       settings: {
         selectedTypes: ['savunma_mekanizmasi', 'bilissel_carpitma', 'uyumsuz_sema'],
         questionCount: 10,
@@ -94,6 +97,9 @@ export class ZihinDetektifiEngine {
       this.cases.length
     );
     this.gameState.answeredQuestions = 0;
+    this.gameState.selectedAnswer = null;
+    this.gameState.isCorrect = false;
+    this.gameState.showFeedback = false;
     
     this.nextCase();
     this.notifyListeners();
@@ -103,13 +109,30 @@ export class ZihinDetektifiEngine {
    * Cevap seç
    */
   selectAnswer(answer: string): void {
-    if (this.gameState.status !== 'playing') return;
+    if (this.gameState.status !== 'playing' || this.gameState.showFeedback) return;
 
     const isCorrect = answer === this.gameState.currentCase?.correct_answer;
     
     if (isCorrect) {
       this.gameState.score += 10;
     }
+    
+    this.gameState.selectedAnswer = answer;
+    this.gameState.isCorrect = isCorrect;
+    this.gameState.showFeedback = true;
+    
+    this.notifyListeners();
+  }
+
+  /**
+   * Sonraki soruya geç
+   */
+  nextQuestion(): void {
+    if (this.gameState.status !== 'playing') return;
+    
+    this.gameState.selectedAnswer = null;
+    this.gameState.isCorrect = false;
+    this.gameState.showFeedback = false;
     
     this.gameState.answeredQuestions++;
     
@@ -145,6 +168,11 @@ export class ZihinDetektifiEngine {
       ...selectedCase,
       options: shuffledOptions
     };
+    
+    // Yeni vaka için state'i sıfırla
+    this.gameState.selectedAnswer = null;
+    this.gameState.isCorrect = false;
+    this.gameState.showFeedback = false;
   }
 
   /**

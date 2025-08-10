@@ -6,14 +6,9 @@ import { Card } from '@/components/shared/Card';
 import { PauseModal } from '@/components/shared/PauseModal';
 import { ExitGameModal } from '@/components/shared/ExitGameModal';
 import { GameResultScreen } from '@/components/shared/GameResultScreen';
+import { GameFooterControls } from '@/components/shared/GameFooterControls';
 import { ZihinDetektifiEngine } from '@/games/zihindetektifi/ZihinDetektifiEngine';
-import { CheckCircle2, XCircle } from 'lucide-react';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
+import { CheckCircle2, XCircle, ArrowRight } from 'lucide-react';
 
 export const ZihinDetektifiScreen = () => {
   const navigate = useNavigate();
@@ -22,6 +17,7 @@ export const ZihinDetektifiScreen = () => {
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
   const [showResultScreen, setShowResultScreen] = useState(false);
+
 
 
   useEffect(() => {
@@ -98,6 +94,11 @@ export const ZihinDetektifiScreen = () => {
     navigate('/');
   };
 
+  const handleNextQuestion = () => {
+    if (engineRef.current) {
+      engineRef.current.nextQuestion();
+    }
+  };
 
 
   if (showResultScreen && engineRef.current) {
@@ -204,41 +205,53 @@ export const ZihinDetektifiScreen = () => {
         </Card>
       </div>
 
-      {/* Feedback Modal */}
-      <Dialog open={showFeedbackModal} onOpenChange={setShowFeedbackModal}>
-        <DialogContent className="max-w-md">
-          <DialogHeader>
-            <DialogTitle className={`flex items-center gap-2 ${
-              gameState.isCorrect ? 'text-success' : 'text-danger'
-            }`}>
-              {gameState.isCorrect ? (
-                <>
-                  <CheckCircle2 className="w-6 h-6" />
-                  Doğru!
-                </>
-              ) : (
-                <>
-                  <XCircle className="w-6 h-6" />
-                  Yanlış!
-                </>
-              )}
-            </DialogTitle>
-          </DialogHeader>
+      {/* Feedback Area */}
+      {gameState.showFeedback && (
+        <GameFooterControls>
           <div className="space-y-4">
-            <div>
-              <p className="font-semibold text-foreground mb-2">
-                Doğru Cevap: {gameState.currentCase?.correct_answer}
+            {/* Sonuç Mesajı */}
+            <div className={`p-3 rounded-lg text-center ${
+              gameState.isCorrect 
+                ? 'bg-success/10 text-success border border-success/20' 
+                : 'bg-danger/10 text-danger border border-danger/20'
+            }`}>
+              <div className="flex items-center justify-center gap-2 mb-2">
+                {gameState.isCorrect ? (
+                  <>
+                    <CheckCircle2 className="w-5 h-5" />
+                    <span className="font-semibold">Doğru!</span>
+                  </>
+                ) : (
+                  <>
+                    <XCircle className="w-5 h-5" />
+                    <span className="font-semibold">Yanlış!</span>
+                  </>
+                )}
+              </div>
+              <p className="text-sm">
+                <span className="font-medium">Doğru Cevap:</span> {gameState.currentCase?.correct_answer}
               </p>
-              <p className="text-muted-foreground text-sm">
+            </div>
+            
+            {/* Açıklama */}
+            <div className="p-3 bg-muted/30 rounded-lg">
+              <p className="text-sm text-muted-foreground">
                 {gameState.currentCase?.explanation}
               </p>
             </div>
-            <Button onClick={handleNextQuestion} fullWidth>
-              Devam Et
+            
+            {/* Sonraki Soru Butonu */}
+            <Button 
+              onClick={handleNextQuestion} 
+              className="w-full" 
+              size="lg"
+            >
+              <ArrowRight className="w-4 h-4 mr-2" />
+              Sonraki Soru
             </Button>
           </div>
-        </DialogContent>
-      </Dialog>
+        </GameFooterControls>
+      )}
 
       {/* Pause Modal */}
       {showPauseModal && (
