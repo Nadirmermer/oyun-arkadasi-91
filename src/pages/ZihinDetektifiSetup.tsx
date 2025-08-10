@@ -22,8 +22,8 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
   const navigate = useNavigate();
   const [selectedTypes, setSelectedTypes] = useState<('savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema')[]>([]);
   const [settings, setSettings] = useState({
-    gameDuration: 180,
-    targetScore: 80
+    questionCount: 10,
+    timeLimit: 60
   });
 
   const handleGoBack = () => {
@@ -39,8 +39,8 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
 
     const gameSettings = {
       selectedTypes,
-      gameDuration: settings.gameDuration,
-      targetScore: settings.targetScore
+      questionCount: settings.questionCount,
+      timeLimit: settings.timeLimit
     };
 
     if (onStartGame) {
@@ -139,46 +139,46 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
                 <Clock className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h4 className="text-lg font-semibold text-foreground">Oyun Süresi</h4>
+                <h4 className="text-lg font-semibold text-foreground">Soru Sayısı</h4>
                 <p className="text-sm text-muted-foreground">
-                  Toplam oyun süresi
+                  Kaç soru ile oynamak istersiniz
                 </p>
               </div>
             </div>
             
             <Slider
-              label="Süre"
-              value={settings.gameDuration}
-              min={120}
-              max={300}
-              step={30}
-              unit="saniye"
-              onChange={(value) => setSettings(prev => ({ ...prev, gameDuration: value }))}
+              label="Soru Sayısı"
+              value={settings.questionCount}
+              min={5}
+              max={20}
+              step={1}
+              unit="soru"
+              onChange={(value) => setSettings(prev => ({ ...prev, questionCount: value }))}
             />
           </Card>
 
-          {/* Hedef Skor */}
+          {/* Zaman Sınırı */}
           <Card>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                 <Target className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h4 className="text-lg font-semibold text-foreground">Hedef Skor</h4>
+                <h4 className="text-lg font-semibold text-foreground">Soru Başına Süre</h4>
                 <p className="text-sm text-muted-foreground">
-                  Oyunu tamamlamak için kaç puan toplamanız gerekli
+                  Her soru için maksimum süre (saniye)
                 </p>
               </div>
             </div>
             
             <Slider
-              label="Hedef"
-              value={settings.targetScore}
-              min={50}
-              max={150}
-              step={10}
-              unit="puan"
-              onChange={(value) => setSettings(prev => ({ ...prev, targetScore: value }))}
+              label="Süre"
+              value={settings.timeLimit}
+              min={30}
+              max={120}
+              step={15}
+              unit="saniye"
+              onChange={(value) => setSettings(prev => ({ ...prev, timeLimit: value }))}
             />
           </Card>
         </div>

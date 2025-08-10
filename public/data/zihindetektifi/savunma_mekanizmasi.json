@@ -1,0 +1,1434 @@
+{
+  "cases": [
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Ali, sunumda yaptığı büyük bir hatadan dolayı yöneticisinden sert bir uyarı almıştı. Çok utanmıştı. Öğle arasında stajyere, 'Hiçbir işi doğru yapamıyor musun!' diye bağırdı.",
+      "question": "Ali'nin, yöneticisine olan öfkesini stajyere yöneltmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yön Değiştirme",
+        "Yansıtma",
+        "Yüceltme",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Yön Değiştirme",
+      "explanation": "Kişi, asıl hedefe gösteremediği bir duyguyu veya tepkiyi, daha az riskli veya ilgisiz bir hedefe yöneltir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Zehra, arkadaşının kendisini hiç aramadığını ve unuttuğunu düşünüyordu. Aslında Zehra'nın arkadaşını hiç aramadığı gerçeğini görmezden geliyordu.",
+      "question": "Zehra'nın kendi arama isteksizliğini ve ihmalini arkadaşına atfetmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yansıtma",
+        "İnkar",
+        "Entelektüelleştirme",
+        "Gerileme"
+      ],
+      "correct_answer": "Yansıtma",
+      "explanation": "Kişi, kendisinde bulunan kabul edilemez dürtü, duygu veya düşünceleri başkalarına atfeder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Sınavda kopya çekerken yakalanan bir öğrenci, 'Ama herkes yapıyordu, yapmasaydım haksızlık olacaktı.' diyerek davranışını savundu.",
+      "question": "Öğrencinin, yaptığı yanlış davranışı mantıklı gibi görünen ama aslında geçersiz nedenlere dayandırması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Akılcılaştırma",
+        "İnkar",
+        "Ödünleme",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Akılcılaştırma",
+      "explanation": "Kişi, yaptığı kabul edilemez bir davranışı, mantıklı ve toplumsal olarak kabul edilebilir nedenler üreterek haklı çıkarmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Çok agresif ve saldırgan dürtülere sahip olan bir genç, enerjisini boks sporuna yönelterek başarılı bir sporcu oldu.",
+      "question": "Gencin, toplum tarafından kabul edilmeyen saldırganlık dürtülerini, kabul edilebilir bir alan olan spora yöneltmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yüceltme",
+        "Ödünleme",
+        "Karşıt Tepki Oluşturma",
+        "Yalıtma"
+      ],
+      "correct_answer": "Yüceltme",
+      "explanation": "İlkel ve kabul edilemez dürtülerin, toplumsal olarak kabul edilebilir ve hatta takdir edilen kanallara yönlendirilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Eşine karşı yoğun bir öfke duyan bir kişi, eşine hiç sinirlenmiyor, tam aksine ona aşırı sevgi dolu ve anlayışlı davranıyordu.",
+      "question": "Kişinin, hissettiği gerçek duygunun tam tersi bir davranışı abartılı bir şekilde sergilemesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Karşıt Tepki Oluşturma",
+        "İnkar",
+        "Yansıtma",
+        "Yalıtma"
+      ],
+      "correct_answer": "Karşıt Tepki Oluşturma",
+      "explanation": "Kişi, kabul edemediği rahatsız edici bir dürtü veya duygunun tam zıttını düşünür ve uygular."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Doktoru, ciddi bir kalp rahatsızlığı olduğunu söylediğinde, hasta bunu duymamış gibi davrandı ve 'Yok canım, sadece biraz yorgunluktur o.' diyerek durumu tamamen reddetti.",
+      "question": "Hastanın, acı veren bir gerçeği veya durumu hiç yaşanmamış gibi kabul etmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "İnkar",
+        "Akılcılaştırma",
+        "Bastırma",
+        "Gerileme"
+      ],
+      "correct_answer": "İnkar",
+      "explanation": "Kişinin, varlığı açıkça ortada olan acı verici bir gerçeği veya durumu yok saymasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Çocukluğunda travmatik bir kaza geçiren bir yetişkin, o kazaya dair hiçbir anıyı hatırlamıyordu. Sorulduğunda, o döneme ait hafızasının boş olduğunu söylüyordu.",
+      "question": "Kişinin, yoğun kaygı yaratan anı, düşünce veya dürtüleri bilinçdışına iterek farkındalıktan uzak tutması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Bastırma",
+        "İnkar",
+        "Bölme",
+        "Çözülme"
+      ],
+      "correct_answer": "Bastırma",
+      "explanation": "Rahatsız edici ve benlik için tehlikeli görülen dürtü, anı ve duyguların bilinçdışına atılarak orada tutulmasıdır. İnkar'dan farkı, olayın farkında bile olunmamasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Yeni kardeşi doğduktan sonra 8 yaşındaki bir çocuk, tekrar parmağını emmeye ve bebek gibi konuşmaya başladı.",
+      "question": "Çocuğun, stresli bir durumla karşılaştığında daha önceki bir gelişim dönemine ait davranışlar sergilemesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Gerileme (Regresyon)",
+        "Yön Değiştirme",
+        "Özdeşleşme",
+        "İçe Atma"
+      ],
+      "correct_answer": "Gerileme (Regresyon)",
+      "explanation": "Kişi, kaygı ve stresle başa çıkmak için mevcut gelişim düzeyinden daha ilkel bir düzeye geriler ve o döneme ait davranışlar gösterir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Kısa boylu olduğu için kendini yetersiz hisseden bir kişi, akademik alanda olağanüstü başarılar göstererek profesör oldu.",
+      "question": "Kişinin, bir alandaki eksiklik veya yetersizlik duygusunu başka bir alanda üstün başarı göstererek kapatmaya çalışması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Ödünleme (Telafi)",
+        "Yüceltme",
+        "Akılcılaştırma",
+        "Karşıt Tepki Oluşturma"
+      ],
+      "correct_answer": "Ödünleme (Telafi)",
+      "explanation": "Bir alanda hissedilen eksikliğin veya aşağılık duygusunun, başka bir alanda elde edilen başarılarla giderilmeye çalışılmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Sevdiği kişi öldüğünde çok üzülen biri, cenaze ve defin işlemlerini aşırı bir soğukkanlılıkla, sanki bir organizasyon yönetiyormuş gibi duygusuzca anlattı ve tüm detayları istatistiksel olarak açıkladı.",
+      "question": "Kişinin, kaygı yaratan bir olayı duygusal boyutundan soyutlayarak sadece mantıksal ve teknik yönleriyle ele alması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Entelektüelleştirme",
+        "Yalıtma",
+        "Akılcılaştırma",
+        "Bastırma"
+      ],
+      "correct_answer": "Entelektüelleştirme",
+      "explanation": "Kaygı doğuran bir durumun duygusal içeriğinden uzaklaşarak, onu sadece soyut, mantıksal ve entelektüel terimlerle ele almaktır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, iş arkadaşını ya 'dünyanın en harika insanı' olarak görürken, en ufak bir hatasında onu 'tamamen kötü ve güvenilmez' biri olarak damgalıyordu.",
+      "question": "Kişinin, insanları veya durumları iyi ve kötü gibi iki aşırı uçta görmesi ve bu iki uç arasında gidip gelmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Bölme",
+        "Yansıtma",
+        "Karşıt Tepki Oluşturma",
+        "İnkar"
+      ],
+      "correct_answer": "Bölme",
+      "explanation": "Nesnelerin (insanların) iyi ve kötü yönlerinin birleştirilememesi, onların sadece 'tamamen iyi' veya 'tamamen kötü' olarak algılanmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir genç, zorbalığa uğradığında onunla savaşmak yerine, zorbanın giyim tarzını, konuşma şeklini ve tavırlarını taklit etmeye başladı.",
+      "question": "Gencin, kaygı yaratan bir kişinin (zorbanın) özelliklerini benimseyerek onun gibi davranması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Saldırganla Özdeşleşme",
+        "Gerileme",
+        "Boyun Eğme",
+        "Yansıtma"
+      ],
+      "correct_answer": "Saldırganla Özdeşleşme",
+      "explanation": "Kişi, kaygı verici bir dış tehdidin (genellikle bir otorite figürü) özelliklerini ve davranışlarını içselleştirerek o tehdit gibi olur."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir cerrah, ameliyat sırasında hastasının acı çektiğini düşünürse işini yapamayacağı için, olayın duygusal yönünü düşünceden ayırarak sadece teknik kısma odaklanır.",
+      "question": "Duygunun, onu yaratan düşünce veya anıdan koparılarak ayrı tutulması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yalıtma (İzolasyon)",
+        "Entelektüelleştirme",
+        "Bastırma",
+        "Çözülme"
+      ],
+      "correct_answer": "Yalıtma (İzolasyon)",
+      "explanation": "Duygusal tepkinin, ona neden olan düşünce veya anıdan ayrılmasıdır. Kişi olayı hatırlar ama ona eşlik eden duyguyu hissetmez."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Annesine karşı kötü düşündüğü için suçluluk duyan bir çocuk, odasındaki oyuncakları tekrar tekrar belirli bir düzene sokarak bu düşünceyi 'temizlemeye' çalışıyordu.",
+      "question": "Kişinin, kabul edilemez bir düşünce veya davranışı, sihirli bir şekilde ortadan kaldıracağına inandığı başka bir davranışla (ritüel) gidermeye çalışması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yapma-Bozma",
+        "Akılcılaştırma",
+        "Yalıtma",
+        "Gerileme"
+      ],
+      "correct_answer": "Yapma-Bozma",
+      "explanation": "Kişinin, yapmış olduğu veya düşündüğü kabul edilemez bir şeyi, onu sembolik olarak ortadan kaldıran ikinci bir eylemle geri almaya çalışmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "İş yerinde çok stresli ve aşağılayıcı bir gün geçiren bir kişi, en gergin anda bile durumla ilgili komik bir espri yaparak ortamdaki gerilimi dağıttı.",
+      "question": "Kişinin, kaygı verici veya acı dolu bir durumun üzerine mizahi bir unsur ekleyerek onunla başa çıkması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Mizah",
+        "Entelektüelleştirme",
+        "Yüceltme",
+        "İnkar"
+      ],
+      "correct_answer": "Mizah",
+      "explanation": "Stresli veya rahatsız edici bir durumun ciddiyetini, o durumun komik veya ironik yönlerini vurgulayarak azaltmaktır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir öğrenci, önemli bir sınava gireceği sabah şiddetli bir mide ağrısı yaşar ve sınava giremez. Doktorlar, ağrının fiziksel bir nedenini bulamazlar.",
+      "question": "Yoğun sınav kaygısının, bilinçli olarak fark edilmeden fiziksel bir belirti olarak ortaya çıkması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Bedenselleştirme (Somatization)",
+        "Gerileme",
+        "İnkar",
+        "Yapma-Bozma"
+      ],
+      "correct_answer": "Bedenselleştirme (Somatization)",
+      "explanation": "Psikolojik sıkıntıların veya çatışmaların, fiziksel bir neden olmaksızın bedensel belirtilere dönüştürülmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir çalışan, patronunun verdiği ekstra işe sinirlenir ama bunu doğrudan söylemek yerine, görevi sürekli erteler ve 'unutmuşum' gibi bahaneler sunar.",
+      "question": "Öfkenin, doğrudan ifade edilmek yerine kasıtlı verimsizlik veya erteleme gibi dolaylı yollarla gösterilmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Pasif-Agresif Davranış",
+        "Yön Değiştirme",
+        "Karşıt Tepki Oluşturma",
+        "İnkar"
+      ],
+      "correct_answer": "Pasif-Agresif Davranış",
+      "explanation": "Düşmanca duyguların, açık bir çatışmadan kaçınarak, dolaylı ve edilgen bir direnişle ifade edilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Gerçek hayatta çok yalnız olan bir kişi, gününün önemli bir kısmını, popüler bir süper kahraman olduğu ve herkesin ona hayranlık duyduğu hayaller kurarak geçirir.",
+      "question": "Kişinin, karşılanmamış isteklerini ve hayal kırıklıklarını imgesel bir dünyada tatmin etmeye çalışarak gerçeklikten kaçması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Fantezi (Hayal Kurma)",
+        "Çözülme",
+        "İnkar",
+        "Gerileme"
+      ],
+      "correct_answer": "Fantezi (Hayal Kurma)",
+      "explanation": "Doyuma ulaşmamış arzuların, hayal dünyasında yaratılan senaryolarla karşılanarak çatışma ve kaygıdan geçici olarak uzaklaşılmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Madde bağımlılığı nedeniyle zor zamanlar geçirmiş bir kişi, iyileştikten sonra hayatını aynı sorunu yaşayan diğer insanlara yardım etmeye adar ve bu sayede büyük bir tatmin duyar.",
+      "question": "Kişinin kendi içsel stresiyle, başkalarının ihtiyaçlarını karşılayarak başa çıkması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Özgecilik (Altruism)",
+        "Yüceltme",
+        "Yapma-Bozma",
+        "Karşıt Tepki Oluşturma"
+      ],
+      "correct_answer": "Özgecilik (Altruism)",
+      "explanation": "Kişi, kendi içsel çatışmaları ve kaygılarıyla, kendini başkalarına hizmet etmeye adayarak başa çıkar. Bu, yapıcı bir doyum sağlar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Ailesi tarafından ihmal edildiğini hisseden bir ergen, üzüntü veya öfkesini konuşmak yerine, okulda kavga çıkarmak ve hırsızlık yapmak gibi davranışlar sergilemeye başlar.",
+      "question": "Duygusal bir çatışmanın, duyguları hissetmek veya düşünmek yerine doğrudan eylemlerle ifade edilmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Dışa Vurum (Acting Out)",
+        "Yön Değiştirme",
+        "Gerileme",
+        "Saldırganla Özdeşleşme"
+      ],
+      "correct_answer": "Dışa Vurum (Acting Out)",
+      "explanation": "Kişi, bilinçdışı bir arzu veya çatışmayı, o duygu hakkında düşünmek yerine doğrudan eyleme dökerek ifade eder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, çok istediği bir işe başvurusunun reddedilmesinin ardından arkadaşlarına 'Zaten o şirket pek de iyi değilmiş, çalışma kültürleri çok toksikmiş.' dedi.",
+      "question": "Kişinin, elde edemediği bir şeyi veya hayal kırıklığı yaşadığı bir kişiyi, abartılı bir şekilde kötüleyerek değersizleştirmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Değersizleştirme",
+        "Akılcılaştırma",
+        "Yansıtma",
+        "İnkar"
+      ],
+      "correct_answer": "Değersizleştirme",
+      "explanation": "Benliği tehdit eden bir dış nesnenin (insan veya durum) abartılı olumsuz nitelikler atfedilerek gözden düşürülmesidir. Genellikle 'İdealizasyon'un tam tersi olarak çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Patronu tarafından haksız yere eleştirilen bir çalışan, patronuna öfkelenmek yerine, eve gidip 'Ben tam bir aptalım, her şeyi batırıyorum.' diyerek kendine zarar verici düşüncelere kapıldı.",
+      "question": "Kişinin, dışarıdaki bir nesneye (patron) yöneltmesi gereken öfke gibi olumsuz bir duyguyu kendisine yöneltmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Kendine Yöneltme",
+        "Yön Değiştirme",
+        "Bastırma",
+        "Bedenselleştirme"
+      ],
+      "correct_answer": "Kendine Yöneltme",
+      "explanation": "Kişi, başka birine karşı hissettiği saldırgan veya olumsuz duyguları, o kişiye ifade etmek yerine kendisine çevirir. Bu, genellikle depresif eğilimlerle ilişkilidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Çok önemli bir sunum yapacak olan bir öğrenci, sunumdan önceki gece kaygılandığını fark etti ama kendi kendine 'Şu an bunu düşünemem, önce şu bölümü bitirmeliyim. Kaygımla yarın ilgilenirim.' dedi.",
+      "question": "Kişinin, rahatsız edici bir duygu veya düşünceyi, daha uygun bir zamana kadar bilinçli olarak ertelemesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Bastırma (Bilinçli)",
+        "İnkar",
+        "Yalıtma",
+        "Bastırma (Bilinçdışı)"
+      ],
+      "correct_answer": "Bastırma (Bilinçli)",
+      "explanation": "İngilizcede 'Suppression' olarak geçen bu mekanizma, kaygı verici bir içeriğin bilinçli bir kararla geçici olarak zihinden uzaklaştırılmasıdır. Bilinçdışı olan 'Repression'dan farklıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Yeni bir ilişkiye başlayan biri, partnerini 'Hayatımda gördüğüm en mükemmel, en kusursuz ve en harika insan' olarak tanımlıyor, onun hiçbir hatası olamayacağını düşünüyordu.",
+      "question": "Kişinin, bir başkasına gerçekdışı ve abartılı olumlu nitelikler atfederek onu kusursuz görmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "İdealleştirme",
+        "Yüceltme",
+        "Özdeşleşme",
+        "Yansıtma"
+      ],
+      "correct_answer": "İdealleştirme",
+      "explanation": "Benliği korumak amacıyla, bir dış nesnenin (genellikle bir kişi) abartılı bir şekilde olumlu ve kusursuz olarak algılanmasıdır. Genellikle 'Değersizleştirme' ile birlikte görülür."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "İşten çıkarıldığını öğrendikten sonra büyük bir üzüntü yaşayan bir kişi, hemen en yakın arkadaşlarını arayıp durumu anlatarak onlardan destek ve tavsiye istedi.",
+      "question": "Kişinin, stresli bir durumla başa çıkmak için başkalarından yardım ve destek arayışına girmesi hangi (olgun) savunma mekanizmasıdır?",
+      "options": [
+        "Yardım Arama (Affiliation)",
+        "Bağımlılık",
+        "Dışa Vurum",
+        "Gerileme"
+      ],
+      "correct_answer": "Yardım Arama (Affiliation)",
+      "explanation": "Stresle başa çıkmak için başkalarına yönelmek ve onlarla bağ kurarak destek aramak, olgun ve yapıcı bir savunma mekanizması olarak kabul edilir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Önemli bir ameliyata gireceğini bilen bir hasta, ameliyatın olası zorluklarını ve iyileşme sürecini gerçekçi bir şekilde düşünerek kendini zihinsel olarak bu sürece hazırladı.",
+      "question": "Kişinin, gelecekteki olası bir stres veya acı kaynağını önceden gerçekçi bir şekilde planlayarak ve bekleyerek kaygısını azaltması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Beklenti (Anticipation)",
+        "Entelektüelleştirme",
+        "Akılcılaştırma",
+        "İnkar"
+      ],
+      "correct_answer": "Beklenti (Anticipation)",
+      "explanation": "Gelecekte yaşanması muhtemel duygusal rahatsızlıkları, gerçekçi bir şekilde öngörerek ve planlayarak onlara duygusal olarak hazırlanmaktır. Olgun bir mekanizmadır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir takım lideri, projenin başarısız olacağı yönündeki tüm endişelere karşı 'Merak etmeyin, ben her şeyi tek başıma düzeltebilirim. Benim çözemeyeceğim sorun yoktur.' diyerek herkesi susturdu.",
+      "question": "Kişinin, kendisini özel güçlere sahip, her şeye gücü yeten ve üstün biri olarak görmesi veya davranması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Tümgüçlülük (Omnipotence)",
+        "Büyüklenmecilik",
+        "İdealleştirme",
+        "Ödünleme"
+      ],
+      "correct_answer": "Tümgüçlülük (Omnipotence)",
+      "explanation": "Kişinin, narsisistik bir savunma olarak, gerçekle uyumsuz bir şekilde kendisinin veya başkalarının her şeye gücünün yettiğine inanmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir baba, kendi içinde bastırdığı kural tanımaz ve asi dürtülerini sürekli olarak ergenlikteki oğlunda görerek, oğlunu sürekli bu konuda eleştiriyordu.",
+      "question": "Babanın, kendi içindeki kabul edemediği bir yönü, sanki sadece oğlunda varmış gibi algılaması ve onu eleştirmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yansıtmalı Özdeşim (Simplified)",
+        "Yansıtma",
+        "Yön Değiştirme",
+        "Bölme"
+      ],
+      "correct_answer": "Yansıtmalı Özdeşim (Simplified)",
+      "explanation": "Bu karmaşık mekanizmanın basit bir örneğinde kişi, kendindeki bir parçayı başkasına yansıtır ve o kişiyi bu yansıtılan parçaya göre algılayıp ona öyle davranır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Borç içinde olmasına rağmen çok pahalı bir telefon alan biri, 'Bu bir harcama değil, sosyal statüme ve iş ağımı genişletmeye yönelik bir yatırım.' dedi.",
+      "question": "Kişinin, mantıksız bir davranışını, kulağa mantıklı gelen bahanelerle haklı çıkarması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Akılcılaştırma",
+        "Yüceltme",
+        "İnkar",
+        "Değersizleştirme"
+      ],
+      "correct_answer": "Akılcılaştırma",
+      "explanation": "Kişi, yaptığı kabul edilemez bir davranışı, mantıklı ve toplumsal olarak kabul edilebilir nedenler üreterek haklı çıkarmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Aslında kendisi başkalarına karşı çok önyargılı olan bir kişi, sık sık 'İnsanlar neden bu kadar önyargılı ve acımasız?' diye şikayet ediyordu.",
+      "question": "Kişinin, kendi sahip olduğu bir özelliği veya düşünceyi, sanki başkalarında varmış gibi algılaması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yansıtma",
+        "Yön Değiştirme",
+        "İnkar",
+        "Karşıt Tepki Oluşturma"
+      ],
+      "correct_answer": "Yansıtma",
+      "explanation": "Kişi, kendisinde bulunan kabul edilemez dürtü, duygu veya düşünceleri başkalarına atfeder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir çocuk, annesinin yaptığı yemeği beğenmediğinde bunu söylemek yerine, 'Bugün hiç iştahım yok.' diyerek yemekten kaçındı.",
+      "question": "Çocuğun, gerçek düşüncesini veya tepkisini doğrudan ifade etmek yerine dolaylı ve pasif bir yolla direnç göstermesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Pasif-Agresif Davranış",
+        "Yön Değiştirme",
+        "İnkar",
+        "Bastırma"
+      ],
+      "correct_answer": "Pasif-Agresif Davranış",
+      "explanation": "Düşmanca duyguların, açık bir çatışmadan kaçınarak, dolaylı ve edilgen bir direnişle (örneğin erteleme, somurtma, inatçılık) ifade edilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Yetersizlik duygularıyla mücadele eden bir çalışan, her zaman başarılı ve karizmatik olarak gördüğü yöneticisinin giyim tarzını ve konuşma kalıplarını benimsedi.",
+      "question": "Çalışanın, kaygısını azaltmak ve kendini daha değerli hissetmek için hayran olduğu birinin özelliklerini taklit etmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Özdeşleşme",
+        "İçe Atma",
+        "Yüceltme",
+        "Bölme"
+      ],
+      "correct_answer": "Özdeşleşme",
+      "explanation": "Kişi, başka birinin (genellikle hayran olunan veya otorite sahibi) özelliklerini, inançlarını veya davranışlarını kendi benliğinin bir parçası haline getirir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Çok travmatik bir olaya tanık olan kişi, olayı anlatırken sanki bir film izliyormuş gibi kendinden ve duygularından kopuk bir şekilde, 'sanki bunlar benim başıma gelmedi' hissiyle konuştu.",
+      "question": "Kişinin, ezici bir kaygı karşısında gerçeklik algısını, kimlik veya hafıza bütünlüğünü geçici olarak kaybetmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Çözülme (Dissociation)",
+        "Yalıtma",
+        "Bastırma",
+        "İnkar"
+      ],
+      "correct_answer": "Çözülme (Dissociation)",
+      "explanation": "Kişinin, normalde bütünleşik olan bilinç, hafıza, kimlik veya algı fonksiyonlarında bir kopukluk yaşamasıdır. Bu, travmatik bir deneyimden zihinsel olarak 'kaçma' yoludur."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, işten kovulmasının yarattığı büyük hayal kırıklığını ve öfkeyi, tüm enerjisini yeni bir dil öğrenmeye ve bu konuda bir kursa başlamaya yönelterek bastırdı.",
+      "question": "Kişinin, yaşadığı olumsuz bir durumun yarattığı enerjiyi, yapıcı ve farklı bir hedefe yönelterek durumu yönetmesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yüceltme",
+        "Ödünleme",
+        "Akılcılaştırma",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Yüceltme",
+      "explanation": "İlkel ve kabul edilemez dürtülerin veya rahatsız edici duyguların enerjisinin, toplumsal olarak kabul edilebilir ve yapıcı kanallara yönlendirilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Yeni bir şehre taşınan ve kendini çok yalnız hisseden bir kişi, bu duygularıyla yüzleşmek yerine, kendini tamamen işine verdi ve günde 14 saat çalışmaya başladı.",
+      "question": "Kişinin, rahatsız edici duygulardan kaçmak için dikkatini tamamen başka bir aktiviteye (iş, spor, hobi vb.) odaklaması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Saplantılı Çalışma (İşkoliklik)",
+        "Yüceltme",
+        "Yapma-Bozma",
+        "Ödünleme"
+      ],
+      "correct_answer": "Saplantılı Çalışma (İşkoliklik)",
+      "explanation": "Kaygı, boşluk veya yetersizlik duygularından kaçmak için kişinin kendini kompulsif bir şekilde işe veya tek bir aktiviteye adamasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, işten atılmasının yarattığı derin üzüntü ve utançla başa çıkmak yerine, bu duyguları hiç hissetmemek için kendini sürekli meşgul tutar ve duygusal olarak uyuşuk davranır.",
+      "question": "Kişinin, ezici duygulardan kaçınmak için duygusal tepkilerini kısıtlaması veya tamamen kapatması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Duygusal Yalıtım (Emotional Insulation)",
+        "Yalıtma (İzolasyon)",
+        "Bastırma",
+        "İnkar"
+      ],
+      "correct_answer": "Duygusal Yalıtım (Emotional Insulation)",
+      "explanation": "Kişi, gelecekteki olası hayal kırıklıklarından veya acıdan korunmak için duygusal katılımını ve beklentilerini en aza indirir. Duygusal bir 'kabuğa' çekilmektir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir çocuk, ebeveynlerinin sık sık ve şiddetli bir şekilde kavga etmesine tanık olur. Ancak bu olayları değerlendirirken, ebeveynlerinin aslında birbirini çok sevdiğini ve bu kavgaların 'sevginin bir göstergesi' olduğunu düşünür.",
+      "question": "Çocuğun, ebeveynlerinin sevgisine dair inancını korumak için, onların kavgalarını olumsuz bir durumdan olumlu bir duruma çevirerek yorumlaması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Çarpıtma",
+        "Akılcılaştırma",
+        "İnkar",
+        "Bölme"
+      ],
+      "correct_answer": "Çarpıtma",
+      "explanation": "Kişi, içsel ihtiyaçlarını karşılamak için dış gerçekliği büyük ölçüde yeniden şekillendirir veya değiştirir. Gerçeklik, kişinin inanmak istediği şeye uydurulur."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Çok dindar bir ailede büyüyen bir genç, cinsel dürtülerinin 'günah' olduğunu düşünür ve bu dürtülerden kaçınmak için kendini aşırı derecede ibadete ve her türlü dünyevi zevkten uzak durmaya adar.",
+      "question": "Gencin, benlik için tehdit olarak algıladığı dürtülerden, o dürtülerle ilişkili tüm zevkleri reddederek kaçınması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Çilecilik (Asceticism)",
+        "Karşıt Tepki Oluşturma",
+        "Bastırma",
+        "Yüceltme"
+      ],
+      "correct_answer": "Çilecilik (Asceticism)",
+      "explanation": "Kişi, bazı dürtülerin (genellikle cinsel veya saldırgan) yarattığı kaygıdan, o dürtülerle ilişkili tüm zevklerden feragat ederek ve ahlaki bir üstünlük benimseyerek kurtulmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, kendisine yöneltilen yapıcı bir eleştiriyi kabul etmek yerine, eleştiriyi yapan kişinin niyetinin kötü olduğunu, onu kıskandığını veya ona zarar vermek istediğini iddia eder.",
+      "question": "Kişinin, kendi eksikliğiyle yüzleşmek yerine, dışarıdan gelen geri bildirimi kötü niyetli bir saldırı olarak algılaması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Yansıtmalı Değersizleştirme",
+        "Yansıtma",
+        "Akılcılaştırma",
+        "Pasif-Agresif Davranış"
+      ],
+      "correct_answer": "Yansıtmalı Değersizleştirme",
+      "explanation": "Bu mekanizmada kişi, sadece kendi içindeki kötülüğü dışarıya yansıtmakla kalmaz, aynı zamanda dışarıdan gelen her şeyi (özellikle eleştiriyi) kötü ve değersiz olarak damgalar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir sanatçı, kişisel hayatındaki büyük bir hayal kırıklığı ve kalp ağrısını, bu duyguları anlatan derin ve etkileyici bir dizi resim yaparak ifade etti.",
+      "question": "Sanatçının, acı verici kişisel deneyimlerini, estetik ve sembolik bir ürüne dönüştürmesi hangi olgun savunma mekanizmasıdır?",
+      "options": [
+        "Yüceltme",
+        "Entelektüelleştirme",
+        "Ödünleme",
+        "Dışa Vurum"
+      ],
+      "correct_answer": "Yüceltme",
+      "explanation": "İlkel ve kabul edilemez dürtülerin veya acı verici duyguların enerjisinin, toplumsal olarak kabul edilebilir ve yapıcı kanallara (sanat, bilim, spor vb.) yönlendirilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Kocasının kendisini aldattığından şüphelenen bir kadın, bu şüpheleriyle yüzleşmek yerine, 'Kocam beni aldatıyor olamaz, o dünyanın en sadık insanıdır.' diye kendini sürekli telkin eder.",
+      "question": "Kadının, rahatsız edici bir olasılığı, o olasılığın tam tersini ısrarla ve abartılı bir şekilde savunarak bastırmaya çalışması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Karşıt Tepki Oluşturma",
+        "İnkar",
+        "Bastırma",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Karşıt Tepki Oluşturma",
+      "explanation": "Kişi, kabul edemediği rahatsız edici bir dürtü veya duygunun tam zıttını düşünür ve abartılı bir şekilde uygular."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir çalışan, yöneticisinin kendisinden sürekli olarak küçük düşürücü bir şekilde bahsettiğini hisseder. Bir gün yönetici 'Günaydın' dediğinde bile bunu 'Yine benimle alay ediyor' şeklinde yorumlar.",
+      "question": "Çalışanın, yöneticisinin nötr davranışlarını bile sürekli olarak kendi içsel 'küçük düşürülme' beklentisine göre yorumlaması hangi mekanizmadır?",
+      "options": [
+        "Yansıtma",
+        "Kişiselleştirme",
+        "Çarpıtma",
+        "Bölme"
+      ],
+      "correct_answer": "Yansıtma",
+      "explanation": "Kişi, kendi içsel dünyasındaki (örneğin küçük düşürülme beklentisi) durumu, dış dünyadaki insanlara atfeder ve onların davranışlarını bu filtreden geçirerek algılar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Finansal olarak zor bir dönemden geçen biri, bu gerçekle yüzleşmek yerine, lüks tatil planları yaparak ve pahalı arabaların hayalini kurarak zamanını geçirir.",
+      "question": "Kişinin, gerçek dünyanın zorluklarından kaçmak için kendini hayal dünyasına kaptırması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Fantezi (Hayal Kurma)",
+        "İnkar",
+        "Gerileme",
+        "Çözülme"
+      ],
+      "correct_answer": "Fantezi (Hayal Kurma)",
+      "explanation": "Doyuma ulaşmamış arzuların, hayal dünyasında yaratılan senaryolarla karşılanarak çatışma ve kaygıdan geçici olarak uzaklaşılmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Kendisinin de alkol sorunu olan bir baba, oğlunun alkol kullanmasına aşırı tepki gösterir ve ona sürekli olarak alkolün zararları hakkında nutuk çeker.",
+      "question": "Babanın, kendisinde kabul edemediği bir sorunu, başkasında (oğlunda) görerek aşırı tepki vermesi ve onu eleştirmesi hangi mekanizmayla açıklanabilir?",
+      "options": [
+        "Yansıtma",
+        "Karşıt Tepki Oluşturma",
+        "Yön Değiştirme",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Yansıtma",
+      "explanation": "Kişi, kendi kabul edilemez dürtü veya özelliklerini başkalarına yansıtarak, kendi içsel çatışmasından uzaklaşır ve sorunu dışarıda bir yerdeymiş gibi ele alır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, girdiği her sosyal ortamda kendini 'en komik', 'en zeki' veya 'en ilginç' kişi olarak sunmaya çalışır ve sürekli olarak ilgi odağı olmak için çabalar.",
+      "question": "Kişinin, altta yatan değersizlik duygularını, sürekli olarak kendini üstün ve özel göstererek örtbas etmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Narsisistik Savunmalar",
+        "Ödünleme",
+        "Yüceltme",
+        "Dışa Vurum"
+      ],
+      "correct_answer": "Narsisistik Savunmalar",
+      "explanation": "Bu, tek bir mekanizmadan çok bir grup savunmayı (örn. tümgüçlülük, büyüklenmecilik, idealizasyon/değersizleştirme) içeren bir stildir ve benliğin kırılganlığını korumaya yöneliktir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, iş arkadaşıyla yaşadığı sert bir tartışmanın hemen ardından, hiçbir şey olmamış gibi arkadaşına gidip güncel bir proje hakkında teknik bir soru sordu.",
+      "question": "Kişinin, yoğun bir duygu yaratan bir olayı, o olayın hemen ardından gelen düşünce ve duygudan ayırması hangi mekanizmadır?",
+      "options": [
+        "Yalıtma (İzolasyon)",
+        "Entelektüelleştirme",
+        "İnkar",
+        "Bastırma"
+      ],
+      "correct_answer": "Yalıtma (İzolasyon)",
+      "explanation": "Duygusal tepkinin, ona neden olan düşünce veya anıdan koparılmasıdır. Kişi olayı hatırlar (tartışmayı unutmaz) ama ona eşlik eden öfke veya üzüntüyü hissetmez."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Trafikte bir sürücü, başka bir aracın önüne aniden kırdığında aşırı bir öfkeyle kornaya basar ve dakikalarca bağırır. Eve geldiğinde ise bu öfkesi tamamen dinmiştir ve olayı neredeyse hatırlamaz.",
+      "question": "Kişinin, biriken gerilimi ani, yoğun ve kontrolsüz bir duygu patlamasıyla boşaltması hangi savunma mekanizmasıdır?",
+      "options": [
+        "Boşalma (Abreaction)",
+        "Dışa Vurum",
+        "Yön Değiştirme",
+        "Gerileme"
+      ],
+      "correct_answer": "Boşalma (Abreaction)",
+      "explanation": "Bastırılmış bir duygunun (genellikle travmatik bir anıyla ilişkili), yoğun bir duygusal boşalma ile yeniden yaşanarak serbest bırakılmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, ilişkilerinde sürekli olarak partnerini aşırı derecede kontrol etmeye çalışır. Partnerinin telefonunu karıştırır, kiminle görüştüğünü sürekli sorgular ve onsuz bir yere gitmesine izin vermez.",
+      "question": "Kişinin, kendi içsel kaygılarını ve güvensizliklerini, dış dünyayı ve başkalarını kontrol ederek yönetmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Kontrol Etme",
+        "Yansıtma",
+        "Pasif-Agresif Davranış",
+        "Tümgüçlülük"
+      ],
+      "correct_answer": "Kontrol Etme",
+      "explanation": "Kaygı yaratan durumlarla, dış dünyadaki olayları veya kişileri aşırı derecede yönetmeye ve kontrol etmeye çalışarak başa çıkma girişimidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Babası gibi otoriter ve eleştirel olmaktan çok korkan bir kişi, kendi çocuklarına karşı aşırı derecede hoşgörülü, sınırsız ve neredeyse hiç kural koymayan bir ebeveyn olur.",
+      "question": "Kişinin, korktuğu veya kabul etmediği bir özelliğin tam tersi bir davranış modelini benimsemesi hangi savunma mekanizmasıdır?",
+      "options": [
+        "Karşıt Tepki Oluşturma",
+        "Ödünleme",
+        "İnkar",
+        "Yansıtma"
+      ],
+      "correct_answer": "Karşıt Tepki Oluşturma",
+      "explanation": "Kişi, kabul edemediği rahatsız edici bir dürtü veya duygunun tam zıttını düşünür ve abartılı bir şekilde uygular."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir genç, ailesinin beklentilerine uymak için istemediği bir üniversite bölümünü okur. Ancak derslere sürekli geç kalır, ödevlerini 'unutur' ve sınavlarda başarısız olur.",
+      "question": "Gencin, ailesine olan öfkesini ve isyanını açıkça göstermek yerine, pasif bir direnişle ve başarısızlıkla ortaya koyması hangi mekanizmadır?",
+      "options": [
+        "Pasif-Agresif Davranış",
+        "Dışa Vurum",
+        "Kendine Yöneltme",
+        "Gerileme"
+      ],
+      "correct_answer": "Pasif-Agresif Davranış",
+      "explanation": "Düşmanca duyguların, açık bir çatışmadan kaçınarak, dolaylı ve edilgen bir direnişle (erteleme, inatçılık, verimsizlik vb.) ifade edilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, topluluk önünde konuşma yapmaktan aşırı derecede korkar. Ancak bu korkusunu 'Topluluk önünde konuşmak zaman kaybı, gereksiz bir iş.' diyerek mantığa bürümeye çalışır.",
+      "question": "Kişinin, korkusunu ve kaygısını, mantıklı gibi görünen ama asılsız gerekçelerle örtbas etmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Akılcılaştırma",
+        "İnkar",
+        "Entelektüelleştirme",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Akılcılaştırma",
+      "explanation": "Kişi, kaygı yaratan bir durumu veya kabul edilemez bir davranışı, mantıklı ve kabul edilebilir nedenler üreterek haklı çıkarmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir çocuk, annesi tarafından 'tembel' olarak etiketlendiğinde, bu sıfatı tamamen benimser ve 'Evet, ben tembelim, o yüzden ödevimi yapmayacağım.' diyerek davranmaya başlar.",
+      "question": "Çocuğun, kendisine yöneltilen olumsuz bir sıfatı veya beklentiyi içselleştirerek ona uygun davranması hangi mekanizmadır?",
+      "options": [
+        "İçe Atma (Introjection)",
+        "Özdeşleşme",
+        "Boyun Eğme",
+        "Yansıtma"
+      ],
+      "correct_answer": "İçe Atma (Introjection)",
+      "explanation": "Kişi, dışarıdaki bir kişinin (genellikle bir otorite figürü) değerlerini, tutumlarını veya eleştirilerini, sorgulamadan kendi benliğinin bir parçası haline getirir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Aldatıldığını öğrenen bir kişi, bu acı verici gerçekle yüzleşmek yerine, sanki bu olay hiç yaşanmamış gibi hayatına devam eder ve partnerine hiçbir şey sormaz.",
+      "question": "Kişinin, ezici bir gerçeği, bilişsel düzeyde farkında olmasına rağmen duygusal olarak yok sayması ve hayatını etkilemesine izin vermemesi hangi mekanizmadır?",
+      "options": [
+        "İnkar",
+        "Bastırma",
+        "Duygusal Yalıtım",
+        "Çözülme"
+      ],
+      "correct_answer": "İnkar",
+      "explanation": "Kişinin, varlığı açıkça ortada olan acı verici bir gerçeği veya durumu bilinçli olarak reddetmesi ve yok saymasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, yeni tanıştığı birini hemen 'ruh ikizi' olarak ilan ederken, o kişinin yaptığı ilk küçük hatada onu 'tamamen bencil ve güvenilmez' olarak görür.",
+      "question": "Kişinin, insanları önce aşırı derecede idealleştirip sonra hızla değersizleştirmesi hangi ilkel savunma mekanizmasını gösterir?",
+      "options": [
+        "Bölme",
+        "Karşıt Tepki Oluşturma",
+        "Yansıtma",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Bölme",
+      "explanation": "Nesnelerin (insanların) iyi ve kötü yönlerinin birleştirilememesi, onların sadece 'tamamen iyi' veya 'tamamen kötü' olarak algılanması ve bu iki uç arasında hızla gidip gelinmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir birey, öfkesini veya cinsel dürtülerini hissettiği anda, bu duyguların anlamı ve kökenleri üzerine uzun, karmaşık ve soyut felsefi analizler yapmaya başlar.",
+      "question": "Kaygı verici bir duygunun, duygusal içeriğinden koparılarak, sadece soyut ve teorik bir çerçevede ele alınması hangi mekanizmadır?",
+      "options": [
+        "Entelektüelleştirme",
+        "Akılcılaştırma",
+        "Yalıtma",
+        "Yüceltme"
+      ],
+      "correct_answer": "Entelektüelleştirme",
+      "explanation": "Kaygı doğuran bir durumun duygusal içeriğinden uzaklaşarak, onu sadece soyut, mantıksal ve entelektüel terimlerle ele almaktır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Yoğun stres altında olan bir yönetici, önemli bir toplantı sırasında aniden şakalar yapmaya, esprili taklitler yaparak ortamı kahkahalara boğmaya başlar.",
+      "question": "Kişinin, stresli veya rahatsız edici bir durumun ciddiyetini, o durumun komik veya ironik yönlerini vurgulayarak azaltması hangi olgun mekanizmadır?",
+      "options": [
+        "Mizah",
+        "Dışa Vurum",
+        "İnkar",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Mizah",
+      "explanation": "Kaygı yaratan durumların ve düşüncelerin, hem kendisi hem de başkaları için daha katlanılabilir hale getirilmesi amacıyla esprili bir dille ifade edilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, çocuk sahibi olma arzusunu, bir ilkokulda öğretmenlik yaparak ve tüm enerjisini öğrencilerine adayarak doyuma ulaştırır.",
+      "question": "Kişinin, doğrudan karşılanamayan bir arzusunu, sosyal olarak değerli ve ilişkili bir alana yönelterek gidermesi hangi mekanizmadır?",
+      "options": [
+        "Yüceltme",
+        "Ödünleme",
+        "Özgecilik",
+        "Yapma-Bozma"
+      ],
+      "correct_answer": "Yüceltme",
+      "explanation": "İlkel ve kabul edilemez dürtülerin enerjisinin, toplumsal olarak kabul edilebilir ve yapıcı kanallara yönlendirilerek hem kişinin hem de toplumun yararına kullanılmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, patronuna 'Hayır' diyemediği için sürekli olarak fazladan iş alır ve bu durumdan şikayet eder. Ancak bu şikayetlerini asla patronuna dile getirmez.",
+      "question": "Kişinin, olumsuz sonuçlarından korktuğu için kendi haklarını savunamaması ve kendini pasif bir şekilde mağdur konumuna sokması hangi mekanizmadır?",
+      "options": [
+        "Boyun Eğme",
+        "Pasif-Agresif Davranış",
+        "Kendine Yöneltme",
+        "Gerileme"
+      ],
+      "correct_answer": "Boyun Eğme",
+      "explanation": "Kişi, çatışmadan, reddedilmekten veya terk edilmekten kaçınmak için kendi isteklerini, düşüncelerini ve duygularını bastırarak başkalarının beklentilerine uyar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, kanser teşhisi konulduktan sonra tüm zamanını kanser araştırmalarını okumaya, tedavi protokollerini ezberlemeye ve hastalığın istatistiklerini analiz etmeye adar.",
+      "question": "Kişinin, hastalığın yarattığı korku ve belirsizlikle, durumu aşırı teknik ve duygusuz bir şekilde araştırarak başa çıkmaya çalışması hangi mekanizmadır?",
+      "options": [
+        "Entelektüelleştirme",
+        "İnkar",
+        "Akılcılaştırma",
+        "Kontrol Etme"
+      ],
+      "correct_answer": "Entelektüelleştirme",
+      "explanation": "Kaygı doğuran bir durumun duygusal içeriğinden uzaklaşarak, onu sadece soyut, mantıksal ve entelektüel terimlerle ele alarak kontrol hissi yaratma çabasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Asosyal ve içe dönük bir genç, sanal bir oyun dünyasında çok popüler, sosyal ve lider bir karakter yaratarak saatlerini o karakteri yöneterek geçirir.",
+      "question": "Gencin, gerçek hayattaki eksikliklerini ve karşılanmamış sosyal ihtiyaçlarını, bir hayal dünyasında telafi etmesi hangi mekanizmadır?",
+      "options": [
+        "Fantezi (Hayal Kurma)",
+        "Ödünleme",
+        "İnkar",
+        "Yüceltme"
+      ],
+      "correct_answer": "Fantezi (Hayal Kurma)",
+      "explanation": "Doyuma ulaşmamış arzuların, hayal dünyasında yaratılan senaryolarla karşılanarak çatışma ve kaygıdan geçici olarak uzaklaşılmasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, işten kovulduktan sonraki gün takım elbiselerini giyip her zamanki saatinde evden çıkar ve akşama kadar bir kafede oturup sanki hala çalışıyormuş gibi yapar.",
+      "question": "Kişinin, acı verici bir gerçeği sadece zihinsel olarak değil, aynı zamanda davranışsal olarak da reddederek eski rutinlerini sürdürmesi hangi mekanizmadır?",
+      "options": [
+        "Davranışsal İnkar",
+        "Yapma-Bozma",
+        "Gerileme",
+        "Çözülme"
+      ],
+      "correct_answer": "Davranışsal İnkar",
+      "explanation": "Bu, İnkar'ın bir alt türüdür. Kişi, gerçeği sadece sözle reddetmekle kalmaz, aynı zamanda eylemleriyle de sanki o gerçek hiç var olmamış gibi davranmaya devam eder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir yönetici, astlarına karşı çok sert ve eleştirel davrandığını kabul etmek yerine, 'Ben sadece onların potansiyellerine ulaşmalarına yardımcı oluyorum, bu sertlik onlar için gerekli.' der.",
+      "question": "Yöneticinin, olumsuz davranışını, aslında olumlu bir amaca hizmet ediyormuş gibi yeniden çerçeveleyerek haklı çıkarması hangi mekanizmadır?",
+      "options": [
+        "Akılcılaştırma",
+        "Yüceltme",
+        "Çarpıtma",
+        "Entelektüelleştirme"
+      ],
+      "correct_answer": "Akılcılaştırma",
+      "explanation": "Kişi, yaptığı kabul edilemez bir davranışı veya sahip olduğu bir düşünceyi, kendince mantıklı ve toplumsal olarak kabul edilebilir nedenler üreterek haklı çıkarmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, eşinin ölümünden sonra aylarca ağlayamaz ve yas tutamaz. Ancak bir gün evdeki bir bardağı kırdığında saatlerce hıçkırarak ağlar.",
+      "question": "Kişinin, asıl büyük kayba yönelik duygusunu, daha küçük ve daha kabul edilebilir bir olaya yönelterek serbest bırakması hangi mekanizmadır?",
+      "options": [
+        "Yön Değiştirme",
+        "Boşalma (Abreaction)",
+        "Bedenselleştirme",
+        "Yalıtma"
+      ],
+      "correct_answer": "Yön Değiştirme",
+      "explanation": "Duygular, asıl hedeflerine yöneltilemediğinde (çünkü bu çok acı vericidir), daha az tehdit edici veya ilişkisiz bir hedefe kaydırılır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, kendisini sürekli olarak başkalarıyla kıyaslar ve kendini onlardan daha 'başarılı', 'zeki' veya 'ahlaklı' bularak kendini iyi hissetmeye çalışır.",
+      "question": "Kişinin, kendi öz değerini, başkalarını küçümseyerek veya onlardan üstün olduğunu varsayarak artırmaya çalışması hangi mekanizmadır?",
+      "options": [
+        "Değersizleştirme",
+        "Ödünleme",
+        "Narsisistik Savunmalar",
+        "Yansıtma"
+      ],
+      "correct_answer": "Değersizleştirme",
+      "explanation": "Benliği tehdit eden veya aşağılık duygularını tetikleyen dış nesneler (insanlar), abartılı olumsuz nitelikler atfedilerek gözden düşürülür ve böylece kişi kendini daha üstün hisseder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir genç, ailesiyle kavga ettikten sonra odasına kapanıp kulaklıklarını takar ve saatlerce yüksek sesle müzik dinleyerek hiçbir şey düşünmemeye çalışır.",
+      "question": "Gencin, rahatsız edici duygu ve düşüncelerden, dikkatini tamamen başka bir yoğun uyarana (müzik) vererek kaçınması hangi mekanizmadır?",
+      "options": [
+        "Dikkati Başka Yöne Çekme",
+        "İnkar",
+        "Bastırma",
+        "Duygusal Yalıtım"
+      ],
+      "correct_answer": "Dikkati Başka Yöne Çekme",
+      "explanation": "Bu, kaygıdan kaçınmak için kullanılan yaygın bir zihinsel manevradır. Kişi, dikkatini kasıtlı olarak endişe verici konudan uzaklaştırıp başka bir şeye odaklar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, bir arkadaş grubunda dışlandığını hisseder. Bu duyguyla yüzleşmek yerine, 'Onlar zaten çok sıkıcı ve yüzeysel bir grup, onlarla arkadaşlık etmek istemem.' diye düşünür.",
+      "question": "Kişinin, reddedilme acısını, reddeden tarafı veya ulaşılamayan hedefi küçümseyerek ve değersizleştirerek hafifletmesi hangi mekanizmadır?",
+      "options": [
+        "Akılcılaştırma ('Ekşi Üzüm')",
+        "Değersizleştirme",
+        "Yansıtma",
+        "Karşıt Tepki Oluşturma"
+      ],
+      "correct_answer": "Akılcılaştırma ('Ekşi Üzüm')",
+      "explanation": "Ezop masalından adını alan bu mekanizmada kişi, elde edemediği bir şeyi 'zaten istemiyordum' veya 'zaten kötüydü' diyerek kendini kandırır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Çocukken çok yoksulluk çekmiş bir kişi, zengin olduğunda bile sürekli olarak para biriktirir, harcama yapmaktan kaçınır ve iflas etme korkusuyla yaşar.",
+      "question": "Geçmişte yaşanan bir travmanın veya yoksunluğun, koşullar değişmesine rağmen bugünkü davranışları tekrar eden bir şekilde yönetmesi hangi mekanizmadır?",
+      "options": [
+        "Tekrarlama Zorlantısı",
+        "Gerileme",
+        "Bastırma",
+        "İçe Atma"
+      ],
+      "correct_answer": "Tekrarlama Zorlantısı",
+      "explanation": "Kişi, geçmişteki çözülmemiş travmatik bir deneyimi, o deneyimi veya ona benzer durumları bilinçdışı bir şekilde tekrar yaratarak 'çözmeye' çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, çok hayran olduğu bir siyasi liderin tüm görüşlerini, sorgulamadan kendi görüşleriymiş gibi benimser ve onu her koşulda savunur.",
+      "question": "Kişinin, kendi benliğini güçlendirmek için, hayran olduğu bir kişinin veya grubun değer ve inançlarını tamamen içselleştirmesi hangi mekanizmadır?",
+      "options": [
+        "Özdeşleşme",
+        "İçe Atma",
+        "İdealleştirme",
+        "Boyun Eğme"
+      ],
+      "correct_answer": "Özdeşleşme",
+      "explanation": "Kişi, başka birinin (genellikle hayran olunan veya otorite sahibi) özelliklerini, inançlarını veya davranışlarını kendi benliğinin bir parçası haline getirerek kendini daha güçlü hisseder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, deprem korkusu nedeniyle sürekli olarak binaların güvenliğini kontrol eder, acil durum çantaları hazırlar ve kaçış planları yapar.",
+      "question": "Kişinin, belirsiz bir kaygıyı, belirli bir nesneye veya duruma (deprem) odaklayarak yönetilebilir hale getirmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Yer Değiştirme (Kaygı için)",
+        "Akılcılaştırma",
+        "Bedenselleştirme",
+        "Yapma-Bozma"
+      ],
+      "correct_answer": "Yer Değiştirme (Kaygı için)",
+      "explanation": "Serbest yüzen, nedensiz bir kaygı, daha somut ve başa çıkılabilir gibi görünen belirli bir fobiye veya korkuya dönüştürülür."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir hasta, doktoruna karşı yoğun bir hayranlık ve sevgi duyar, onu hayatını kurtaran bir kahraman olarak görür. Bu duyguları, aslında çocukluğunda ebeveynlerine duyduğu duyguların bir tekrarıdır.",
+      "question": "Kişinin, geçmişteki önemli bir figüre (ebeveyn) yönelik duygu ve düşüncelerini, şimdiki bir kişiye (doktor) aktarması hangi psikanalitik kavramdır?",
+      "options": [
+        "Aktarım (Transference)",
+        "Yansıtma",
+        "İdealleştirme",
+        "Özdeşleşme"
+      ],
+      "correct_answer": "Aktarım (Transference)",
+      "explanation": "Bu, tam olarak bir savunma mekanizması olmasa da, ilişkili bir bilinçdışı süreçtir. Geçmiş ilişkilerdeki duygu kalıpları, şimdiki ilişkilere, özellikle terapi ilişkisine yansıtılır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, romantik bir ilişkide reddedildikten sonra, 'Aşk ve ilişkiler tamamen zaman kaybı, mantıksız ve gereksiz şeyler.' diyerek tüm duygusal bağları reddeder.",
+      "question": "Kişinin, yaşadığı hayal kırıklığının acısından, o acıya neden olan tüm alanı (romantizm) küçümseyerek ve reddederek korunması hangi mekanizmadır?",
+      "options": [
+        "Değersizleştirme",
+        "Entelektüelleştirme",
+        "İnkar",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Değersizleştirme",
+      "explanation": "Benliği tehdit eden bir dış nesne veya durum (bu örnekte 'aşk'), abartılı olumsuz nitelikler atfedilerek gözden düşürülür ve böylece yarattığı acı hafifletilir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, işyerindeki yoğun rekabet ve stresten bunaldığında, sık sık çocukluğunda gittiği ve çok mutlu olduğu bir tatil köyünü hayal ederek rahatlar.",
+      "question": "Kişinin, şimdiki zamanın stresinden, geçmişteki güvenli ve mutlu anılara sığınarak geçici olarak uzaklaşması hangi mekanizmadır?",
+      "options": [
+        "Geçici Gerileme (Fantezide)",
+        "Fantezi (Hayal Kurma)",
+        "Çözülme",
+        "Duygusal Yalıtım"
+      ],
+      "correct_answer": "Geçici Gerileme (Fantezide)",
+      "explanation": "Bu, Gerileme'nin daha hafif bir formudur. Kişi, davranışsal olarak değil, zihinsel olarak daha güvenli ve daha az sorumluluk gerektiren bir geçmiş döneme döner."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, çok sevdiği bir yakınının ölümcül bir hastalığa yakalandığını öğrendikten sonra, bu haberin duygusal etkisinden tamamen kopar ve durumu sanki üçüncü bir kişiye ait bir vaka gibi analiz etmeye başlar.",
+      "question": "Kişinin, travmatik bir bilginin yarattığı duygusal acıyı, kendisini durumdan soyutlayarak ve kişisel olmayan bir hale getirerek engellemesi hangi mekanizmadır?",
+      "options": [
+        "Kişiliksizleştirme (Depersonalization)",
+        "Entelektüelleştirme",
+        "Yalıtma",
+        "Çözülme"
+      ],
+      "correct_answer": "Kişiliksizleştirme (Depersonalization)",
+      "explanation": "Çözülme'nin bir türü olan bu durumda kişi, kendi düşüncelerinden, duygularından veya bedeninden kopmuş hisseder. Olaylar gerçek dışı veya bir rüya gibi algılanabilir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir arkadaş grubunda, bir kişi sürekli olarak grubun 'palyaçosu' rolünü üstlenir, her zaman espriler yapar ve ciddi konular konuşulmaya başlandığında hemen konuyu şakaya vurarak değiştirir.",
+      "question": "Kişinin, olası bir çatışmadan veya derin duygusal paylaşımdan, sürekli olarak mizahı bir kalkan gibi kullanarak kaçınması hangi mekanizmadır?",
+      "options": [
+        "Mizah",
+        "Dışa Vurum",
+        "İnkar",
+        "Saptırma"
+      ],
+      "correct_answer": "Mizah",
+      "explanation": "Mizah, olgun bir savunma mekanizması olabildiği gibi, kaygı verici durumlardan veya samimiyetten kaçınmak için bir araç olarak da kullanılabilir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Borçlarını ödemekte zorlanan bir kişi, 'Eğer bu piyangoyu kazanırsam bütün sorunlarım çözülecek.' diye düşünerek sürekli piyango bileti alır ve başka bir çözüm aramaz.",
+      "question": "Kişinin, gerçekçi olmayan ve sihirli çözümlere inanarak, gerçek sorunlarla yüzleşmekten ve sorumluluk almaktan kaçınması hangi mekanizmadır?",
+      "options": [
+        "Sihirli Düşünce",
+        "Fantezi",
+        "İnkar",
+        "Çarpıtma"
+      ],
+      "correct_answer": "Sihirli Düşünce",
+      "explanation": "Kişinin, düşüncelerinin veya belirli ritüellerin, gerçek dünyadaki olayları doğrudan etkileyebileceğine dair mantık dışı bir inanç beslemesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, çok sevdiği birinin ölüm haberini aldıktan sonra, duygusal bir tepki vermek yerine, cenaze masraflarını, miras işlemlerini ve taziye ziyaretlerini organize etmeye başlar.",
+      "question": "Kişinin, ezici bir duyguyla başa çıkmak için tüm enerjisini pratik ve organize işlere yöneltmesi hangi mekanizmadır?",
+      "options": [
+        "Aktiviteye Yönelme (Activity)",
+        "Entelektüelleştirme",
+        "Yalıtma",
+        "Yapma-Bozma"
+      ],
+      "correct_answer": "Aktiviteye Yönelme (Activity)",
+      "explanation": "Dışa Vurum'a benzer ancak daha yapıcıdır. Kişi, kaygı yaratan içsel bir durumla, doğrudan eyleme veya faaliyete geçerek başa çıkmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir genç, popüler olmak için okulun en 'havalı' grubuna girmeye çalışır. Onlar gibi giyinir, onlar gibi konuşur ve grubun liderinin tüm fikirlerini sorgusuzca benimser.",
+      "question": "Gencin, kendini daha değerli hissetmek için hayran olduğu bir grubun kimliğini ve değerlerini benimsemesi hangi mekanizmadır?",
+      "options": [
+        "Özdeşleşme",
+        "İçe Atma",
+        "Boyun Eğme",
+        "İdealleştirme"
+      ],
+      "correct_answer": "Özdeşleşme",
+      "explanation": "Kişi, başka birinin veya bir grubun özelliklerini, inançlarını veya davranışlarını kendi benliğinin bir parçası haline getirerek kaygısını azaltır ve benliğini güçlendirir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, aslında kendisinin başkalarına karşı ne kadar eleştirel ve yargılayıcı olduğunu fark etmek yerine, sürekli olarak 'Neden herkes bu kadar yargılayıcı?' diye şikayet eder.",
+      "question": "Kişinin, kendi kabul edilemez özelliğini (yargılayıcılık) başkalarında görmesi ve onlardan şikayet etmesi hangi mekanizmadır?",
+      "options": [
+        "Yansıtma",
+        "Yön Değiştirme",
+        "Akılcılaştırma",
+        "İnkar"
+      ],
+      "correct_answer": "Yansıtma",
+      "explanation": "Kişi, kendisinde bulunan kabul edilemez dürtü, duygu veya özellikleri, sanki başkalarında varmış gibi algılayarak kendi içsel çatışmasından uzaklaşır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir çalışan, projesini zamanında bitiremediği için patronundan azar işitir. Öfkelenir ama bunu belli etmez. Toplantıdan sonra ise patronunun çok beğendiği bir bardağı 'yanlışlıkla' düşürüp kırar.",
+      "question": "Çalışanın, öfkesini sözle ifade etmek yerine, kasıtsız gibi görünen bir eylemle ortaya koyması hangi mekanizmadır?",
+      "options": [
+        "Pasif-Agresif Davranış",
+        "Yön Değiştirme",
+        "Dışa Vurum",
+        "Bedenselleştirme"
+      ],
+      "correct_answer": "Pasif-Agresif Davranış",
+      "explanation": "Düşmanca duyguların, açık bir çatışmadan kaçınarak, kaza süsü verilmiş eylemler, erteleme veya inatçılık gibi dolaylı yollarla ifade edilmesidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir yetişkin, ne zaman kendini baskı altında hissetse, çocukken annesinin ona yaptığı gibi sıcak süt içme ve battaniyenin altına saklanma ihtiyacı duyar.",
+      "question": "Kişinin, stresle başa çıkmak için daha önceki bir gelişim dönemine ait güven verici davranışlara geri dönmesi hangi mekanizmadır?",
+      "options": [
+        "Gerileme (Regresyon)",
+        "Fantezi",
+        "Bastırma",
+        "İçe Atma"
+      ],
+      "correct_answer": "Gerileme (Regresyon)",
+      "explanation": "Kişi, kaygı ve stresle başa çıkmak için mevcut gelişim düzeyinden daha ilkel bir düzeye geriler ve o döneme ait davranışlar gösterir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, bir arkadaş toplantısında siyasi görüşleri nedeniyle eleştirilince, 'Bu konu hakkında konuşmak için doğru zaman ve yer değil.' diyerek konuyu kapatır ve başka bir şeyden bahsetmeye başlar.",
+      "question": "Kişinin, kaygı yaratan bir konudan, dikkatini ve konuşmayı bilinçli olarak başka bir yöne kaydırarak kaçınması hangi mekanizmadır?",
+      "options": [
+        "Saptırma",
+        "İnkar",
+        "Bastırma (Bilinçli)",
+        "Yalıtma"
+      ],
+      "correct_answer": "Saptırma",
+      "explanation": "Kaygı uyandıran bir çatışma veya konudan, dikkat odağını önemsiz veya farklı bir konuya kaydırarak uzaklaşma girişimidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, çok istediği terfiyi alamayınca, 'Zaten o pozisyonun sorumluluğu çok fazlaydı, daha az stresli bir işte çalışmak benim için daha iyi.' diye düşünür.",
+      "question": "Kişinin, elde edemediği bir hedefin aslında arzu edilmeyen yönlerini vurgulayarak hayal kırıklığını azaltması hangi mekanizmadır?",
+      "options": [
+        "Akılcılaştırma ('Tatlı Limon')",
+        "Değersizleştirme",
+        "İnkar",
+        "Ödünleme"
+      ],
+      "correct_answer": "Akılcılaştırma ('Tatlı Limon')",
+      "explanation": "Bu, 'Ekşi Üzüm'ün tersidir. Kişi, içinde bulunduğu olumsuz durumu veya elde edemediği şey yerine elindekini, sanki özellikle tercih etmiş gibi överek kendini teselli eder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, partnerinin kendisini dinlemediğini ve önemsemediğini hisseder. Bu hisle yüzleşmek yerine, partnerinin ne kadar 'harika' ve 'düşünceli' olduğunu arkadaşlarına abartılı bir şekilde anlatır.",
+      "question": "Kişinin, yaşadığı olumsuz gerçeğin tam tersini, abartılı bir şekilde överek kendini ve başkalarını ikna etmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Karşıt Tepki Oluşturma",
+        "İdealleştirme",
+        "İnkar",
+        "Bölme"
+      ],
+      "correct_answer": "Karşıt Tepki Oluşturma",
+      "explanation": "Kişi, kabul edemediği rahatsız edici bir gerçeğin veya duygunun tam zıttını düşünür ve abartılı bir şekilde uygulayarak kaygısını bastırır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Yoğun bir uçak korkusu olan bir kişi, uçuş sırasında bu korkuyu hissetmemek için uçağın aerodinamik yapısı, motor gücü ve uçuş prensipleri üzerine odaklanır.",
+      "question": "Kişinin, korkusunun duygusal boyutundan kaçmak için durumu tamamen teknik ve bilimsel bir analize dökmesi hangi mekanizmadır?",
+      "options": [
+        "Entelektüelleştirme",
+        "Yalıtma",
+        "Akılcılaştırma",
+        "Kontrol Etme"
+      ],
+      "correct_answer": "Entelektüelleştirme",
+      "explanation": "Kaygı doğuran bir durumun duygusal içeriğinden uzaklaşarak, onu sadece soyut, mantıksal ve entelektüel terimlerle ele alarak kontrol hissi yaratma çabasıdır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, babası gibi öfke kontrolü sorunları olan biri olmamak için aşırı derecede sakin, sabırlı ve çatışmadan kaçınan bir kişilik geliştirir.",
+      "question": "Kişinin, reddettiği bir ebeveyn özelliğinin tam tersi bir kimlik benimsemesi hangi mekanizmadır?",
+      "options": [
+        "Karşıt Özdeşleşme",
+        "Karşıt Tepki Oluşturma",
+        "İnkar",
+        "Bölme"
+      ],
+      "correct_answer": "Karşıt Özdeşleşme",
+      "explanation": "Kişi, olumsuz olarak algıladığı bir ebeveyn figürünün özelliklerinin tam tersini benimseyerek kendi kimliğini oluşturur. 'Onun gibi olmayacağım' temel prensibidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, bir toplulukta sürekli olarak başkalarının dertlerini dinler, onlara tavsiyeler verir ve kendi sorunlarından hiç bahsetmez.",
+      "question": "Kişinin, kendi sorunlarıyla yüzleşmekten kaçınmak için sürekli olarak başkalarının sorunlarıyla ilgilenmesi hangi mekanizmadır?",
+      "options": [
+        "Özgecilik (Nevrotik)",
+        "Yansıtma",
+        "Bastırma",
+        "Yüceltme"
+      ],
+      "correct_answer": "Özgecilik (Nevrotik)",
+      "explanation": "Olgun bir mekanizma olan Özgecilik'in bu formunda, başkalarına yardım etme davranışı, aslında kendi kaygılarından ve çatışmalarından kaçmak için bir araç olarak kullanılır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, eşiyle yaptığı bir kavganın ardından, eşine karşı hissettiği öfkeyi, 'Aslında ben kendime kızıyorum, bu benim hatam.' diyerek tamamen kendine yöneltir.",
+      "question": "Kişinin, dışarıdaki bir hedefe yönelik öfkesini, çatışmadan kaçınmak için kendine çevirmesi hangi mekanizmadır?",
+      "options": [
+        "Kendine Yöneltme",
+        "Boyun Eğme",
+        "Yapma-Bozma",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Kendine Yöneltme",
+      "explanation": "Kişi, başka birine karşı hissettiği saldırgan veya olumsuz duyguları, o kişiye ifade etmek yerine kendisine çevirir. Bu, genellikle suçluluk duygusuna yol açar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, girdiği her tartışmayı kazanmak zorunda hisseder. Haksız olduğunu anlasa bile, konuyu değiştirir, karşıdakinin sözlerini çarpıtır veya kişisel saldırıya geçer.",
+      "question": "Kişinin, benlik saygısını korumak için ne pahasına olursa olsun 'haklı çıkma' ve 'tartışmayı kazanma' çabası hangi mekanizmalar grubuna girer?",
+      "options": [
+        "Narsisistik Savunmalar",
+        "Dışa Vurum",
+        "Akılcılaştırma",
+        "Pasif-Agresif Davranış"
+      ],
+      "correct_answer": "Narsisistik Savunmalar",
+      "explanation": "Bu davranış, altta yatan kırılgan benliği korumak için kullanılan Tümgüçlülük, Değersizleştirme ve İnkar gibi bir dizi savunmanın birleşimini yansıtır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir sanat eleştirmeni, aslında anlamadığı modern bir sanat eserini, karmaşık, felsefi ve entelektüel terimler kullanarak över ve derin anlamlar yükler.",
+      "question": "Kişinin, yetersizliğini veya anlamadığı bir durumu, karmaşık ve soyut bir dil kullanarak örtbas etmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Entelektüelleştirme",
+        "Akılcılaştırma",
+        "Yüceltme",
+        "İnkar"
+      ],
+      "correct_answer": "Entelektüelleştirme",
+      "explanation": "Kaygı doğuran bir durumun (bu örnekte yetersizlik hissi) duygusal içeriğinden uzaklaşarak, onu sadece soyut, mantıksal ve entelektüel terimlerle ele almaktır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, bir felaket haberini televizyonda izlerken, olay yeri sanki bir film setiymiş gibi, gerçek dışı ve kendisinden çok uzakta bir şeymiş gibi hisseder.",
+      "question": "Kişinin, rahatsız edici bir dış gerçekliği, sanki gerçek değilmiş veya yabancılaşmış gibi algılaması hangi mekanizmadır?",
+      "options": [
+        "Gerçekdışılık (Derealization)",
+        "Çözülme",
+        "İnkar",
+        "Duygusal Yalıtım"
+      ],
+      "correct_answer": "Gerçekdışılık (Derealization)",
+      "explanation": "Çözülme'nin bir türü olan bu durumda kişi, dış dünyayı veya çevresini gerçek dışı, tuhaf veya sisli olarak algılar. Bu, ezici bir gerçeklikten zihinsel bir kaçıştır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, terapistine karşı yoğun bir öfke hisseder ama bu duygusunu ifade edemez. Seans sırasında sürekli olarak terapisti sabırsızlandıran, yetersiz hissettiren ve kafasını karıştıran davranışlarda bulunur. Terapist, seans sonunda kendini alışılmadık bir şekilde beceriksiz ve öfkeli hisseder.",
+      "question": "Kişinin, kendi içindeki bir duyguyu (öfke, yetersizlik) karşısındaki kişiye yansıtıp, o kişiyi bu duyguya uygun davranmaya 'zorlaması' ve o duyguyla o kişi üzerinden başa çıkması hangi karmaşık mekanizmadır?",
+      "options": [
+        "Yansıtmalı Özdeşim",
+        "Yansıtma",
+        "Dışa Vurum",
+        "Pasif-Agresif Davranış"
+      ],
+      "correct_answer": "Yansıtmalı Özdeşim",
+      "explanation": "Bu ileri düzey mekanizmada kişi, sadece bir duyguyu yansıtmakla kalmaz, aynı zamanda karşısındaki kişiyi, yansıttığı duyguya uygun davranması için bilinçdışı olarak manipüle eder. Böylece kendi duygusunu karşı taraf üzerinden deneyimler ve kontrol eder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, iş hayatındaki başarısızlıkları ve değersizlik hisleriyle yüzleşmek yerine, kendini tamamen bir siyasi ideolojiye adar ve o ideolojinin bir parçası olarak kendini güçlü ve anlamlı hisseder.",
+      "question": "Kişinin, kendi kişisel çatışmalarını ve eksikliklerini, daha büyük bir grup veya ideolojiyle birleşerek ve o çatışmayı o alana taşıyarak çözmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Grup Savunmaları",
+        "Özdeşleşme",
+        "Yüceltme",
+        "Kaçınma"
+      ],
+      "correct_answer": "Grup Savunmaları",
+      "explanation": "Birey, kendi içsel ve kişisel sorunlarını, bir grubun ideolojisi veya 'davası' aracılığıyla dışsallaştırır. Kişisel savaş, bir grup savaşına dönüşür."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, bir arkadaşının başarısını kıskandığını kendine itiraf etmek yerine, arkadaşına aşırı övgülerde bulunur, onun başarısını kutlamak için büyük bir parti organize eder ve herkese onun ne kadar harika olduğunu anlatır.",
+      "question": "Kıskançlık gibi kabul edilemez bir duygunun, tam tersi olan abartılı bir hayranlık ve destekle örtülmesi hangi mekanizmadır?",
+      "options": [
+        "Karşıt Tepki Oluşturma",
+        "İdealleştirme",
+        "Yüceltme",
+        "Yapma-Bozma"
+      ],
+      "correct_answer": "Karşıt Tepki Oluşturma",
+      "explanation": "Kişi, kabul edemediği rahatsız edici bir dürtü veya duygunun (kıskançlık) tam zıttını (aşırı hayranlık) abartılı bir şekilde uygulayarak kaygısını bastırır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Ciddi bir finansal krizin ortasında olan bir kişi, bu durumu düşünmek yerine tüm enerjisini evinin bahçesini titizlikle düzenlemeye, çiçek ekmeye ve peyzaj yapmaya adar.",
+      "question": "Kişinin, çözemediği büyük bir sorunun yarattığı kaygıyı, daha küçük, somut ve kontrol edilebilir bir alana yönelterek yönetmeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Yer Değiştirme (Sembolik)",
+        "Ödünleme",
+        "Yüceltme",
+        "Yapma-Bozma"
+      ],
+      "correct_answer": "Yer Değiştirme (Sembolik)",
+      "explanation": "Kaygı, asıl soyut ve ezici kaynağından (finansal kriz), somut ve yönetilebilir bir hedefe (bahçe) kaydırılır. Bahçeyi kontrol etmek, hayatı kontrol etme hissi verir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, sosyal ortamlarda kendini yetersiz hissettiği için, girdiği her ortamda önceden hazırlanmış fıkralar anlatır ve insanların dikkatini bu fıkralarla üzerinde tutar.",
+      "question": "Kişinin, sosyal kaygıyla başa çıkmak için sürekli olarak önceden planlanmış ve prova edilmiş bir 'rol' oynaması hangi mekanizmadır?",
+      "options": [
+        "Rol Oynama",
+        "Mizah",
+        "Dışa Vurum",
+        "Ödünleme"
+      ],
+      "correct_answer": "Rol Oynama",
+      "explanation": "Kişi, spontane ve gerçek benliğini ortaya koymanın kaygısından, önceden belirlenmiş ve güvenli bir sosyal rolü (örneğin 'sınıfın palyaçosu') benimseyerek kaçınır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, patronundan nefret eder. Ancak bu nefreti kabul etmek yerine, patronunu 'çok iyi ama zayıf karakterli' biri olarak görür ve ona sürekli 'yardım etmeye' ve onu 'korumaya' çalışır.",
+      "question": "Kişinin, saldırganlık dürtüsünü, aşırı bir koruyuculuk ve lütufkarlık kisvesi altında gizlemesi hangi mekanizmadır?",
+      "options": [
+        "Lütufkar Vesayet (Patronizing)",
+        "Karşıt Tepki Oluşturma",
+        "Yansıtma",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Lütufkar Vesayet (Patronizing)",
+      "explanation": "Saldırganlık veya değersizleştirme, bir iyilik veya yardım etme maskesi altına gizlenir. Kişi, karşısındakini 'koruyarak' aslında onu kontrol eder ve üstünlük kurar."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir terapist, danışanının anlattığı ağır travma öyküsü karşısında bunaldığında, bir anlığına danışanın ne anlattığını duymadığını, zihninin tamamen boşaldığını fark eder.",
+      "question": "Kişinin, ezici bir bilgi veya duygu karşısında anlık ve geçici bir 'sağırlık' veya zihinsel kopukluk yaşaması hangi mikro-mekanizmadır?",
+      "options": [
+        "Anlık İnkar (Momentary Denial)",
+        "Çözülme",
+        "Bastırma",
+        "Yalıtma"
+      ],
+      "correct_answer": "Anlık İnkar (Momentary Denial)",
+      "explanation": "Bu, İnkar'ın çok kısa süreli bir formudur. Benlik, başa çıkamayacağı bir uyaranı, onu algılamayı anlık olarak reddederek engeller."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, bir felaketten tek başına sağ kurtulduğu için yoğun bir suçluluk duyar ve 'Neden ben kurtuldum da onlar öldü?' diye düşünür. Bu suçlulukla başa çıkmak için hayatını kazazedelere yardım etmeye adar.",
+      "question": "Kişinin, 'hayatta kalma suçluluğu' gibi ezici bir duyguyu, kendini başkalarına adayarak onarmaya çalışması hangi mekanizmadır?",
+      "options": [
+        "Onarıcı Özgecilik (Reparative Altruism)",
+        "Yapma-Bozma",
+        "Yüceltme",
+        "Kendine Yöneltme"
+      ],
+      "correct_answer": "Onarıcı Özgecilik (Reparative Altruism)",
+      "explanation": "Kişi, bilinçdışı suçluluk duygularıyla, başkalarına yardım ederek ve onların acısını dindirerek başa çıkmaya çalışır. Bu, sembolik bir 'onarım' eylemidir."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, ölümcül bir hastalığı olduğunu öğrendikten sonra, hayatın anlamı, varoluş ve evren üzerine derin felsefi sorgulamalara girer ve kendi kişisel durumundan uzaklaşır.",
+      "question": "Kişinin, kişisel bir krizin yarattığı somut kaygıdan, evrensel ve soyut konulara sığınarak kaçınması hangi mekanizmadır?",
+      "options": [
+        "Evrenselleştirme",
+        "Entelektüelleştirme",
+        "Akılcılaştırma",
+        "Yüceltme"
+      ],
+      "correct_answer": "Evrenselleştirme",
+      "explanation": "Kişi, kendi kişisel ve acı verici deneyimini, daha büyük, soyut ve evrensel bir bağlama yerleştirerek onun biricikliğini ve kişisel tehdidini azaltmaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir cerrah, her ameliyattan önce ellerini belirli bir ritüele göre 15 dakika boyunca yıkar. Bunu yapmazsa ameliyatın kötü geçeceğine dair yoğun bir kaygı yaşar.",
+      "question": "Kişinin, kaygısını kontrol etmek için geliştirdiği ve mantıksız olduğunu bildiği halde yapmaktan kendini alamadığı tekrarlayıcı davranışlar hangi mekanizmanın bir parçasıdır?",
+      "options": [
+        "Kompulsif Ritüeller (Yapma-Bozma)",
+        "Bedenselleştirme",
+        "Sihirli Düşünce",
+        "Gerileme"
+      ],
+      "correct_answer": "Kompulsif Ritüeller (Yapma-Bozma)",
+      "explanation": "Bu, Yapma-Bozma mekanizmasının en somut halidir. Kaygı yaratan bir düşünce veya olasılık (ameliyatın kötü geçmesi), onu 'etkisiz hale getireceğine' inanılan bir ritüelistik eylemle (aşırı yıkama) kontrol edilmeye çalışılır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Her gün bir paket sigara içen bir kişi, 'Sigara benim için o kadar da zararlı değil, bana bir şey olmaz.' der.",
+      "question": "Kişinin, davranışının olumsuz sonuçlarını açıkça ortada olmasına rağmen kabul etmeyi reddetmesi hangi mekanizmadır?",
+      "options": [
+        "İnkar",
+        "Akılcılaştırma",
+        "Bastırma",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "İnkar",
+      "explanation": "En temel savunma mekanizmalarından biridir. Kişi, rahatsız edici bir gerçeği veya durumu, sanki hiç var olmamış gibi reddeder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "İş yerinde kötü bir gün geçiren bir anne, eve gelince oyuncaklarını toplamadığı için çocuğuna bağırır.",
+      "question": "Annenin, iş yerindeki öfkesini, ilgisiz bir hedef olan çocuğuna yöneltmesi hangi mekanizmadır?",
+      "options": [
+        "Yön Değiştirme",
+        "Yansıtma",
+        "Dışa Vurum",
+        "Gerileme"
+      ],
+      "correct_answer": "Yön Değiştirme",
+      "explanation": "Duygular, asıl hedeflerine yöneltilemediğinde, daha az tehdit edici veya uygun bir hedefe kaydırılır. Klasik 'günah keçisi' durumudur."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Kendisi sık sık yalan söyleyen bir kişi, sürekli olarak arkadaşlarını kendisine yalan söylemekle suçlar.",
+      "question": "Kişinin, kendisinde olan bir özelliği (yalancılık), sanki başkalarında varmış gibi görmesi hangi mekanizmadır?",
+      "options": [
+        "Yansıtma",
+        "Yön Değiştirme",
+        "İnkar",
+        "Bölme"
+      ],
+      "correct_answer": "Yansıtma",
+      "explanation": "Kişi, kendisinde bulunan ve kabul etmek istemediği özellikleri, düşünceleri veya duyguları başkalarına atfeder."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir öğrenci girdiği sınavdan kalınca, 'Zaten hoca adil değildi ve sorular da çok zordu, kalmam normal.' der.",
+      "question": "Öğrencinin, başarısızlığını kendi sorumluluğu dışında nedenlere bağlayarak kendini rahatlatması hangi mekanizmadır?",
+      "options": [
+        "Akılcılaştırma",
+        "Ödünleme",
+        "Yansıtma",
+        "İnkar"
+      ],
+      "correct_answer": "Akılcılaştırma",
+      "explanation": "Kişi, yaşadığı bir hayal kırıklığını veya yaptığı bir hatayı, mantıklı görünen ama aslında geçersiz olan bahanelerle açıklamaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Bir kişi, hoşlandığı birine karşı ilgi duymasına rağmen, o kişinin yanında sürekli olarak kaba ve ilgisiz davranır.",
+      "question": "Kişinin, hissettiği gerçek duygunun (ilgi) tam tersi bir davranışı sergilemesi hangi mekanizmadır?",
+      "options": [
+        "Karşıt Tepki Oluşturma",
+        "İnkar",
+        "Yansıtma",
+        "Yalıtma"
+      ],
+      "correct_answer": "Karşıt Tepki Oluşturma",
+      "explanation": "Kişi, benliği için kabul edilemez olan bir duygunun veya düşüncenin tam zıttı şekilde davranarak kendini korumaya çalışır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Sınavları nedeniyle strese giren bir üniversite öğrencisi, hafta sonu ailesinin evine gidip annesinin kendisine yemek yapmasını ve bakımını üstlenmesini ister.",
+      "question": "Yetişkin birinin, stres altındayken daha önceki bir gelişim dönemine ait, daha çocuksu davranışlara geri dönmesi hangi mekanizmadır?",
+      "options": [
+        "Gerileme (Regresyon)",
+        "Bağımlılık",
+        "İçe Atma",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Gerileme (Regresyon)",
+      "explanation": "Kişi, başa çıkamadığı bir kaygı durumunda, kendini daha güvende hissettiği daha önceki bir gelişim evresine geri döner."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Saldırganlık dürtüleri yoğun olan bir kişi, enerjisini dövüş sanatlarına yönlendirerek bu alanda başarılı bir sporcu olur.",
+      "question": "Kişinin, toplum tarafından hoş karşılanmayan bir dürtüsünü, sosyal olarak kabul edilebilir bir faaliyete yönlendirmesi hangi mekanizmadır?",
+      "options": [
+        "Yüceltme",
+        "Yön Değiştirme",
+        "Ödünleme",
+        "Dışa Vurum"
+      ],
+      "correct_answer": "Yüceltme",
+      "explanation": "Bu olgun bir savunma mekanizmasıdır. Kişi, ilkel dürtülerini toplumun onayladığı ve hatta takdir ettiği yapıcı kanallara aktarır."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Herkesin içinde yere düşen bir kişi, utancını gizlemek için hemen kalkıp 'Bu yerçekimi de işini çok ciddiye alıyor!' diye bir espri yapar.",
+      "question": "Kişinin, utanç verici veya kaygılı bir durumu, şaka yaparak veya esprili bir dille ifade ederek hafifletmesi hangi mekanizmadır?",
+      "options": [
+        "Mizah",
+        "İnkar",
+        "Akılcılaştırma",
+        "Saptırma"
+      ],
+      "correct_answer": "Mizah",
+      "explanation": "Olgun bir savunma mekanizması olan mizah, kişinin stresli bir durumla arasına mesafe koymasına ve kaygısını azaltmasına yardımcı olur."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Sporda iyi olmadığını düşünen bir çocuk, bu açığını kapatmak için çok ders çalışır ve sınıfın en başarılı öğrencisi olur.",
+      "question": "Kişinin, bir alandaki zayıflığını, başka bir alanda üstün başarı göstererek dengelemeye çalışması hangi mekanizmadır?",
+      "options": [
+        "Ödünleme (Telafi)",
+        "Yüceltme",
+        "Akılcılaştırma",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Ödünleme (Telafi)",
+      "explanation": "Kişi, kendini yetersiz hissettiği bir alandaki eksikliği, başarılı olduğu başka bir alandaki başarılarıyla telafi ederek öz saygısını korur."
+    },
+    {
+      "type": "savunma_mekanizmasi",
+      "case_text": "Sıkıcı bir ofis işinde çalışan bir kişi, sık sık kendini dünyayı gezen bir kaşif olarak hayal eder.",
+      "question": "Kişinin, gerçek hayatın sıkıntılarından, daha tatmin edici bir hayal dünyasına sığınarak kaçması hangi mekanizmadır?",
+      "options": [
+        "Fantezi (Hayal Kurma)",
+        "İnkar",
+        "Çözülme",
+        "Gerileme"
+      ],
+      "correct_answer": "Fantezi (Hayal Kurma)",
+      "explanation": "Kişi, karşılanmamış arzularını ve isteklerini, zihinsel olarak yarattığı senaryolar aracılığıyla gidererek geçici bir doyum ve rahatlama sağlar."
+    }
+  ]
+}

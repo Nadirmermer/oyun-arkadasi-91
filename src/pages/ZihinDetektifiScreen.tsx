@@ -22,7 +22,7 @@ export const ZihinDetektifiScreen = () => {
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
   const [showResultScreen, setShowResultScreen] = useState(false);
-  const [showFeedbackModal, setShowFeedbackModal] = useState(false);
+
 
   useEffect(() => {
     const initGame = async () => {
@@ -30,27 +30,25 @@ export const ZihinDetektifiScreen = () => {
         const settingsJson = localStorage.getItem('zihinDetektifiGameSettings');
         const settings = settingsJson ? JSON.parse(settingsJson) : {
           selectedTypes: ['savunma_mekanizmasi'],
-          gameDuration: 180,
-          targetScore: 80
+          questionCount: 10,
+          timeLimit: 60
         };
 
         const engine = new ZihinDetektifiEngine();
         engineRef.current = engine;
 
-        await engine.loadCases();
+        await engine.loadGameData();
         engine.updateSettings(settings);
 
         const updateGameState = () => {
           const state = engine.getGameState();
           setGameState(state);
           
-          if (!state.isPlaying && state.totalQuestions > 0) {
+          if (state.status === 'finished') {
             setShowResultScreen(true);
           }
 
-          if (state.showFeedback && !showFeedbackModal) {
-            setShowFeedbackModal(true);
-          }
+          // Yeni engine'de otomatik feedback yok
         };
 
         engine.addListener(updateGameState);
@@ -73,26 +71,13 @@ export const ZihinDetektifiScreen = () => {
   }, [navigate]);
 
   const handlePauseToggle = () => {
-    if (engineRef.current) {
-      engineRef.current.togglePause();
-      if (gameState?.isPaused) {
-        setShowPauseModal(false);
-      } else {
-        setShowPauseModal(true);
-      }
-    }
+    // Yeni engine'de pause/resume yok, sadece modal'ı kontrol et
+    setShowPauseModal(!showPauseModal);
   };
 
   const handleAnswerSelect = (answer: string) => {
     if (engineRef.current) {
       engineRef.current.selectAnswer(answer);
-    }
-  };
-
-  const handleNextQuestion = () => {
-    setShowFeedbackModal(false);
-    if (engineRef.current) {
-      engineRef.current.nextQuestion();
     }
   };
 
@@ -113,11 +98,7 @@ export const ZihinDetektifiScreen = () => {
     navigate('/');
   };
 
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-  };
+
 
   if (showResultScreen && engineRef.current) {
     const metrics = engineRef.current.getGameMetrics();
@@ -125,9 +106,9 @@ export const ZihinDetektifiScreen = () => {
       <GameResultScreen
         title="Zihin Dedektifi Tamamlandı! 🎉"
         metrics={{
-          primary: { label: "Final Skor", value: `${metrics.finalScore} puan`, color: "text-primary" },
-          secondary: { label: "Doğruluk Oranı", value: `%${metrics.accuracy}`, color: "text-success" },
-          tertiary: { label: "Toplam Soru", value: `${metrics.totalQuestions} soru` }
+          primary: { label: "Final Skor", value: `${metrics.score} puan`, color: "text-primary" },
+          secondary: { label: "Doğru Cevap", value: `${metrics.score / 10}/${metrics.answeredQuestions}`, color: "text-success" },
+          tertiary: { label: "İlerleme", value: `%${Math.round(metrics.progress)}` }
         }}
         onRestart={handleNewGame}
         onGoHome={handleGoHome}
@@ -150,7 +131,7 @@ export const ZihinDetektifiScreen = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <GameHeader
         title="Zihin Dedektifi"
-        isPaused={gameState.isPaused}
+        isPaused={gameState.status === 'paused'}
         onPauseToggle={handlePauseToggle}
       />
 
@@ -158,13 +139,13 @@ export const ZihinDetektifiScreen = () => {
       <div className="px-6 md:px-8 pb-4">
         <div className="grid grid-cols-2 gap-2 mb-4">
           <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md">
-            <div className="font-medium text-xs sm:text-sm">Kalan Süre</div>
-            <div className="text-xl sm:text-2xl font-bold mt-1">{formatTime(gameState.timeLeft)}</div>
+            <div className="font-medium text-xs sm:text-sm">İlerleme</div>
+            <div className="text-xl sm:text-2xl font-bold mt-1">{gameState.answeredQuestions}/{gameState.totalQuestions}</div>
           </div>
 
           <div className="p-3 sm:p-4 rounded-xl text-center bg-success text-success-foreground shadow-md">
             <div className="font-medium text-xs sm:text-sm">Puan</div>
-            <div className="text-xl sm:text-2xl font-bold mt-1">{gameState.score}/{gameState.settings.targetScore}</div>
+            <div className="text-xl sm:text-2xl font-bold mt-1">{gameState.score}</div>
           </div>
         </div>
       </div>

@@ -1,0 +1,2864 @@
+{
+  "cases": [
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrenci, girdiği bir sınavdan 100 üzerinden 95 aldığında 'Tam bir fiyasko! Mükemmel olmalıydı.' diye düşündü.",
+      "question": "Öğrencinin, neredeyse mükemmel bir sonucu tam bir başarısızlık olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Aşırı Genelleme",
+        "Olumluyu Geçersiz Kılmak",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Olayları veya durumları sadece iki aşırı uçta (siyah veya beyaz) görme eğilimidir. Gri alanlar veya kısmi başarılar kabul edilmez."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Diyete başlayan bir kişi, bir öğünde küçük bir parça çikolata yediği için 'Bitti, diyetim tamamen mahvoldu. Artık devam etmenin bir anlamı yok.' dedi.",
+      "question": "Kişinin, küçük bir sapmayı tam bir başarısızlık olarak kabul edip her şeyi bırakması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce tarzında, bir şey mükemmel değilse, o zaman tamamen bozulmuş veya değersiz olarak algılanır. 'Bir lokmadan bir şey olmaz' gibi esnek düşünceler yoktur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sunum yapan çalışan, dinleyicilerden birinin telefonuna baktığını gördü ve sunumdan sonra 'Herkesin dikkati tamamen dağınıktı, korkunç bir sunumdu.' diye düşündü.",
+      "question": "Çalışanın, tek bir olumsuz detaya bakarak tüm sunumu tam bir fiyasko olarak etiketlemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihin Okuma",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Durum, sadece iki kategoride değerlendirilir: 'Mükemmel bir başarı' veya 'Korkunç bir başarısızlık'. Aradaki olumlu veya nötr durumlar göz ardı edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Yeni bir spor salonuna yazılan kişi, ilk antrenmanında programı tam olarak bitiremediği için 'Ben bu iş için yaratılmamışım, tam bir yeteneksizim.' diye karar verdi.",
+      "question": "Kişinin, ilk denemedeki küçük bir zorluğu, kalıcı ve tam bir yeteneksizlik olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu çarpıtmada, başlangıçtaki öğrenme süreci ve zorluklar kabul edilmez. Sonuç ya anında başarıdır ya da tam bir yenilgidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sanatçı, yaptığı tablonun bir köşesindeki küçük bir fırça darbesini beğenmediği için tüm tabloyu çöpe attı.",
+      "question": "Sanatçının, eserin bütünündeki başarıyı görmezden gelip, tek bir kusur nedeniyle tüm eseri değersiz bulması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihinsel Filtreleme",
+        "Olumluyu Geçersiz Kılmak",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Mükemmeliyetçiliğin temelini oluşturan bu düşünce hatası, küçük bir kusurun bütünün değerini tamamen yok ettiğine inanmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşıyla buluşmak için sözleşen kişi, arkadaşı 10 dakika geç kalınca 'O tam bir sorumsuz, ona asla güvenilmez.' diye düşündü.",
+      "question": "Kişinin, küçük bir gecikmeyi, arkadaşının karakteri hakkında mutlak ve olumsuz bir yargıya varmak için kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihin Okuma"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce tarzı, insanları ve olayları esnek bir şekilde değil, katı kategorilerle (ya tamamen iyi ya da tamamen kötü, ya tamamen güvenilir ya da asla güvenilmez) yargılar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yazar, yazdığı kitabın bir bölümünü beğenmediği için 'Bu kitaptan hiçbir şey olmaz, ben yazar değilim.' diyerek tüm projeyi rafa kaldırmayı düşündü.",
+      "question": "Yazarın, projenin bir kısmındaki zorluğu, projenin tamamının ve kendi kimliğinin tam bir başarısızlığı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Kısmi zorluklar veya eksiklikler, bütünün tamamen değersiz olduğu anlamına gelir. Süreç ve gelişim potansiyeli göz ardı edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni bir tarif denerken yemeğe bir tutam fazla tuz attığı için 'Her şey mahvoldu, bu yemek çöpe atılmalı.' diye düşündü.",
+      "question": "Kişinin, küçük bir hatayı, tüm yemeğin tamamen yenilmez olduğu şeklinde yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce yapısında, sonuç ya kusursuzdur ya da tamamen bozuktur. Düzeltilebilecek küçük hatalar bile tam bir başarısızlık olarak görülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Topluluk önünde konuşma yapan bir kişi, bir kelimede dili sürçtüğü için 'Tüm konuşma bir felaketti, kendimi rezil ettim.' diye sonuca vardı.",
+      "question": "Konuşmacının, tek bir küçük kusuru, konuşmanın genel başarısını tamamen yok sayacak şekilde görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Kişiselleştirme",
+        "Zihinsel Filtreleme",
+        "Büyütme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Kişi, performansını bir bütün olarak değil, en zayıf halkasına göre değerlendirir. Bir hata, tüm performansı 'kötü' olarak etiketlemek için yeterlidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Evini temizleyen bir kişi, bir köşede küçük bir toz kaldığını fark edince 'Hiç temizlenmemiş gibi, bütün ev hala pis.' diye hissetti.",
+      "question": "Kişinin, neredeyse tamamen temiz bir evi, kalan tek bir kir nedeniyle tamamen pis olarak algılaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihinsel Filtreleme",
+        "Aşırı Genelleme",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce tarzı, kısmi başarıyı veya 'yeterince iyi' olanı kabul etmez. Standart, mutlak ve kusursuz olandır; bunun altındaki her şey başarısızlıktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Yeni bir dil öğrenen biri, kurduğu bir cümlede gramer hatası yapınca 'Ben bu dili asla akıcı konuşamayacağım.' diye düşündü.",
+      "question": "Kişinin, öğrenme sürecinin doğal bir parçası olan bir hatayı, nihai bir yeteneksizlik kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme",
+        "Etiketleme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Öğrenme ve gelişim süreci göz ardı edilir. Sonuç ya anında ve hatasız bir yeterliliktir ya da tam bir yeteneksizliktir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, çıktığı bir flört buluşmasında kısa bir anlık sessizlik yaşandığı için 'Buluşma tam bir fiyaskoydu, kesinlikle tekrar görüşmek istemeyecek.' diye karar verdi.",
+      "question": "Kişinin, buluşmanın genel akışını değil de tek bir anlık durumu, tüm buluşmanın tam bir başarısızlığı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu çarpıtmada, karmaşık bir sosyal etkileşim, 'harika' veya 'berbat' gibi sadece iki kutuplu bir sonuçla değerlendirilir. Nüanslar ve olumlu anlar yok sayılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir takım projesinde çalışan bir kişi, kendi yaptığı kısımda küçük bir eksiklik bulduğu için 'Bütün proje benim yüzümden kötü olacak.' diye endişelendi.",
+      "question": "Kişinin, projenin bütününü değil de sadece kendi küçük hatasını görerek genel sonucu felaket olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Kişiselleştirme",
+        "Büyütme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Kişi, kendi katkısının mükemmel olmamasını, bütünün başarısızlığı olarak kabul eder. Kısmi katkının değeri göz ardı edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir ebeveyn, çocuğuna bir kez sesini yükselttiği için 'Ben korkunç bir anneyim/babayım.' diye kendini yargıladı.",
+      "question": "Ebeveynin, tek bir olumsuz davranışını, ebeveynlik kimliğinin tam bir başarısızlığı olarak etiketlemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce hatası, insan doğasının karmaşıklığını ve zaman zaman hata yapabileceğini kabul etmez. Davranışlar, 'her zaman iyi' veya 'her zaman kötü' gibi mutlak kategorilere sokulur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir iş görüşmesi olumsuz geçen bir kişi, 'Ben asla bir iş bulamayacağım.' diye düşündü.",
+      "question": "Kişinin, tek bir olumsuz deneyimden yola çıkarak gelecekteki tüm denemelerinin de başarısız olacağına inanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Tek bir olumsuz olay, sanki sürekli tekrarlanacak bir modelin kanıtıymış gibi algılanır. 'Asla', 'her zaman', 'hep' gibi kelimeler sıkça kullanılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Yeni tanıştığı biri ikinci buluşma teklifini reddedince, 'Beni hiç kimse beğenmeyecek, hep yalnız kalacağım.' diye aklından geçirdi.",
+      "question": "Kişinin, tek bir reddedilme olayını, gelecekteki tüm ilişkileri için geçerli bir kural olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce hatası, bir veya birkaç olaya dayanarak kendisi ve hayatı hakkında genel ve genellikle olumsuz bir sonuca varmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşı doğum günü partisine gelmediği için, 'Zaten önemli anlarımda kimse yanımda olmaz.' diye düşündü.",
+      "question": "Kişinin, tek bir olayı, tüm sosyal çevresinin genel bir davranışı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu çarpıtma, eldeki verilerin çok ötesinde, geniş ve genellikle haksız sonuçlara varmaya neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kek yaparken onu yakan bir kişi, 'Benim elimden hiçbir zaman düzgün bir iş çıkmaz.' diye söylendi.",
+      "question": "Kişinin, mutfaktaki tek bir hatasını, genel yetenekleri hakkında kalıcı bir başarısızlık kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce tarzı, 'bazen' veya 'bu sefer' gibi esnek ifadeler yerine, 'asla' veya 'hiçbir zaman' gibi katı ve genelleyici ifadeler kullanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir müşteri, sattığı ürünle ilgili olumsuz bir yorum yapınca, 'Bütün müşteriler ürünümden memnuniyetsiz.' diye endişelendi.",
+      "question": "Satıcının, tek bir olumsuz geri bildirimi, tüm müşteri kitlesinin görüşü olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Büyütme",
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Tekil bir kanıt, genel bir kural oluşturmak için kullanılır ve bu durum, gerçekliğin çarpıtılmasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir dersten düşük not alan öğrenci, 'Benim akademik hayatım hep başarısızlıklarla dolu olacak.' diye düşündü.",
+      "question": "Öğrencinin, tek bir sınav sonucunu, tüm akademik geleceğinin bir göstergesi olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu çarpıtma, tek bir olumsuz olayı alıp, gelecekteki tüm benzer durumların da aynı şekilde olacağına dair bir kural oluşturmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yaptığı şakaya kimse gülmeyince 'Ben hiç komik biri değilim, anlattığım hiçbir şeye kimse gülmez.' diye düşündü.",
+      "question": "Kişinin, tek bir espriye gelen tepkisizliği, genel bir mizah yeteneksizliği olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Tek bir olumsuz sosyal deneyim, kişinin kendisi hakkında kalıcı ve genel bir olumsuz yargıya varmasına neden olur. 'Hiç', 'asla', 'kimse' gibi kelimeler bu çarpıtmanın ipuçlarıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Trafikte yolu şaşıran bir sürücü, 'Ben her zaman böyle aptalca hatalar yaparım.' diye kendi kendine kızdı.",
+      "question": "Sürücünün, yaptığı tek bir hatayı, sürekli tekrarlanan bir kişilik özelliği olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Etiketleme",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce hatası, spesifik ve bağlama özgü bir hatayı, kişinin karakterinin değişmez bir parçası gibi algılamasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yatırımcı, yaptığı bir hisse senedi alımından zarar edince 'Benim borsada şansım hiç yaver gitmez, her yatırımım batar.' diye karar verdi.",
+      "question": "Yatırımcının, tek bir finansal kaybı, gelecekteki tüm yatırımlarının da başarısız olacağının bir kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Falcılık Yapma",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Tek bir olumsuz sonuca dayanarak, gelecekteki tüm olasılıklar hakkında genel ve karamsar bir kural oluşturulur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çocuk, futbol maçında bir gol kaçırdığı için 'Ben bu takımın en kötü oyuncusuyum, her şeyi mahvediyorum.' diye düşündü.",
+      "question": "Çocuğun, tek bir hatayı, genel performansının ve takımdaki yerinin kalıcı bir göstergesi olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Büyütme",
+        "Kişiselleştirme",
+        "Etiketleme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu çarpıtma, kişinin bir olaydaki performansını, genel kimliği veya yeteneği hakkında bir yargıya dönüştürmesine neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, katıldığı bir partide kimseyle uzun uzun sohbet edemeyince 'Ben sosyal ortamlarda hep başarısızım.' diye düşündü.",
+      "question": "Kişinin, tek bir sosyal deneyimdeki zorluğu, tüm sosyal becerilerinin kalıcı bir eksikliği olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bir veya birkaç olumsuz sosyal etkileşim, kişinin kendisini 'sosyal olarak beceriksiz' veya 'sevilmeyen' biri olarak etiketlemesine ve gelecekteki tüm sosyal durumların da böyle olacağına inanmasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yazarın son kitabı beklediği kadar satmayınca, 'Benim yazarlık kariyerim bitti, yazdığım hiçbir şeyi kimse okumayacak.' diye umutsuzluğa kapıldı.",
+      "question": "Yazarın, tek bir kitabın performansını, tüm yazarlık geleceğinin kesin bir göstergesi olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Falcılık Yapma",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce hatası, tek bir olumsuz veriye (düşük satış) dayanarak, gelecekteki tüm olasılıklar hakkında genel ve genellikle karamsar bir kural oluşturur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni denediği bir yemeğin tadını beğenmeyince 'Benim damak zevkim çok kötü, hiçbir zaman yeni lezzetleri sevemem.' diye düşündü.",
+      "question": "Kişinin, tek bir olumsuz gastronomik deneyimi, genel bir yeteneksizlik ve gelecekteki tüm deneyimlerin sonucu olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Tek bir olaya dayanarak, kişinin kendisi, başkaları veya dünya hakkında genel bir kural oluşturmasıdır. 'Hiçbir zaman' kelimesi bu çarpıtmanın tipik bir göstergesidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir bilgisayar programcısı, yazdığı kodda bir hata (bug) bulununca 'Yazdığım her kodda mutlaka bir sorun çıkıyor.' diye hayıflandı.",
+      "question": "Programcının, tek bir hatayı, tüm çalışmalarının genel bir özelliği olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce hatası, istisnaları veya başarılı örnekleri göz ardı ederek, tekil bir olumsuzluğu genel bir kural haline getirir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşı arama sözünü unuttuğu için, 'Bütün arkadaşlarım düşüncesiz ve güvenilmez.' diye düşündü.",
+      "question": "Kişinin, tek bir kişinin tek bir davranışını, tüm arkadaş çevresinin kalıcı bir özelliği olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Bölme",
+        "Zihin Okuma",
+        "Etiketleme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bir veya birkaç olaya dayanarak, bir grup insan hakkında genel ve genellikle haksız bir sonuca varmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, tatilinin ilk günü yağmur yağdığı için 'Benim tatillerim her zaman berbat geçer.' diye düşündü.",
+      "question": "Kişinin, tatilinin sadece bir bölümündeki olumsuzluğu, geçmiş ve gelecekteki tüm tatillerinin ortak kaderi olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Duygusal Mantık Yürütme",
+        "Olumluyu Geçersiz Kılmak"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "'Her zaman' kelimesi, tek bir olumsuz olayın, hiç bitmeyen bir olumsuzluk döngüsünün kanıtı olarak görüldüğünü gösteren bir ipucudur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir girişimci, kurduğu ilk işyeri iflas edince 'Ben girişimcilikten hiç anlamıyorum, açtığım her iş batar.' diye karar verdi.",
+      "question": "Girişimcinin, ilk denemesindeki başarısızlığı, gelecekteki tüm girişimlerinin de sonucu olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce hatası, öğrenme sürecini ve deneyimin getireceği gelişimi göz ardı ederek, tek bir sonuca dayanarak genel bir yetenek yargısına varır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çalışan, yıl sonu performans değerlendirmesinde yöneticisinden birçok övgü dolu yorum alır. Ancak yönetici, 'Sadece sunum becerilerini biraz daha geliştirebilirsin.' diye küçük bir öneride bulunur. Çalışan, aldığı tüm övgüleri unutup sadece bu eleştiriye takılıp kalır.",
+      "question": "Çalışanın, aldığı sayısız olumlu geri bildirimi görmezden gelip sadece tek bir olumsuz detaya odaklanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme",
+        "Olumluyu Geçersiz Kılmak",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişi, bir durumun bütününü görmek yerine, olumsuz bir detayı cımbızla çeker ve tüm deneyimi bu olumsuz filtreden geçirerek algılar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, arkadaşlarıyla harika bir tatil geçirir. Ancak tatilin son günü yağan kısa süreli bir yağmur yüzünden 'Tatilimiz mahvoldu.' diye düşünür.",
+      "question": "Kişinin, tatilin genelindeki tüm güzel anları unutup, tek bir olumsuz hava durumu olayına odaklanarak tüm tatili kötü olarak nitelemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Felaketleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtmada, olumlu deneyimler adeta bir süzgeçten geçirilerek elenir ve geriye sadece olumsuz olanlar kalır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrencinin karnesindeki derslerin hepsi pekiyidir, sadece bir tanesi iyidir. Öğrenci, ailesine karneyi gösterirken 'Bu dönem çok kötüydü.' der ve sadece 'iyi' olan nota odaklanır.",
+      "question": "Öğrencinin, karnesindeki ezici çoğunluktaki başarıyı görmezden gelip tek bir 'kusurlu' nota takılıp kalması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişi, olumlu verileri adeta görünmez kılar ve tüm dikkatini ve enerjisini olumsuz olan tek bir veriye yönlendirir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir şef, hazırladığı ziyafette misafirlerden onlarca iltifat alır. Ancak bir misafirin, salatanın tuzunun biraz az olduğunu söylemesi üzerine tüm akşamı 'Yemekler beğenilmedi.' diye düşünerek geçirir.",
+      "question": "Şefin, aldığı tüm iltifatları bir kenara bırakıp, tek bir küçük eleştiriye odaklanarak genel başarıyı göz ardı etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Olumluyu Geçersiz Kılmak",
+        "Aşırı Genelleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu düşünce hatası, kişinin başarılarını ve olumlu deneyimlerini görmesini engelleyerek, kendini sürekli olarak yetersiz veya başarısız hissetmesine neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir futbolcu, maç boyunca birçok başarılı pas vermesine ve iyi oynamasına rağmen, maçın bir anında kaçırdığı bir şutu düşünerek 'Bugün çok kötü bir maç çıkardım.' diye kendini eleştirir.",
+      "question": "Futbolcunun, maçtaki genel iyi performansını yok sayıp, sadece tek bir başarısız ana odaklanarak kendini değerlendirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Aşırı Genelleme",
+        "Büyütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtmada, olumlu olaylar ve başarılar önemsizleştirilirken, olumsuz olaylar bir büyüteç altına alınıp abartılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, sosyal medyaya koyduğu fotoğrafına gelen onlarca beğeniyi görmez ama bir kişinin yaptığı 'Bu açıdan çekmeseydin daha iyi olurdu.' yorumuna saatlerce üzülür.",
+      "question": "Kişinin, aldığı pozitif geri bildirimleri göz ardı edip, tek bir yapıcı eleştiriye aşırı derecede odaklanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme",
+        "Olumluyu Geçersiz Kılmak",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişinin gerçeklik algısı, olumsuz detayları seçen ve büyüten bir filtre tarafından bozulur, bu da genel resmin yanlış yorumlanmasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, eşiyle yaptığı keyifli bir akşam yemeği sohbeti sırasında, eşinin bir anlığına esnediğini görür. Tüm güzel sohbeti unutup 'Benimle konuşurken çok sıkıldı.' diye düşünür.",
+      "question": "Kişinin, uzun ve keyifli bir sohbetin bütününü değil de sadece tek bir anlık ve muhtemelen ilgisiz bir detayı (esneme) cımbızla çekmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtma, bağlamı tamamen göz ardı ederek, olumsuz bir detayı tüm deneyimin ana fikri haline getirir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir bahçıvan, yetiştirdiği güllerle dolu bahçesinde onlarca sağlıklı ve güzel çiçek olmasına rağmen, sadece bir tanesinin solmuş yaprağına odaklanarak 'Bahçeyle hiç iyi ilgilenemiyorum.' diye kendini eleştirir.",
+      "question": "Bahçıvanın, bahçesindeki ezici çoğunluktaki başarıyı görmezden gelip tek bir kusura takılıp kalması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme",
+        "Olumluyu Geçersiz Kılmak"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu düşünce hatası, kişinin olumlu sonuçları ve emeklerini görmesini engelleyerek, küçük bir kusuru büyük bir başarısızlık gibi algılamasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir organizatör, düzenlediği ve yüzlerce kişinin keyifle katıldığı bir festivalin sonunda, teknik bir aksaklık nedeniyle ses sisteminin 5 dakika kesilmesini düşünerek 'Etkinlik tam bir fiyaskoydu.' sonucuna varır.",
+      "question": "Organizatörün, saatlerce süren başarılı bir etkinliği, yaşanan kısa süreli bir aksaklık nedeniyle tamamen başarısız olarak nitelemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Felaketleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişi, olumlu deneyimlerin ve başarıların tamamını bir süzgeçten geçirerek eler ve geriye sadece olumsuz olan tek bir anı bırakır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni aldığı arabasının birçok özelliğini çok sevmesine rağmen, torpido gözünün biraz küçük olmasından dolayı sürekli 'Bu araba çok kullanışsız.' diye şikayet eder.",
+      "question": "Kişinin, arabanın sayısız olumlu özelliğini bir kenara bırakıp, tek bir olumsuz detaya odaklanarak genel bir olumsuz yargıya varması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Aşırı Genelleme",
+        "Büyütme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtmada, olumsuz bir detay, orantısız bir şekilde büyütülür ve tüm resmin olumsuz olarak algılanmasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğretmen, ders anlattığı sırada bir öğrencinin pencereden dışarı baktığını fark eder ve dersin geri kalanını 'Kimse beni dinlemiyor, çok sıkıcı bir ders anlatıyorum.' diye düşünerek geçirir.",
+      "question": "Öğretmenin, dinleyen diğer tüm öğrencileri yok sayıp, ilgisiz görünen tek bir öğrenciye odaklanarak genel bir başarısızlık hissine kapılması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Gerçekliğin bütününü görmek yerine, olumsuz bir kanıt seçilir ve bu kanıt, kişinin kendi hakkındaki olumsuz inançlarını (örneğin 'sıkıcıyım') doğrulamak için kullanılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, sağlıklı beslenme kararı aldıktan sonra yediği salatanın içinde bir tane kızarmış ekmek (kroton) olduğu için 'Bugünkü sağlıklı beslenme hedefim tamamen boşa gitti.' diye düşündü.",
+      "question": "Kişinin, genel olarak sağlıklı bir öğünü, içindeki tek bir küçük sağlıksız unsur nedeniyle tamamen 'kötü' olarak damgalaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce tarzı, esnekliği ve dengeyi reddeder. Bir şeyin içinde en ufak bir 'kusur' varsa, o şeyin tamamı kusurlu kabul edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaş grubuyla tatile çıkan kişi, bir akşam arkadaşlarıyla dışarı çıkmak yerine odasında tek başına dinlenmek istediği için kendini 'asosyal ve partiyi bozan kişi' olarak etiketledi.",
+      "question": "Kişinin, tek bir akşamki tercihini, tüm sosyal kimliğinin bir yansıması olarak görüp kendini olumsuz bir şekilde yargılaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme",
+        "Kişiselleştirme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Kişi, kendine dinlenme hakkı tanımak gibi gri bir alanı kabul etmez; ya 'partinin canı' olmalıdır ya da 'asosyal'dir. Ara bir seçenek yoktur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yazılımcı, yazdığı program %99 oranında sorunsuz çalışmasına rağmen, nadir durumlarda ortaya çıkan tek bir küçük hata yüzünden 'Bu program tamamen çöp, baştan yazılmalı.' dedi.",
+      "question": "Yazılımcının, programın ezici çoğunluktaki başarısını görmezden gelip tek bir hata nedeniyle tüm projeyi değersiz bulması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme",
+        "Felaketleştirme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Mükemmeliyetçilikle yakından ilişkili olan bu çarpıtma, 'neredeyse mükemmel'i, 'tamamen başarısız' ile eşdeğer görür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, çok sevdiği bir arkadaşının bir kez sözünü tutmaması üzerine 'Ona artık hiçbir konuda güvenemem.' diye kesin bir karara vardı.",
+      "question": "Kişinin, tek bir güven kırıcı olayı, o kişinin genel güvenilirliği hakkında mutlak bir yargıya varmak için kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Aşırı Genelleme",
+        "Bölme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "İnsanların zaman zaman hata yapabileceği gerçeğini göz ardı ederek, onları 'her zaman güvenilir' veya 'asla güvenilmez' gibi katı kategorilere ayırır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir maraton koşucusu, kişisel rekorunu sadece birkaç saniye ile kaçırdığı için yarışı 'tam bir başarısızlık' olarak nitelendirdi.",
+      "question": "Koşucunun, ortaya koyduğu muazzam performansı ve çabayı yok sayıp, hedefine çok küçük bir farkla ulaşamadığı için kendini tamamen başarısız görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Olumluyu Geçersiz Kılmak",
+        "Küçültme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Bu düşünce yapısında, belirlenen hedefe %100 ulaşılmadığı sürece, elde edilen başarıların hiçbir anlamı veya değeri yoktur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir müzisyen, verdiği bir konserde tek bir notaya yanlış bastığı için konserden sonra 'Bu geceki performansım korkunçtu.' dedi.",
+      "question": "Müzisyenin, saatler süren başarılı bir performansı, tek bir anlık hata nedeniyle tamamen kötü olarak damgalaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihinsel Filtreleme",
+        "Büyütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Ya Hep Ya Hiç Düşüncesi",
+      "explanation": "Kişi, performansını bir bütün olarak değil, en zayıf anına göre değerlendirir. Tek bir kusur, bütünün değerini sıfırlamak için yeterlidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yaptığı bir sunum sırasında gelen bir soruya anında cevap veremeyince 'Ben topluluk önünde her zaman donup kalırım.' diye düşündü.",
+      "question": "Kişinin, tek bir duraksama anını, tüm topluluk önü performanslarının kalıcı bir özelliği olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme",
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu düşünce hatası, tek bir olayı veya kanıtı temel alarak, kişinin yetenekleri veya geleceği hakkında genel ve genellikle olumsuz bir kural oluşturmasıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Arabasını park ederken küçük bir çizik oluşturan sürücü, 'Ben berbat bir şoförüm, araba kullanmayı hiç beceremiyorum.' diye kendini eleştirdi.",
+      "question": "Sürücünün, tek bir küçük hatayı, genel sürüş becerisinin tam bir yansıması olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Büyütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Spesifik bir olay (küçük bir hata), kişinin kendisi hakkında genel bir kimlik yargısına (berbat şoför) varmak için kullanılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, davet ettiği bir arkadaşı gelemeyeceğini söyleyince 'Zaten benimle kimse vakit geçirmek istemiyor.' diye düşündü.",
+      "question": "Kişinin, tek bir reddedilme durumunu, herkesin kendisi hakkındaki genel düşüncesi olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Aşırı Genelleme",
+      "explanation": "Bu çarpıtma, tekil bir olumsuz sosyal olayı, genel bir kurala (kimse istemiyor) dönüştürerek kişinin kendini yalnız ve sevilmeyen biri olarak hissetmesine yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, çıktığı harika bir buluşmanın sonunda, sohbetin ortasında yaşanan 10 saniyelik bir sessizliğe takılıp kalarak 'Buluşma iyi gitmedi.' diye düşündü.",
+      "question": "Kişinin, saatlerce süren keyifli sohbeti görmezden gelip, sadece anlık ve doğal bir sessizliğe odaklanarak genel bir olumsuz yargıya varması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Zihin Okuma",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtmada, olumlu deneyimlerin büyük bir kısmı adeta bir filtreden geçirilerek yok sayılır ve geriye sadece olumsuz bir detay kalır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yazar, yayınevinden kitabının basılacağına dair bir sözleşme alır ama editörün değiştirmesini önerdiği tek bir cümleye takılıp 'Yazdıklarım yeterince iyi değil.' diye endişelenir.",
+      "question": "Yazarın, en büyük başarıyı (kitabın basılması) göz ardı edip, tek bir küçük revizyon talebine odaklanarak kendini yetersiz hissetmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Olumluyu Geçersiz Kılmak",
+        "Kişiselleştirme",
+        "Büyütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişi, büyük ve önemli olumlu sonuçları bir kenara bırakır ve tüm dikkatini orantısız bir şekilde küçük, olumsuz bir detaya verir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, doğada harika bir yürüyüş yapar, muhteşem manzaralar görür ama eve döndüğünde aklında sadece kendisini ısıran tek bir sivrisinek vardır.",
+      "question": "Kişinin, saatlerce süren keyifli bir deneyimi unutup, sadece tek bir anlık rahatsızlığa odaklanarak o günü hatırlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu düşünce hatası, olumlu anıların ve deneyimlerin değerini azaltır ve geriye sadece olumsuz veya rahatsız edici anıları bırakır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, doğum gününde birçok hediye ve tebrik mesajı alır ama sadece hediye almayı unutan bir arkadaşına odaklanarak üzülür.",
+      "question": "Kişinin, kendisine gösterilen yoğun sevgiyi ve ilgiyi bir kenara bırakıp, tek bir eksikliğe takılıp kalması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme",
+        "Olumluyu Geçersiz Kılmak",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişinin gerçeklik algısı, olumlu olanları görmezden gelen ve sadece olumsuz olanı gören bir filtre tarafından bozulur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, tatilde çektiği yüzlerce harika fotoğraf arasından, sadece gözünün kapalı çıktığı bir tanesine bakarak 'Hiç güzel fotoğrafım yok.' der.",
+      "question": "Kişinin, çok sayıdaki iyi sonucu yok sayıp, tek bir kötü sonuca odaklanarak genel bir olumsuz yargıya varması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Aşırı Genelleme",
+        "Büyütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtmada, olumlu kanıtlar sistematik olarak elenir ve geriye sadece kişinin olumsuz inancını destekleyen kanıtlar kalır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir piyanist, verdiği konserde dakikalarca alkışlanır ancak aklında sadece bir notaya yanlış bastığı an vardır ve performansını bu ana göre değerlendirir.",
+      "question": "Piyanistin, dinleyicilerin coşkusunu ve kendi genel başarısını değil, tek bir hatayı performansının ölçütü olarak alması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu düşünce hatası, bir deneyimin bütününü adil bir şekilde değerlendirmek yerine, en olumsuz anını seçip onu merkeze koymaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni aldığı ve çok sevdiği evinin her yerini beğenmesine rağmen, duvardaki gözle zor görülen bir çizik yüzünden sürekli olarak 'Bu ev kusurlu.' diye düşünür.",
+      "question": "Kişinin, büyük bir memnuniyeti, önemsiz bir kusur nedeniyle gölgelemesi ve sadece o kusura odaklanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Olumsuz bir detay, orantısız bir şekilde büyütülerek tüm resmin olumsuz olarak algılanmasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrenci, projesiyle ilgili sunduğu 10 fikirden 9'u beğenilmesine rağmen, beğenilmeyen tek bir fikrine takılıp 'Hiç yaratıcı değilim.' diye üzülür.",
+      "question": "Öğrencinin, fikirlerinin büyük bir kısmının onaylanmasını görmezden gelip, onaylanmayan tek bir fikre odaklanarak kendini değersizleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Etiketleme",
+        "Olumluyu Geçersiz Kılmak",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Bu çarpıtma, kişinin kendi değerini veya performansını değerlendirirken olumlu verileri eleyip sadece olumsuz verilere odaklanmasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, çok eğlendiği bir düğünün sonunda, garsonun üzerine küçük bir damla içecek dökmesi nedeniyle 'Gece berbat bitti.' diye anlatır.",
+      "question": "Kişinin, saatlerce süren eğlenceyi ve güzel anları unutup, son andaki küçük bir talihsizliği tüm gecenin özeti olarak sunması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihinsel Filtreleme",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Zihinsel Filtreleme",
+      "explanation": "Kişinin hafızası, olumsuz olayı bir süzgeç gibi kullanarak tüm olumlu anıları eler ve geriye sadece olumsuz bir anı bırakır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, iş yerinde aldığı bir övgü için 'Önemli bir şey değildi, zaten bu benim görevim.' diye düşünür.",
+      "question": "Kişinin, aldığı bir takdiri, sadece bir zorunluluk olarak görerek önemini azaltması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Küçültme",
+        "Zihinsel Filtreleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu çarpıtmada, olumlu bir olay veya başarı yaşanır, fark edilir ancak çeşitli gerekçelerle 'sayılmaz' veya 'değersiz' olarak etiketlenir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Sınavından çok yüksek bir not alan öğrenci, 'Bu sınav çok kolaydı, o yüzden başarımın bir anlamı yok.' der.",
+      "question": "Öğrencinin, elde ettiği başarıyı, dışsal bir nedene (sınavın kolaylığı) bağlayarak kendi çabasını yok sayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Zihinsel Filtreleme",
+        "İnkar"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Kişi, olumlu deneyimlerin bir şekilde 'sayılmadığına' inanır ve böylece olumlu deneyimlerin benlik saygısı üzerindeki etkisini engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşı, yaptığı bir iyilik için ona teşekkür ettiğinde, 'Lafı bile olmaz, herkes aynı şeyi yapardı.' diye cevap verir.",
+      "question": "Kişinin, yaptığı olumlu bir davranışı, 'herkesin yapabileceği sıradan bir şey' olarak nitelendirerek değersizleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Küçültme",
+        "Meli, -malı Cümleleri",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu düşünce hatası, kişinin kendi pozitif niteliklerini veya eylemlerini sahiplenmesini engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, projesi çok beğenildiğinde 'Sadece şanslıydım, doğru zamanda doğru yerdeydim.' diye düşünür.",
+      "question": "Kişinin, kendi çabasını ve yeteneğini görmezden gelip, başarısını tamamen şansa bağlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Falcılık Yapma",
+        "Duygusal Mantık Yürütme",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Başarılar içsel nedenlere (yetenek, çaba) değil, dışsal ve kontrol dışı nedenlere (şans, tesadüf) atfedilerek geçersiz kılınır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Birisi, 'Çok güzel bir elbise giymişsin.' dediğinde, 'Eski bu, pazardan almıştım.' diyerek iltifatı geçiştirir.",
+      "question": "Kişinin, aldığı bir iltifatı doğrudan kabul etmek yerine, onun değerini düşürecek bir bahane bularak geçersiz kılması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Kişiselleştirme",
+        "Zihinsel Filtreleme",
+        "Karşıt Tepki Oluşturma"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu çarpıtma, kişinin kendisine yönelik olumlu geri bildirimleri kabul etmesini ve bunlardan keyif almasını engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Takım olarak kazanılan bir zaferden sonra, bir oyuncu 'Benim pek bir katkım olmadı, zaten diğerleri çok iyiydi.' der.",
+      "question": "Oyuncunun, takım başarısındaki kendi payını ve çabasını yok sayarak tüm başarıyı başkalarına atfetmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Küçültme",
+        "Kişiselleştirme",
+        "Boyun Eğme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Kişi, olumlu bir sonucun parçası olduğunu kabul eder ancak kendi katkısının geçersiz veya önemsiz olduğuna inanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, iş yerinde terfi aldığında 'Şirkette başka aday yoktu, o yüzden beni seçmek zorunda kaldılar.' diye düşünür.",
+      "question": "Kişinin, elde ettiği önemli bir başarıyı, kendi liyakatine değil de başka seçenek olmamasına bağlayarak değersizleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Zihin Okuma",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu düşünce hatası, kişinin başarılarını hak etmediğine dair altta yatan bir inancı yansıtabilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Birisi, 'Çok zekice bir yorum yaptın.' dediğinde, 'Aklıma birden geldi işte, özel bir şey değil.' diye cevap verir.",
+      "question": "Kişinin, kendi zekasını veya içgörüsünü, anlık bir tesadüf olarak nitelendirerek geçersiz kılması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Duygusal Mantık Yürütme",
+        "Zihinsel Filtreleme",
+        "Entelektüelleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Olumlu nitelikler ve başarılar, kişinin kalıcı özelliklerinden ziyade geçici ve tesadüfi olaylar olarak görülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşı, zor bir zamanda kendisine yardım ettiği için minnettarlığını belirttiğinde, 'Ben olmasam da başkası yardım ederdi.' der.",
+      "question": "Kişinin, yaptığı yardımın biricikliğini ve önemini, 'herkesin yapabileceği bir şey' olduğunu söyleyerek azaltması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Kişiselleştirme",
+        "Boyun Eğme",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu çarpıtma, kişinin kendi eylemlerinin olumlu etkisini ve değerini görmesini engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, uzun uğraşlar sonucu bir problemi çözdüğünde, 'Bu seferlik hallettim ama bir daha yapamam, şansım yaver gitti.' diye düşünür.",
+      "question": "Kişinin, gösterdiği çaba ve beceriyi 'bir seferlik şans' olarak görerek başarısını geleceğe taşıyamayacağına inanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Başarı, kişinin yeteneklerinin bir kanıtı olarak değil, tekrarlanamayacak istisnai bir durum olarak görülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Yaptığı yemek çok beğenildiğinde, bir kişi 'Tarif çok iyiydi, benim bir başarım değil.' der.",
+      "question": "Kişinin, kendi becerisini ve emeğini yok sayarak, başarısını tamamen dış bir kaynağa (tarif) atfetmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Kişiselleştirme",
+        "Küçültme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Olumlu bir sonuç elde edildiğinde, kişi kendi rolünü en aza indirir ve başarıyı dış faktörlere bağlar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, zorlu bir parkuru tamamladığında arkadaşları onu tebrik edince, 'Siz de yapsanız başarırdınız, abartılacak bir şey yok.' diye yanıtlar.",
+      "question": "Kişinin, kendi başarısını, herkes tarafından kolayca yapılabilecek sıradan bir olay gibi göstererek değersizleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Zihinsel Filtreleme",
+        "Duygusal Mantık Yürütme",
+        "Adil Olmayan Kıyaslama"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu düşünce hatası, kişinin kendi yeteneklerini ve çabasını takdir etmesini engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sanatçı, sergisi çok ilgi gördüğünde, 'İnsanlar sanattan anlamıyor, o yüzden resimlerimi beğendiler.' diye düşünür.",
+      "question": "Sanatçının, aldığı takdiri, izleyicilerin yetersizliğine bağlayarak kendi başarısını geçersiz kılması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Yansıtma",
+        "Değersizleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Kişi, olumlu geri bildirimi kabul etmemek için, geri bildirimi verenlerin yetkinliğini veya niyetini sorgulayarak bir neden bulur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çalışan, ayın elemanı seçildiğinde, 'Muhtemelen bu ay başka kimse iyi bir şey yapmadı.' diye düşünür.",
+      "question": "Çalışanın, kendi başarısını, başkalarının başarısızlığına bağlayarak önemini azaltması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Zihin Okuma",
+        "Adil Olmayan Kıyaslama",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Başarı, kişinin kendi değeri veya çabasından değil, rekabetin olmamasından kaynaklanan bir zorunluluk gibi görülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, zor bir sınavı geçtiğinde, 'Soruların çoğu çalıştığım yerlerden geldi, tamamen şanstı.' der.",
+      "question": "Kişinin, kendi çalışma disiplinini ve öğrenmesini yok sayıp, başarısını tamamen tesadüfe bağlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Falcılık Yapma",
+        "Sihirli Düşünce"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu çarpıtma, kişinin kendi kontrolü ve emeğiyle elde ettiği başarıları sahiplenmesini engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, iş arkadaşına bir konuda yardım ettikten sonra 'Merak etme, benim için hiç zor olmadı, çok basitti.' diyerek yardımının önemini azaltır.",
+      "question": "Kişinin, yaptığı yardımın değerini, 'zaten kolay bir işti' diyerek küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Küçültme",
+        "Akılcılaştırma",
+        "Boyun Eğme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Kişi, yaptığı olumlu bir eylemin, kendisi için bir çaba gerektirmediğini vurgulayarak onun değerini geçersiz kılar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir tartışmayı mantıklı argümanlarla kazandığında, 'Karşımdaki zaten konu hakkında pek bilgili değildi.' diye düşünür.",
+      "question": "Kişinin, kendi argümanlarının gücünü değil de, rakibinin zayıflığını başarısının nedeni olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Değersizleştirme",
+        "Akılcılaştırma",
+        "Yansıtma"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Başarı, kişinin kendi yeteneğinden değil, dış koşulların elverişli olmasından kaynaklanmış gibi gösterilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, verdiği bir partinin çok eğlenceli geçtiğini söyleyen arkadaşlarına, 'Siz iyi insanlarsınız, o yüzden eğlendiniz. Partinin bir özelliği yoktu.' diye cevap verir.",
+      "question": "Kişinin, kendi başarısını, misafirlerinin iyi niyetine veya karakterine bağlayarak geçersiz kılması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu düşünce hatası, kişinin olumlu bir sonuçtaki kendi rolünü ve emeğini reddetmesine neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sporcu, bir yarışı kazandıktan sonra 'En iyi rakiplerim bugün yarışmıyordu, o yüzden kazandım.' der.",
+      "question": "Sporcunun, kendi performansını ve zaferini, güçlü rakiplerin yokluğuna bağlayarak değersizleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Adil Olmayan Kıyaslama",
+        "Akılcılaştırma",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Kişi, başarısını hak ettiğine inanmak yerine, onu geçersiz kılacak dışsal bir neden bulmaya odaklanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yaptığı bir sunum için övgü aldığında, 'Sadece iyi hazırlandım, yetenekle bir ilgisi yok.' diye düşünür.",
+      "question": "Kişinin, başarısını sadece mekanik bir çabaya indirgeyerek, yetenek veya zeka gibi kişisel niteliklerini yok sayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Olumluyu Geçersiz Kılmak",
+        "Küçültme",
+        "Akılcılaştırma",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Olumluyu Geçersiz Kılmak",
+      "explanation": "Bu çarpıtma, başarının arkasındaki kişisel özellikleri ve yetenekleri tanımayı reddeder ve onu sıradan bir eyleme indirger."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yolda selam verdiği arkadaşı onu görmeyince 'Bana bilerek selam vermedi, kesin bana kızgın.' diye düşündü.",
+      "question": "Kişinin, arkadaşının dalgın olabileceği gibi başka olasılıkları düşünmeden, doğrudan olumsuz bir niyet okuması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu çarpıtma, yeterli kanıt olmadan başkalarının düşüncelerini veya niyetlerini bildiğimize dair kesin bir inanca sahip olmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çalışan, patronu odasına somurtkan bir ifadeyle girince 'Kesin benim yaptığım işi beğenmedi.' diye aklından geçirdi.",
+      "question": "Çalışanın, patronunun somurtkanlığının pek çok farklı nedeni olabileceğini düşünmeden, doğrudan kendisiyle ilgili olumsuz bir yargıya vardığını varsayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, başkalarının davranışlarını, kendi hakkındaki olumsuz düşüncelerini doğrulayan kanıtlar olarak yorumlar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, anlattığı bir fıkraya arkadaşı gülmeyince 'Ne kadar sıkıcı olduğumu düşünüyor.' diye karar verdi.",
+      "question": "Kişinin, arkadaşının espri anlayışının farklı olabileceğini veya keyifsiz olabileceğini düşünmeden, doğrudan kendisi hakkında olumsuz bir yargıya varıldığını sanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu düşünce hatası, kanıt olmadan başkalarının zihnindeki olumsuz senaryoları gerçek olarak kabul etmektir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir genç, hoşlandığı kişinin mesajına hemen cevap vermemesi üzerine 'Benden hoşlanmıyor, beni görmezden geliyor.' diye düşündü.",
+      "question": "Gencin, karşı tarafın meşgul olabileceği gibi olasılıkları değerlendirmeden, doğrudan olumsuz bir niyet okuması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, belirsiz bir durumu, kendi en kötü korkularını doğrulayacak şekilde yorumlar ve bunun karşı tarafın gerçek düşüncesi olduğuna inanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir toplantıda, bir kişi sözünü bitirdiğinde odada kısa bir sessizlik olunca 'Söylediklerimin ne kadar aptalca olduğunu düşünüyorlar.' diye aklından geçirdi.",
+      "question": "Kişinin, insanların sadece söylenenleri düşündüğü veya bir sonraki konuya hazırlandığı gibi olasılıkları göz ardı edip, herkesin kendisini eleştirdiğini varsayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Büyütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu çarpıtma, başkalarının nötr veya belirsiz tepkilerini, kişisel bir olumsuz yargının kanıtı olarak görmektir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, eşinin eve yorgun geldiğini görünce 'Kesin benimle vakit geçirmek istemediği için böyle davranıyor.' diye düşündü.",
+      "question": "Kişinin, eşinin iş yerinde zor bir gün geçirmiş olabileceği gibi olasılıkları düşünmeden, durumu doğrudan kendisine yönelik bir isteksizlik olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme",
+        "İlişkisel Mantık Yürütme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Başkalarının davranışlarının arkasındaki nedenleri sormak veya araştırmak yerine, en kötü senaryoyu onların gerçek düşüncesi olarak kabul etmektir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğretmen, bir öğrencisinin ders sırasında esnediğini görünce 'Anlattığım dersin ne kadar sıkıcı olduğunu düşünüyor.' diye karar verdi.",
+      "question": "Öğretmenin, öğrencinin uykusuz olabileceği gibi başka nedenleri düşünmeden, davranışı doğrudan kendi performansına yönelik bir eleştiri olarak algılaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Zihinsel Filtreleme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu düşünce hatası, yeterli kanıt olmadan başkalarının zihnini okuyabildiğimize ve onların olumsuz düşüncelerini bildiğimize inanmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, komşusunun kendisiyle asansörde kısa konuşması üzerine 'Beni sevimsiz buluyor ve bir an önce yanımdan ayrılmak istiyor.' diye düşündü.",
+      "question": "Kişinin, komşusunun sadece acelesi olabileceği gibi olasılıkları düşünmeden, kısa konuşmayı kişisel bir beğenmeme olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, başkalarının davranışlarını kendi hakkındaki en kötü korkularını doğrulayan kanıtlar olarak kullanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaş grubunda, bir kişi bir öneride bulunduğunda başka birisi hemen farklı bir öneri sununca, ilk kişi 'Benim fikrimi aptalca buldu.' diye düşündü.",
+      "question": "Kişinin, diğer kişinin sadece aklına daha iyi bir fikir gelmiş olabileceğini düşünmeden, durumu kendi fikrine yönelik bir saldırı olarak algılaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Bölme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu çarpıtma, sosyal etkileşimlerdeki belirsizlikleri, her zaman en olumsuz ve kişisel şekilde yorumlama eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, sosyal medyada paylaştığı bir fotoğrafa bir arkadaşı 'beğeni' atmayınca 'Artık beni eskisi kadar sevmiyor.' diye karar verdi.",
+      "question": "Kişinin, arkadaşının fotoğrafı görmemiş olabileceği gibi sayısız olasılığı düşünmeden, bu durumu doğrudan sevgisinin azaldığına dair bir kanıt olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, elinde somut bir kanıt olmadan, başkalarının eylemlerine veya eylemsizliklerine dayanarak onların zihnini ve duygularını okuduğunu varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çalışan, yöneticisine bir soru sorduğunda yönetici 'Bunu daha sonra konuşalım.' derse, 'Beni başından savıyor, sorumun aptalca olduğunu düşünüyor.' diye aklından geçirir.",
+      "question": "Çalışanın, yöneticinin o an gerçekten meşgul olabileceği gerçeğini göz ardı edip, durumu kişisel bir reddedilme ve eleştiri olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu çarpıtma, başkalarının davranışlarının arkasındaki en olumsuz niyeti okuma ve bunun doğru olduğuna inanma eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, eşi kendisine hediye aldığında 'Bunu kesin benden bir şey isteyeceği için veya bir hatasını telafi etmek için aldı.' diye düşünür.",
+      "question": "Kişinin, eşinin sadece onu sevdiği için hediye almış olabileceği olasılığını yok sayıp, davranışın ardında gizli ve olumsuz bir neden olduğunu varsayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Olumluyu Geçersiz Kılmak",
+        "Güvensizlik",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, olumlu bir davranışın bile ardında mutlaka olumsuz bir düşünce veya niyet yattığını varsayarak karşı tarafın zihnini okur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kasiyer, bir müşteriye para üstünü verirken göz teması kurmazsa, müşteri 'Bana karşı kaba ve saygısız olduğunu düşünüyor.' diye hisseder.",
+      "question": "Müşterinin, kasiyerin sadece yorgun veya dalgın olabileceği gibi olasılıkları düşünmeden, durumu doğrudan kendisine yönelik bir hakaret olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu düşünce hatası, kanıt olmadan başkalarının zihnindeki olumsuz senaryoları gerçekmiş gibi kabul etmektir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir partiye davet edilmediğini öğrendiğinde 'Beni partide istemediler çünkü sıkıcı olduğumu düşünüyorlar.' diye sonuca varır.",
+      "question": "Kişinin, unutulmuş olabileceği veya partinin küçük bir grup için olduğu gibi olasılıkları değerlendirmeden, davet edilmemesini kişisel bir eleştiri olarak algılaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Belirsiz bir durum, kişinin kendi hakkındaki olumsuz inançlarını (örneğin 'sıkıcıyım') doğrulamak için bir kanıt olarak kullanılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir baba, ergenlik çağındaki çocuğunun odasına kapandığını görünce 'Benden nefret ediyor ve benimle hiç konuşmak istemiyor.' diye düşünür.",
+      "question": "Babanın, çocuğun sadece kendi alanına veya yalnız kalmaya ihtiyaç duyabileceği gibi gelişimsel olasılıkları düşünmeden, durumu kişisel bir reddedilme olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, başkalarının davranışlarını (özellikle sevdiklerinin), kendi en derin korkularını (sevilmeme, reddedilme) doğrulayacak şekilde yorumlar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sunum sırasında dinleyicilerden biri saate bakınca, sunucu 'Konuşmamın bir an önce bitmesini istiyor, çok sıkıldı.' diye aklından geçirir.",
+      "question": "Sunucunun, dinleyicinin sadece bir sonraki randevusunu kontrol ediyor olabileceği gibi olasılıkları göz ardı edip, durumu doğrudan kendi performansına yönelik bir eleştiri olarak alması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Zihinsel Filtreleme",
+        "Büyütme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Başkalarının nötr eylemlerine, kanıt olmadan, olumsuz ve kişisel anlamlar yükleme eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşına mesaj attıktan sonra arkadaşının çevrimiçi olduğunu ama cevap yazmadığını görünce 'Beni görmezden geliyor, konuşmak istemiyor.' diye düşünür.",
+      "question": "Kişinin, arkadaşının o an başka bir acil işle uğraşıyor olabileceği gibi olasılıkları düşünmeden, durumu kasıtlı bir ihmal olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Bu çarpıtma, teknoloji çağında sıkça görülür ve dijital ipuçlarına dayanarak başkalarının niyetleri hakkında kesin ve genellikle olumsuz yargılara varmaya yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, iş arkadaşının bir projedeki fikrine katılmadığını belirtmesi üzerine 'Benim yetersiz olduğumu ve bu işi yapamayacağımı düşünüyor.' diye karar verir.",
+      "question": "Kişinin, fikir ayrılığını, kişiliğine veya yetkinliğine yönelik bir saldırı olarak algılaması ve karşı tarafın olumsuz düşündüğünü varsayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Farklı bir görüş belirtmek gibi profesyonel bir durum, kişinin zihninde kişisel bir değersizlik yargısına dönüştürülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, ev sahibinin kendisini görünce selam verip hızlıca yürümesi üzerine 'Kesin kirayı geciktireceğimi düşünüyor ve bana güvenmiyor.' diye endişelenir.",
+      "question": "Kişinin, ev sahibinin sadece acelesi olabileceği gibi basit bir olasılığı atlayıp, hakkında olumsuz ve şüpheci düşünüldüğünü varsayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Falcılık Yapma",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Kişi, yeterli kanıtı olmadan başkalarının zihnini okuduğuna ve onların kendisi hakkındaki olumsuz düşüncelerini bildiğine inanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sporcu, antrenörünün eleştirisini dinlerken 'Benden umudu kestiğini ve asla başarılı olamayacağımı düşünüyor.' diye içinden geçirir.",
+      "question": "Sporcunun, antrenörün sadece performansını geliştirmeye yönelik yapıcı bir geri bildirimde bulunuyor olabileceği olasılığını yok sayıp, bunu tam bir umutsuzluk ifadesi olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Felaketleştirme",
+        "Büyütme"
+      ],
+      "correct_answer": "Zihin Okuma",
+      "explanation": "Yapıcı eleştiri, kişinin zihninde en kötü anlama gelecek şekilde tercüme edilir ve karşı tarafın düşüncesi olarak kabul edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yaklaşan bir sınav için 'Ne kadar çalışırsam çalışayım, o sınavdan kesinlikle kalacağım.' diye düşünür.",
+      "question": "Kişinin, gelecekteki bir olayın sonucunu, elinde yeterli kanıt olmadan olumsuz bir şekilde kesin olarak öngörmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu çarpıtma, geleceğin olumsuz olacağına dair bir hissi, sanki tartışılmaz bir gerçekmiş gibi kabul etmektir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, hoşlandığı birine buluşma teklif etmeden önce 'Biliyorum, kesinlikle hayır diyecek ve rezil olacağım.' diye karar verir.",
+      "question": "Kişinin, denemeden önce bir durumun sonucunu en kötü şekilde tahmin edip bunu bir gerçek olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Zihin Okuma",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Zihin Okuma başkalarının düşüncelerini bildiğini varsayarken, Falcılık Yapma gelecekte ne olacağını bildiğini varsaymaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir iş görüşmesine hazırlanan biri, 'Mülakatım kesinlikle kötü geçecek ve işe alınmayacağım.' diye düşünür.",
+      "question": "Kişinin, gelecekteki bir performansını, gerçekleşmeden önce olumsuz olarak kesin bir şekilde tahmin etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu düşünce hatası, olumlu veya nötr olasılıkları tamamen göz ardı ederek, geleceğin sadece olumsuz olacağına inanmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni başlayacağı bir proje için 'Bu proje o kadar zor ki, kesinlikle zamanında bitiremeyeceğim.' diye endişelenir.",
+      "question": "Kişinin, bir işe başlamadan önce onun başarısızlıkla sonuçlanacağına dair kesin bir kehanette bulunması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Kişi, gelecekteki bir sonucu sanki bir kristal küreden okuyormuş gibi, olumsuz ve kesin bir dille tahmin eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşıyla yapacağı bir konuşma öncesi 'Bu konuyu açarsam kesin kavga edeceğiz ve aramız bozulacak.' diye düşünür.",
+      "question": "Kişinin, bir diyaloğun sonucunu, başlamadan önce en kötü senaryoyla kesinleşmiş gibi görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Zihin Okuma",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu çarpıtma, kişinin gelecekteki sosyal etkileşimlerin sonucunu olumsuz olarak 'bildiğine' inanmasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, tatile çıkmadan önce 'Kesin bir aksilik çıkacak ve tatilim berbat olacak.' diye endişelenir.",
+      "question": "Kişinin, gelecekteki bir olayın (tatilin) gidişatını, kanıt olmadan olumsuz bir şekilde tahmin etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Kişi, geleceğin belirsizliğini kabul etmek yerine, onu olumsuz bir kesinlikle doldurur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Yeni bir hobiye başlayacak olan biri, 'Birkaç hafta sonra kesin sıkılacağım ve bırakacağım.' diye düşünür.",
+      "question": "Kişinin, bir aktiviteye olan ilgisinin gelecekte kesinlikle kaybolacağını öngörmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu düşünce hatası, kişinin yeni bir şeye başlama ve devam etme motivasyonunu kırar, çünkü başarısızlık veya vazgeçme baştan kabul edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, sağlığıyla ilgili küçük bir belirti fark ettiğinde 'Biliyorum, bu kesinlikle ciddi bir hastalığın başlangıcı.' diye paniğe kapılır.",
+      "question": "Kişinin, tıbbi bir kanıt olmadan, gelecekte ciddi bir hastalığa yakalanacağına dair kesin bir kehanette bulunması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Bedenselleştirme",
+        "Büyütme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Kişi, belirsiz bir fiziksel durumu, gelecekteki en kötü sağlık senaryosunun kaçınılmaz bir habercisi olarak yorumlar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir ebeveyn, çocuğunun okul başarısı düştüğünde 'Bu gidişle üniversiteyi asla kazanamayacak.' diye düşünür.",
+      "question": "Ebeveynin, çocuğun şimdiki bir durumundan yola çıkarak, gelecekteki akademik hayatı hakkında kesin ve olumsuz bir kehanette bulunması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Etiketleme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Gelecekteki potansiyel ve değişim olasılıkları göz ardı edilerek, şimdiki bir eğilim sanki değişmez bir kader gibi görülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, birikim yapmaya başlamadan önce 'Ne kadar para biriktirirsem biriktireyim, sonunda kesin beklenmedik bir harcama çıkacak ve her şey boşa gidecek.' diye düşünür.",
+      "question": "Kişinin, gelecekte kesinlikle olumsuz bir olay yaşanacağını ve tüm çabalarının boşa çıkacağını öngörmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu çarpıtma, kişinin geleceğe yönelik umudunu ve çabasını baltalar, çünkü sonuç baştan olumsuz olarak kabul edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni bir şehre taşınmadan önce 'Orada asla mutlu olamayacağım ve hiç arkadaş edinemeyeceğim.' diye endişelenir.",
+      "question": "Kişinin, yaşanmamış bir deneyimin sonucunu, kanıt olmadan, kesin ve olumsuz bir dille tahmin etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Geleceğin belirsizliği, kişinin zihninde en kötü olasılıkların gerçekleşeceği kesin bir senaryoya dönüştürülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir diyete başlamayı düşündüğünde 'İlk birkaç gün iyi gider ama sonra kesinlikle irademi kaybederim.' diye düşünür.",
+      "question": "Kişinin, gelecekteki kendi davranışını ve iradesini, başarısız olacağı yönünde kesin bir şekilde tahmin etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu düşünce hatası, kişinin kendine olan güvenini sarsar ve daha başlamadan pes etmesine neden olabilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir spor takımı, önemli bir maça çıkmadan önce bir oyuncu 'Rakibimiz çok güçlü, kesinlikle bizi farklı yenecekler.' der.",
+      "question": "Oyuncunun, maçın sonucunu oynamadan önce en kötü olasılıkla kesinleşmiş gibi görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Adil Olmayan Kıyaslama"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Kişi, gelecekteki bir olayın sonucunu, sanki bir kahin gibi, olumsuz ve kesin bir dille öngörür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, evcil hayvan sahiplenmek ister ama 'Ona yeterince iyi bakamam ve kesin bir hastalığı olur, çok üzülürüm.' diyerek vazgeçer.",
+      "question": "Kişinin, gelecekte yaşanması muhtemel (ama kesin olmayan) olumsuzlukları, kaçınılmaz bir gerçek olarak görüp eyleme geçmekten kaçınması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Gelecekteki olası negatif sonuçlar, kesinleşmiş gerçekler olarak kabul edilir ve bu durum kaygıya ve kaçınma davranışına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yazar, yeni bir kitaba başlamadan önce 'İlhamım kesin bir yerde tükenecek ve bu kitabı asla bitiremeyeceğim.' diye düşünür.",
+      "question": "Yazarın, yaratıcı sürecin doğal zorluklarını, gelecekteki kaçınılmaz bir başarısızlık olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Etiketleme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu çarpıtma, kişinin gelecekteki potansiyelini ve problem çözme becerisini küçümseyerek, olumsuz bir sonuca kilitlenmesine neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, arkadaşıyla arasını düzeltmek için konuşmayı düşünür ama 'Ne söylersem söyleyeyim, beni asla affetmeyecek.' diye karar verir.",
+      "question": "Kişinin, bir başkasının gelecekteki tepkisini, denemeden önce, olumsuz ve değişmez bir gerçek olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Zihin Okuma",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Kişi, hem geleceği ('asla affetmeyecek') hem de başkasının zihnini ('beni affetmeyecek') okuduğunu varsayar, ancak odak noktası gelecekteki kesin olumsuz sonuçtur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, borsadaki bir hisse senedi yükselirken 'Ben sattıktan sonra kesin daha da yükselecek, şimdi satarsam kaybederim.' diye düşünerek satmaktan kaçınır.",
+      "question": "Kişinin, piyasanın gelecekteki hareketini, kendi eylemine bağlı olarak kesin ve olumsuz bir şekilde tahmin etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Duygusal Mantık Yürütme",
+        "Pişmanlık Odaklı Düşünme",
+        "Sihirli Düşünce"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Geleceğin belirsizliği, kişinin zihninde kendi aleyhine işleyecek kesin bir senaryoya dönüştürülür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, önemli bir sunumdan önce 'Kesin dilim sürçecek, kelimeleri unutacağım ve herkes benimle alay edecek.' diye düşünür.",
+      "question": "Kişinin, gelecekteki bir performansında yaşanması muhtemel hataları ve sonuçlarını, kesin ve en kötü şekilde öngörmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Zihin Okuma",
+        "Sosyal Kaygı"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu düşünce hatası, kişinin gelecekteki bir olayı sanki bir kristal küreden okuyormuş gibi, olumsuz ve kesin bir dille tahmin etmesidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni bir ilişkiye başlarken 'Bu ilişki de diğerleri gibi en fazla birkaç ay sürecek ve sonunda yine üzüleceğim.' diye düşünür.",
+      "question": "Kişinin, geçmiş deneyimlerine dayanarak, yeni bir ilişkinin geleceğini kesin ve olumsuz bir şekilde tahmin etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme",
+        "Kadercilik"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Aşırı Genelleme ile yakından ilişkili olsa da, burada temel vurgu geçmişin bir kural oluşturmasından çok, geleceğin kaçınılmaz bir şekilde olumsuz olacağına dair kehanettir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, evden çıkarken 'Bugün kesin başıma kötü bir şey gelecek.' diye bir hisse kapılır ve bunu bir gerçek olarak kabul eder.",
+      "question": "Kişinin, hiçbir kanıta dayanmayan olumsuz bir hissi, gelecekte yaşanacak bir olayın kesin bir habercisi olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Falcılık Yapma",
+        "Duygusal Mantık Yürütme",
+        "Felaketleştirme",
+        "Sihirli Düşünce"
+      ],
+      "correct_answer": "Falcılık Yapma",
+      "explanation": "Bu çarpıtma, kaygılı bir hissi, gelecekteki olumsuz olayları tahmin etme yeteneği olarak yanlış yorumlamaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, iş arkadaşına gönderdiği e-postada küçük bir yazım hatası fark edince 'Mahvoldum, kesin beni beceriksiz sanacak ve işten atılacağım.' diye düşündü.",
+      "question": "Kişinin, önemsiz bir hatanın sonuçlarını abartarak, olabilecek en kötü senaryoyu (işten atılma) düşünmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Bu çarpıtma, olumsuz bir olayın önemini orantısız bir şekilde büyütme ve potansiyel sonuçlarını en kötü haliyle hayal etme eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrenci, bir sunum sırasında bir anlığına ne diyeceğini unutunca 'Herkes benim ne kadar hazırlıksız olduğumu anladı, kariyerim başlamadan bitti.' diye düşündü.",
+      "question": "Öğrencinin, küçük bir takılma anını, geleceği üzerinde yıkıcı bir etkiye sahip olacak büyük bir felaket olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Zihin Okuma",
+        "Aşırı Genelleme",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Kişi, yaşadığı olumsuz bir durumu alır ve onu mantıksal sonuçlarının çok ötesinde, dayanılmaz bir felakete dönüştürür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, dizinde hafif bir ağrı hissettiğinde 'Kesin ciddi bir menisküs yırtığı var, bir daha asla yürüyemeyeceğim.' diye paniğe kapılır.",
+      "question": "Kişinin, belirsiz bir fiziksel belirtiyi, en kötü tıbbi senaryonun kesin bir kanıtı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Bedenselleştirme",
+        "Falcılık Yapma",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Bu düşünce hatası, 'ya olursa' sorusunu 'kesinlikle olacak' şeklinde yanıtlar ve olabilecek en kötü sonucu hayal eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, kazandığı önemli bir ödül için 'Önemli bir şey değil, zaten katılım azdı.' diyerek başarısını küçümsedi.",
+      "question": "Kişinin, elde ettiği değerli bir başarıyı, dış koşullara bağlayarak veya önemini azaltarak değersizleştirmesi hangi bilişsel çarpıtmanın 'Küçültme' yönüdür?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Felaketleştirme'nin zıttı olan bu çarpıtmada, kişinin kendi olumlu nitelikleri, başarıları veya olumlu olaylar önemsizleştirilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir ebeveyn, çocuğunun karnesinde bir zayıf not görünce 'Onun eğitim hayatı bitti, asla başarılı bir insan olamayacak.' diye düşünür.",
+      "question": "Ebeveynin, tek bir olumsuz akademik sonucu, çocuğun tüm geleceği için bir felaket olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Falcılık Yapma",
+        "Etiketleme"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Kişi, mevcut bir sorunu, gelecekteki bir dizi kaçınılmaz ve korkunç olayın başlangıcı olarak görür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, iş yerinde yaptığı bir projeyle şirkete büyük bir kar ettirir ama 'Ben sadece işimi yaptım, abartılacak bir şey yok.' der.",
+      "question": "Kişinin, olağanüstü bir katkıyı, sıradan ve önemsiz bir görev gibi göstererek küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "Meli, -malı Cümleleri",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Bu düşünce hatası, kişinin kendi başarılarını ve olumlu katkılarını takdir etmesini ve bunlardan tatmin duymasını engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, uçağa bindiğinde hafif bir türbülans hissedince 'Uçak düşecek, hepimiz öleceğiz!' diye içinden geçirir.",
+      "question": "Kişinin, sıradan ve genellikle zararsız bir olayı (türbülans), kaçınılmaz bir felaketin habercisi olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Duygusal Mantık Yürütme",
+        "Falcılık Yapma",
+        "Büyütme"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Olasılık ve gerçeklik göz ardı edilerek, en kötü senaryonun gerçekleşeceğine dair yoğun bir inanç ve kaygı yaşanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşı, 'Bu zor zamanımda bana çok destek oldun.' dediğinde, kişi 'Hiçbir şey yapmadım ki.' diyerek yapılan yardımın önemini azaltır.",
+      "question": "Kişinin, başkası için büyük anlam taşıyan bir desteği, 'hiçbir şey' olarak nitelendirerek değersizleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "İnkar",
+        "Boyun Eğme"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Kişi, kendi olumlu etkisini ve değerini görmezden gelerek, başarılarını veya iyi eylemlerini önemsizleştirir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, eşiyle küçük bir konuda tartıştığında 'İlişkimiz bitiyor, ayrılacağız.' diye düşünür.",
+      "question": "Kişinin, her ilişkide olabilecek sıradan bir anlaşmazlığı, ilişkinin sonu olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Bu çarpıtmada, küçük bir problem, orantısız bir şekilde büyütülerek var olan en büyük tehdit haline getirilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Zorlu bir projeyi başarıyla tamamlayan bir ekip lideri, ekibine 'Bu kolay bir işti, asıl zor olanlar şimdi başlıyor.' der.",
+      "question": "Liderin, ekibin büyük bir başarısını 'kolay' olarak nitelendirerek küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Başarıların sürekli olarak küçümsenmesi, motivasyonun düşmesine ve başarıdan tatmin alınamamasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, borsada küçük bir miktar para kaybettiğinde 'Bütün birikimim yok olacak, iflas edeceğim.' diye paniğe kapılır.",
+      "question": "Kişinin, yönetilebilir bir finansal kaybı, tam bir mali yıkım olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Falcılık Yapma",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Kişi, olumsuz bir olayın potansiyel sonuç zincirini, mantıksal olmayan bir şekilde en kötü sona kadar götürür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yazdığı bir makale için övgü aldığında 'Aslında o kadar da iyi değil, daha iyisini yazabilirdim.' diye düşünür.",
+      "question": "Kişinin, elde ettiği başarıyı ve takdiri, 'daha iyisi olabilirdi' düşüncesiyle küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Kişi, ulaştığı başarıyı takdir etmek yerine, ulaşamadığı varsayımsal ve mükemmel bir hedefle kıyaslayarak mevcut başarısını önemsizleştirir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, çocuğunun parkta düşüp dizini hafifçe sıyırdığını görünce 'Ya kafasını vursaydı, ya beyin kanaması geçirseydi!' diye aşırı endişelenir.",
+      "question": "Kişinin, küçük ve yaygın bir kazayı, olabilecek en kötü ve düşük olasılıklı senaryolarla birleştirmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Falcılık Yapma",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "'Ya olursa?' sorusu, bu çarpıtmada mantıksal bir olasılık değerlendirmesinden çok, bir kaygı yaratma aracına dönüşür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni aldığı bir terfiyi arkadaşlarına anlatırken 'Sadece unvanım değişti, maaşım pek artmadı.' diyerek olayın önemini azaltır.",
+      "question": "Kişinin, kariyerindeki önemli bir adımı, olumsuz bir detayı öne çıkararak küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Zihinsel Filtreleme",
+        "Olumluyu Geçersiz Kılmak",
+        "Adil Olmayan Kıyaslama"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Kişi, olumlu bir olayın pozitif yönlerini kabul etmek yerine, onun daha az parlak veya olumsuz yönlerini vurgulayarak değerini düşürür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sürücü, yolda lastiği patladığında 'Bütün günüm mahvoldu, şimdi hiçbir işimi halledemeyeceğim.' diye düşünür.",
+      "question": "Kişinin, can sıkıcı ama çözülebilir bir problemi, tüm gününü etkileyecek bir felaket olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Tek bir olumsuz olay, kişinin zihninde domino etkisi yaratarak bir dizi başka felakete yol açacakmış gibi algılanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, zorlu bir hastalığı yendikten sonra 'Benim yerimde kim olsa aynısını yapardı, özel bir durum değil.' der.",
+      "question": "Kişinin, gösterdiği büyük gücü ve iradeyi, sıradan ve herkesin yapabileceği bir şey olarak nitelendirerek küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "İnkar",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Bu düşünce hatası, kişinin kendi direncini, gücünü ve olumlu niteliklerini görmesini ve takdir etmesini engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, anahtarını evde unuttuğu için 'Ben ne kadar aptalım! Bu yüzden başıma hep kötü şeyler geliyor.' diye düşünür.",
+      "question": "Kişinin, sıradan bir unutkanlığı, büyük bir karakter kusuru ve gelecekteki felaketlerin nedeni olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Küçük bir hata (Büyütme), büyük bir kusur olarak etiketlenir ve bu kusurun gelecekte daha büyük sorunlara yol açacağına (Felaketleştirme) inanılır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrenci, bir grup projesindeki başarının çoğunlukla kendi emeğinden kaynaklanmasına rağmen, 'Herkesin katkısı oldu, benim tek başıma bir önemim yok.' der.",
+      "question": "Öğrencinin, başarıdaki kilit rolünü ve büyük katkısını, 'herkes gibi' sıradanlaştırarak küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "Boyun Eğme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Kişi, kendi çabasının ve etkisinin değerini sistematik olarak azaltarak, başarıdaki payını önemsizleştirir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, kredi kartı ekstresinde küçük bir gecikme faizi görünce 'Mali durumum tamamen kontrolden çıktı, yakında evimi kaybedeceğim.' diye düşünür.",
+      "question": "Kişinin, küçük bir finansal hatayı, tam bir mali çöküşün başlangıcı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Felaketleştirme",
+        "Aşırı Genelleme",
+        "Falcılık Yapma",
+        "Büyütme"
+      ],
+      "correct_answer": "Felaketleştirme",
+      "explanation": "Bu çarpıtmada, bir olay en olası sonucuyla değil, en kötü ve en korkutucu sonucuyla değerlendirilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yıllardır üzerinde çalıştığı bir icadı tamamladığında, 'Zaten birileri bunu er ya da geç yapacaktı, ben sadece onlardan önce davrandım.' der.",
+      "question": "Kişinin, kendi yaratıcılığını ve emeğini, kaçınılmaz bir tesadüf olarak nitelendirerek başarısını küçümsemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Küçültme",
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma",
+        "Kadercilik"
+      ],
+      "correct_answer": "Küçültme",
+      "explanation": "Başarı, kişinin kendi özgün katkısının bir sonucu olarak değil, neredeyse rastgele ve önemsiz bir olay olarak çerçevelenir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir sunum yapmadan önce yoğun bir şekilde kaygılı hisseder ve 'Bu kadar kaygılı hissettiğime göre, sunumum kesinlikle berbat geçecek.' diye düşünür.",
+      "question": "Kişinin, kaygı duygusunu, gelecekteki performansının kötü olacağının kesin bir kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Bu çarpıtmada, duygular gerçekliğin bir yansıması olarak kabul edilir. 'Hislerim, gerçeklerdir' temel varsayımıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşıyla tartıştığı için kendini suçlu hisseder ve 'Eğer kendimi bu kadar suçlu hissediyorsam, demek ki tamamen ben haksızım.' diye karar verir.",
+      "question": "Kişinin, suçluluk duygusunu, bir anlaşmazlıktaki tüm sorumluluğun kendisinde olduğunun tartışılmaz bir kanıtı olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Gerçekler ve kanıtlar yerine, duygusal tepkiler bir durumun kanıtı olarak kullanılır. 'Suçlu hissediyorum, o halde suçluyum.'"
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, girdiği bir sosyal ortamda kendini gergin ve yersiz hisseder. 'Bu kadar yersiz hissettiğime göre, buradaki insanlar beni kesinlikle dışlıyor.' diye düşünür.",
+      "question": "Kişinin, kendi sosyal kaygısını, başkalarının kendisini dışladığının bir kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Kişi, kendi içsel duygusal durumunu, dış dünyadaki gerçekliğin bir yansıması olarak kabul eder. 'Yersiz hissediyorum, demek ki buraya ait değilim.'"
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, partnerine karşı bir anlık bir şüphe duyar ve 'Eğer şüpheleniyorsam, kesin beni aldatıyor.' diye düşünür.",
+      "question": "Kişinin, kendi güvensizlik hissini, partnerinin sadakatsiz olduğunun kesin bir kanıtı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Zihin Okuma",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Bu çarpıtma, bir hissin varlığını, o hissin işaret ettiği en kötü senaryonun doğru olduğunun kanıtı olarak alır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yeni başladığı bir işin ilk günlerinde kendini yetersiz hisseder ve 'Bu kadar yetersiz hissettiğime göre, bu işi asla başaramayacağım.' diye karar verir.",
+      "question": "Kişinin, yeni bir duruma adaptasyon sırasındaki normal yetersizlik hissini, gelecekteki mutlak başarısızlığın bir kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Falcılık Yapma",
+        "Etiketleme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Yetersiz hissediyorum, o halde yetersizim.' Bu düşünce, bir duygunun, kalıcı bir kişilik özelliği veya kader olduğunu varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, uçağa binmekten korkar ve 'Bu kadar korktuğuma göre, uçağa binmek gerçekten çok tehlikeli.' diye düşünür.",
+      "question": "Kişinin, kendi fobi veya kaygısını, korktuğu şeyin gerçekten tehlikeli olduğunun bir kanıtı olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Felaketleştirme",
+        "Büyütme",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Kişi, istatistiksel gerçekleri veya kanıtları göz ardı eder ve kendi korku duygusunu daha geçerli bir kanıt olarak kabul eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir projeyi ertelediği için kendini tembel hisseder ve 'Bu kadar tembel hissettiğime göre, ben gerçekten tembel bir insanım.' diye sonuca varır.",
+      "question": "Kişinin, bir davranışından kaynaklanan geçici bir hissi, kalıcı bir kişilik özelliği olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Tembel hissediyorum, o halde tembelim.' Bu düşünce, duyguların ve kimliğin aynı şey olduğunu varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir tartışma sırasında sesini yükselttiği için yoğun bir utanç duyar ve 'Bu kadar utandığıma göre, korkunç ve affedilmez bir şey yaptım.' diye düşünür.",
+      "question": "Kişinin, utanç duygusunun yoğunluğunu, yaptığı hatanın büyüklüğünün bir ölçütü olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Büyütme",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Kişi, duygusal tepkisinin orantısız olabileceğini düşünmeden, duygunun kendisini olayın objektif bir değerlendirmesi olarak kabul eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir işe başlamadan önce motivasyonsuz hisseder ve 'Hiç motive hissetmediğime göre, bu işten hiçbir sonuç alamayacağım.' diye düşünür.",
+      "question": "Kişinin, başlangıçtaki motivasyon eksikliğini, projenin gelecekteki başarısızlığının bir kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Falcılık Yapma",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Bu çarpıtma, eyleme geçmek için önce 'doğru hissetmek' gerektiğine dair yanlış bir inanca dayanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yalnız olduğu bir akşam kendini çok yalnız hisseder ve 'Bu kadar yalnız hissettiğime göre, demek ki kimse beni sevmiyor ve umursamıyor.' diye düşünür.",
+      "question": "Kişinin, geçici bir yalnızlık hissini, sevilmediğinin ve değersiz olduğunun kalıcı bir kanıtı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Yalnız hissediyorum, o halde yalnızım ve sevilmiyorum.' Bu düşünce, bir duygunun, kişinin sosyal gerçekliğinin tamamını tanımladığını varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir konuda kafası karıştığında, 'Bu kadar kafam karıştığına göre, ben aptal biriyim.' diye düşünür.",
+      "question": "Kişinin, bir konuyu anlamakta zorlanmasını, genel zeka seviyesinin düşüklüğünün bir kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Kafam karışık hissediyorum, demek ki aptalım.' Bu düşünce, geçici bir zihinsel durumu, değişmez bir kişilik özelliği olarak kabul eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, reddedilme korkusu nedeniyle kendini çok gergin hisseder ve 'Bu kadar gergin hissettiğime göre, insanlar kesin bana yaklaşmaktan çekiniyordur.' diye düşünür.",
+      "question": "Kişinin, kendi içsel gerginliğinin, başkaları tarafından kesinlikle fark edildiği ve olumsuz tepki aldığına dair bir kanıt olduğunu varsayması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Zihin Okuma",
+        "Yansıtma",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Kişi, kendi duygusal durumunun dışarıdan nasıl göründüğüne ve başkalarını nasıl etkilediğine dair olumsuz varsayımlarını, hislerine dayanarak gerçek kabul eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir projenin son teslim tarihi yaklaştığı için bunalmış hisseder ve 'Bu kadar bunalmış hissettiğime göre, bu projeyi zamanında bitirmem imkansız.' diye karar verir.",
+      "question": "Kişinin, stres duygusunu, bir görevin imkansızlığının objektif bir kanıtı olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Bunalmış hissediyorum, o halde durumum umutsuz.' Bu düşünce, duyguların, gerçekçi problem çözme becerisinin yerini almasına izin verir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, eşinin bir davranışına öfkelenir ve 'Bu kadar öfkeli olduğuma göre, yaptığı şey kesinlikle affedilmez.' diye düşünür.",
+      "question": "Kişinin, kendi öfkesinin yoğunluğunu, başka birinin davranışının ahlaki bir yargısı için tek kanıt olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Büyütme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Kişi, kendi duygusal tepkisinin mutlak doğru ve orantılı olduğunu varsayarak, durumu objektif bir şekilde değerlendirme yeteneğini kaybeder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir sunumdan sonra kendini rahatlamış ve neşeli hisseder, ancak sunumu aslında pek iyi geçmemiştir. Arkadaşı yapıcı eleştiri sununca, 'Ama ben iyi hissetmiştim, demek ki iyiydi.' diye savunur.",
+      "question": "Kişinin, olumsuz geri bildirimlere ve gerçeklere rağmen, kendi olumlu duygusunu performansının doğruluğunun kanıtı olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "İnkar",
+        "Olumluyu Geçersiz Kılmak (Tersi)",
+        "Zihinsel Filtreleme (Tersi)"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Bu çarpıtma sadece olumsuz duygular için değil, aynı zamanda olumlu duygular için de çalışabilir. Kişi, gerçeği göz ardı ederek sadece nasıl hissettiğine odaklanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir konu hakkında endişeli hisseder ve 'Bu kadar endişelendiğime göre, ortada gerçekten de endişelenecek büyük bir tehlike var.' diye düşünür.",
+      "question": "Kişinin, kendi kaygı seviyesini, dış dünyadaki tehdidin boyutunun objektif bir ölçüsü olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Felaketleştirme",
+        "Büyütme",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Bu düşünce hatası, kaygının kendisinin bir tehlike sinyali olduğunu ve bu nedenle hissin, gerçek bir tehlikenin varlığını kanıtladığını varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşının kendisini hayal kırıklığına uğrattığını hisseder ve 'Eğer hayal kırıklığına uğramış hissediyorsam, o kötü bir arkadaştır.' diye karar verir.",
+      "question": "Kişinin, tek bir olayda yaşadığı hayal kırıklığı hissini, arkadaşının genel karakteri hakkında kesin bir yargıya varmak için kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Bölme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Hayal kırıklığına uğradım, o halde o hayal kırıklığına uğratan biridir.' Bu düşünce, geçici bir duyguyu, kalıcı bir kimlik yargısına dönüştürür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir işi yaparken sıkıldığını hisseder ve 'Bu kadar sıkıldığıma göre, bu iş tamamen anlamsız ve gereksiz.' diye düşünür.",
+      "question": "Kişinin, sıkıntı duygusunu, bir işin değeri veya anlamı hakkında objektif bir kanıt olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Olumluyu Geçersiz Kılmak",
+        "Akılcılaştırma"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Bu çarpıtma, her görevin heyecan verici veya ilginç olması gerektiği yönündeki yanlış bir beklentiye dayanabilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir partide kendini dışlanmış hisseder ve 'Bu kadar dışlanmış hissettiğime göre, kimse benim burada olmamı istemiyor.' diye düşünür.",
+      "question": "Kişinin, kendi içsel güvensizlik hissini, tüm grubun kendisine karşı ortak bir olumsuz tavrı olduğunun kanıtı olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "'Dışlanmış hissediyorum, demek ki gerçekten dışlandım.' Bu düşünce, duyguların, sosyal gerçekliğin ta kendisi olduğunu varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir sınavdan sonra kendini kötü hisseder ve sonuçlar açıklanmadan 'Bu kadar kötü hissettiğime göre, sınavdan kesinlikle kaldım.' diye karar verir.",
+      "question": "Kişinin, sınav sonrası yaşadığı kaygı ve belirsizlik hissini, sınav sonucunun kötü olacağının kesin bir kanıtı olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Duygusal Mantık Yürütme",
+        "Falcılık Yapma",
+        "Felaketleştirme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Duygusal Mantık Yürütme",
+      "explanation": "Gerçek performans veya kanıtlar yerine, sadece o anki duygusal durum, gelecekteki bir sonucun habercisi olarak kabul edilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yaptığı bir hatadan sonra 'Ben asla hata yapmamalıyım.' diye kendini eleştirir.",
+      "question": "Kişinin, insan olmanın doğasına aykırı bir şekilde, kendisine karşı mükemmeliyetçi ve esnek olmayan bir kural koyması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Etiketleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu çarpıtma, kendimiz, başkaları ve dünya hakkında sahip olduğumuz katı kurallar ve beklentilerle ilgilidir. Bu kurallar karşılanmadığında yoğun olumsuz duygular yaşanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşı onu arama sözünü unuttuğunda 'Arkadaşlar sözlerini tutmalıdır, bu yaptığı çok yanlış.' diye öfkelenir.",
+      "question": "Kişinin, başkalarının davranışları için esnek olmayan bir beklentiye sahip olması ve bu beklenti karşılanmadığında öfkelenmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "'Gereklilik' ifadeleri olarak da bilinen bu çarpıtma, başkalarının bizim kurallarımıza göre davranması gerektiğine dair katı bir inanç içerir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, her zaman nazik ve anlayışlı olmalıdır. Bir kez sabırsız davrandığında kendini suçlu hisseder.",
+      "question": "Kişinin, kendi davranışları için gerçekçi olmayan ve sürekli bir standart belirlemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu düşünce hatası, kişinin kendisinden sürekli olarak belirli bir şekilde davranmasını beklemesine ve bu beklenti karşılanmadığında suçluluk duymasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sürücü, trafikte başka bir sürücü önüne kırdığında 'İnsanlar trafikte saygılı olmalı!' diye bağırır.",
+      "question": "Sürücünün, dünyanın kendi beklentilerine ve kurallarına göre işlemesi gerektiğine dair katı bir inanca sahip olması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu çarpıtma, dünyanın nasıl işlemesi gerektiğine dair katı kurallar içerir ve bu kurallar ihlal edildiğinde hayal kırıklığı ve öfkeye yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Her zaman aileme vakit ayırmalıyım.' diye düşünür ve bir akşam arkadaşlarıyla dışarı çıktığı için yoğun bir suçluluk duyar.",
+      "question": "Kişinin, kendine esneklik tanımayan ve karşılanmadığında suçluluk yaratan katı bir kural koyması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu düşünce tarzı, motivasyon yaratmak yerine genellikle suçluluk, utanç ve baskı hissine yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çalışan, yöneticisinin kendisine daha fazla takdir göstermesi gerektiğini düşünür ve göstermediğinde küskünlük hisseder.",
+      "question": "Çalışanın, başkalarının davranışlarının nasıl olması gerektiğine dair bir beklentiye girmesi ve bu karşılanmadığında hayal kırıklığı yaşaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Zihin Okuma",
+        "Kişiselleştirme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Başkalarına yönelik '-meli, -malı' ifadeleri, genellikle öfke, hayal kırıklığı ve küskünlük gibi duygulara neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Her zaman formda ve sağlıklı olmalıyım.' diye düşünür. Hastalandığında veya kilo aldığında kendine karşı çok acımasız olur.",
+      "question": "Kişinin, kendi fiziksel durumu için gerçekçi olmayan ve esneklik payı bırakmayan bir standart belirlemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Bedenselleştirme",
+        "Etiketleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Kendimize yönelik bu katı kurallar, insan olmanın getirdiği doğal dalgalanmaları ve kusurları kabul etmemizi engeller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, partnerinin kendisini her zaman anlaması gerektiğini düşünür. Anlaşmazlık yaşadıklarında 'Beni sevseydi, ne demek istediğimi anlamalıydı.' diye düşünür.",
+      "question": "Kişinin, ilişkilerde çaba ve iletişim yerine, karşı tarafın kendisini otomatik olarak anlaması gerektiğine dair bir beklentiye sahip olması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Zihin Okuma",
+        "İlişkisel Mantık Yürütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu çarpıtma, ilişkilerde gerçekçi olmayan beklentilere ve hayal kırıklıklarına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Yaptığım her işte en iyisi olmalıyım.' diye düşünür. Bir projede ikinci olduğunda kendini başarısız hisseder.",
+      "question": "Kişinin, kendine karşı mükemmeliyetçi ve karşılanması imkansız bir beklenti koyması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Adil Olmayan Kıyaslama",
+        "Etiketleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu katı kural, 'yeterince iyi' olanı kabul etmeyi engeller ve sürekli bir yetersizlik hissine neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, komşularının gece geç saatte gürültü yapması üzerine 'İnsanlar başkalarını düşünmeli ve saygılı olmalı!' diye sinirlenir.",
+      "question": "Kişinin, diğer insanların kendi ahlaki ve davranışsal kurallarına uyması gerektiğine dair güçlü bir inanca sahip olması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Başkalarına yönelik bu tür beklentiler, dünyanın bizim istediğimiz gibi işlemediği gerçeğiyle yüzleştiğimizde öfke ve hayal kırıklığına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrenci, 'Sınava girmeden önce tüm konuları eksiksiz bilmeliyim.' diye düşünür ve bu yüzden aşırı kaygı yaşar.",
+      "question": "Öğrencinin, kendine karşı gerçekçi olmayan bir hazırlık standardı koyması ve bu standarda ulaşamadığında kaygılanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme",
+        "Falcılık Yapma"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu katı kural, 'elinden gelenin en iyisini yapmak' yerine 'mükemmel olmak' üzerine odaklanır ve bu da erteleme davranışına veya kaygıya yol açabilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Hayat adil olmalı.' diye düşünür ve başına haksız bir olay geldiğinde yoğun bir öfke ve çaresizlik hisseder.",
+      "question": "Kişinin, dünyanın işleyişi hakkında idealist ve gerçekçi olmayan bir kurala sahip olması ve bu kural yıkıldığında hayal kırıklığı yaşaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Duygusal Mantık Yürütme",
+        "Kişiselleştirme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Dünyanın nasıl olması gerektiğine dair katı beklentiler, gerçeklikle yüzleşildiğinde kişiyi incitir ve uyum sağlamasını zorlaştırır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Her zaman neşeli ve pozitif olmalıyım.' diye düşünür. Üzgün hissettiği zamanlarda kendini zayıf ve başarısız bulur.",
+      "question": "Kişinin, insan doğasının bir parçası olan olumsuz duyguları reddeden ve kendine karşı katı bir beklenti oluşturan düşünce tarzı hangisidir?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu çarpıtma, tüm duyguların geçerli olduğunu kabul etmeyi engeller ve kişinin kendine karşı acımasız olmasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Çocuklarım bana her zaman saygı duymalı.' diye düşünür. Çocuğu ergenlikte isyan ettiğinde bunu kişisel bir hakaret olarak algılar.",
+      "question": "Kişinin, başkalarının (özellikle çocuklarının) davranışları üzerinde mutlak bir kontrolü ve beklentisi olması gerektiğine inanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu katı kural, başkalarının bireyselliğini ve gelişimsel süreçlerini göz ardı eder, bu da ilişkilerde çatışmaya yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sanatçı, 'Yaptığım her eser bir başyapıt olmalı.' diye düşünür ve bu yüzden yeni bir işe başlamakta zorlanır.",
+      "question": "Sanatçının, yaratıcı sürecin doğasını göz ardı ederek, her denemesinin mükemmel olması gerektiğine dair kendine koyduğu baskı hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Felaketleştirme",
+        "Etiketleme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu 'zorunluluk' ifadesi, yaratıcılığı ve deneme cesaretini engelleyen bir 'performans kaygısı' yaratır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'İnsanlar verdikleri sözleri mutlaka tutmalı.' diye düşünür. Bir arkadaşı küçük bir planı iptal ettiğinde ona karşı büyük bir hayal kırıklığı yaşar.",
+      "question": "Kişinin, insanların her zaman %100 güvenilir olması gerektiğine dair esnek olmayan bir kurala sahip olması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Aşırı Genelleme",
+        "Büyütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu katı beklenti, hayatın getirdiği beklenmedik durumları ve insanların kusurlarını tolere etmeyi zorlaştırır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Her zaman mantıklı ve kontrollü davranmalıyım.' diye düşünür. Bir anlık öfke veya üzüntü gösterdiğinde kendini 'zayıf' olarak görür.",
+      "question": "Kişinin, duygusal tepkilerini baskılaması ve sürekli olarak mantık çerçevesinde kalması gerektiğine dair kendine koyduğu kural hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Duygusal Mantık Yürütme",
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu çarpıtma, kişinin kendi insanlığını ve duygusal doğasını kabul etmesini engelleyerek, kendine karşı yabancılaşmasına neden olabilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Toplumdaki kurallara herkes uymalı.' diye düşünür. Yaya geçidinde durmayan bir arabaya karşı yoğun bir öfke duyar.",
+      "question": "Kişinin, sosyal düzenin ve kuralların her zaman mükemmel bir şekilde işlemesi gerektiğine dair katı bir inanca sahip olması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Aşırı Genelleme",
+        "Büyütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu düşünce tarzı, dünyanın idealize edilmiş bir versiyonunu talep eder ve gerçeklikle uyuşmadığında öfke ve hayal kırıklığı yaratır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Her zaman başkalarına yardım etmeliyim, asla bencil olmamalıyım.' diye düşünür ve kendi ihtiyaçlarını sürekli olarak ihmal eder.",
+      "question": "Kişinin, kendine karşı aşırı fedakarlık gerektiren ve kişisel ihtiyaçlarını yok sayan ahlaki bir kural koyması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Boyun Eğme",
+        "Kendini Feda Etme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu 'zorunluluk' ifadesi, kişinin kendi iyiliğini ve sınırlarını korumasını engelleyerek tükenmişliğe yol açabilir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, 'Tatile gittiğimde her anı dolu dolu geçirmeliyim.' diye düşünür ve bir öğleden sonra dinlenmek istediğinde kendini 'zamanı boşa harcamakla' suçlar.",
+      "question": "Kişinin, dinlenme ve rahatlama gibi doğal ihtiyaçları göz ardı ederek, tatil için bile kendine performans odaklı bir kural koyması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "-meli, -malı Cümleleri",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "-meli, -malı Cümleleri",
+      "explanation": "Bu katı kural, keyif alınması gereken bir aktiviteyi bile bir görev ve zorunluluk haline getirerek stres yaratır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, girdiği bir sınavdan düşük not alınca 'Ben tam bir aptalım.' diye düşündü.",
+      "question": "Kişinin, tek bir sınavdaki performansını, genel zekası hakkında kalıcı ve olumsuz bir yargıya dönüştürmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu çarpıtma, bir davranışı (düşük not almak) alıp, onu kişinin kimliğinin tamamını tanımlayan bir etikete ('aptal') dönüştürür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir arkadaşı bir sözünü unuttuğunda, 'O çok bencil bir insan.' diye karar verdi.",
+      "question": "Kişinin, arkadaşının tek bir davranışını, onun tüm karakterini tanımlayan olumsuz bir sıfat olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Bölme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketleme, insanların karmaşık ve çok yönlü varlıklar olduğu gerçeğini göz ardı eder ve onları tek bir kelimeye indirger."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir işi zamanında bitiremediği için 'Ben tembelin tekiyim.' diye kendini yargıladı.",
+      "question": "Kişinin, tek bir erteleme davranışını, kalıcı bir kişilik özelliği olarak görüp kendine olumsuz bir etiket yapıştırması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu düşünce hatası, 'Ben tembelce bir davranış yaptım' demek yerine, 'Ben tembelim' diyerek kimliği hedef alır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir yönetici, bir çalışanının yaptığı bir hatayı görünce 'Bu adam tam bir beceriksiz.' diye düşündü.",
+      "question": "Yöneticinin, çalışanın tek bir hatasını, onun genel yetkinliği hakkında değişmez bir yargıya varmak için kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme",
+        "Büyütme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Başkalarına yönelik etiketleme, önyargılara ve adil olmayan değerlendirmelere yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir sosyal ortamda kendini gergin hissettiği için 'Ben çok sıkıcı biriyim.' diye düşündü.",
+      "question": "Kişinin, bir durumdaki hissini, kalıcı ve olumsuz bir kişilik özelliği olarak kabul etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Duygusal Mantık Yürütme",
+        "Kişiselleştirme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu çarpıtma, kişinin davranışını veya duygusunu değil, doğrudan varlığını ve kimliğini hedef alır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşı kendi fikrine katılmadığında 'O ne kadar dar görüşlü bir insan.' diye düşündü.",
+      "question": "Kişinin, fikir ayrılığını, arkadaşının entelektüel kapasitesi hakkında olumsuz bir etiket yapıştırmak için kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Bölme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu düşünce hatası, farklılıkları ve nüansları göz ardı ederek, insanları basit ve genellikle olumsuz kategorilere sokar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir ebeveyn, çocuğunun odasını dağınık gördüğünde 'Bu çocuk pasaklının teki.' diye söylenir.",
+      "question": "Ebeveynin, çocuğun tek bir davranışını (dağınıklık), onun genel kişiliği hakkında kalıcı bir sıfat olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketler, genellikle aşırı basitleştirilmiş ve hatalı genellemelerdir. Davranışı değil, kişiyi hedef alırlar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir buluşma teklifi reddedildiğinde 'Ben sevilmeyen biriyim.' diye karar verdi.",
+      "question": "Kişinin, tek bir reddedilme deneyimini, kendi değeri ve sevilebilirliği hakkında mutlak bir yargıya dönüştürmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Kişiselleştirme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu çarpıtma, 'Bu kişi beni istemedi' demek yerine, 'Ben istenmeyen biriyim' diyerek durumu kişiliğe mal eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yaptığı bir yemek biraz tuzlu olunca 'Benim gibi bir beceriksizin elinden anca bu çıkar.' diye düşündü.",
+      "question": "Kişinin, küçük bir mutfak hatasını, kendi kimliği hakkında aşağılayıcı bir etiketle açıklaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketleme, kişinin kendine olan saygısını zedeleyen, katı ve acımasız bir düşünce hatasıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir konuda yardım istediğinde ve arkadaşı meşgul olduğunda, 'O çok bencil biri, sadece kendini düşünür.' diye yargılar.",
+      "question": "Kişinin, arkadaşının o anki durumunu göz ardı edip, tek bir davranışına dayanarak ona kalıcı ve olumsuz bir karakter etiketi yapıştırması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu düşünce hatası, insanların davranışlarının bağlama göre değişebileceği gerçeğini göz ardı eder."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir sürücü, trafikte hata yapan başka bir sürücü için 'İşte bir moron daha!' diye düşünür.",
+      "question": "Sürücünün, başka birinin tek bir hatasını, onun zekası ve kimliği hakkında aşağılayıcı bir etiketle tanımlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Öfke",
+        "Yön Değiştirme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketler, davranışın nedenini anlamaya çalışmak yerine, kişiyi basit ve olumsuz bir kategoriye sokarak kestirme bir yargıya varmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir tartışmada haksız olduğunu fark edince, 'Ben kaybetmeye mahkum bir zavallıyım.' diye düşünür.",
+      "question": "Kişinin, tek bir argümanı kaybetmesini, genel bir kimlik ve kader olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu çarpıtma, 'Bu tartışmayı kaybettim' demek yerine, 'Ben bir kaybedenim' diyerek, olayı kişinin varoluşuna geneller."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, duygularını açıkça ifade eden birini gördüğünde 'Ne kadar zayıf bir karakter.' diye düşünür.",
+      "question": "Kişinin, duygusal ifadeyi, bir karakter zayıflığı olarak görüp karşısındakine olumsuz bir etiket yapıştırması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Bölme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketleme, genellikle kişinin kendi katı kurallarına ve önyargılarına dayanır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğrenci, bir sorunun cevabını bilemediğinde, 'Benim kafam basmıyor.' diye düşünür.",
+      "question": "Öğrencinin, bilmediği tek bir bilgiyi, genel zihinsel kapasitesinin bir göstergesi olarak alıp kendine olumsuz bir etiket yapıştırması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "'Bu konuyu bilmiyorum' demek yerine 'Kafam basmıyor' demek, davranışı değil, kimliği hedef alan bir etiketlemedir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir konuda endişelendiği için 'Ben kaygılı bir insanım.' diye kendini tanımlar.",
+      "question": "Kişinin, belirli durumlarda ortaya çıkan bir duyguyu, sanki tüm kimliğini oluşturuyormuş gibi bir etiket olarak kullanması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme",
+        "Kişiselleştirme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu düşünce hatası, kişinin 'kaygı hissettiği' gerçeğini, 'kaygılı olduğu' gerçeğine dönüştürerek, durumu kalıcı ve değişmez kılar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir kez yalan söylediği için 'Ben yalancının tekiyim.' diye yoğun bir suçluluk duyar.",
+      "question": "Kişinin, yaptığı tek bir hatayı, tüm ahlaki karakterini tanımlayan bir etiket olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Aşırı Genelleme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu çarpıtma, insan davranışlarının karmaşıklığını reddeder ve kişiyi yaptığı tek bir hataya indirger."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, risk almaktan çekinen bir arkadaşı için 'O tam bir korkak.' diye düşünür.",
+      "question": "Kişinin, arkadaşının tedbirli bir davranışını, onun tüm karakterini tanımlayan aşağılayıcı bir etiketle açıklaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Zihin Okuma",
+        "Büyütme"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketler, genellikle durumu anlamaya çalışmak yerine, hızlı ve basit bir yargıya varmamızı sağlar, ancak bu yargılar çoğunlukla hatalıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir projede liderlik rolünü üstlenmekten keyif alan bir iş arkadaşı için 'Ne kadar da kontrol manyağı.' diye düşünür.",
+      "question": "Kişinin, iş arkadaşının doğal bir eğilimini veya becerisini, olumsuz bir kişilik bozukluğu olarak etiketlemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Yansıtma",
+        "Zihin Okuma"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu düşünce hatası, başkalarının davranışlarını en olumsuz şekilde yorumlama ve onlara kalıcı etiketler yapıştırma eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir konuda kararsız kaldığı için 'Ben ne kadar da iradesizim.' diye kendini suçlar.",
+      "question": "Kişinin, karar verme sürecindeki doğal bir zorluğu, kalıcı bir karakter zayıflığı olarak etiketlemesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Bu çarpıtma, 'Bu konuda zorlanıyorum' demek yerine, 'Ben iradesizim' diyerek, sorunu çözülebilir bir durumdan, değişmez bir kimlik sorununa dönüştürür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir hedefine ulaşamadığında 'Ben bir başarısızlık abidesiyim.' diye düşünür.",
+      "question": "Kişinin, tek bir sonuçtan yola çıkarak, tüm varlığını ve kimliğini bir başarısızlık olarak tanımlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Felaketleştirme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Etiketleme",
+      "explanation": "Etiketleme, Aşırı Genelleme'nin en zehirli formudur çünkü bir davranışı değil, doğrudan kişinin benliğini hedef alır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir anne, çocuğu okulda düştüğü için 'Bu benim suçum, ona daha dikkatli olmasını söylemeliydim.' diye kendini suçlar.",
+      "question": "Annenin, kontrolü dışındaki bir olayın (çocuğun düşmesi) sorumluluğunu tamamen üstlenmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Meli, -malı Cümleleri",
+        "Felaketleştirme",
+        "Aşırı Sorumluluk"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu çarpıtma, kişinin kendisiyle ilgisi olmayan veya kontrolü dışındaki olumsuz olayların nedeni olduğunu düşünmesidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir takım, bir maçı kaybettiğinde, bir oyuncu 'Eğer o pası atmasaydım, maçı kazanırdık. Bütün sorumluluk bende.' diye düşünür.",
+      "question": "Oyuncunun, bir maçın sonucunu etkileyen sayısız faktörü göz ardı edip, tüm suçu tek bir eylemine bağlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Ya Hep Ya Hiç Düşüncesi",
+        "Büyütme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, olumsuz bir sonucun ortaya çıkmasında kendi rolünü abartır ve diğer faktörlerin etkisini görmezden gelir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir partide bir arkadaşının keyifsiz olduğunu görünce 'Kesin benim söylediğim bir şeye canı sıkıldı.' diye endişelenir.",
+      "question": "Kişinin, arkadaşının keyifsizliğinin pek çok başka nedeni olabileceğini düşünmeden, durumu doğrudan kendi üzerine alması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu düşünce hatası, başkalarının duygularının ve davranışlarının birincil nedeni olduğumuza inanmaktır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir çalışan, şirket genelinde bir işten çıkarma dalgası olduğunda ve kendisi de işten çıkarıldığında 'Demek ki en kötü çalışan bendim.' diye düşünür.",
+      "question": "Çalışanın, ekonomik veya yapısal nedenlerle alınmış bir kararı, tamamen kendi kişisel yetersizliğinin bir sonucu olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Etiketleme",
+        "Zihinsel Filtreleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, kendi kontrolü dışındaki daha büyük olayları, sanki doğrudan kendisiyle ilgiliymiş gibi yorumlar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, eşi eve stresli geldiğinde hemen 'Bugün onu üzecek ne yaptım acaba?' diye düşünmeye başlar.",
+      "question": "Kişinin, eşinin stresinin işle veya başka bir şeyle ilgili olabileceğini düşünmeden, nedeni doğrudan kendi eylemlerinde araması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Sorumluluk"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu çarpıtma, kişinin kendisini başkalarının duygusal durumlarının merkezine koymasına neden olur."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir öğretmen, bir öğrencisi sınavdan düşük not aldığında 'Ben iyi bir öğretmen değilim, ona konuyu yeterince iyi anlatamadım.' diye kendini suçlar.",
+      "question": "Öğretmenin, öğrencinin kendi çalışma alışkanlıkları veya kişisel sorunları gibi faktörleri göz ardı edip, tüm sorumluluğu kendi öğretme becerisine bağlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, olumsuz bir sonucun ortaya çıkmasında rol oynayan diğer tüm değişkenleri yok sayarak, kendini tek sorumlu olarak görür."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yağmurlu bir günde planladığı piknik iptal olduğunda 'Benim şanssızlığım yüzünden oldu, ne zaman bir şey planlasam hava bozar.' diye düşünür.",
+      "question": "Kişinin, tamamen kontrolü dışındaki bir doğa olayını (yağmur), kendi kişisel şanssızlığının bir sonucu olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Sihirli Düşünce",
+        "Aşırı Genelleme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu düşünce hatası, kişinin kendisini olayların merkezinde gördüğü ve ilgisiz olayları bile kendi üzerine alındığı bir tür benmerkezciliktir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir grup projesinde düşük not alındığında, bir üye 'Eğer ben daha çok çabalasaydım, hepimiz daha yüksek not alırdık. Bu benim hatam.' diye düşünür.",
+      "question": "Kişinin, grup performansının sorumluluğunu tek başına üstlenmesi ve diğer üyelerin katkılarını veya eksikliklerini göz ardı etmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Büyütme",
+        "Meli, -malı Cümleleri",
+        "Aşırı Sorumluluk"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, olumsuz bir sonucun ortaya çıkmasındaki kendi rolünü orantısız bir şekilde abartır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşının kendisini bir süredir aramadığını fark edince 'Kesin onu kıracak bir şey yaptım.' diye endişelenir.",
+      "question": "Kişinin, arkadaşının meşgul olabileceği veya başka sorunları olabileceği gibi olasılıkları düşünmeden, iletişimsizliği doğrudan kendi hatası olarak görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Genelleme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu çarpıtma, başkalarının davranışlarının nedenlerini araştırmak yerine, suçu otomatik olarak kendinde arama eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir restoranda garson somurtkan bir şekilde servis yaptığında, bir müşteri 'Ona kaba davrandığımı düşündü herhalde, o yüzden böyle davranıyor.' diye düşünür.",
+      "question": "Müşterinin, garsonun kendi kişisel bir günü olabileceğini düşünmeden, onun tavrını doğrudan kendi davranışının bir sonucu olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme",
+        "Yansıtma"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, kendisiyle hiç ilgisi olmayan durumları bile, sanki o durumun merkezindeymiş gibi üzerine alınır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir ebeveyn, çocuğunun arkadaşıyla kavga ettiğini öğrendiğinde 'Ben ona iyi bir rol model olamadım, bu yüzden böyle davranıyor.' diye kendini suçlar.",
+      "question": "Ebeveynin, çocuğun kendi mizacı veya akran ilişkileri gibi faktörleri göz ardı edip, kavganın tek nedeni olarak kendi ebeveynliğini görmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Aşırı Genelleme",
+        "Etiketleme",
+        "Meli, -malı Cümleleri"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu düşünce hatası, kişinin başkalarının eylemleri üzerinde orantısız bir etkiye ve sorumluluğa sahip olduğuna inanmasıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir organizatör, düzenlediği bir açık hava etkinliğinde yağmur yağması üzerine 'Katılımcılar hayal kırıklığına uğradı, bu benim hatam.' diye üzülür.",
+      "question": "Organizatörün, tamamen kontrolü dışındaki hava durumunu, sanki kendi sorumluluğundaymış gibi üzerine alınması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Felaketleştirme",
+        "Büyütme",
+        "Sihirli Düşünce"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, olumsuz olayların nedeni olmasa bile, bu olaylardan kendini sorumlu tutar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir toplantıda yöneticinin genel olarak 'Daha proaktif olmalıyız.' demesi üzerine, 'Bu lafı doğrudan bana söyledi, yeterince çalışmadığımı düşünüyor.' diye alınır.",
+      "question": "Kişinin, genele yönelik bir yorumu, doğrudan kendi şahsına yapılmış bir eleştiri olarak algılaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Aşırı Genelleme",
+        "Zihinsel Filtreleme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu çarpıtma, kişinin sürekli olarak başkalarının ne dediğini veya yaptığını kendi üzerine alma ve kendini referans noktası olarak görme eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, arkadaşının telefonlarına çıkmamasının, kendi söylediği bir potansiyel kırıcı sözden kaynaklandığını düşünür.",
+      "question": "Kişinin, arkadaşının telefonunu açmamasının sayısız başka nedeni olabileceğini göz ardı edip, durumu kendi geçmişteki bir eylemine bağlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme",
+        "Felaketleştirme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, olaylar arasında neden-sonuç ilişkisi kurarken, kanıt olmaksızın kendini neden olarak konumlandırır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir terapist, danışanı bir seanstan sonra iyileşme göstermediğinde 'Ben yetersiz bir terapistim, ona yardım edemedim.' diye düşünür.",
+      "question": "Terapistin, danışanın iyileşme sürecindeki kendi rolünü, motivasyonunu veya dışsal faktörleri göz ardı edip, tüm sorumluluğu kendi üzerine alması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Etiketleme",
+        "Aşırı Genelleme",
+        "Ya Hep Ya Hiç Düşüncesi"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu düşünce hatası, kişinin başkalarının sorunları veya sonuçları üzerinde gerçekçi olmayan bir kontrol ve sorumluluk hissine sahip olmasıdır."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, yolda yürürken gülen bir grup insan gördüğünde 'Kesin benimle dalga geçiyorlar.' diye düşünür.",
+      "question": "Kişinin, kendisiyle tamamen ilgisiz bir olayı, doğrudan kendisine yönelik bir eylem olarak yorumlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Aşırı Genelleme",
+        "Yansıtma"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, dünyanın merkezinde kendisinin olduğunu ve etrafındaki olayların bir şekilde kendisiyle ilişkili olduğunu varsayar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, komşusunun taşınma kararını duyduğunda 'Bizim gürültümüzden rahatsız olduğu için taşınıyor olmalı.' diye düşünür.",
+      "question": "Kişinin, komşusunun taşınmasının iş, aile veya finansal gibi sayısız başka nedeni olabileceğini düşünmeden, durumu kendi üzerine alması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Zihin Okuma",
+        "Duygusal Mantık Yürütme",
+        "Aşırı Sorumluluk"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu çarpıtma, başkalarının hayatındaki önemli kararların bile bir şekilde kendisiyle ilgili olduğuna inanma eğilimidir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, evcil hayvanı hastalandığında 'Ona yeterince iyi bakamadım, bu tamamen benim ihmalkarlığım.' diye kendini suçlar.",
+      "question": "Kişinin, hastalıkların biyolojik ve kontrol dışı yönlerini göz ardı edip, evcil hayvanının rahatsızlığının tüm sorumluluğunu üstlenmesi hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Meli, -malı Cümleleri",
+        "Büyütme",
+        "Aşırı Sorumluluk"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, olumsuz bir sonucun ortaya çıkmasında kendi rolünü abartır ve diğer tüm olası nedenleri görmezden gelir."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir kişi, bir arkadaşının moralinin bozuk olduğunu öğrendiğinde, 'Dün onu arayıp sormalıydım, aramadığım için böyle oldu.' diye düşünür.",
+      "question": "Kişinin, bir başkasının duygusal durumunun sorumluluğunu, yapmadığı bir eyleme bağlayarak kendi üzerine alması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Meli, -malı Cümleleri",
+        "Sihirli Düşünce",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Bu düşünce hatası, kişinin başkalarının duygusal dünyası üzerinde gerçekçi olmayan bir etkiye sahip olduğuna inanmasına yol açar."
+    },
+    {
+      "type": "bilissel_carpitma",
+      "case_text": "Bir şehrin futbol takımı yenildiğinde, bir taraftar 'Eğer maça gitseydim uğurlu gelirdim ve kesin kazanırdık.' diye üzülür.",
+      "question": "Taraftarın, tamamen kontrolü dışındaki bir spor müsabakasının sonucunu, kendi varlığına veya yokluğuna bağlaması hangi bilişsel çarpıtmadır?",
+      "options": [
+        "Kişiselleştirme",
+        "Sihirli Düşünce",
+        "Büyütme",
+        "Duygusal Mantık Yürütme"
+      ],
+      "correct_answer": "Kişiselleştirme",
+      "explanation": "Kişi, ilgisiz olaylar üzerinde sihirli bir etkiye sahip olduğunu düşünerek, olumsuz sonuçlardan kendini sorumlu tutar."
+    }
+  ]
+}

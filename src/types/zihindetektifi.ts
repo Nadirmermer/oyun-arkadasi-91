@@ -3,7 +3,6 @@
  */
 
 export interface ZihinDetektifiCase {
-  id: number;
   type: 'savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema';
   case_text: string;
   question: string;
@@ -14,21 +13,17 @@ export interface ZihinDetektifiCase {
 
 export interface ZihinDetektifiSettings {
   selectedTypes: ('savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema')[];
-  gameDuration: number;
-  targetScore: number;
+  questionCount: number;
+  timeLimit: number;
 }
 
 export interface ZihinDetektifiGameState {
+  status: 'idle' | 'playing' | 'paused' | 'finished';
   currentCase: ZihinDetektifiCase | null;
   settings: ZihinDetektifiSettings;
-  isPlaying: boolean;
-  isPaused: boolean;
-  timeLeft: number;
   score: number;
   totalQuestions: number;
-  selectedAnswer: string | null;
-  showFeedback: boolean;
-  isCorrect: boolean;
+  answeredQuestions: number;
 }
 
 export type ZihinDetektifiAction = 

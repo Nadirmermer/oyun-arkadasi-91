@@ -1,102 +1,101 @@
 import { ZihinDetektifiCase, ZihinDetektifiSettings, ZihinDetektifiGameState, ZihinDetektifiAction } from '@/types/zihindetektifi';
 import { saveGameRecord, GameRecord } from '@/lib/storage';
 
-let globalCasesCache: ZihinDetektifiCase[] | null = null;
-
-/**
- * Zihin Dedektifi oyunu için oyun motoru
- */
 export class ZihinDetektifiEngine {
-  private cases: ZihinDetektifiCase[] = [];
   private gameState: ZihinDetektifiGameState;
-  private gameTimer: NodeJS.Timeout | null = null;
+  private cases: ZihinDetektifiCase[] = [];
+  private isLoading = false;
   private listeners: Array<() => void> = [];
 
   constructor() {
     this.gameState = {
+      status: 'idle',
       currentCase: null,
-      settings: {
-        selectedTypes: [],
-        gameDuration: 180, // 3 dakika
-        targetScore: 80
-      },
-      isPlaying: false,
-      isPaused: false,
-      timeLeft: 180,
       score: 0,
       totalQuestions: 0,
-      selectedAnswer: null,
-      showFeedback: false,
-      isCorrect: false
+      answeredQuestions: 0,
+      settings: {
+        selectedTypes: ['savunma_mekanizmasi', 'bilissel_carpitma', 'uyumsuz_sema'],
+        questionCount: 10,
+        timeLimit: 60
+      }
     };
   }
 
   /**
-   * Vaka dosyasını yükle
+   * Oyun verilerini yükle
    */
-  async loadCases(): Promise<void> {
+  async loadGameData(): Promise<void> {
+    if (this.isLoading) return;
+    
+    this.isLoading = true;
     try {
-      if (this.cases.length > 0) {
-        return;
-      }
-
-      if (globalCasesCache && globalCasesCache.length > 0) {
-        this.cases = globalCasesCache;
-        return;
-      }
-
-      const response = await fetch('/data/zihindetektifi_vakalar.json');
-      if (!response.ok) {
-        throw new Error('Vaka dosyası yüklenemedi');
-      }
-      const cases = await response.json();
+      // Seçili kategorilerden veri yükle
+      const promises = this.gameState.settings.selectedTypes.map(type => 
+        this.loadCategoryData(type)
+      );
       
-      globalCasesCache = cases;
-      this.cases = cases;
+      const categoryResults = await Promise.all(promises);
+      this.cases = categoryResults.flat();
+      
+      console.log(`Zihin Detektifi: ${this.cases.length} vaka yüklendi`);
     } catch (error) {
-      console.error('Vakalar yüklenirken hata:', error);
+      console.error('Veri yükleme hatası:', error);
       this.cases = [];
+    } finally {
+      this.isLoading = false;
     }
   }
 
   /**
-   * Oyun ayarlarını güncelle
+   * Belirli bir kategoriden veri yükle
    */
-  updateSettings(settings: Partial<ZihinDetektifiSettings>): void {
-    this.gameState.settings = { ...this.gameState.settings, ...settings };
-    this.gameState.timeLeft = this.gameState.settings.gameDuration;
-    this.notifyListeners();
+  private async loadCategoryData(type: string): Promise<ZihinDetektifiCase[]> {
+    try {
+      const response = await fetch(`/data/zihindetektifi/${type}.json`);
+      
+      if (!response.ok) {
+        throw new Error(`${type} kategorisi yüklenemedi`);
+      }
+      
+      const data = await response.json();
+      
+      // Eğer data bir array ise direkt kullan, object ise cases property'sini al
+      if (Array.isArray(data)) {
+        return data;
+      } else if (data.cases && Array.isArray(data.cases)) {
+        return data.cases;
+      } else {
+        console.warn(`${type} kategorisi beklenmeyen formatta:`, data);
+        return [];
+      }
+    } catch (error) {
+      console.error(`${type} kategorisi yükleme hatası:`, error);
+      return [];
+    }
   }
 
   /**
    * Oyunu başlat
    */
-  startGame(): void {
-    if (this.cases.length === 0 || this.gameState.settings.selectedTypes.length === 0) {
-      console.warn('Vakalar yüklenmedi veya tür seçilmedi');
-      return;
+  async startGame(): Promise<void> {
+    if (this.cases.length === 0) {
+      await this.loadGameData();
+    }
+    
+    if (this.cases.length === 0) {
+      throw new Error('Oyun verisi yüklenemedi');
     }
 
-    this.resetGame();
-    this.gameState.isPlaying = true;
-    this.gameState.timeLeft = this.gameState.settings.gameDuration;
+    this.gameState.status = 'playing';
+    this.gameState.score = 0;
+    this.gameState.totalQuestions = Math.min(
+      this.gameState.settings.questionCount,
+      this.cases.length
+    );
+    this.gameState.answeredQuestions = 0;
+    
     this.nextCase();
-    this.startTimer();
-    this.notifyListeners();
-  }
-
-  /**
-   * Oyunu duraklat/devam ettir
-   */
-  togglePause(): void {
-    this.gameState.isPaused = !this.gameState.isPaused;
-    
-    if (this.gameState.isPaused) {
-      this.stopTimer();
-    } else {
-      this.startTimer();
-    }
-    
     this.notifyListeners();
   }
 
@@ -104,42 +103,23 @@ export class ZihinDetektifiEngine {
    * Cevap seç
    */
   selectAnswer(answer: string): void {
-    if (!this.gameState.isPlaying || this.gameState.isPaused || this.gameState.showFeedback) {
-      return;
-    }
+    if (this.gameState.status !== 'playing') return;
 
-    this.gameState.selectedAnswer = answer;
-    this.gameState.isCorrect = answer === this.gameState.currentCase?.correct_answer;
-    this.gameState.showFeedback = true;
+    const isCorrect = answer === this.gameState.currentCase?.correct_answer;
     
-    if (this.gameState.isCorrect) {
-      // Temel puan: 10
-      // Süre bonusu: Kalan sürenin 10'da 1'i kadar bonus (max 30 saniye bonus = 3 puan)
-      const baseScore = 10;
-      const timeBonus = Math.min(Math.floor(this.gameState.timeLeft / 10), 3);
-      this.gameState.score += baseScore + timeBonus;
+    if (isCorrect) {
+      this.gameState.score += 10;
     }
     
-    this.gameState.totalQuestions++;
-    this.notifyListeners();
-  }
-
-  /**
-   * Sonraki soruya geç
-   */
-  nextQuestion(): void {
-    if (!this.gameState.showFeedback) return;
-
-    // Hedef skora ulaşıldı mı kontrol et
-    if (this.gameState.score >= this.gameState.settings.targetScore) {
+    this.gameState.answeredQuestions++;
+    
+    // Oyun bitti mi kontrol et
+    if (this.gameState.answeredQuestions >= this.gameState.totalQuestions) {
       this.endGame();
-      return;
+    } else {
+      this.nextCase();
     }
-
-    this.gameState.selectedAnswer = null;
-    this.gameState.showFeedback = false;
-    this.gameState.isCorrect = false;
-    this.nextCase();
+    
     this.notifyListeners();
   }
 
@@ -177,7 +157,7 @@ export class ZihinDetektifiEngine {
     // Diğer seçenekleri karıştır
     const shuffledOthers = this.fisherYatesShuffle([...otherOptions]);
     
-    // Rastgele bir pozisyona doğru cevabı yerleştir
+    // Doğru cevabı rastgele bir pozisyona yerleştir
     const insertPosition = Math.floor(Math.random() * (shuffledOthers.length + 1));
     shuffledOthers.splice(insertPosition, 0, correctAnswer);
     
@@ -185,7 +165,7 @@ export class ZihinDetektifiEngine {
   }
 
   /**
-   * Fisher-Yates shuffle algoritması ile array'i karıştır
+   * Fisher-Yates shuffle algoritması
    */
   private fisherYatesShuffle<T>(array: T[]): T[] {
     const shuffled = [...array];
@@ -197,38 +177,10 @@ export class ZihinDetektifiEngine {
   }
 
   /**
-   * Zamanlayıcıyı başlat
-   */
-  private startTimer(): void {
-    this.stopTimer();
-    
-    this.gameTimer = setInterval(() => {
-      if (this.gameState.timeLeft > 0) {
-        this.gameState.timeLeft--;
-        this.notifyListeners();
-      } else {
-        this.endGame();
-      }
-    }, 1000);
-  }
-
-  /**
-   * Zamanlayıcıyı durdur
-   */
-  private stopTimer(): void {
-    if (this.gameTimer) {
-      clearInterval(this.gameTimer);
-      this.gameTimer = null;
-    }
-  }
-
-  /**
    * Oyunu bitir
    */
   private endGame(): void {
-    this.gameState.isPlaying = false;
-    this.gameState.isPaused = false;
-    this.stopTimer();
+    this.gameState.status = 'finished';
     this.saveGameResult();
     this.notifyListeners();
   }
@@ -237,90 +189,89 @@ export class ZihinDetektifiEngine {
    * Oyun sonucunu kaydet
    */
   private saveGameResult(): void {
-    try {
-      const metrics = this.getGameMetrics();
-      const gameRecord: GameRecord = {
-        id: `zihindetektifi_${Date.now()}`,
-        gameType: 'ZihinDetektifi',
-        gameDate: new Date().toISOString(),
-        results: [{
-          name: 'Oyuncu',
-          score: `${metrics.finalScore} puan (${metrics.totalQuestions} soru)`
-        }]
-      };
-      
-      saveGameRecord(gameRecord);
-    } catch (error) {
-      console.error('Oyun sonucu kaydedilemedi:', error);
-    }
+         const record: GameRecord = {
+       id: `zihindetektifi_${Date.now()}`,
+       gameType: 'ZihinDetektifi',
+       gameDate: new Date().toISOString(),
+       results: [{
+         name: 'Oyuncu',
+         score: this.gameState.score
+       }],
+       winner: this.gameState.score > 0 ? 'Oyuncu' : undefined
+     };
+    
+    saveGameRecord(record);
   }
 
   /**
    * Oyunu sıfırla
    */
   resetGame(): void {
-    this.gameState.isPlaying = false;
-    this.gameState.isPaused = false;
+    this.gameState.status = 'idle';
+    this.gameState.currentCase = null;
     this.gameState.score = 0;
     this.gameState.totalQuestions = 0;
-    this.gameState.currentCase = null;
-    this.gameState.selectedAnswer = null;
-    this.gameState.showFeedback = false;
-    this.gameState.isCorrect = false;
-    this.gameState.timeLeft = this.gameState.settings.gameDuration;
-    this.stopTimer();
+    this.gameState.answeredQuestions = 0;
     this.notifyListeners();
   }
 
   /**
-   * Mevcut oyun durumunu al
+   * Oyun durumunu al
    */
   getGameState(): ZihinDetektifiGameState {
     return { ...this.gameState };
   }
 
   /**
-   * Oyun sonucu metriklerini al
+   * Oyun metriklerini al
    */
   getGameMetrics() {
-    const accuracy = this.gameState.totalQuestions > 0 ? 
-      Math.round((this.gameState.score / this.gameState.totalQuestions) * 100) : 0;
-    
     return {
-      finalScore: this.gameState.score,
+      score: this.gameState.score,
       totalQuestions: this.gameState.totalQuestions,
-      accuracy: accuracy,
-      targetScore: this.gameState.settings.targetScore,
-      timeUsed: this.gameState.settings.gameDuration - this.gameState.timeLeft
+      answeredQuestions: this.gameState.answeredQuestions,
+      remainingQuestions: this.gameState.totalQuestions - this.gameState.answeredQuestions,
+      progress: this.gameState.totalQuestions > 0 ? (this.gameState.answeredQuestions / this.gameState.totalQuestions) * 100 : 0
     };
   }
 
   /**
-   * Dinleyici ekle
+   * Ayarları güncelle
+   */
+  updateSettings(settings: Partial<ZihinDetektifiSettings>): void {
+    this.gameState.settings = { ...this.gameState.settings, ...settings };
+    this.notifyListeners();
+  }
+
+  /**
+   * Listener ekle
    */
   addListener(listener: () => void): void {
     this.listeners.push(listener);
   }
 
   /**
-   * Dinleyici kaldır
+   * Listener kaldır
    */
   removeListener(listener: () => void): void {
-    this.listeners = this.listeners.filter(l => l !== listener);
+    const index = this.listeners.indexOf(listener);
+    if (index > -1) {
+      this.listeners.splice(index, 1);
+    }
   }
 
   /**
-   * Tüm dinleyicileri bilgilendir
+   * Tüm listener'ları bilgilendir
    */
   private notifyListeners(): void {
     this.listeners.forEach(listener => listener());
   }
 
   /**
-   * Kaynakları temizle
+   * Engine'i temizle
    */
   destroy(): void {
-    this.stopTimer();
     this.listeners = [];
+    this.cases = [];
   }
 }
