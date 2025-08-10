@@ -180,7 +180,17 @@ export const SettingsPage = () => {
                 
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Geliştirici</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">Nadir Mermer tarafından geliştirilmiştir.</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    <a 
+                      href="https://www.instagram.com/nadir.mermer/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 transition-colors font-semibold"
+                    >
+                      Nadir Mermer
+                    </a> tarafından geliştirilmiştir.
+                  </p>
+                  <p className="text-muted-foreground text-sm leading-relaxed italic">💜 Aşk ile yapıldı 💜</p>
                 </div>
 
                 {/* İletişim ve Sosyal Medya */}
