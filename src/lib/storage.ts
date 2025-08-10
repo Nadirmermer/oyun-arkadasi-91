@@ -134,7 +134,7 @@ export interface StoredSettings {
 
 export interface GameRecord {
   id: string;
-  gameType: 'Tabu' | 'BenKimim' | 'IkiDogruBirYalan' | 'BilBakalim' | 'RenkDizisi' | 'IstatistikSezgisi';
+  gameType: 'Tabu' | 'BenKimim' | 'IkiDogruBirYalan' | 'BilBakalim' | 'RenkDizisi' | 'IstatistikSezgisi' | 'ZihinDetektifi';
   gameDate: string;
   results: {
     name: string;

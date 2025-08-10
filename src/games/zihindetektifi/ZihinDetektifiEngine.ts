@@ -1,4 +1,5 @@
 import { ZihinDetektifiCase, ZihinDetektifiSettings, ZihinDetektifiGameState, ZihinDetektifiAction } from '@/types/zihindetektifi';
+import { saveGameRecord, GameRecord } from '@/lib/storage';
 
 let globalCasesCache: ZihinDetektifiCase[] | null = null;
 
@@ -184,7 +185,30 @@ export class ZihinDetektifiEngine {
     this.gameState.isPlaying = false;
     this.gameState.isPaused = false;
     this.stopTimer();
+    this.saveGameResult();
     this.notifyListeners();
+  }
+
+  /**
+   * Oyun sonucunu kaydet
+   */
+  private saveGameResult(): void {
+    try {
+      const metrics = this.getGameMetrics();
+      const gameRecord: GameRecord = {
+        id: `zihindetektifi_${Date.now()}`,
+        gameType: 'ZihinDetektifi',
+        gameDate: new Date().toISOString(),
+        results: [{
+          name: 'Oyuncu',
+          score: `${metrics.finalScore}/${metrics.totalQuestions}`
+        }]
+      };
+      
+      saveGameRecord(gameRecord);
+    } catch (error) {
+      console.error('Oyun sonucu kaydedilemedi:', error);
+    }
   }
 
   /**

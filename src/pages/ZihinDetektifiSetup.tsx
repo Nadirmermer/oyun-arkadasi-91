@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { Button } from '@/components/shared/Button';
 import { Card } from '@/components/shared/Card';
-import { HelpCircle, Brain, Target, Users } from 'lucide-react';
+import { Slider } from '@/components/shared/Slider';
+import { HelpCircle, Brain, Target, Users, Clock, Play } from 'lucide-react';
 import {
   Dialog,
   DialogContent,
@@ -20,6 +21,10 @@ interface ZihinDetektifiSetupProps {
 export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSetupProps) => {
   const navigate = useNavigate();
   const [selectedType, setSelectedType] = useState<'savunma_mekanizmasi' | 'bilissel_carpitma' | 'uyumsuz_sema' | null>(null);
+  const [settings, setSettings] = useState({
+    gameDuration: 300,
+    targetScore: 10
+  });
 
   const handleGoBack = () => {
     if (onGoBack) {
@@ -32,16 +37,16 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
   const handleStartGame = () => {
     if (!selectedType) return;
 
-    const settings = {
+    const gameSettings = {
       selectedType,
-      gameDuration: 300,
-      targetScore: 10
+      gameDuration: settings.gameDuration,
+      targetScore: settings.targetScore
     };
 
     if (onStartGame) {
-      onStartGame(settings);
+      onStartGame(gameSettings);
     } else {
-      localStorage.setItem('zihinDetektifiGameSettings', JSON.stringify(settings));
+      localStorage.setItem('zihinDetektifiGameSettings', JSON.stringify(gameSettings));
       navigate('/game/zihindetektifi');
     }
   };
@@ -71,9 +76,10 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background page-fade-in">
       <PageHeader 
         title="Zihin Dedektifi"
+        subtitle="Oyun ayarlarını belirle"
         onGoBack={handleGoBack}
         rightContent={
           <Dialog>
@@ -108,11 +114,79 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
         }
       />
 
-      <div className="p-6 space-y-6">
+      <div className="p-4 space-y-6">
+        {/* Oyun Açıklaması */}
+        <Card>
+          <div className="text-center space-y-4">
+            <div className="w-16 h-16 bg-success/10 rounded-2xl mx-auto flex items-center justify-center">
+              <Brain className="w-8 h-8 text-success" />
+            </div>
+            <h2 className="text-2xl font-bold text-foreground">Zihin Dedektifi</h2>
+            <p className="text-muted-foreground">
+              Psikolojik kavramları keşfet ve analiz et!
+            </p>
+          </div>
+        </Card>
+
+        {/* Ayarlar */}
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold text-foreground px-2">Oyun Ayarları</h3>
+          
+          {/* Oyun Süresi */}
+          <Card>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                <Clock className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold text-foreground">Oyun Süresi</h4>
+                <p className="text-sm text-muted-foreground">
+                  Toplam oyun süresi
+                </p>
+              </div>
+            </div>
+            
+            <Slider
+              label="Süre"
+              value={settings.gameDuration}
+              min={180}
+              max={600}
+              step={60}
+              unit="saniye"
+              onChange={(value) => setSettings(prev => ({ ...prev, gameDuration: value }))}
+            />
+          </Card>
+
+          {/* Hedef Skor */}
+          <Card>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                <Target className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold text-foreground">Hedef Skor</h4>
+                <p className="text-sm text-muted-foreground">
+                  Oyunu tamamlamak için kaç doğru cevap gerekli
+                </p>
+              </div>
+            </div>
+            
+            <Slider
+              label="Hedef"
+              value={settings.targetScore}
+              min={5}
+              max={20}
+              step={5}
+              unit="doğru"
+              onChange={(value) => setSettings(prev => ({ ...prev, targetScore: value }))}
+            />
+          </Card>
+        </div>
+
         <div className="text-center">
-          <h2 className="text-lg font-semibold text-foreground mb-2">
+          <h3 className="text-lg font-semibold text-foreground mb-2">
             İçerik Türü Seçin
-          </h2>
+          </h3>
           <p className="text-muted-foreground text-sm">
             Hangi psikolojik kavramları çalışmak istediğinizi seçin
           </p>
@@ -158,17 +232,18 @@ export const ZihinDetektifiSetup = ({ onStartGame, onGoBack }: ZihinDetektifiSet
           })}
         </div>
 
-        <div className="pt-4">
-          <Button
-            onClick={handleStartGame}
-            disabled={!selectedType}
-            fullWidth
-            size="lg"
-            className="font-semibold"
-          >
-            Oyuna Başla
-          </Button>
-        </div>
+        {/* Başlat Butonu */}
+        <Button
+          onClick={handleStartGame}
+          disabled={!selectedType}
+          variant="primary"
+          size="lg"
+          fullWidth
+          className="mt-8 shadow-elevated"
+        >
+          <Play className="w-5 h-5" />
+          Oyunu Başlat
+        </Button>
       </div>
     </div>
   );
