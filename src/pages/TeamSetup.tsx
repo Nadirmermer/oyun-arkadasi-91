@@ -109,7 +109,7 @@ export const TeamSetup = ({
             <Plus className="w-12 h-12 text-primary/40" />
           </div>
           <p className="text-muted-foreground text-lg">
-            Henüz takım eklenmemiş. Oyunda başlayabilmek için en az 2 takım oluşturun.
+            Henüz takım eklenmemiş. Oyunda başlayabilmek için 2 takım oluşturun.
           </p>
         </div>}
 

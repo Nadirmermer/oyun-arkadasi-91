@@ -13,6 +13,7 @@ export class BenKimimEngine {
   private gameState: BenKimimGameState;
   private gameTimer: NodeJS.Timeout | null = null;
   private listeners: Array<() => void> = [];
+  private wrongGuesses: string[] = []; // Yanlış tahmin edilen kişileri takip et
 
   constructor() {
     this.gameState = {
@@ -119,7 +120,10 @@ export class BenKimimEngine {
         this.gameState.score++;
         break;
       case 'pass':
-        // Pas geçmek skoru etkilemez
+        // Pas geçilen kişiyi yanlış tahmin olarak kaydet
+        if (this.gameState.currentWord) {
+          this.wrongGuesses.push(this.gameState.currentWord.kisi);
+        }
         break;
     }
 
@@ -210,10 +214,11 @@ export class BenKimimEngine {
   resetGame(): void {
     this.gameState.isPlaying = false;
     this.gameState.isPaused = false;
+    this.gameState.timeLeft = this.gameState.settings.gameDuration;
     this.gameState.score = 0;
     this.gameState.totalWords = 0;
     this.gameState.currentWord = null;
-    this.gameState.timeLeft = this.gameState.settings.gameDuration;
+    this.wrongGuesses = []; // Yanlış tahminleri de sıfırla
     this.stopTimer();
     this.notifyListeners();
   }
@@ -226,18 +231,26 @@ export class BenKimimEngine {
   }
 
   /**
-   * Oyun sonucu metriklerini al (GameResultScreen için)
+   * Yanlış tahmin edilen kişileri getir
+   */
+  getWrongGuesses(): string[] {
+    return [...this.wrongGuesses];
+  }
+
+  /**
+   * Oyun metriklerini getir
    */
   getGameMetrics() {
-    const accuracy = this.gameState.totalWords > 0 ? 
-      Math.round((this.gameState.score / this.gameState.totalWords) * 100) : 0;
-    
+    const accuracy = this.gameState.totalWords > 0 
+      ? Math.round((this.gameState.score / this.gameState.totalWords) * 100) 
+      : 0;
+
     return {
       finalScore: this.gameState.score,
-      totalWords: this.gameState.totalWords,
-      accuracy: accuracy,
       targetScore: this.gameState.settings.targetScore,
-      timeUsed: this.gameState.settings.gameDuration - this.gameState.timeLeft
+      totalWords: this.gameState.totalWords,
+      accuracy,
+      wrongGuesses: this.getWrongGuesses() // Yanlış tahminleri de dahil et
     };
   }
 

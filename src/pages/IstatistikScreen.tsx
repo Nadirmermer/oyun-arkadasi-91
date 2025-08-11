@@ -125,25 +125,18 @@ export const IstatistikScreen = () => {
   /**
    * Pause/Resume oyun
    */
-  const handleTogglePause = () => {
+  const handlePauseToggle = () => {
     if (gameState.isPaused) {
       gameEngine.handleAction('resume');
+      setShowPauseModal(false);
     } else {
       gameEngine.handleAction('pause');
+      setShowPauseModal(true);
     }
     setGameState(gameEngine.getGameState());
   };
 
-  /**
-   * Pause modal'ı aç
-   */
-  const handleOpenPauseModal = () => {
-    if (!gameState.isPaused) {
-      gameEngine.handleAction('pause');
-      setGameState(gameEngine.getGameState());
-    }
-    setShowPauseModal(true);
-  };
+
 
   /**
    * Pause modal'dan devam et
@@ -242,7 +235,7 @@ export const IstatistikScreen = () => {
       <GameHeader
         title="İstatistik Sezgisi"
         isPaused={gameState.isPaused}
-        onPauseToggle={handleOpenPauseModal}
+        onPauseToggle={handlePauseToggle}
       />
 
       {/* Skor ve İlerleme */}

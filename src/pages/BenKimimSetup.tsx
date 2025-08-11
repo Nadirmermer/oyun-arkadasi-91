@@ -9,7 +9,7 @@ import { BenKimimSettings } from '@/types/benkimim';
 import { toast } from '@/hooks/use-toast';
 
 interface BenKimimSetupProps {
-  onStartGame: (settings: BenKimimSettings & { isLandscapeMode: boolean }) => void;
+  onStartGame: (settings: BenKimimSettings) => void;
   onGoBack: () => void;
 }
 
@@ -22,12 +22,9 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
     gameDuration: 90,
     targetScore: 15
   });
-  
-  const [isLandscapeMode, setIsLandscapeMode] = useState(false);
-
 
   const handleStartGame = async () => {
-    onStartGame({ ...settings, isLandscapeMode });
+    onStartGame(settings);
   };
 
   return (
@@ -49,6 +46,21 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
             <p className="text-muted-foreground">
               Psikoloji alanından ünlü kişileri tahmin etmeye çalış!
             </p>
+          </div>
+        </Card>
+
+        {/* Telefon Kullanım Talimatı */}
+        <Card>
+          <div className="text-center space-y-4">
+            <div className="w-16 h-16 bg-primary/10 rounded-2xl mx-auto flex items-center justify-center">
+              <Smartphone className="w-8 h-8 text-primary" />
+            </div>
+            <h3 className="text-lg font-semibold text-foreground">Telefon Kullanımı</h3>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <p>📱 <strong>Telefonu yatay çevir</strong> ve alnına koy</p>
+              <p>👁️ <strong>Kelime karşı tarafa gözüksün</strong></p>
+              <p>🎯 <strong>Doğru tahmin etmeye çalış!</strong></p>
+            </div>
           </div>
         </Card>
 
@@ -105,77 +117,6 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
               onChange={(value) => setSettings(prev => ({ ...prev, targetScore: value }))}
             />
           </Card>
-
-
-
-        {/* Yatay Mod Seçeneği */}
-        <Card>
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-              <Smartphone className="w-5 h-5 text-primary" />
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold text-foreground">Ekran Modu</h4>
-              <p className="text-sm text-muted-foreground">
-                Telefonu alnına tutmak için yatay mod kullan
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-3">
-            <button
-              onClick={() => setIsLandscapeMode(false)}
-              className={`p-4 rounded-xl border-2 transition-all ${
-                !isLandscapeMode
-                  ? 'border-primary bg-primary/5'
-                  : 'border-border hover:border-primary/50'
-              }`}
-            >
-              <div className="flex flex-col items-center gap-2">
-                <Smartphone className={`w-6 h-6 ${
-                  !isLandscapeMode ? 'text-primary' : 'text-muted-foreground'
-                }`} />
-                <span className={`text-sm font-medium ${
-                  !isLandscapeMode ? 'text-primary' : 'text-foreground'
-                }`}>
-                  Dikey Mod
-                </span>
-              </div>
-            </button>
-
-            <button
-              onClick={() => setIsLandscapeMode(true)}
-              className={`p-4 rounded-xl border-2 transition-all ${
-                isLandscapeMode
-                  ? 'border-primary bg-primary/5'
-                  : 'border-border hover:border-primary/50'
-              }`}
-            >
-              <div className="flex flex-col items-center gap-2">
-                <div className={`w-6 h-6 transform rotate-90 ${
-                  isLandscapeMode ? 'text-primary' : 'text-muted-foreground'
-                }`}>
-                  <Smartphone className="w-6 h-6" />
-                </div>
-                <span className={`text-sm font-medium ${
-                  isLandscapeMode ? 'text-primary' : 'text-foreground'
-                }`}>
-                  Yatay Mod
-                </span>
-              </div>
-            </button>
-          </div>
-
-          {isLandscapeMode && (
-            <div className="mt-4 p-3 bg-muted/50 rounded-lg">
-              <p className="text-sm text-muted-foreground">
-                📱 <strong>Yatay Mod:</strong> Telefonu alnına koy, kelime karşı tarafa gözüksün<br />
-                🔄 <strong>Kontrol:</strong> Seçilen kontrol tipi yatay modda da çalışır
-              </p>
-            </div>
-          )}
-        </Card>
-
         </div>
 
         {/* Başlat Butonu */}

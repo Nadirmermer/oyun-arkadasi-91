@@ -52,11 +52,14 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
     const isCorrectAnswer = !ifade?.dogruMu; // Yalan olan ifade doğru cevap
     
     if (isCorrectAnswer) {
-      return "w-full p-4 text-left border-2 border-success bg-success/10 rounded-lg";
+      // Doğru cevap (yalan olan ifade) - her zaman yeşil ve belirgin
+      return "w-full p-4 text-left border-2 border-success bg-success/20 rounded-lg font-medium";
     } else if (isSelected) {
+      // Yanlış seçilen ifade - kırmızı
       return "w-full p-4 text-left border-2 border-danger bg-danger/10 rounded-lg";
     } else {
-      return "w-full p-4 text-left border border-border rounded-lg opacity-60";
+      // Diğer ifadeler - soluk ama hala okunabilir
+      return "w-full p-4 text-left border border-border rounded-lg opacity-70";
     }
   };
 
@@ -70,11 +73,14 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
     const isCorrectAnswer = !ifade?.dogruMu;
     
     if (isCorrectAnswer) {
+      // Doğru cevap için yeşil tik işareti
       return <CheckCircle className="w-5 h-5 text-success flex-shrink-0" />;
     } else if (isSelected) {
+      // Yanlış seçilen için kırmızı çarpı işareti
       return <XCircle className="w-5 h-5 text-danger flex-shrink-0" />;
     } else {
-      return null;
+      // Diğer ifadeler için bilgi işareti (doğru olduklarını belirtmek için)
+      return <div className="w-5 h-5 text-muted-foreground flex-shrink-0">✓</div>;
     }
   };
 
@@ -166,7 +172,7 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
               {gameState.currentSoru.konu}
             </h2>
             <p className="text-muted-foreground">
-              Hangisi yalan? İkisi doğru, biri yanlış!
+              Hangisi yalan? İkisi doğru, biri yanlış! Yalan olan ifadeyi bul.
             </p>
           </div>
         </Card>
@@ -190,6 +196,12 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
                   <p className="text-foreground font-medium text-left">
                     {ifade.metin}
                   </p>
+                  {gameState.showAnswer && !ifade.dogruMu && (
+                    <div className="mt-2 inline-flex items-center gap-1 px-2 py-1 bg-success/20 text-success text-xs font-medium rounded-full">
+                      <CheckCircle className="w-3 h-3" />
+                      Yalan (Doğru Cevap)
+                    </div>
+                  )}
                 </div>
                 {getAnswerIcon(index)}
               </div>
@@ -213,8 +225,8 @@ export const IkiDogruBirYalanGame = ({ gameEngine, onGoHome }: IkiDogruBirYalanG
               <p className="text-sm text-muted-foreground">
                 {gameState.selectedAnswer !== null && gameState.currentSoru && 
                  !gameState.currentSoru.ifadeler[gameState.selectedAnswer].dogruMu 
-                  ? "🎉 Tebrikler! Doğru cevap verdin."
-                  : "😔 Maalesef yanlış. Doğru cevap yukarıda işaretli."
+                  ? "🎉 Tebrikler! Yalan olan ifadeyi doğru buldun."
+                  : "😔 Maalesef yanlış. (aslında doğru olan ifadeyi buldun)"
                 }
               </p>
             </div>

@@ -21,6 +21,7 @@ export interface BenKimimGameState {
   timeLeft: number;                 // Kalan süre
   score: number;                    // Mevcut skor
   totalWords: number;               // Toplam gösterilen kelime sayısı
+  wrongGuesses?: string[];          // Yanlış tahmin edilen kişiler
 }
 
 export type BenKimimAction = 

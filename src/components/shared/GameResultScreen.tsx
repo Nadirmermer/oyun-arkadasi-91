@@ -13,6 +13,7 @@ interface GameResultScreenProps {
     tertiary?: { label: string; value: string | number; color?: string };
   };
   performanceMessage?: string;
+  wrongGuesses?: string[]; // Yanlış tahmin edilen kişiler
   onRestart: () => void;
   onGoHome: () => void;
   restartButtonText?: string;
@@ -29,6 +30,7 @@ export const GameResultScreen = ({
   iconBgColor = "bg-success/10",
   metrics,
   performanceMessage,
+  wrongGuesses = [], // Yanlış tahmin edilen kişiler
   onRestart,
   onGoHome,
   restartButtonText = "Yeniden Oyna",
@@ -75,6 +77,30 @@ export const GameResultScreen = ({
                 </div>
               )}
             </div>
+
+            {/* Yanlış Tahmin Edilen Kişiler */}
+            {wrongGuesses.length > 0 && (
+              <div className="mb-6">
+                <h3 className="text-lg font-semibold text-destructive mb-3">
+                  Yanlış Tahmin Edilen Kişiler ❌
+                </h3>
+                <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4">
+                  <div className="space-y-2">
+                    {wrongGuesses.map((person, index) => (
+                      <a
+                        key={index}
+                        href={`https://www.google.com/search?q=${encodeURIComponent(person)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block px-4 py-3 bg-destructive/20 text-destructive text-base font-medium rounded-lg border border-destructive/30 hover:bg-destructive/30 hover:border-destructive/40 transition-colors duration-200 text-center"
+                      >
+                        🔍 {person}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* Performans Değerlendirmesi */}
             {performanceMessage && (

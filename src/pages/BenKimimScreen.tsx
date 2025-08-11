@@ -17,10 +17,7 @@ export const BenKimimScreen = () => {
   const [gameState, setGameState] = useState<BenKimimGameState>(gameEngine.getGameState());
   const [showPauseModal, setShowPauseModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
-  const [isLandscapeMode, setIsLandscapeMode] = useState(false);
   const [showResults, setShowResults] = useState(false);
-
-
 
   // Tema uyumluluğunu sağla
   useSystemTheme();
@@ -31,7 +28,6 @@ export const BenKimimScreen = () => {
       const savedSettings = localStorage.getItem('benKimimGameSettings');
       if (savedSettings) {
         const settings = JSON.parse(savedSettings);
-        setIsLandscapeMode(settings.isLandscapeMode || false);
         
         gameEngine.updateSettings({
           gameDuration: settings.gameDuration,
@@ -61,8 +57,6 @@ export const BenKimimScreen = () => {
       gameEngine.removeListener(handleGameStateChange);
     };
   }, [gameEngine]);
-
-
 
   const handleCorrect = () => {
     gameEngine.handleAction('correct');
@@ -151,6 +145,7 @@ export const BenKimimScreen = () => {
           tertiary: { label: "Toplam Kelime", value: metrics.totalWords }
         }}
         performanceMessage={performanceMessage}
+        wrongGuesses={metrics.wrongGuesses} // Yanlış tahmin edilen kişileri geçir
         onRestart={handleRestart}
         onGoHome={handleGoHome}
         restartButtonText="Tekrar Oyna"
@@ -182,114 +177,7 @@ export const BenKimimScreen = () => {
     );
   }
 
-  // Yatay mod
-  if (isLandscapeMode) {
-    return (
-      <div className="min-h-screen bg-background flex flex-col overflow-hidden">
-        {/* Header - Tabu tarzı minimal header */}
-        <div className="flex-none bg-card shadow-sm relative z-10">
-          <div className="flex justify-between items-center p-4">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-primary">
-                {formatTime(gameState.timeLeft)}
-              </div>
-              <div className="text-xs text-muted-foreground">Kalan Süre</div>
-            </div>
-            
-            <h1 className="text-xl font-bold text-primary">Ben Kimim?</h1>
-            
-            <div className="flex items-center gap-4">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">
-                  {gameState.score}/{gameState.settings.targetScore}
-                </div>
-                <div className="text-xs text-muted-foreground">Skor</div>
-              </div>
-              <button onClick={handlePauseToggle} className="p-2 text-muted-foreground hover:text-foreground transition-colors">
-                {gameState.isPaused ? <Play className="w-6 h-6" /> : <Pause className="w-6 h-6" />}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Ana Kelime Alanı - Maksimum büyüklük */}
-        <div className="flex-1 flex items-center justify-center p-8">
-          <div className="text-center max-w-4xl w-full">
-            {/* Ana Kelime - Çok büyük */}
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-foreground mb-6 leading-none">
-              {gameState.currentWord.kisi}
-            </h1>
-            
-            {/* Kategori */}
-            <p className="text-xl md:text-2xl lg:text-3xl text-primary font-medium">
-              {gameState.currentWord.kategori}
-            </p>
-          </div>
-        </div>
-
-        {/* Alt Kontrol Paneli - Kompakt */}
-        <div className="flex-none bg-card border-t border-border">
-          <div className="px-6 py-4">
-            {gameState.settings.controlType === 'buttons' ? (
-              <div className="flex justify-center gap-8">
-                <Button
-                  onClick={handleCorrect}
-                  variant="success"
-                  size="lg"
-                  disabled={!gameState.isPlaying || gameState.isPaused}
-                  className="flex items-center gap-3 px-8 py-4 text-lg"
-                >
-                  <Check className="w-6 h-6" />
-                  Doğru
-                </Button>
-
-                <Button
-                  onClick={handlePass}
-                  variant="danger"
-                  size="lg"
-                  disabled={!gameState.isPlaying || gameState.isPaused}
-                  className="flex items-center gap-3 px-8 py-4 text-lg"
-                >
-                  <X className="w-6 h-6" />
-                  Pas
-                </Button>
-              </div>
-            ) : (
-              <div className="flex justify-center">
-                <Button
-                  onClick={handlePass}
-                  variant="secondary"
-                  size="lg"
-                  disabled={!gameState.isPlaying || gameState.isPaused}
-                  className="flex items-center gap-2 px-6 py-3"
-                >
-                  <X className="w-5 h-5" />
-                  Pas
-                </Button>
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* Pause Modal */}
-        {showPauseModal && (
-          <PauseModal 
-            onResume={handlePauseToggle} 
-            onGoHome={handleGoHomeInternal} 
-          />
-        )}
-
-        {/* Exit Game Modal */}
-        <ExitGameModal 
-          isOpen={showExitModal} 
-          onClose={() => setShowExitModal(false)} 
-          onConfirm={handleConfirmExit} 
-        />
-      </div>
-    );
-  }
-
-  // Dikey mod
+  // Dikey mod - yatay ekrana uygun boyutlarda
   return (
     <div className="min-h-screen bg-background page-fade-in">
       {/* Header - Tabu tarzı minimal header */}
@@ -318,19 +206,21 @@ export const BenKimimScreen = () => {
         </div>
       </div>
 
-      {/* Ana İçerik Alanı */}
+
+
+      {/* Ana İçerik Alanı - Yatay ekrana uygun boyutlarda */}
       <div className="flex-1 p-4 flex flex-col justify-center pb-32 min-h-0 relative z-10 px-[27px] py-0 mx-0 my-[13px]">
         {/* Kelime Kartı */}
-        <div className="text-center mb-12">
-          <div className="max-w-4xl mx-auto">
-            <div className="p-8 rounded-xl bg-card border border-border shadow-md">
-              {/* Ana Kelime */}
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+        <div className="text-center mb-8">
+          <div className="max-w-3xl mx-auto">
+            <div className="p-6 rounded-xl bg-card border border-border shadow-md">
+              {/* Ana Kelime - Yatay ekrana uygun boyut */}
+              <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
                 {gameState.currentWord.kisi}
               </h1>
               
               {/* Kategori */}
-              <p className="text-lg md:text-xl text-primary font-medium">
+              <p className="text-base md:text-lg text-primary font-medium">
                 {gameState.currentWord.kategori}
               </p>
             </div>
@@ -338,18 +228,18 @@ export const BenKimimScreen = () => {
         </div>
 
         {/* Kontrol Butonları */}
-        <div className="space-y-4">
+        <div className="space-y-3">
           {gameState.settings.controlType === 'buttons' ? (
-            <div className="flex gap-4">
+            <div className="flex gap-3">
               <Button
                 onClick={handleCorrect}
                 variant="success"
                 size="lg"
                 fullWidth
                 disabled={!gameState.isPlaying || gameState.isPaused}
-                className="flex items-center justify-center gap-2 text-lg py-4"
+                className="flex items-center justify-center gap-2 text-base py-3"
               >
-                <Check className="w-6 h-6" />
+                <Check className="w-5 h-5" />
                 Doğru
               </Button>
 
@@ -359,15 +249,15 @@ export const BenKimimScreen = () => {
                 size="lg"
                 fullWidth
                 disabled={!gameState.isPlaying || gameState.isPaused}
-                className="flex items-center justify-center gap-2 text-lg py-4"
+                className="flex items-center justify-center gap-2 text-base py-3"
               >
-                <X className="w-6 h-6" />
+                <X className="w-5 h-5" />
                 Pas
               </Button>
             </div>
           ) : (
             <div className="text-center">
-              <p className="text-sm text-muted-foreground mb-4">
+              <p className="text-sm text-muted-foreground mb-3">
                 Telefonu ileri/geri eğerek oynayın
               </p>
               <Button

@@ -164,7 +164,7 @@ export const SettingsPage = () => {
               {/* Content */}
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2 mx-0 text-left">PsikOyun v2.1.1</h4>
+                  <h4 className="font-semibold text-foreground mb-2 mx-0 text-left">PsikOyun v2.2.1</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Psikoloji öğrencileri ve meraklıları için özel olarak tasarlanan eğlenceli oyun koleksiyonu. 
                     Psikoloji terimlerini öğrenirken eğlenin, arkadaşlarınızla yarışın!
