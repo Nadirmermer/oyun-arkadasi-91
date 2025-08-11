@@ -85,6 +85,9 @@ export const GameResultScreen = ({
                   Yanlış Tahmin Edilen Kişiler ❌
                 </h3>
                 <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4">
+                  <p className="text-sm text-destructive/70 mb-3 text-center">
+                    Kişi hakkında daha fazla bilgi almak için tıklayın
+                  </p>
                   <div className="space-y-2">
                     {wrongGuesses.map((person, index) => (
                       <a
@@ -93,6 +96,20 @@ export const GameResultScreen = ({
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block px-4 py-3 bg-destructive/20 text-destructive text-base font-medium rounded-lg border border-destructive/30 hover:bg-destructive/30 hover:border-destructive/40 transition-colors duration-200 text-center"
+                        onClick={(e) => {
+                          // PWA'da tarayıcı açılıp açılmadığını kontrol et
+                          const isPWA = window.matchMedia('(display-mode: standalone)').matches || 
+                                       (window.navigator as any).standalone === true;
+                          
+                          if (isPWA) {
+                            // PWA'da ise kullanıcıya bilgi ver
+                            e.preventDefault();
+                            if (confirm(`${person} hakkında daha fazla bilgi almak istiyor musunuz? Tarayıcı açılacak.`)) {
+                              window.open(`https://www.google.com/search?q=${encodeURIComponent(person)}`, '_blank');
+                            }
+                          }
+                          // Tarayıcıda normal şekilde çalışır
+                        }}
                       >
                         🔍 {person}
                       </a>
