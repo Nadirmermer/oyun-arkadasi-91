@@ -1,7 +1,10 @@
 {
-  "name": "psikoyun",
+  "name": "psikoyun-nadir-mermer",
   "private": true,
   "version": "1.0.0",
+  "description": "Psikolog Nadir Mermer tarafından geliştirilen psikoloji eğitim oyunları platformu",
+  "author": "Psikolog Nadir Mermer <1nadirmermer@gmail.com>",
+  "keywords": ["Nadir Mermer", "psikolog", "psikoloji oyunları", "psikoloji eğitimi", "React", "PWA"],
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -181,14 +181,18 @@ export const SettingsPage = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Geliştirici</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
+                    Bu uygulama <strong>Psikolog</strong>{' '}
                     <a 
                       href="https://www.instagram.com/nadir.mermer/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary hover:text-primary/80 transition-colors font-semibold"
+                      className="text-primary hover:text-primary/80 transition-colors font-bold"
                     >
                       Nadir Mermer
-                    </a> tarafından geliştirilmiştir.
+                    </a> tarafından psikoloji eğitimini daha etkili hale getirmek amacıyla geliştirilmiştir.
+                  </p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    <strong>Psikolog Nadir Mermer</strong> - Psikoloji alanında uzman, eğitici oyun tasarımcısı
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed italic">💜 Aşk ile yapıldı 💜</p>
                 </div>

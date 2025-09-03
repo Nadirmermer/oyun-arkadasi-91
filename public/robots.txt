@@ -12,3 +12,9 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://psikoyun.netlify.app/sitemap.xml
+
+# PsikOyun - Psikolog Nadir Mermer tarafından geliştirilen psikoloji eğitim oyunları
+# Website: https://psikoyun.netlify.app
+# Contact: 1nadirmermer@gmail.com

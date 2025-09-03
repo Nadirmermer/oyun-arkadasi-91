@@ -1,11 +1,11 @@
 ````markdown
 # 🧠 PsikOyun - Modern Psikoloji Oyunları Platformu
 
-> **Türkiye'nin İlk Kapsamlı Psikoloji Eğitim Oyunları PWA Uygulaması**
+> **Psikolog Nadir Mermer Tarafından Geliştirilmiş Türkiye'nin İlk Kapsamlı Psikoloji Eğitim Oyunları PWA Uygulaması**
 
 **Psikoloji öğrencileri, psikologlar ve psikoloji ile ilgilenen herkes için özel olarak tasarlanan profesyonel seviyede eğitici oyun koleksiyonu.**
 
-Modern web teknolojileri ile geliştirilmiş, **7 farklı oyun modu**, **2000+ psikoloji verisi** ve **tam offline işlevsellik** ile psikoloji öğrenimini interaktif hale getiren yenilikçi Progressive Web App (PWA) platformu. Akademik içerik uzmanları tarafından hazırlanmış gerçek araştırma verileri ile desteklenen, grup halinde veya bireysel olarak oynayabileceğiniz kapsamlı eğitim aracı.
+Psikolog **Nadir Mermer** tarafından geliştirilmiş bu uygulama, modern web teknolojileri ile **7 farklı oyun modu**, **2000+ psikoloji verisi** ve **tam offline işlevsellik** ile psikoloji öğrenimini interaktif hale getiren yenilikçi Progressive Web App (PWA) platformudur. Akademik içerik uzmanları tarafından hazırlanmış gerçek araştırma verileri ile desteklenen, grup halinde veya bireysel olarak oynayabileceğiniz kapsamlı eğitim aracı.
 
 [![PWA Ready](https://img.shields.io/badge/PWA-Ready-green.svg)](https://web.dev/progressive-web-apps/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-95%25-blue.svg)](https://www.typescriptlang.org/)

@@ -2,6 +2,9 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
+// Document title ayarla
+document.title = 'PsikOyun - Psikoloji Oyunları | Psikolog Nadir Mermer';
+
 // PWA Service Worker kayıt
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
