@@ -1,434 +1,737 @@
 [
   {
     "kisi": "B.F. Skinner",
-    "kategori": "Edimsel Koşullanma ve Davranışçılık"
+    "kategori": "Edimsel Koşullanma ve Davranışçılık",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Jean Piaget",
-    "kategori": "Bilişsel Gelişim Kuramı"
+    "kategori": "Bilişsel Gelişim Kuramı",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Sigmund Freud",
-    "kategori": "Psikanaliz Kurucusu"
+    "kategori": "Psikanaliz Kurucusu",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Albert Bandura",
-    "kategori": "Sosyal Öğrenme Kuramı"
+    "kategori": "Sosyal Öğrenme Kuramı",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Leon Festinger",
-    "kategori": "Bilişsel Çelişki Kuramı"
+    "kategori": "Bilişsel Çelişki Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Carl R. Rogers",
-    "kategori": "Birey Merkezli Terapi ve Hümanistik Psikoloji"
+    "kategori": "Birey Merkezli Terapi ve Hümanistik Psikoloji",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Stanley Schachter",
-    "kategori": "İki Faktörlü Duygu Kuramı"
+    "kategori": "İki Faktörlü Duygu Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Neal E. Miller",
-    "kategori": "Biyogeribildirim (Biofeedback) ve Dürtü Kuramı"
+    "kategori": "Biyogeribildirim (Biofeedback) ve Dürtü Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Edward Thorndike",
-    "kategori": "Etki Yasası ve Bağlantıcılık"
+    "kategori": "Etki Yasası ve Bağlantıcılık",
+    "zorluk": "orta"
   },
   {
     "kisi": "Abraham H. Maslow",
-    "kategori": "İhtiyaçlar Hiyerarşisi"
+    "kategori": "İhtiyaçlar Hiyerarşisi",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Gordon W. Allport",
-    "kategori": "Kişilik Özellikleri (Trait) Kuramı"
+    "kategori": "Kişilik Özellikleri (Trait) Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Erik H. Erikson",
-    "kategori": "Psikososyal Gelişim Evreleri"
+    "kategori": "Psikososyal Gelişim Evreleri",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Hans J. Eysenck",
-    "kategori": "Kişilik Boyutları Kuramı"
+    "kategori": "Kişilik Boyutları Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "William James",
-    "kategori": "İşlevselcilik ve Amerikan Psikolojisinin Babası"
+    "kategori": "İşlevselcilik ve Amerikan Psikolojisinin Babası",
+    "zorluk": "kolay"
   },
   {
     "kisi": "David C. McClelland",
-    "kategori": "Başarı, Bağlanma ve Güç Güdüleri"
+    "kategori": "Başarı, Bağlanma ve Güç Güdüleri",
+    "zorluk": "orta"
   },
   {
     "kisi": "Raymond B. Cattell",
-    "kategori": "16 Kişilik Faktörü (16PF)"
+    "kategori": "16 Kişilik Faktörü (16PF)",
+    "zorluk": "orta"
   },
   {
     "kisi": "John B. Watson",
-    "kategori": "Davranışçılık Akımının Kurucusu"
+    "kategori": "Davranışçılık Akımının Kurucusu",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Kurt Lewin",
-    "kategori": "Modern Sosyal Psikolojinin Kurucusu, Alan Kuramı"
+    "kategori": "Modern Sosyal Psikolojinin Kurucusu, Alan Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Donald O. Hebb",
-    "kategori": "Nöropsikoloji ve 'Hebb Kuralı'"
+    "kategori": "Nöropsikoloji ve 'Hebb Kuralı'",
+    "zorluk": "orta"
   },
   {
     "kisi": "George A. Miller",
-    "kategori": "Bilişsel Psikoloji, 'Sihirli Sayı Yedi'"
+    "kategori": "Bilişsel Psikoloji, 'Sihirli Sayı Yedi'",
+    "zorluk": "orta"
   },
   {
     "kisi": "Clark L. Hull",
-    "kategori": "Dürtü Azalması Kuramı"
+    "kategori": "Dürtü Azalması Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Jerome Kagan",
-    "kategori": "Gelişim Psikolojisi ve Mizaç"
+    "kategori": "Gelişim Psikolojisi ve Mizaç",
+    "zorluk": "orta"
   },
   {
     "kisi": "Carl G. Jung",
-    "kategori": "Analitik Psikoloji ve Kolektif Bilinçdışı"
+    "kategori": "Analitik Psikoloji ve Kolektif Bilinçdışı",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Ivan P. Pavlov",
-    "kategori": "Klasik Koşullanma"
+    "kategori": "Klasik Koşullanma",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Walter Mischel",
-    "kategori": "Haz Erteleme ve 'Marshmallow Deneyi'"
+    "kategori": "Haz Erteleme ve 'Marshmallow Deneyi'",
+    "zorluk": "orta"
   },
   {
     "kisi": "Harry F. Harlow",
-    "kategori": "Bağlanma ve Anne Yoksunluğu (Maymun Deneyleri)"
+    "kategori": "Bağlanma ve Anne Yoksunluğu (Maymun Deneyleri)",
+    "zorluk": "orta"
   },
   {
     "kisi": "J. P. Guilford",
-    "kategori": "Zeka Yapısı Modeli"
+    "kategori": "Zeka Yapısı Modeli",
+    "zorluk": "orta"
   },
   {
     "kisi": "Jerome S. Bruner",
-    "kategori": "Bilişsel ve Eğitim Psikolojisi, Keşfederek Öğrenme"
+    "kategori": "Bilişsel ve Eğitim Psikolojisi, Keşfederek Öğrenme",
+    "zorluk": "orta"
   },
   {
     "kisi": "Ernest R. Hilgard",
-    "kategori": "Hipnoz ve Ağrı Kontrolü"
+    "kategori": "Hipnoz ve Ağrı Kontrolü",
+    "zorluk": "orta"
+  },
+    {
+    "kisi": "Aaron T. Beck",
+    "kategori": "BDT",
+    "zorluk": "kolay"
+  },
+    {
+    "kisi": "Albert Ellis",
+    "kategori": "Akılcı Duygusal Davranışçı Terapi (REBT).",
+    "zorluk": "orta"
   },
   {
     "kisi": "Lawrence Kohlberg",
-    "kategori": "Ahlaki Gelişim Evreleri"
+    "kategori": "Ahlaki Gelişim Evreleri",
+    "zorluk": "kolay"
+  },
+    {
+    "kisi": "Melanie Klein",
+    "kategori": "Nesne ilişkileri kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Martin E.P. Seligman",
-    "kategori": "Pozitif Psikoloji ve Öğrenilmiş Çaresizlik"
+    "kategori": "Pozitif Psikoloji ve Öğrenilmiş Çaresizlik",
+    "zorluk": "orta"
+  },
+    {
+    "kisi": "Rollo May",
+    "kategori": "Varoluşçu psikoterapi",
+    "zorluk": "orta"
   },
   {
     "kisi": "Ulric Neisser",
-    "kategori": "Bilişsel Psikolojinin Babası"
+    "kategori": "Bilişsel Psikolojinin Babası",
+    "zorluk": "orta"
+  },
+    {
+    "kisi": "Ulric Neisser",
+    "kategori": "Bilişsel Psikolojinin Babası",
+    "zorluk": "orta"
   },
   {
     "kisi": "Kadıköy Boğası",
-    "kategori": "Of yaaaa"
+    "kategori": "Of yaaaa",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Donald T. Campbell",
-    "kategori": "Evrimsel Epistemoloji ve Araştırma Metodolojisi"
+    "kategori": "Evrimsel Epistemoloji ve Araştırma Metodolojisi",
+    "zorluk": "orta"
   },
   {
     "kisi": "Roger Brown",
-    "kategori": "Psikodilbilim ve 'Flashbulb' (Flaş) Bellek"
+    "kategori": "Psikodilbilim ve 'Flashbulb' (Flaş) Bellek",
+    "zorluk": "orta"
   },
   {
     "kisi": "R.B. Zajonc",
-    "kategori": "Sosyal Kolaylaştırma ve Sadece Maruz Kalma Etkisi"
+    "kategori": "Sosyal Kolaylaştırma ve Sadece Maruz Kalma Etkisi",
+    "zorluk": "orta"
   },
   {
     "kisi": "Endel Tulving",
-    "kategori": "Epizodik ve Semantik Bellek Ayrımı"
+    "kategori": "Epizodik ve Semantik Bellek Ayrımı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Herbert A. Simon",
-    "kategori": "Bilişsel Bilim ve Yapay Zeka (Nobel Ödüllü)"
+    "kategori": "Bilişsel Bilim ve Yapay Zeka (Nobel Ödüllü)",
+    "zorluk": "orta"
   },
   {
     "kisi": "Noam Chomsky",
-    "kategori": "Modern Dilbilim ve Doğuştanlık Kuramı"
+    "kategori": "Modern Dilbilim ve Doğuştanlık Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Doğan CücelOğlu",
-    "kategori": "Türk Psikolog"
+    "kategori": "Türk Psikolog",
+    "zorluk": "zor"
   },
   {
     "kisi": "Edward E. Jones",
-    "kategori": "Temel Atıf Hatası ve Sosyal Algı"
+    "kategori": "Temel Atıf Hatası ve Sosyal Algı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Charles E. Osgood",
-    "kategori": "Anlamsal Farklılıklar Ölçeği"
+    "kategori": "Anlamsal Farklılıklar Ölçeği",
+    "zorluk": "orta"
   },
   {
     "kisi": "Üstün Dökmen",
-    "kategori": "Türk Psikolog"
+    "kategori": "Türk Psikolog",
+    "zorluk": "zor"
   },
   {
     "kisi": "Solomon E. Asch",
-    "kategori": "Sosyal Uyma Deneyleri"
+    "kategori": "Sosyal Uyma Deneyleri",
+    "zorluk": "orta"
   },
   {
     "kisi": "Irvin D. Yalom",
-    "kategori": "Amerikalı psikanalist, psikiyatrist, psikoterapist"
+    "kategori": "Amerikalı psikanalist, psikiyatrist, psikoterapist",
+    "zorluk": "zor"
   },
   {
     "kisi": "Gordon H. Bower",
-    "kategori": "İnsan Hafızası ve Duruma Bağlı Öğrenme"
+    "kategori": "İnsan Hafızası ve Duruma Bağlı Öğrenme",
+    "zorluk": "orta"
   },
   {
     "kisi": "Harold H. Kelley",
-    "kategori": "Atıf Kuramı (Kelley's Covariation Model)"
+    "kategori": "Atıf Kuramı (Kelley's Covariation Model)",
+    "zorluk": "orta"
   },
   {
     "kisi": "Roger W. Sperry",
-    "kategori": "Bölünmüş Beyin (Split-Brain) Araştırmaları"
+    "kategori": "Bölünmüş Beyin (Split-Brain) Araştırmaları",
+    "zorluk": "orta"
   },
   {
     "kisi": "Edward C. Tolman",
-    "kategori": "Gizil Öğrenme ve Bilişsel Haritalar"
+    "kategori": "Gizil Öğrenme ve Bilişsel Haritalar",
+    "zorluk": "orta"
   },
   {
     "kisi": "Stanley Milgram",
-    "kategori": "Otoriteye İtaat Deneyi"
+    "kategori": "Otoriteye İtaat Deneyi",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Arthur R. Jensen",
-    "kategori": "Zeka ve Genetik Farklılıklar"
+    "kategori": "Zeka ve Genetik Farklılıklar",
+    "zorluk": "zor"
   },
   {
     "kisi": "Lee J. Cronbach",
-    "kategori": "Psikolojik Testler ve Cronbach Alfa Güvenilirlik Katsayısı"
+    "kategori": "Psikolojik Testler ve Cronbach Alfa Güvenilirlik Katsayısı",
+    "zorluk": "zor"
   },
   {
     "kisi": "John Bowlby",
-    "kategori": "Bağlanma Kuramı"
+    "kategori": "Bağlanma Kuramı",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Wolfgang Köhler",
-    "kategori": "Gestalt Psikolojisi ve İçgörüsel Öğrenme"
+    "kategori": "Gestalt Psikolojisi ve İçgörüsel Öğrenme",
+    "zorluk": "orta"
   },
   {
     "kisi": "David Wechsler",
-    "kategori": "Wechsler Zeka Ölçekleri (WAIS, WISC)"
+    "kategori": "Wechsler Zeka Ölçekleri (WAIS, WISC)",
+    "zorluk": "orta"
   },
   {
     "kisi": "S. S. Stevens",
-    "kategori": "Psikofizik ve Ölçüm Seviyeleri Kuramı"
+    "kategori": "Psikofizik ve Ölçüm Seviyeleri Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Joseph Wolpe",
-    "kategori": "Sistematik Duyarsızlaştırma"
+    "kategori": "Sistematik Duyarsızlaştırma",
+    "zorluk": "orta"
   },
   {
     "kisi": "Donald E. Broadbent",
-    "kategori": "Seçici Dikkat ve Filtre Modeli"
+    "kategori": "Seçici Dikkat ve Filtre Modeli",
+    "zorluk": "zor"
   },
   {
     "kisi": "Roger N. Shepard",
-    "kategori": "Zihinsel Rotasyon ve Çok Boyutlu Ölçekleme"
+    "kategori": "Zihinsel Rotasyon ve Çok Boyutlu Ölçekleme",
+    "zorluk": "zor"
   },
   {
     "kisi": "Michael I. Posner",
-    "kategori": "Bilişsel Nörobilim ve Dikkat Ağları"
+    "kategori": "Bilişsel Nörobilim ve Dikkat Ağları",
+    "zorluk": "zor"
   },
   {
     "kisi": "Theodore M. Newcomb",
-    "kategori": "Sosyal Psikoloji ve Tutum Değişimi"
+    "kategori": "Sosyal Psikoloji ve Tutum Değişimi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Elizabeth F. Loftus",
-    "kategori": "Yanlış Hafıza ve Anıların Yeniden Yapılandırılması"
+    "kategori": "Yanlış Hafıza ve Anıların Yeniden Yapılandırılması",
+    "zorluk": "orta"
   },
   {
     "kisi": "Paul Ekman",
-    "kategori": "Evrensel Yüz İfadeleri ve Duygular"
+    "kategori": "Evrensel Yüz İfadeleri ve Duygular",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Robert J. Sternberg",
-    "kategori": "Üçlü Zeka Kuramı ve Aşk Üçgeni Kuramı"
+    "kategori": "Üçlü Zeka Kuramı ve Aşk Üçgeni Kuramı",
+    "zorluk": "orta"
   },
   {
     "kisi": "Karl S. Lashley",
-    "kategori": "Hafızanın Biyolojik Temelleri"
+    "kategori": "Hafızanın Biyolojik Temelleri",
+    "zorluk": "zor"
   },
   {
     "kisi": "Kenneth Spence",
-    "kategori": "Öğrenme ve Güdülenme Kuramı"
+    "kategori": "Öğrenme ve Güdülenme Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Morton Deutsch",
-    "kategori": "İşbirliği ve Rekabet, Çatışma Çözümü"
+    "kategori": "İşbirliği ve Rekabet, Çatışma Çözümü",
+    "zorluk": "zor"
   },
   {
     "kisi": "Julian B. Rotter",
-    "kategori": "Sosyal Öğrenme Kuramı ve Kontrol Odağı"
+    "kategori": "Sosyal Öğrenme Kuramı ve Kontrol Odağı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Konrad Lorenz",
-    "kategori": "Etoloji ve Baskılama (Imprinting)"
+    "kategori": "Etoloji ve Baskılama (Imprinting)",
+    "zorluk": "orta"
   },
   {
     "kisi": "Benton Underwood",
-    "kategori": "Sözel Öğrenme ve Unutma"
+    "kategori": "Sözel Öğrenme ve Unutma",
+    "zorluk": "zor"
   },
   {
     "kisi": "Alfred Adler",
-    "kategori": "Bireysel Psikoloji ve Aşağılık Kompleksi"
+    "kategori": "Bireysel Psikoloji ve Aşağılık Kompleksi",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Michael Rutter",
-    "kategori": "Çocuk Psikiyatrisi ve Gelişimsel Psikopatoloji"
+    "kategori": "Çocuk Psikiyatrisi ve Gelişimsel Psikopatoloji",
+    "zorluk": "zor"
   },
   {
     "kisi": "Alexander R. Luria",
-    "kategori": "Nöropsikolojinin Babası"
+    "kategori": "Nöropsikolojinin Babası",
+    "zorluk": "orta"
   },
   {
     "kisi": "Tarkan",
-    "kategori": "Kuzu Kuzu"
+    "kategori": "Kuzu Kuzu",
+    "zorluk": "zor"
   },
   {
     "kisi": "Eleanor E. Maccoby",
-    "kategori": "Cinsiyet Gelişimi ve Ebeveyn-Çocuk Etkileşimi"
+    "kategori": "Cinsiyet Gelişimi ve Ebeveyn-Çocuk Etkileşimi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Robert Plomin",
-    "kategori": "Davranış Genetiği"
+    "kategori": "Davranış Genetiği",
+    "zorluk": "zor"
   },
   {
     "kisi": "G. Stanley Hall",
-    "kategori": "APA Kurucusu ve Gelişim Psikolojisi Öncüsü"
+    "kategori": "APA Kurucusu ve Gelişim Psikolojisi Öncüsü",
+    "zorluk": "zor"
   },
   {
     "kisi": "Nail Şahin",
-    "kategori": "Bilişsel Gelişim Kuramı"
+    "kategori": "Bilişsel Gelişim Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Öget Öktem Tanör",
-    "kategori": "Nöropsikolog"
+    "kategori": "Nöropsikolog",
+    "zorluk": "zor"
   },
   {
     "kisi": "Muzaffer Şerif",
-    "kategori": "Türk sosyal psikolog"
+    "kategori": "Türk sosyal psikolog",
+    "zorluk": "zor"
   },
   {
     "kisi": "Lewis M. Terman",
-    "kategori": "Zeka Testleri (Stanford-Binet) ve Üstün Zekalılar Çalışmaları"
+    "kategori": "Zeka Testleri (Stanford-Binet) ve Üstün Zekalılar Çalışmaları",
+    "zorluk": "zor"
   },
   {
     "kisi": "Eleanor J. Gibson",
-    "kategori": "Algısal Öğrenme ve 'Görsel Uçurum' Deneyi"
+    "kategori": "Algısal Öğrenme ve 'Görsel Uçurum' Deneyi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Paul E. Meehl",
-    "kategori": "Klinik ve İstatistiksel Tahmin"
+    "kategori": "Klinik ve İstatistiksel Tahmin",
+    "zorluk": "zor"
   },
   {
     "kisi": "Leonard Berkowitz",
-    "kategori": "Saldırganlık ve Hüsran-Saldırganlık Hipotezi"
+    "kategori": "Saldırganlık ve Hüsran-Saldırganlık Hipotezi",
+    "zorluk": "zor"
   },
   {
     "kisi": "William K. Estes",
-    "kategori": "Matematiksel Psikoloji"
+    "kategori": "Matematiksel Psikoloji",
+    "zorluk": "zor"
   },
   {
     "kisi": "Eliot Aronson",
-    "kategori": "Sosyal Psikoloji ve 'Jigsaw' Tekniği"
+    "kategori": "Sosyal Psikoloji ve 'Jigsaw' Tekniği",
+    "zorluk": "zor"
   },
   {
     "kisi": "Irving L. Janis",
-    "kategori": "Grup Düşüncesi (Groupthink)"
+    "kategori": "Grup Düşüncesi (Groupthink)",
+    "zorluk": "zor"
   },
   {
     "kisi": "Richard S. Lazarus",
-    "kategori": "Stres, Değerlendirme ve Başa Çıkma Kuramı"
+    "kategori": "Stres, Değerlendirme ve Başa Çıkma Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Walter B. Cannon",
-    "kategori": "Fizyolojik Psikoloji ve 'Savaş ya da Kaç' Tepkisi"
+    "kategori": "Fizyolojik Psikoloji ve 'Savaş ya da Kaç' Tepkisi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Allen L. Edwards",
-    "kategori": "Psikolojik Ölçme ve Edwards Kişisel Tercih Envanteri"
+    "kategori": "Psikolojik Ölçme ve Edwards Kişisel Tercih Envanteri",
+    "zorluk": "zor"
   },
   {
     "kisi": "Lev S. Vygotsky",
-    "kategori": "Sosyokültürel Gelişim Kuramı"
+    "kategori": "Sosyokültürel Gelişim Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Robert Rosenthal",
-    "kategori": "Beklenti Etkisi ve Pygmalion Etkisi"
+    "kategori": "Beklenti Etkisi ve Pygmalion Etkisi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Milton Rokeach",
-    "kategori": "Değerler ve İnanç Sistemleri"
+    "kategori": "Değerler ve İnanç Sistemleri",
+    "zorluk": "zor"
   },
   {
     "kisi": "Arif",
-    "kategori": "AROG-GORA"
+    "kategori": "AROG-GORA",
+    "zorluk": "zor"
   },
   {
     "kisi": "John Garcia",
-    "kategori": "Koşullu Tat Tiksintisi (Garcia Etkisi)"
+    "kategori": "Koşullu Tat Tiksintisi (Garcia Etkisi)",
+    "zorluk": "zor"
   },
   {
     "kisi": "James J. Gibson",
-    "kategori": "Ekolojik Algı Yaklaşımı"
+    "kategori": "Ekolojik Algı Yaklaşımı",
+    "zorluk": "zor"
   },
   {
     "kisi": "David Rumelhart",
-    "kategori": "Bağlantıcılık (Connectionism) ve Şema Teorisi"
+    "kategori": "Bağlantıcılık (Connectionism) ve Şema Teorisi",
+    "zorluk": "zor"
   },
   {
     "kisi": "L. L. Thurstone",
-    "kategori": "Faktör Analizi ve Temel Zihinsel Yetenekler"
+    "kategori": "Faktör Analizi ve Temel Zihinsel Yetenekler",
+    "zorluk": "zor"
   },
   {
     "kisi": "Margaret Washburn",
-    "kategori": "Psikolojide Doktora Alan İlk Kadın, Karşılaştırmalı Psikoloji"
+    "kategori": "Psikolojide Doktora Alan İlk Kadın, Karşılaştırmalı Psikoloji",
+    "zorluk": "zor"
   },
   {
     "kisi": "Robert Woodworth",
-    "kategori": "Dinamik Psikoloji ve Motivasyon"
+    "kategori": "Dinamik Psikoloji ve Motivasyon",
+    "zorluk": "zor"
   },
   {
     "kisi": "Edwin G. Boring",
-    "kategori": "Psikoloji Tarihçisi"
+    "kategori": "Psikoloji Tarihçisi",
+    "zorluk": "zor"
   },
   {
     "kisi": "John Dewey",
-    "kategori": "Pragmatizm, İşlevselcilik ve Eğitim Felsefesi"
+    "kategori": "Pragmatizm, İşlevselcilik ve Eğitim Felsefesi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Amos Tversky",
-    "kategori": "Bilişsel Yanılgılar ve Beklenti Teorisi"
+    "kategori": "Bilişsel Yanılgılar ve Beklenti Teorisi",
+    "zorluk": "zor"
   },
   {
     "kisi": "Wilhelm Wundt",
-    "kategori": "İlk Psikoloji Laboratuvarı ve Yapısalcılık"
+    "kategori": "İlk Psikoloji Laboratuvarı ve Yapısalcılık",
+    "zorluk": "kolay"
   },
   {
     "kisi": "Herman A. Witkin",
-    "kategori": "Alan Bağımlılığı-Bağımsızlığı Bilişsel Stili"
+    "kategori": "Alan Bağımlılığı-Bağımsızlığı Bilişsel Stili",
+    "zorluk": "zor"
   },
   {
     "kisi": "Mary D. Ainsworth",
-    "kategori": "Bağlanma Stilleri ve 'Yabancı Ortam' Deneyi"
+    "kategori": "Bağlanma Stilleri ve 'Yabancı Ortam' Deneyi",
+    "zorluk": "orta"
   },
   {
     "kisi": "Orval Hobart Mowrer",
-    "kategori": "İki Faktörlü Öğrenme Kuramı"
+    "kategori": "İki Faktörlü Öğrenme Kuramı",
+    "zorluk": "zor"
   },
   {
     "kisi": "Anna Freud",
-    "kategori": "Çocuk Psikanalizi ve Savunma Mekanizmaları"
+    "kategori": "Çocuk Psikanalizi ve Savunma Mekanizmaları",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "B.F. Skinner",
+    "kategori": "Edimsel Koşullanma ve Davranışçılık",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Jean Piaget",
+    "kategori": "Bilişsel Gelişim Kuramı",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Sigmund Freud",
+    "kategori": "Psikanaliz Kurucusu",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Albert Bandura",
+    "kategori": "Sosyal Öğrenme Kuramı",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Leon Festinger",
+    "kategori": "Bilişsel Çelişki Kuramı",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Carl R. Rogers",
+    "kategori": "Birey Merkezli Terapi ve Hümanistik Psikoloji",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Stanley Schachter",
+    "kategori": "İki Faktörlü Duygu Kuramı",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Neal E. Miller",
+    "kategori": "Biyogeribildirim (Biofeedback) ve Dürtü Kuramı",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Edward Thorndike",
+    "kategori": "Etki Yasası ve Bağlantıcılık",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Abraham H. Maslow",
+    "kategori": "İhtiyaçlar Hiyerarşisi",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Aaron T. Beck",
+    "kategori": "Bilişsel Terapi ve Depresyon Modeli",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Albert Ellis",
+    "kategori": "Akılcı Duygusal Davranışçı Terapi (REBT)",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Viktor Frankl",
+    "kategori": "Logoterapi Kurucusu",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Melanie Klein",
+    "kategori": "Nesne İlişkileri Kuramı",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Donald Winnicott",
+    "kategori": "Geçiş Nesnesi ve Yeterince İyi Anne Kavramı",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Daniel Kahneman",
+    "kategori": "Karar Verme, Bilişsel Önyargılar, Nobel Ödüllü",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Antonio Damasio",
+    "kategori": "Duyguların Nörobiyolojisi",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Urie Bronfenbrenner",
+    "kategori": "Ekolojik Sistemler Kuramı",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Diana Baumrind",
+    "kategori": "Ebeveynlik Stilleri",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Mary Main",
+    "kategori": "Bağlanma Kuramı ve Yetişkin Bağlanma Stilleri",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Claude Steele",
+    "kategori": "Stereotype Threat Araştırmaları",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Henri Tajfel",
+    "kategori": "Sosyal Kimlik Kuramı",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Karen Horney",
+    "kategori": "Feminist Psikanaliz Eleştirileri",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Rollo May",
+    "kategori": "Varoluşçu Psikoterapi",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Erich Fromm",
+    "kategori": "Sosyal Psikoloji ve Psikanaliz",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Virginia Satir",
+    "kategori": "Aile Terapisi Önceleyeni",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Brenda Milner",
+    "kategori": "Bellek Sistemleri ve HM Vakası",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Eric Kandel",
+    "kategori": "Sinaptik Plastisite, Nobel Ödülü",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Michael Gazzaniga",
+    "kategori": "Split-Brain Çalışmaları, Nöropsikoloji",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Arif",
+    "kategori": "AROG - GORA (Easter Egg)",
+    "zorluk": "zor"
+  },
+  {
+    "kisi": "Haluk ",
+    "kategori": "Çocuklar Duymasın",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Şirinler Psikolog Şirin",
+    "kategori": "Çocukluğumuzun Bilim İkonu (Easter Egg)",
+    "zorluk": "kolay"
+  },
+  {
+    "kisi": "Dobby",
+    "kategori": "Harry Potter Ev Cini - Motivasyon Uzmanı (Easter Egg)",
+    "zorluk": "orta"
+  },
+  {
+    "kisi": "Yoda",
+    "kategori": "Jedi Psikolojisi ve Bilgelik (Easter Egg)",
+    "zorluk": "zor"
   }
 ]

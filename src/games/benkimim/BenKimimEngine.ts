@@ -21,6 +21,7 @@ export class BenKimimEngine {
       settings: {
         gameDuration: 90,
         targetScore: 15,
+        difficulty: 'orta',
         controlType: 'buttons'
       },
       isPlaying: false,
@@ -140,13 +141,26 @@ export class BenKimimEngine {
   }
 
   /**
-   * Rastgele bir sonraki kelimeyi seç
+   * Rastgele bir sonraki kelimeyi seç (zorluk seviyesine göre)
    */
   private nextWord(): void {
     if (this.words.length === 0) return;
     
-    const randomIndex = Math.floor(Math.random() * this.words.length);
-    this.gameState.currentWord = this.words[randomIndex];
+    // Zorluk seviyesine göre kelimeleri filtrele
+    let filteredWords = this.words;
+    if (this.gameState.settings.difficulty !== 'karisik') {
+      filteredWords = this.words.filter(word => 
+        word.zorluk === this.gameState.settings.difficulty
+      );
+      
+      // Eğer o seviyede kelime yoksa, tüm kelimeleri kullan
+      if (filteredWords.length === 0) {
+        filteredWords = this.words;
+      }
+    }
+    
+    const randomIndex = Math.floor(Math.random() * filteredWords.length);
+    this.gameState.currentWord = filteredWords[randomIndex];
   }
 
   /**

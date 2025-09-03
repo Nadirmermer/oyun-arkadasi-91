@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, Clock, Target, Smartphone, Search } from 'lucide-react';
+import { Play, Clock, Target, Smartphone, Search, TrendingUp, Brain } from 'lucide-react';
 import { Card } from '@/components/shared/Card';
 import { Button } from '@/components/shared/Button';
 import { Slider } from '@/components/shared/Slider';
@@ -20,7 +20,8 @@ interface BenKimimSetupProps {
 export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => {
   const [settings, setSettings] = useState<BenKimimSettings>({
     gameDuration: 90,
-    targetScore: 15
+    targetScore: 15,
+    difficulty: 'orta'
   });
 
   const handleStartGame = async () => {
@@ -67,6 +68,46 @@ export const BenKimimSetup = ({ onStartGame, onGoBack }: BenKimimSetupProps) => 
         {/* Ayarlar */}
         <div className="space-y-4">
           <h3 className="text-lg font-semibold text-foreground px-2">Oyun Ayarları</h3>
+          
+          {/* Zorluk Seviyesi */}
+          <Card>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                <TrendingUp className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold text-foreground">Zorluk Seviyesi</h4>
+                <p className="text-sm text-muted-foreground">
+                  Hangi seviyedeki psikologları tahmin etmek istersiniz
+                </p>
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 gap-2">
+              {[
+                { id: 'kolay', label: 'Kolay', icon: '😊', desc: 'Ünlü psikologlar' },
+                { id: 'orta', label: 'Orta', icon: '🤔', desc: 'Bilinen teorisyenler' },
+                { id: 'zor', label: 'Zor', icon: '🧠', desc: 'Uzman seviye' },
+                { id: 'karisik', label: 'Karışık', icon: '🎲', desc: 'Tüm seviyeler' }
+              ].map((difficulty) => (
+                <button
+                  key={difficulty.id}
+                  onClick={() => setSettings(prev => ({ ...prev, difficulty: difficulty.id as any }))}
+                  className={`p-3 rounded-lg border-2 transition-all ${
+                    settings.difficulty === difficulty.id
+                      ? 'border-primary bg-primary/10 text-primary'
+                      : 'border-border bg-card text-muted-foreground hover:border-primary/50'
+                  }`}
+                >
+                  <div className="text-center space-y-1">
+                    <div className="text-lg">{difficulty.icon}</div>
+                    <div className="text-sm font-medium">{difficulty.label}</div>
+                    <div className="text-xs opacity-70">{difficulty.desc}</div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </Card>
           
           {/* Tur Süresi */}
           <Card>

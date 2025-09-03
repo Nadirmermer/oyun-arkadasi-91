@@ -31,7 +31,8 @@ export const BenKimimScreen = () => {
         
         gameEngine.updateSettings({
           gameDuration: settings.gameDuration,
-          targetScore: settings.targetScore
+          targetScore: settings.targetScore,
+          difficulty: settings.difficulty || 'orta'
         });
       }
 
@@ -192,7 +193,7 @@ export const BenKimimScreen = () => {
 
         {/* Skor Bilgisi */}
         <div className="pb-4 px-[18px] py-0 my-0 mx-0">
-          <div className="grid grid-cols-2 gap-2 mb-4">
+          <div className="grid grid-cols-3 gap-2 mb-4">
             <div className="p-3 sm:p-4 rounded-xl text-center bg-primary text-primary-foreground shadow-md">
               <div className="font-medium text-xs sm:text-sm">Kalan Süre</div>
               <div className="text-xl sm:text-2xl font-bold mt-1">{formatTime(gameState.timeLeft)}</div>
@@ -201,6 +202,16 @@ export const BenKimimScreen = () => {
             <div className="p-3 sm:p-4 rounded-xl text-center bg-muted text-muted-foreground">
               <div className="font-medium text-xs sm:text-sm">Skor</div>
               <div className="text-xl sm:text-2xl font-bold mt-1">{gameState.score}/{gameState.settings.targetScore}</div>
+            </div>
+            
+            <div className="p-3 sm:p-4 rounded-xl text-center bg-accent text-accent-foreground shadow-md">
+              <div className="font-medium text-xs sm:text-sm">Zorluk</div>
+              <div className="text-base sm:text-lg font-bold mt-1 capitalize">
+                {gameState.settings.difficulty === 'kolay' && '😊 Kolay'}
+                {gameState.settings.difficulty === 'orta' && '🤔 Orta'}
+                {gameState.settings.difficulty === 'zor' && '🧠 Zor'}
+                {gameState.settings.difficulty === 'karisik' && '🎲 Karışık'}
+              </div>
             </div>
           </div>
         </div>

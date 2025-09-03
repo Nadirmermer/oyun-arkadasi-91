@@ -125,6 +125,8 @@ export const HomePage = () => {
    * Ben Kimim oyunu başlat
    */
   const handleStartBenKimim = (settings: BenKimimSettings) => {
+    // Ayarları localStorage'a kaydet
+    localStorage.setItem('benKimimGameSettings', JSON.stringify(settings));
     benKimimEngine.updateSettings(settings);
     benKimimEngine.startGame();
     setCurrentPhase('benkimim-playing');

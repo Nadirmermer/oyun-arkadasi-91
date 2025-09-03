@@ -5,11 +5,13 @@
 export interface BenKimimWord {
   kisi: string;            // Tahmin edilecek kişi/kavram
   kategori: string;        // Kategori (ör: "Psikanaliz")
+  zorluk?: 'kolay' | 'orta' | 'zor'; // Zorluk seviyesi
 }
 
 export interface BenKimimSettings {
   gameDuration: number;    // Tur süresi (saniye)
   targetScore: number;     // Hedef skor
+  difficulty: 'kolay' | 'orta' | 'zor' | 'karisik'; // Zorluk seviyesi
   controlType?: 'buttons' | 'motion'; // Kontrol tipi
 }
 
